@@ -1,0 +1,4 @@
+# Temp files
+*.tmp
+*.swp
+*.lock
