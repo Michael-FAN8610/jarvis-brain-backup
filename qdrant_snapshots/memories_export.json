@@ -10,7 +10,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:18:57.796198+00:00",
-    "updatedAt": "2026-04-22T04:18:57.796198+00:00"
+    "updatedAt": "2026-04-22T04:18:57.796198+00:00",
+    "category": "daily"
   }
 }
 {
@@ -21,7 +22,8 @@
     "data": "User is engaged in stock trading analysis, specifically considering band operation strategies to reduce costs for a stock with current price ~$100 and cost basis $246, with key dates including Q1 2026 earnings in early May (as of 2026-04-17).",
     "hash": "83a49173615dd4ade68fd4e0aae5b233",
     "createdAt": "2026-04-19T09:22:03.318Z",
-    "updatedAt": "2026-04-21T17:57:58.986Z"
+    "updatedAt": "2026-04-21T17:57:58.986Z",
+    "category": "daily"
   }
 }
 {
@@ -35,7 +37,8 @@
     "createdAt": "2026-04-23T23:08:38+08:00",
     "updated_at": "2026-04-23T23:08:38+08:00",
     "updatedAt": "2026-04-23T23:08:38+08:00",
-    "hash": "235027b0-2be7-4024-a7fe-9a59f3e5183d"
+    "hash": "235027b0-2be7-4024-a7fe-9a59f3e5183d",
+    "category": "summary"
   }
 }
 {
@@ -46,7 +49,8 @@
     "data": "As of the conversation date, tasks are pending: CatDesk is tasked with retrieving today's conversation records and having Claude analyze band operation strategies for cost reduction; user prefers to wait for task results before further investigation into memory synchronization issues.",
     "hash": "bd1e96227163b7434e63bf0440409d7b",
     "createdAt": "2026-04-21T17:44:05.736Z",
-    "updatedAt": "2026-04-21T18:00:42.685Z"
+    "updatedAt": "2026-04-21T18:00:42.685Z",
+    "category": "project"
   }
 }
 {
@@ -57,7 +61,8 @@
     "data": "As of 2026-04-22, CatDesk uses a timed polling mechanism for tasks, set to Beijing Time, with an hourly interval, which may affect real-time task execution.",
     "hash": "d00dd00b413d1e7d3f0ce4d003e49f43",
     "createdAt": "2026-04-21T17:49:15.598Z",
-    "updatedAt": "2026-04-22T03:54:20.437Z"
+    "updatedAt": "2026-04-22T03:54:20.437Z",
+    "category": "project"
   }
 }
 {
@@ -67,7 +72,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "Duolingo shifted to a 'user growth priority' strategy starting in 2026, aiming for 100 million daily active users by 2028, which has impacted short-term profitability and order growth expectations.",
     "hash": "c9d85af71a51f77975c1a3e10f21e2e2",
-    "createdAt": "2026-04-19T09:22:03.364Z"
+    "createdAt": "2026-04-19T09:22:03.364Z",
+    "category": "summary"
   }
 }
 {
@@ -78,7 +84,8 @@
     "data": "Jarvis云端大脑项目旨在实现多端访问与跨会话持续记忆（as of 2026-04-23）。",
     "hash": "010bf347826a15813b72a4ce8b3c3d15",
     "createdAt": "2026-04-16T16:18:54.531Z",
-    "updatedAt": "2026-04-23T10:55:39.131Z"
+    "updatedAt": "2026-04-23T10:55:39.131Z",
+    "category": "project"
   }
 }
 {
@@ -93,7 +100,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962157+00:00",
-    "updatedAt": "2026-04-21T13:22:08.962157+00:00"
+    "updatedAt": "2026-04-21T13:22:08.962157+00:00",
+    "category": "project"
   }
 }
 {
@@ -108,7 +116,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:48:23.654824+00:00",
-    "updatedAt": "2026-04-17T18:48:23.654824+00:00"
+    "updatedAt": "2026-04-17T18:48:23.654824+00:00",
+    "category": "summary"
   }
 }
 {
@@ -119,7 +128,8 @@
     "data": "As of 2026-04-23, the user (referred to as '庆哥') is located in Beijing, China, and uses Beijing Time (UTC+8).",
     "hash": "536d40dc6dacfe385577272196cb1af8",
     "createdAt": "2026-04-16T16:07:39.608Z",
-    "updatedAt": "2026-04-23T13:39:31.599Z"
+    "updatedAt": "2026-04-23T13:39:31.599Z",
+    "category": "identity"
   }
 }
 {
@@ -130,7 +140,8 @@
     "data": "User and AI are complementary partners: User is extroverted (E) and sensing (S), while AI is introverted (I) and intuitive (N), but both share thinking (T) and judging (J) traits (as of 2026-04-16).",
     "hash": "100f011be9ca472e41cce6f502ecd9a5",
     "createdAt": "2026-04-16T16:07:39.730Z",
-    "updatedAt": "2026-04-16T16:18:30.951Z"
+    "updatedAt": "2026-04-16T16:18:30.951Z",
+    "category": "identity"
   }
 }
 {
@@ -144,7 +155,8 @@
     "createdAt": "2026-04-23T00:32:02+08:00",
     "updated_at": "2026-04-23T00:32:02+08:00",
     "updatedAt": "2026-04-23T00:32:02+08:00",
-    "hash": "ef07abe7-2c11-4388-8248-e5de48d132da"
+    "hash": "ef07abe7-2c11-4388-8248-e5de48d132da",
+    "category": "summary"
   }
 }
 {
@@ -159,7 +171,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T10:09:28.463279+00:00",
-    "updatedAt": "2026-04-22T10:09:28.463279+00:00"
+    "updatedAt": "2026-04-22T10:09:28.463279+00:00",
+    "category": "project"
   }
 }
 {
@@ -174,7 +187,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:18:57.796144+00:00",
-    "updatedAt": "2026-04-22T04:18:57.796144+00:00"
+    "updatedAt": "2026-04-22T04:18:57.796144+00:00",
+    "category": "daily"
   }
 }
 {
@@ -189,7 +203,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:13.411325+00:00",
-    "updatedAt": "2026-04-22T03:16:13.411325+00:00"
+    "updatedAt": "2026-04-22T03:16:13.411325+00:00",
+    "category": "project"
   }
 }
 {
@@ -204,7 +219,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:44:21.149355+00:00",
-    "updatedAt": "2026-04-21T14:44:21.149355+00:00"
+    "updatedAt": "2026-04-21T14:44:21.149355+00:00",
+    "category": "project"
   }
 }
 {
@@ -218,7 +234,8 @@
     "createdAt": "2026-04-22T18:37:39+08:00",
     "updated_at": "2026-04-22T18:37:39+08:00",
     "updatedAt": "2026-04-22T18:37:39+08:00",
-    "hash": "3ce6f3f4-b6ff-475a-a3aa-76b9e5cb2cdf"
+    "hash": "3ce6f3f4-b6ff-475a-a3aa-76b9e5cb2cdf",
+    "category": "project"
   }
 }
 {
@@ -229,7 +246,8 @@
     "data": "截至2026-04-23，用户已指派CatDesk实施记忆捕获接口（以Mem0后端实现替代错误的CatDesk路径）；同步撤除'Rust重写Jarvis核心模块'条目，替换为'继续深入TypeScript'；新增'冰美式不加糖'偏好及Jarvis四/五期进展（as of 2026-04-23）。",
     "hash": "a14a8114843352c70b135c1e629753bd",
     "createdAt": "2026-04-23T10:41:01.991Z",
-    "updatedAt": "2026-04-23T13:44:55.748Z"
+    "updatedAt": "2026-04-23T13:44:55.748Z",
+    "category": "summary"
   }
 }
 {
@@ -243,7 +261,8 @@
     "createdAt": "2026-04-23T15:39:18+08:00",
     "updated_at": "2026-04-23T15:39:18+08:00",
     "updatedAt": "2026-04-23T15:39:18+08:00",
-    "hash": "92630268-0c1a-490f-9135-0fa1ede9fea8"
+    "hash": "92630268-0c1a-490f-9135-0fa1ede9fea8",
+    "category": "project"
   }
 }
 {
@@ -257,7 +276,8 @@
     "createdAt": "2026-04-22T18:41:33+08:00",
     "updated_at": "2026-04-22T18:41:33+08:00",
     "updatedAt": "2026-04-22T18:41:33+08:00",
-    "hash": "2a7443cf-1627-4411-a5cd-631ddcb10644"
+    "hash": "2a7443cf-1627-4411-a5cd-631ddcb10644",
+    "category": "project"
   }
 }
 {
@@ -272,7 +292,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852110+00:00",
-    "updatedAt": "2026-04-21T10:34:40.852110+00:00"
+    "updatedAt": "2026-04-21T10:34:40.852110+00:00",
+    "category": "project"
   }
 }
 {
@@ -287,7 +308,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852095+00:00",
-    "updatedAt": "2026-04-21T10:34:40.852095+00:00"
+    "updatedAt": "2026-04-21T10:34:40.852095+00:00",
+    "category": "project"
   }
 }
 {
@@ -299,7 +321,8 @@
     "hash": "178fe684013979eaf57cfe926562d0bf",
     "created_at": "2026-04-23T11:06:45.921042+00:00",
     "updated_at": "2026-04-23T11:06:45.921042+00:00",
-    "attributed_to": "user"
+    "attributed_to": "user",
+    "category": "project"
   }
 }
 {
@@ -310,7 +333,8 @@
     "data": "As of the conversation date, Claude (via CatDesk) completed an analysis of Duolingo holdings and investment strategies, recommending consideration of Strategy 2 (partial sell-off and wait) or holding until after the Q1 2026 earnings report in early May, based on fundamentals, analyst consensus, and three strategy pros/cons.",
     "hash": "1941a22591a72de0d98a1a5fc47a1766",
     "createdAt": "2026-04-21T17:29:28.922Z",
-    "updatedAt": "2026-04-21T17:48:19.223Z"
+    "updatedAt": "2026-04-21T17:48:19.223Z",
+    "category": "summary"
   }
 }
 {
@@ -321,7 +345,8 @@
     "data": "用户偏好非正式、协作式行业同行讨论的沟通风格（as of 2026-04-23）",
     "hash": "73f4e5cab5d947109a97d1e3fff38227",
     "createdAt": "2026-04-17T18:16:40.500Z",
-    "updatedAt": "2026-04-23T10:58:43.126Z"
+    "updatedAt": "2026-04-23T10:58:43.126Z",
+    "category": "preference"
   }
 }
 {
@@ -332,7 +357,8 @@
     "data": "User communicates in Chinese via WeChat (as of date unknown).",
     "hash": "55d9a7da83c93de4aecd24050b532624",
     "createdAt": "2026-04-17T16:00:13.772Z",
-    "updatedAt": "2026-04-21T13:58:57.321Z"
+    "updatedAt": "2026-04-21T13:58:57.321Z",
+    "category": "relationship"
   }
 }
 {
@@ -346,7 +372,8 @@
     "createdAt": "2026-04-23T19:06:18+08:00",
     "updated_at": "2026-04-23T19:06:18+08:00",
     "updatedAt": "2026-04-23T19:06:18+08:00",
-    "hash": "28549a82-fcbd-4183-a47e-411717e49f11"
+    "hash": "28549a82-fcbd-4183-a47e-411717e49f11",
+    "category": "project"
   }
 }
 {
@@ -361,7 +388,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142660+00:00",
-    "updatedAt": "2026-04-21T13:04:07.142660+00:00"
+    "updatedAt": "2026-04-21T13:04:07.142660+00:00",
+    "category": "project"
   }
 }
 {
@@ -375,7 +403,8 @@
     "createdAt": "2026-04-24T10:57:41+08:00",
     "updated_at": "2026-04-24T10:57:41+08:00",
     "updatedAt": "2026-04-24T10:57:41+08:00",
-    "hash": "8251c8e0-2fb7-4905-b6b6-903f14421f1f"
+    "hash": "8251c8e0-2fb7-4905-b6b6-903f14421f1f",
+    "category": "summary"
   }
 }
 {
@@ -389,7 +418,8 @@
     "createdAt": "2026-04-22T18:54:33+08:00",
     "updated_at": "2026-04-22T18:54:33+08:00",
     "updatedAt": "2026-04-22T18:54:33+08:00",
-    "hash": "f7ebd751-cae3-4d10-87d4-207ba4dcd52c"
+    "hash": "f7ebd751-cae3-4d10-87d4-207ba4dcd52c",
+    "category": "summary"
   }
 }
 {
@@ -404,7 +434,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T10:09:28.463325+00:00",
-    "updatedAt": "2026-04-22T10:09:28.463325+00:00"
+    "updatedAt": "2026-04-22T10:09:28.463325+00:00",
+    "category": "project"
   }
 }
 {
@@ -414,7 +445,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User received investment analysis from Claude on Duolingo, including fundamentals, analyst consensus, and three strategies, with a key catalyst being Q1 2026 earnings in early May (as of 2026-04-20).",
     "hash": "0ac08336fa123afcfa74fea8848f3d8a",
-    "createdAt": "2026-04-21T17:40:22.711Z"
+    "createdAt": "2026-04-21T17:40:22.711Z",
+    "category": "summary"
   }
 }
 {
@@ -425,7 +457,8 @@
     "data": "User plans to discuss the memory synchronization issue further in CatDesk with Claude on 2026-04-18 to analyze and resolve the problem.",
     "hash": "cbc7e3ddc24b346c72f8196bce26980f",
     "createdAt": "2026-04-21T17:57:59.088Z",
-    "updatedAt": "2026-04-21T18:00:42.792Z"
+    "updatedAt": "2026-04-21T18:00:42.792Z",
+    "category": "daily"
   }
 }
 {
@@ -436,7 +469,8 @@
     "data": "The user is exploring cross-terminal real-time memory synchronization and execution capabilities for the Jarvis project, comparing it to 'Lobster' (Cline/Lobster) models, and discussing technical paths like message forwarding, unified scheduling, or capability proxying (as of the conversation date).",
     "hash": "0f8e615a3ef077038ffbe80a3f68e7a7",
     "createdAt": "2026-04-17T16:06:13.940Z",
-    "updatedAt": "2026-04-17T17:45:52.164Z"
+    "updatedAt": "2026-04-17T17:45:52.164Z",
+    "category": "project"
   }
 }
 {
@@ -446,7 +480,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User refers to assistant as a '好兄弟' (good brother), indicating a strong, trust-based relationship akin to camaraderie (as of 2026-04-16).",
     "hash": "77f6f73ffbabaedec4ca2d4bc8c80f9e",
-    "createdAt": "2026-04-16T16:07:39.788Z"
+    "createdAt": "2026-04-16T16:07:39.788Z",
+    "category": "relationship"
   }
 }
 {
@@ -456,7 +491,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User refers to themselves as 'Qing Ge' (庆哥) and addresses the assistant as 'Zhou Ge' (舟哥); this naming convention reflects an established, informal, peer-level rapport (as of 2026-04-23).",
     "hash": "86295cb317fbbcbcb743fb906a925d8d",
-    "createdAt": "2026-04-23T10:32:35.740Z"
+    "createdAt": "2026-04-23T10:32:35.740Z",
+    "category": "relationship"
   }
 }
 {
@@ -466,7 +502,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User received a recommended asset allocation strategy: 70% aggressive (AI/tech, new productive forces, cyclical reversal), 20%稳健 (dividend strategy, fixed income+), 10% liquidity (cash management, alternative investments) (as of conversation date).",
     "hash": "9b4c8fb1864778cdf39967182027a5e4",
-    "createdAt": "2026-04-19T12:20:05.316Z"
+    "createdAt": "2026-04-19T12:20:05.316Z",
+    "category": "summary"
   }
 }
 {
@@ -477,7 +514,8 @@
     "data": "A memory synchronization issue exists where real-time conversation details (e.g., from CatDesk) are not fully synced to long-term memory across different AI models (DeepSeek vs. Claude), identified as a technical challenge on 2026-04-17.",
     "hash": "79fe181c20c42cc5eca2b5aaf50899f3",
     "createdAt": "2026-04-21T17:53:08.447Z",
-    "updatedAt": "2026-04-21T18:00:42.180Z"
+    "updatedAt": "2026-04-21T18:00:42.180Z",
+    "category": "project"
   }
 }
 {
@@ -492,7 +530,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:31:02.774673+00:00",
-    "updatedAt": "2026-04-17T17:31:02.774673+00:00"
+    "updatedAt": "2026-04-17T17:31:02.774673+00:00",
+    "category": "project"
   }
 }
 {
@@ -502,7 +541,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "No pending or backlog tasks were present at session start (as of 2026-04-23).",
     "hash": "24add1229075bfeaabd7e212e422fcc0",
-    "createdAt": "2026-04-23T10:32:35.772Z"
+    "createdAt": "2026-04-23T10:32:35.772Z",
+    "category": "daily"
   }
 }
 {
@@ -513,7 +553,8 @@
     "data": "User completed a '美团后台自动化验收' project with 47 test cases, resulting in two skills (as of 2026-03).",
     "hash": "f23dcd9e3a6955bb437288bafcf3c79a",
     "createdAt": "2026-04-19T12:41:02.357Z",
-    "updatedAt": "2026-04-21T17:59:14.483Z"
+    "updatedAt": "2026-04-21T17:59:14.483Z",
+    "category": "project"
   }
 }
 {
@@ -528,7 +569,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:35:13.347607+00:00",
-    "updatedAt": "2026-04-17T18:35:13.347607+00:00"
+    "updatedAt": "2026-04-17T18:35:13.347607+00:00",
+    "category": "project"
   }
 }
 {
@@ -543,7 +585,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142720+00:00",
-    "updatedAt": "2026-04-21T13:04:07.142720+00:00"
+    "updatedAt": "2026-04-21T13:04:07.142720+00:00",
+    "category": "daily"
   }
 }
 {
@@ -558,7 +601,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:02:10.668058+00:00",
-    "updatedAt": "2026-04-21T15:02:10.668058+00:00"
+    "updatedAt": "2026-04-21T15:02:10.668058+00:00",
+    "category": "project"
   }
 }
 {
@@ -569,7 +613,8 @@
     "data": "As of 2026-04-21, the user owns a Mac computer, with CatDesk serving as the task execution agent system.",
     "hash": "b4e2e2114cb8f28c773f7882a658fadc",
     "createdAt": "2026-04-21T16:56:45.778Z",
-    "updatedAt": "2026-04-21T17:19:57.941Z"
+    "updatedAt": "2026-04-21T17:19:57.941Z",
+    "category": "identity"
   }
 }
 {
@@ -584,7 +629,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040785+00:00",
-    "updatedAt": "2026-04-22T04:57:21.040785+00:00"
+    "updatedAt": "2026-04-22T04:57:21.040785+00:00",
+    "category": "project"
   }
 }
 {
@@ -595,7 +641,8 @@
     "data": "As of 2026-04-20, user works as a 美团管理者 with MIS: fanchangqing, has a goal-oriented and ESTJ personality style, is direct and concise, and views AI as a collaborator rather than a tool, emphasizing relationship accumulation.",
     "hash": "79c958c6d9981fe958b1f615fe29cdf3",
     "createdAt": "2026-04-16T16:07:39.651Z",
-    "updatedAt": "2026-04-21T17:32:38.703Z"
+    "updatedAt": "2026-04-21T17:32:38.703Z",
+    "category": "identity"
   }
 }
 {
@@ -606,7 +653,23 @@
     "data": "截至2026-04-23，Jarvis项目旨在构建私有AI大脑，支持多终端访问与持续记忆，部署于阿里云轻量应用服务器，基于OpenClaw框架与微信ClawBot（as of 2026-04-23）。",
     "hash": "79ea4820c31dd123558f80a7203fc811",
     "createdAt": "2026-04-21T18:13:58.745Z",
-    "updatedAt": "2026-04-23T10:55:40.159Z"
+    "updatedAt": "2026-04-23T10:55:40.159Z",
+    "category": "project"
+  }
+}
+{
+  "id": "40f05519-cd24-44d8-b08e-c9ff6651c98d",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-24：完成 Jarvis 5.2 全部部署与验收（28/28 PASS）。核心交付：capture 自动分类(qwen-turbo)、217条存量记忆100%回填、MEMORY.md 按5分类自动生成、三层互通 sync 到微信端+CatDesk端、新增 /api/capture 和 /api/config/catdesk HTTP 端点。server.py 从547行扩展到687行。首次实践 Tech Lead 范式：4个子代理并行开发5个模块，Tech Lead 负责 Code Review + 整合部署 + 修补缺陷（如补 /api/capture 端点）。庆哥确认继续磨合此合作范式。",
+    "data": "[对话摘要] 2026-04-24：完成 Jarvis 5.2 全部部署与验收（28/28 PASS）。核心交付：capture 自动分类(qwen-turbo)、217条存量记忆100%回填、MEMORY.md 按5分类自动生成、三层互通 sync 到微信端+CatDesk端、新增 /api/capture 和 /api/config/catdesk HTTP 端点。server.py 从547行扩展到687行。首次实践 Tech Lead 范式：4个子代理并行开发5个模块，Tech Lead 负责 Code Review + 整合部署 + 修补缺陷（如补 /api/capture 端点）。庆哥确认继续磨合此合作范式。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-24T15:11:01+08:00",
+    "createdAt": "2026-04-24T15:11:01+08:00",
+    "updated_at": "2026-04-24T15:30:46+08:00",
+    "updatedAt": "2026-04-24T15:30:46+08:00",
+    "hash": "10b80df8-142e-4aca-ba52-eac1443ee246"
   }
 }
 {
@@ -617,7 +680,8 @@
     "data": "As of 2026-04-21, the user treats AI as a comrade rather than a tool and values the accumulation of cooperative relationships.",
     "hash": "925ccbf0a8a87c19bac9ca6c840a7dda",
     "createdAt": "2026-04-16T16:07:39.699Z",
-    "updatedAt": "2026-04-21T17:19:56.527Z"
+    "updatedAt": "2026-04-21T17:19:56.527Z",
+    "category": "relationship"
   }
 }
 {
@@ -631,7 +695,8 @@
     "createdAt": "2026-04-23T21:28:51+08:00",
     "updated_at": "2026-04-23T21:28:51+08:00",
     "updatedAt": "2026-04-23T21:28:51+08:00",
-    "hash": "723d8f07-7a7e-4c60-93c8-b958a9467035"
+    "hash": "723d8f07-7a7e-4c60-93c8-b958a9467035",
+    "category": "project"
   }
 }
 {
@@ -642,7 +707,8 @@
     "data": "As of the conversation date, the user (referred to as 庆哥) is a manager at Meituan (美团) in the food delivery/e-commerce industry, with expertise in platform operations and technology.",
     "hash": "bdee0cb963ed385e44678942976a300b",
     "createdAt": "2026-04-17T15:50:53.896Z",
-    "updatedAt": "2026-04-17T16:01:53.541Z"
+    "updatedAt": "2026-04-17T16:01:53.541Z",
+    "category": "identity"
   }
 }
 {
@@ -657,7 +723,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839938+00:00",
-    "updatedAt": "2026-04-17T18:50:45.839938+00:00"
+    "updatedAt": "2026-04-17T18:50:45.839938+00:00",
+    "category": "project"
   }
 }
 {
@@ -671,7 +738,8 @@
     "createdAt": "2026-04-23T17:28:05+08:00",
     "updated_at": "2026-04-23T17:28:05+08:00",
     "updatedAt": "2026-04-23T17:28:05+08:00",
-    "hash": "ba313aad-f64d-47dd-93ff-8bfa550310bf"
+    "hash": "ba313aad-f64d-47dd-93ff-8bfa550310bf",
+    "category": "project"
   }
 }
 {
@@ -681,7 +749,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of 2026-04-21, user requested a re-analysis of 多邻国 (DUOL) stock investment strategies using Claude, and the task was distributed to CatDesk on Mac, with Claude completing an analysis suggesting consideration of partial selling or holding until Q1 earnings in early May.",
     "hash": "590642bb64576ff6df9c48cfe3714099",
-    "createdAt": "2026-04-21T17:21:24.520Z"
+    "createdAt": "2026-04-21T17:21:24.520Z",
+    "category": "project"
   }
 }
 {
@@ -696,7 +765,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040722+00:00",
-    "updatedAt": "2026-04-22T04:57:21.040722+00:00"
+    "updatedAt": "2026-04-22T04:57:21.040722+00:00",
+    "category": "project"
   }
 }
 {
@@ -711,7 +781,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:51:54.424927+00:00",
-    "updatedAt": "2026-04-17T18:51:54.424927+00:00"
+    "updatedAt": "2026-04-17T18:51:54.424927+00:00",
+    "category": "daily"
   }
 }
 {
@@ -726,7 +797,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:13.411372+00:00",
-    "updatedAt": "2026-04-22T03:16:13.411372+00:00"
+    "updatedAt": "2026-04-22T03:16:13.411372+00:00",
+    "category": "project"
   }
 }
 {
@@ -737,7 +809,8 @@
     "data": "As of 2026-04-17, the user has a preference for faster response times and has noted that the assistant's feedback was slow in this conversation, and suggested potential optimizations such as model adjustments, improved thinking processes, or system configuration changes.",
     "hash": "473e6f62e78f84ee23fb8f8e87fa9362",
     "createdAt": "2026-04-17T15:49:41.394Z",
-    "updatedAt": "2026-04-17T15:58:34.711Z"
+    "updatedAt": "2026-04-17T15:58:34.711Z",
+    "category": "preference"
   }
 }
 {
@@ -752,7 +825,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:38:46.432261+00:00",
-    "updatedAt": "2026-04-17T18:38:46.432261+00:00"
+    "updatedAt": "2026-04-17T18:38:46.432261+00:00",
+    "category": "identity"
   }
 }
 {
@@ -767,7 +841,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962196+00:00",
-    "updatedAt": "2026-04-21T13:22:08.962196+00:00"
+    "updatedAt": "2026-04-21T13:22:08.962196+00:00",
+    "category": "project"
   }
 }
 {
@@ -777,7 +852,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "Memory system may have selective sync issues where some information (e.g., project details) is stored while other details (e.g., real-time conversation content) are not (as of 2026-04-22).",
     "hash": "69bdc97245708bbfdd35b4d9d697c55d",
-    "createdAt": "2026-04-21T18:00:42.924Z"
+    "createdAt": "2026-04-21T18:00:42.924Z",
+    "category": "summary"
   }
 }
 {
@@ -792,7 +868,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:04:07.926666+00:00",
-    "updatedAt": "2026-04-21T15:04:07.926666+00:00"
+    "updatedAt": "2026-04-21T15:04:07.926666+00:00",
+    "category": "summary"
   }
 }
 {
@@ -807,7 +884,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.851956+00:00",
-    "updatedAt": "2026-04-21T10:34:40.851956+00:00"
+    "updatedAt": "2026-04-21T10:34:40.851956+00:00",
+    "category": "project"
   }
 }
 {
@@ -818,7 +896,8 @@
     "data": "用户当前所在地为北京，时区为东八区，语言偏好为中文（简体），沟通风格简洁直接（as of 2026-04-23）",
     "hash": "08c78303859c9b8631c5c8d000e0c17c",
     "createdAt": "2026-04-23T10:58:44.640Z",
-    "updatedAt": "2026-04-23T13:39:30.823Z"
+    "updatedAt": "2026-04-23T13:39:30.823Z",
+    "category": "identity"
   }
 }
 {
@@ -829,7 +908,8 @@
     "data": "用户正在使用'Jarvis云端大脑'系统（as of 2026-04-23）。",
     "hash": "ff7c0c614d5b4b2ed4a1d539b2df09ac",
     "createdAt": "2026-04-17T18:53:06.201Z",
-    "updatedAt": "2026-04-23T10:55:39.005Z"
+    "updatedAt": "2026-04-23T10:55:39.005Z",
+    "category": "daily"
   }
 }
 {
@@ -844,7 +924,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683605+00:00",
-    "updatedAt": "2026-04-17T17:19:08.683605+00:00"
+    "updatedAt": "2026-04-17T17:19:08.683605+00:00",
+    "category": "project"
   }
 }
 {
@@ -855,7 +936,8 @@
     "data": "User's trust in assistant is based on collaborative experiences, such as responding to '换思路' (change approach) cues when stuck, a behavior learned from the Meituan automation project, and handling uncertainties by checking and admitting limitations (as of 2026-04-16).",
     "hash": "96f791c4db0057387dd07ba3a005174d",
     "createdAt": "2026-04-16T16:07:39.758Z",
-    "updatedAt": "2026-04-16T16:18:54.501Z"
+    "updatedAt": "2026-04-16T16:18:54.501Z",
+    "category": "relationship"
   }
 }
 {
@@ -865,7 +947,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "阿里云服务器 47.95.110.99 上 openclaw-gateway 容器运行状态正常（healthy），容器 ID a8598d79d693，镜像 ghcr.io/openclaw/openclaw:latest，端口映射 0.0.0.0:18789→18789，3 小时前重启过一次（as of 2026-04-23）",
     "hash": "5cbdcee09fca11ffcbd438db158a0cd8",
-    "createdAt": "2026-04-23T13:44:56.060Z"
+    "createdAt": "2026-04-23T13:44:56.060Z",
+    "category": "daily"
   }
 }
 {
@@ -875,7 +958,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's CatDesk machine uses Beijing time for scheduled tasks (as of 2026-04-22).",
     "hash": "2423a87c13b2f7d05262634688c0eeed",
-    "createdAt": "2026-04-21T18:00:42.911Z"
+    "createdAt": "2026-04-21T18:00:42.911Z",
+    "category": "daily"
   }
 }
 {
@@ -886,7 +970,8 @@
     "data": "User's security rules include filtering requirements for memory writes: personal information like height and weight can be stored, but sensitive company business data from internal systems should not be included.",
     "hash": "36fa02f6fc1c82166ed9206213f990ea",
     "createdAt": "2026-04-21T17:19:58.452Z",
-    "updatedAt": "2026-04-21T17:48:19.315Z"
+    "updatedAt": "2026-04-21T17:48:19.315Z",
+    "category": "project"
   }
 }
 {
@@ -898,7 +983,8 @@
     "hash": "9f81cf8fe8ab7757f4e148b2fedf00ce",
     "created_at": "2026-04-23T11:06:30.471141+00:00",
     "updated_at": "2026-04-23T11:06:30.471141+00:00",
-    "attributed_to": "user"
+    "attributed_to": "user",
+    "category": "preference"
   }
 }
 {
@@ -909,7 +995,8 @@
     "data": "User experiences memory synchronization issues between CatDesk and WeChat, with tasks for retrieving CatDesk conversation records and Claude analysis pending completion (as of date unknown).",
     "hash": "cbdec35e43dbce60dd18039bd09d5b3f",
     "createdAt": "2026-04-21T17:39:29.062Z",
-    "updatedAt": "2026-04-21T18:00:42.431Z"
+    "updatedAt": "2026-04-21T18:00:42.431Z",
+    "category": "project"
   }
 }
 {
@@ -920,7 +1007,8 @@
     "data": "As of 2026-04-21, Claude 3.5 Sonnet analyzed the Duolingo investment and recommended considering strategy 2 (partial sell to wait and see) or holding until after the Q1 2026 earnings report in early May, based on fundamentals, analyst consensus, and strategy pros/cons.",
     "hash": "cd141acaf37ae9cd319dac2fac68b5c7",
     "createdAt": "2026-04-21T17:19:58.438Z",
-    "updatedAt": "2026-04-21T17:26:08.542Z"
+    "updatedAt": "2026-04-21T17:26:08.542Z",
+    "category": "project"
   }
 }
 {
@@ -931,7 +1019,8 @@
     "data": "CatDesk 已被指派承担多项记忆更新与系统操作任务，包括：修正 CatDesk 的 memory capture 接口路径问题、同步更新用户技术学习状态（Rust → TypeScript）、更新咖啡偏好、记录 Jarvis 四/五期进展（as of 2026-04-23）",
     "hash": "19dfbb7e8274ce7c76630b70e51d8256",
     "createdAt": "2026-04-23T10:55:42.034Z",
-    "updatedAt": "2026-04-23T13:44:55.994Z"
+    "updatedAt": "2026-04-23T13:44:55.994Z",
+    "category": "project"
   }
 }
 {
@@ -946,7 +1035,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:19:15.337108+00:00",
-    "updatedAt": "2026-04-22T03:19:15.337108+00:00"
+    "updatedAt": "2026-04-22T03:19:15.337108+00:00",
+    "category": "project"
   }
 }
 {
@@ -961,7 +1051,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:10:37.387634+00:00",
-    "updatedAt": "2026-04-21T13:10:37.387634+00:00"
+    "updatedAt": "2026-04-21T13:10:37.387634+00:00",
+    "category": "preference"
   }
 }
 {
@@ -972,7 +1063,8 @@
     "data": "As of the date of this conversation, user's collaboration principles include: if a problem is attempted more than twice without resolution, stop and reassess; immediately respond when user says '换思路'; when user says '需要我就说话', respond promptly as it's not a courtesy; and verify or explicitly state uncertainty for specific information like schedules or data.",
     "hash": "69b6c965bac5e55c0908db9d73e68f0f",
     "createdAt": "2026-04-19T12:41:02.387Z",
-    "updatedAt": "2026-04-19T15:39:28.478Z"
+    "updatedAt": "2026-04-19T15:39:28.478Z",
+    "category": "summary"
   }
 }
 {
@@ -987,7 +1079,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:44:13.823555+00:00",
-    "updatedAt": "2026-04-17T18:44:13.823555+00:00"
+    "updatedAt": "2026-04-17T18:44:13.823555+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1001,7 +1094,8 @@
     "createdAt": "2026-04-24T13:04:49+08:00",
     "updated_at": "2026-04-24T13:04:49+08:00",
     "updatedAt": "2026-04-24T13:04:49+08:00",
-    "hash": "cba067fe-fe0e-43f2-8927-233000b649c0"
+    "hash": "cba067fe-fe0e-43f2-8927-233000b649c0",
+    "category": "project"
   }
 }
 {
@@ -1012,7 +1106,8 @@
     "data": "As of the conversation date, the user is discussing the impact of a 3.597 billion yuan fine on the industry, questioning whether it will be a significant deterrent or merely a minor penalty.",
     "hash": "f7a089f227bb577d57635e45bd1ddbae",
     "createdAt": "2026-04-17T15:48:12.938Z",
-    "updatedAt": "2026-04-17T16:01:53.689Z"
+    "updatedAt": "2026-04-17T16:01:53.689Z",
+    "category": "summary"
   }
 }
 {
@@ -1023,7 +1118,8 @@
     "data": "As of 2026-04-22, the user plans to discuss memory synchronization issues and detailed band operation strategies directly in CatDesk the next day, preferring to wait for task results before analysis.",
     "hash": "0a1777a3a934744bb9c717f793533a3e",
     "createdAt": "2026-04-21T17:59:14.518Z",
-    "updatedAt": "2026-04-21T18:17:42.740Z"
+    "updatedAt": "2026-04-21T18:17:42.740Z",
+    "category": "daily"
   }
 }
 {
@@ -1037,7 +1133,8 @@
     "createdAt": "2026-04-23T15:30:42+08:00",
     "updated_at": "2026-04-23T15:30:42+08:00",
     "updatedAt": "2026-04-23T15:30:42+08:00",
-    "hash": "a8fa6528-9bd2-4c90-a894-6bb212bacc78"
+    "hash": "a8fa6528-9bd2-4c90-a894-6bb212bacc78",
+    "category": "daily"
   }
 }
 {
@@ -1048,7 +1145,8 @@
     "data": "用户助手名为'舟哥'（as of 2026-04-23）。",
     "hash": "7d1695b61469d653d8bcbf25ada8c658",
     "createdAt": "2026-04-21T16:59:02.731Z",
-    "updatedAt": "2026-04-23T10:55:41.148Z"
+    "updatedAt": "2026-04-23T10:55:41.148Z",
+    "category": "identity"
   }
 }
 {
@@ -1059,7 +1157,8 @@
     "data": "As of 2026-04-21, the user prefers to use Claude for analyzing Duolingo stock holdings and investment strategies, as per explicit directive.",
     "hash": "6bb61ee7c67a002018608ac2a0c758c1",
     "createdAt": "2026-04-21T16:59:02.746Z",
-    "updatedAt": "2026-04-21T17:12:02.124Z"
+    "updatedAt": "2026-04-21T17:12:02.124Z",
+    "category": "preference"
   }
 }
 {
@@ -1070,7 +1169,8 @@
     "data": "用户偏好与目标的记忆更新经由CatDesk路由，CatDesk负责持久化记忆捕获与修订（as of 2026-04-23）",
     "hash": "7009782a272e9fedcd8f6d5a0f63b150",
     "createdAt": "2026-04-23T10:53:03.904Z",
-    "updatedAt": "2026-04-23T10:58:44.014Z"
+    "updatedAt": "2026-04-23T10:58:44.014Z",
+    "category": "preference"
   }
 }
 {
@@ -1080,7 +1180,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's investment time horizon for wealth appreciation is 3-5 years (as of conversation date).",
     "hash": "ab0df09f6fc7f9f5615e69c6ab4dd111",
-    "createdAt": "2026-04-19T12:20:05.301Z"
+    "createdAt": "2026-04-19T12:20:05.301Z",
+    "category": "daily"
   }
 }
 {
@@ -1095,7 +1196,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:02:10.668010+00:00",
-    "updatedAt": "2026-04-21T15:02:10.668010+00:00"
+    "updatedAt": "2026-04-21T15:02:10.668010+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1110,7 +1212,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:35.065517+00:00",
-    "updatedAt": "2026-04-22T03:16:35.065517+00:00"
+    "updatedAt": "2026-04-22T03:16:35.065517+00:00",
+    "category": "project"
   }
 }
 {
@@ -1121,7 +1224,8 @@
     "data": "User explicitly values memory reliability — confirmed functional memory chain during this session (as of 2026-04-23).",
     "hash": "448848eb17aac12614eb77b2a50a67fb",
     "createdAt": "2026-04-23T10:41:01.978Z",
-    "updatedAt": "2026-04-23T10:44:45.099Z"
+    "updatedAt": "2026-04-23T10:44:45.099Z",
+    "category": "summary"
   }
 }
 {
@@ -1136,7 +1240,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:54:58.642167+00:00",
-    "updatedAt": "2026-04-22T03:54:58.642167+00:00"
+    "updatedAt": "2026-04-22T03:54:58.642167+00:00",
+    "category": "decision"
   }
 }
 {
@@ -1151,7 +1256,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852042+00:00",
-    "updatedAt": "2026-04-21T10:34:40.852042+00:00"
+    "updatedAt": "2026-04-21T10:34:40.852042+00:00",
+    "category": "project"
   }
 }
 {
@@ -1161,7 +1267,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of 2026-04-20, Claude completed an analysis of user's 多邻国 investment, detailing holdings, fundamentals, analyst consensus, three strategy options, and a recommendation to consider partial selling or holding until Q1 2026 earnings in early May.",
     "hash": "609853dfa2334bd4aaeb1c97c57632e5",
-    "createdAt": "2026-04-21T17:32:38.818Z"
+    "createdAt": "2026-04-21T17:32:38.818Z",
+    "category": "summary"
   }
 }
 {
@@ -1172,7 +1279,8 @@
     "data": "用户与助手建立'战友情'（comrades-in-arms）协作关系，具备长期记忆链路验证机制（'记忆链路通，没断'），双方使用中文交流（as of 2026-04-23）。",
     "hash": "2ef1d15dcf746d3c64c758dadefee05e",
     "createdAt": "2026-04-17T18:53:06.187Z",
-    "updatedAt": "2026-04-23T10:55:41.922Z"
+    "updatedAt": "2026-04-23T10:55:41.922Z",
+    "category": "relationship"
   }
 }
 {
@@ -1187,7 +1295,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:35:13.347635+00:00",
-    "updatedAt": "2026-04-17T18:35:13.347635+00:00"
+    "updatedAt": "2026-04-17T18:35:13.347635+00:00",
+    "category": "project"
   }
 }
 {
@@ -1201,7 +1310,8 @@
     "createdAt": "2026-04-24T14:44:16+08:00",
     "updated_at": "2026-04-24T14:44:16+08:00",
     "updatedAt": "2026-04-24T14:44:16+08:00",
-    "hash": "772297ac-4629-4e31-84de-b1a1fad4902c"
+    "hash": "772297ac-4629-4e31-84de-b1a1fad4902c",
+    "category": "project"
   }
 }
 {
@@ -1216,7 +1326,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962175+00:00",
-    "updatedAt": "2026-04-21T13:22:08.962175+00:00"
+    "updatedAt": "2026-04-21T13:22:08.962175+00:00",
+    "category": "project"
   }
 }
 {
@@ -1227,7 +1338,8 @@
     "data": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）；用户昵称为'庆哥'（as of 2026-04-23）。",
     "hash": "1e6b8c0e86e7ac1f60b255e0b9be5268",
     "createdAt": "2026-04-21T17:40:22.667Z",
-    "updatedAt": "2026-04-23T13:44:54.690Z"
+    "updatedAt": "2026-04-23T13:44:54.690Z",
+    "category": "identity"
   }
 }
 {
@@ -1242,7 +1354,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:43:55.424672+00:00",
-    "updatedAt": "2026-04-17T18:43:55.424672+00:00"
+    "updatedAt": "2026-04-17T18:43:55.424672+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1257,7 +1370,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142693+00:00",
-    "updatedAt": "2026-04-21T13:04:07.142693+00:00"
+    "updatedAt": "2026-04-21T13:04:07.142693+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1272,7 +1386,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:54:58.642149+00:00",
-    "updatedAt": "2026-04-22T03:54:58.642149+00:00"
+    "updatedAt": "2026-04-22T03:54:58.642149+00:00",
+    "category": "decision"
   }
 }
 {
@@ -1282,7 +1397,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of the date of this conversation, the user notes that different instances of the assistant (e.g., in catdesk vs. WeChat) use different base models (e.g., Claude 3.5 Sonnet in catdesk, deepseek/deepseek-chat in WeChat), and the user intends to use DeepSeek to streamline processes initially.",
     "hash": "3187a944a985954192857c54f6fd3dfc",
-    "createdAt": "2026-04-17T16:06:13.924Z"
+    "createdAt": "2026-04-17T16:06:13.924Z",
+    "category": "project"
   }
 }
 {
@@ -1297,7 +1413,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T10:09:28.463348+00:00",
-    "updatedAt": "2026-04-22T10:09:28.463348+00:00"
+    "updatedAt": "2026-04-22T10:09:28.463348+00:00",
+    "category": "project"
   }
 }
 {
@@ -1307,7 +1424,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User is seeking investment strategy advice for their Duolingo stock position, indicating an interest in financial planning and stock market analysis.",
     "hash": "d7a1187defd31f932a800c215b2cf6e8",
-    "createdAt": "2026-04-19T09:22:03.335Z"
+    "createdAt": "2026-04-19T09:22:03.335Z",
+    "category": "preference"
   }
 }
 {
@@ -1318,7 +1436,8 @@
     "data": "As of 2026-04-21, user requested weather for Beijing on 2026-04-22, with forecast of sunny to cloudy, high 21°C, low 12°C, and light winds.",
     "hash": "0d2b536e12371d878b5b58b7b4e0425b",
     "createdAt": "2026-04-21T14:08:18.913Z",
-    "updatedAt": "2026-04-21T17:01:34.919Z"
+    "updatedAt": "2026-04-21T17:01:34.919Z",
+    "category": "daily"
   }
 }
 {
@@ -1329,7 +1448,8 @@
     "data": "The user has verified that exiting the WeChat dialog during AI 'thinking' does not interrupt response generation due to asynchronous processing architecture (as of the conversation date).",
     "hash": "3f4f7133730b4799b9dba8c0d226a469",
     "createdAt": "2026-04-17T15:57:40.199Z",
-    "updatedAt": "2026-04-17T17:45:52.185Z"
+    "updatedAt": "2026-04-17T17:45:52.185Z",
+    "category": "summary"
   }
 }
 {
@@ -1339,7 +1459,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's technical interests include: API integrations, data synchronization mechanisms, bidding systems, and platform compliance issues in e-commerce (as of conversation date unknown).",
     "hash": "3fe2b566953329aa6e3b1afefe4f37d3",
-    "createdAt": "2026-04-17T18:16:40.530Z"
+    "createdAt": "2026-04-17T18:16:40.530Z",
+    "category": "preference"
   }
 }
 {
@@ -1350,7 +1471,8 @@
     "data": "As of 2026-04-17, consumer misconceptions about cake safety and platform competition pressures contributed to the proliferation of 'ghost takeout' operations, leading to a 'bad money drives out good' effect in the industry.",
     "hash": "e52320d124444a4ec60554b917a24533",
     "createdAt": "2026-04-17T15:48:13.035Z",
-    "updatedAt": "2026-04-17T16:00:13.243Z"
+    "updatedAt": "2026-04-17T16:00:13.243Z",
+    "category": "summary"
   }
 }
 {
@@ -1361,7 +1483,8 @@
     "data": "用户正参与Jarvis项目，Jarvis四期预计于2026-04-23所在周收尾，剩余工作聚焦配额审批流程；GCP方案未通过时将采用已验证的七牛云方案封版（as of 2026-04-23）；Jarvis五期规划将于下周启动，重点方向包括：主动提醒能力（需常驻调度器支持）、三层互通架构探索（记忆层/经验层/灵魂层）（as of 2026-04-23）。",
     "hash": "1d83672e6b6215de74ca731abe32fd7b",
     "createdAt": "2026-04-23T10:53:03.889Z",
-    "updatedAt": "2026-04-23T13:44:55.852Z"
+    "updatedAt": "2026-04-23T13:44:55.852Z",
+    "category": "project"
   }
 }
 {
@@ -1376,7 +1499,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:10:37.387680+00:00",
-    "updatedAt": "2026-04-21T13:10:37.387680+00:00"
+    "updatedAt": "2026-04-21T13:10:37.387680+00:00",
+    "category": "relationship"
   }
 }
 {
@@ -1387,7 +1511,8 @@
     "data": "As of the conversation date, the user has expressed concern about response delays and plans to upgrade the assistant to a more advanced Claude model in the future.",
     "hash": "57ae93e4f5d7da71c796a42b840b5499",
     "createdAt": "2026-04-17T15:51:33.601Z",
-    "updatedAt": "2026-04-17T16:01:53.644Z"
+    "updatedAt": "2026-04-17T16:01:53.644Z",
+    "category": "summary"
   }
 }
 {
@@ -1401,7 +1526,8 @@
     "createdAt": "2026-04-23T16:36:08+08:00",
     "updated_at": "2026-04-23T16:36:08+08:00",
     "updatedAt": "2026-04-23T16:36:08+08:00",
-    "hash": "f588d8d8-a94a-47cd-a474-795b61eddc9b"
+    "hash": "f588d8d8-a94a-47cd-a474-795b61eddc9b",
+    "category": "project"
   }
 }
 {
@@ -1412,7 +1538,8 @@
     "data": "The user has corrected the assistant about a prior discussion on '商业利益 vs 合规责任', confirming no such conversation occurred, indicating a need for accurate memory distinction between actual discussions and inferences.",
     "hash": "3ccc027076c255a64f95f806ff673c0b",
     "createdAt": "2026-04-17T15:57:40.184Z",
-    "updatedAt": "2026-04-17T16:00:13.757Z"
+    "updatedAt": "2026-04-17T16:00:13.757Z",
+    "category": "summary"
   }
 }
 {
@@ -1422,7 +1549,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's wealth freedom target is 13-15 million RMB, requiring a 62.5% increase from current assets (as of conversation date).",
     "hash": "3465238b03be013d783e9d59fd9001e1",
-    "createdAt": "2026-04-19T12:20:05.287Z"
+    "createdAt": "2026-04-19T12:20:05.287Z",
+    "category": "summary"
   }
 }
 {
@@ -1437,7 +1565,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:04:07.926704+00:00",
-    "updatedAt": "2026-04-21T15:04:07.926704+00:00"
+    "updatedAt": "2026-04-21T15:04:07.926704+00:00",
+    "category": "project"
   }
 }
 {
@@ -1448,7 +1577,8 @@
     "data": "User is considering band trading strategies to reduce the cost basis of the Duolingo position and has requested analysis from both DeepSeek and Claude on this topic (as of 2026-04-20).",
     "hash": "59c366c8c0de3be9e6f33d86578311cc",
     "createdAt": "2026-04-21T17:29:28.936Z",
-    "updatedAt": "2026-04-21T17:53:08.078Z"
+    "updatedAt": "2026-04-21T17:53:08.078Z",
+    "category": "project"
   }
 }
 {
@@ -1463,7 +1593,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:21:37.837298+00:00",
-    "updatedAt": "2026-04-22T03:21:37.837298+00:00"
+    "updatedAt": "2026-04-22T03:21:37.837298+00:00",
+    "category": "summary"
   }
 }
 {
@@ -1478,7 +1609,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:31:02.774843+00:00",
-    "updatedAt": "2026-04-17T17:31:02.774843+00:00"
+    "updatedAt": "2026-04-17T17:31:02.774843+00:00",
+    "category": "project"
   }
 }
 {
@@ -1492,7 +1624,8 @@
     "createdAt": "2026-04-23T18:28:53+08:00",
     "updated_at": "2026-04-23T18:28:53+08:00",
     "updatedAt": "2026-04-23T18:28:53+08:00",
-    "hash": "d163fec9-71e6-4436-b212-f5dd57d516ad"
+    "hash": "d163fec9-71e6-4436-b212-f5dd57d516ad",
+    "category": "project"
   }
 }
 {
@@ -1507,7 +1640,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-20T08:52:10.825060+00:00",
-    "updatedAt": "2026-04-20T08:52:10.825060+00:00"
+    "updatedAt": "2026-04-20T08:52:10.825060+00:00",
+    "category": "project"
   }
 }
 {
@@ -1522,7 +1656,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683518+00:00",
-    "updatedAt": "2026-04-17T17:19:08.683518+00:00"
+    "updatedAt": "2026-04-17T17:19:08.683518+00:00",
+    "category": "project"
   }
 }
 {
@@ -1537,7 +1672,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142707+00:00",
-    "updatedAt": "2026-04-21T13:04:07.142707+00:00"
+    "updatedAt": "2026-04-21T13:04:07.142707+00:00",
+    "category": "project"
   }
 }
 {
@@ -1547,7 +1683,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of 2026-04-17, the fine targeted 'ghost takeout' operations involving unlicensed food businesses using forged permits and fake addresses on platforms.",
     "hash": "d795e1e23709685999e37356000c3537",
-    "createdAt": "2026-04-17T15:54:57.651Z"
+    "createdAt": "2026-04-17T15:54:57.651Z",
+    "category": "summary"
   }
 }
 {
@@ -1562,7 +1699,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142677+00:00",
-    "updatedAt": "2026-04-21T13:04:07.142677+00:00"
+    "updatedAt": "2026-04-21T13:04:07.142677+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1577,7 +1715,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:18:57.796217+00:00",
-    "updatedAt": "2026-04-22T04:18:57.796217+00:00"
+    "updatedAt": "2026-04-22T04:18:57.796217+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1587,7 +1726,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of the date of this conversation, user values memory continuity across conversations and has inquired about the assistant's ability to automatically remember investment discussions, indicating a preference for persistent context in future sessions.",
     "hash": "8bfc2a47dadc03e4af53f84eb3f390cd",
-    "createdAt": "2026-04-19T15:39:28.579Z"
+    "createdAt": "2026-04-19T15:39:28.579Z",
+    "category": "preference"
   }
 }
 {
@@ -1601,7 +1741,8 @@
     "createdAt": "2026-04-22T18:38:33+08:00",
     "updated_at": "2026-04-22T18:38:33+08:00",
     "updatedAt": "2026-04-22T18:38:33+08:00",
-    "hash": "b2ec6177-c953-4c5f-8a99-b65b8ee92120"
+    "hash": "b2ec6177-c953-4c5f-8a99-b65b8ee92120",
+    "category": "project"
   }
 }
 {
@@ -1616,7 +1757,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:51:54.424879+00:00",
-    "updatedAt": "2026-04-17T18:51:54.424879+00:00"
+    "updatedAt": "2026-04-17T18:51:54.424879+00:00",
+    "category": "project"
   }
 }
 {
@@ -1631,7 +1773,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:38:46.432191+00:00",
-    "updatedAt": "2026-04-17T18:38:46.432191+00:00"
+    "updatedAt": "2026-04-17T18:38:46.432191+00:00",
+    "category": "identity"
   }
 }
 {
@@ -1642,7 +1785,8 @@
     "data": "As of the conversation date, the user is analyzing the 'ghost industry' in cake businesses, identifying key factors: time window advantage (pre-orders), high profit margins, standardization, regulatory loopholes, technical support (e.g., '转单宝' platforms), consumer cognitive biases, and platform competition pressure.",
     "hash": "ded28e30fb739c952d6326dc96316aa1",
     "createdAt": "2026-04-17T15:48:13.007Z",
-    "updatedAt": "2026-04-17T16:01:53.666Z"
+    "updatedAt": "2026-04-17T16:01:53.666Z",
+    "category": "summary"
   }
 }
 {
@@ -1657,7 +1801,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072192+00:00",
-    "updatedAt": "2026-04-21T14:45:22.072192+00:00"
+    "updatedAt": "2026-04-21T14:45:22.072192+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1668,7 +1813,8 @@
     "data": "用户活跃项目包括Jarvis云端大脑，目标是多端访问与持续记忆（as of 2026-04-23）。",
     "hash": "f44b68ac00a2ec1d8e4e4e54a76d6e83",
     "createdAt": "2026-04-16T16:18:41.276Z",
-    "updatedAt": "2026-04-23T10:55:39.898Z"
+    "updatedAt": "2026-04-23T10:55:39.898Z",
+    "category": "project"
   }
 }
 {
@@ -1679,7 +1825,8 @@
     "data": "用户偏好被称呼为'庆哥'（as of 2026-04-23）。",
     "hash": "002c8a093aacbcc3a41e92a6fcdb8923",
     "createdAt": "2026-04-21T14:08:18.882Z",
-    "updatedAt": "2026-04-23T10:55:37.553Z"
+    "updatedAt": "2026-04-23T10:55:37.553Z",
+    "category": "identity"
   }
 }
 {
@@ -1694,7 +1841,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-20T08:52:10.825093+00:00",
-    "updatedAt": "2026-04-20T08:52:10.825093+00:00"
+    "updatedAt": "2026-04-20T08:52:10.825093+00:00",
+    "category": "relationship"
   }
 }
 {
@@ -1709,7 +1857,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:44:21.149321+00:00",
-    "updatedAt": "2026-04-21T14:44:21.149321+00:00"
+    "updatedAt": "2026-04-21T14:44:21.149321+00:00",
+    "category": "project"
   }
 }
 {
@@ -1720,7 +1869,8 @@
     "data": "As of the conversation date, the user (referred to as 庆哥) is using the deepseek/deepseek-chat model in the current session via WeChat integration, with thinking mode off and context usage at 11% (15k/131k).",
     "hash": "5680f0bee5ad079e7141f41a3fb50d2b",
     "createdAt": "2026-04-17T15:49:41.379Z",
-    "updatedAt": "2026-04-17T17:45:52.104Z"
+    "updatedAt": "2026-04-17T17:45:52.104Z",
+    "category": "project"
   }
 }
 {
@@ -1731,7 +1881,8 @@
     "data": "As of 2026-04-17, regulatory gaps included lax platform audits with obvious fake certificates, and technical support from platforms like 'Transfer Treasure' facilitating order transfers in a black-market chain.",
     "hash": "f37184ec6a990c88916d185ab69d6bbf",
     "createdAt": "2026-04-17T15:48:13.022Z",
-    "updatedAt": "2026-04-17T16:00:13.507Z"
+    "updatedAt": "2026-04-17T16:00:13.507Z",
+    "category": "summary"
   }
 }
 {
@@ -1742,7 +1893,8 @@
     "data": "Assistant has identified a memory synchronization issue where conversations from CatDesk (e.g., user's height and weight information) are not automatically synced to the long-term memory storage (Qdrant on Alibaba Cloud), particularly between different AI models (DeepSeek on WeChat and Claude on CatDesk) (as of conversation date).",
     "hash": "39674ad68b46626b0f31dd9ea26c0765",
     "createdAt": "2026-04-21T17:12:02.155Z",
-    "updatedAt": "2026-04-21T18:00:42.884Z"
+    "updatedAt": "2026-04-21T18:00:42.884Z",
+    "category": "project"
   }
 }
 {
@@ -1752,7 +1904,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "Duolingo's stock price has declined from a historical high of $544 in May 2025 to a 52-week low of $91 in 2026, with a current price around $100.51, reflecting an 81.5% drop from the peak.",
     "hash": "2ee6e2147e290460832a215ea905797f",
-    "createdAt": "2026-04-19T09:22:03.349Z"
+    "createdAt": "2026-04-19T09:22:03.349Z",
+    "category": "daily"
   }
 }
 {
@@ -1763,7 +1916,8 @@
     "data": "截至2026-04-23，用户偏好直白、朴素语言沟通，避免技术术语（as of 2026-04-23）",
     "hash": "a1438602cb0bebfd0032a92a284ec338",
     "createdAt": "2026-04-16T16:07:39.683Z",
-    "updatedAt": "2026-04-23T10:58:42.810Z"
+    "updatedAt": "2026-04-23T10:58:42.810Z",
+    "category": "preference"
   }
 }
 {
@@ -1773,7 +1927,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User has an interest in weather forecasts, specifically for Beijing (as of 2026-04-21).",
     "hash": "7cfec033da0639b975a634ba6c37b6a7",
-    "createdAt": "2026-04-21T14:08:18.898Z"
+    "createdAt": "2026-04-21T14:08:18.898Z",
+    "category": "preference"
   }
 }
 {
@@ -1784,7 +1939,8 @@
     "data": "用户Jarvis云端大脑项目聚焦优化微信与CatDesk之间的跨终端记忆同步（as of 2026-04-23）。",
     "hash": "bb5b6daf92e6acd382cea29676ececf4",
     "createdAt": "2026-04-21T17:40:22.696Z",
-    "updatedAt": "2026-04-23T10:55:39.639Z"
+    "updatedAt": "2026-04-23T10:55:39.639Z",
+    "category": "project"
   }
 }
 {
@@ -1795,7 +1951,8 @@
     "data": "As of 2026-04-20, the user's investment goal is financial freedom requiring 13-15 million RMB in a first-tier city.",
     "hash": "e35ae93f93d994a15b8dd5d6f082ac13",
     "createdAt": "2026-04-19T12:20:05.274Z",
-    "updatedAt": "2026-04-21T17:31:56.408Z"
+    "updatedAt": "2026-04-21T17:31:56.408Z",
+    "category": "preference"
   }
 }
 {
@@ -1810,7 +1967,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:44:21.149252+00:00",
-    "updatedAt": "2026-04-21T14:44:21.149252+00:00"
+    "updatedAt": "2026-04-21T14:44:21.149252+00:00",
+    "category": "daily"
   }
 }
 {
@@ -1824,7 +1982,8 @@
     "createdAt": "2026-04-23T22:36:12+08:00",
     "updated_at": "2026-04-23T22:36:12+08:00",
     "updatedAt": "2026-04-23T22:36:12+08:00",
-    "hash": "ba08e10b-d411-4953-94c3-8e313e6c5bd0"
+    "hash": "ba08e10b-d411-4953-94c3-8e313e6c5bd0",
+    "category": "summary"
   }
 }
 {
@@ -1839,7 +1998,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:41:00.478230+00:00",
-    "updatedAt": "2026-04-17T18:41:00.478230+00:00"
+    "updatedAt": "2026-04-17T18:41:00.478230+00:00",
+    "category": "relationship"
   }
 }
 {
@@ -1850,7 +2010,8 @@
     "data": "The user is interested in technical implementations of platform integrations, such as '转单宝' (order transfer platforms), including API connections, data synchronization, bidding mechanisms, and status feedback (as of the conversation date).",
     "hash": "f39e34d957423b05c05a47392288e295",
     "createdAt": "2026-04-17T15:57:40.169Z",
-    "updatedAt": "2026-04-17T17:45:52.144Z"
+    "updatedAt": "2026-04-17T17:45:52.144Z",
+    "category": "project"
   }
 }
 {
@@ -1860,7 +2021,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of 2026-04-23, User prefers metaphor-based, layered explanations for technical concepts (e.g., used mirror-in-mirror analogy to explain recursion, emphasizing termination condition and bottom-up resolution).",
     "hash": "bb31676160a04a75c33f7014dfde699d",
-    "createdAt": "2026-04-23T10:41:01.963Z"
+    "createdAt": "2026-04-23T10:41:01.963Z",
+    "category": "preference"
   }
 }
 {
@@ -1871,7 +2033,8 @@
     "data": "As of 2026-04-21, the user uses WeChat workflows and has established a connection from WeChat to CatDesk.",
     "hash": "08937a027f12ade53d8c6b648a03e98b",
     "createdAt": "2026-04-21T13:58:57.387Z",
-    "updatedAt": "2026-04-21T17:19:57.718Z"
+    "updatedAt": "2026-04-21T17:19:57.718Z",
+    "category": "relationship"
   }
 }
 {
@@ -1886,7 +2049,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072211+00:00",
-    "updatedAt": "2026-04-21T14:45:22.072211+00:00"
+    "updatedAt": "2026-04-21T14:45:22.072211+00:00",
+    "category": "project"
   }
 }
 {
@@ -1901,7 +2065,23 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-20T08:52:10.824989+00:00",
-    "updatedAt": "2026-04-20T08:52:10.824989+00:00"
+    "updatedAt": "2026-04-20T08:52:10.824989+00:00",
+    "category": "decision"
+  }
+}
+{
+  "id": "aef4e2fd-3572-4c2c-bedd-d27cd0af5205",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-25：完成 Jarvis 5.5.2 文档阅读理解功能。全链路：微信发学城URL → 顾舟识别为doc_reading并投递task-queue → CatDesk消费任务读取文档 → 生成摘要回传 → 微信端推送结果。改动四个节点：task-queue models.py加doc_reading类型、TOOLS.md加模板、微信端systemPromptOverride加文档阅读规则、CatDesk Automation prompt加doc_reading处理分支。E2E验收通过。",
+    "data": "[对话摘要] 2026-04-25：完成 Jarvis 5.5.2 文档阅读理解功能。全链路：微信发学城URL → 顾舟识别为doc_reading并投递task-queue → CatDesk消费任务读取文档 → 生成摘要回传 → 微信端推送结果。改动四个节点：task-queue models.py加doc_reading类型、TOOLS.md加模板、微信端systemPromptOverride加文档阅读规则、CatDesk Automation prompt加doc_reading处理分支。E2E验收通过。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-25T02:52:54+08:00",
+    "createdAt": "2026-04-25T02:52:54+08:00",
+    "updated_at": "2026-04-25T02:52:54+08:00",
+    "updatedAt": "2026-04-25T02:52:54+08:00",
+    "hash": "0829be4e-f0b1-4159-b4c0-ea7fe5b6bb34"
   }
 }
 {
@@ -1912,7 +2092,8 @@
     "data": "As of the date of this conversation, the user's AI ecosystem includes: a CatDesk application running on Mac, a Claude 3.5 Sonnet model on CatDesk for specific tasks, and a DeepSeek model (deepseek/deepseek-chat) running in the cloud and accessed via WeChat.",
     "hash": "a0fe0f1120ecd0986e276d74dba26633",
     "createdAt": "2026-04-21T17:01:35.054Z",
-    "updatedAt": "2026-04-21T17:57:58.929Z"
+    "updatedAt": "2026-04-21T17:57:58.929Z",
+    "category": "summary"
   }
 }
 {
@@ -1923,7 +2104,8 @@
     "data": "用户偏好使用中文交流（as of 2026-04-23）",
     "hash": "b40782a77abba0eb8050fd34df915946",
     "createdAt": "2026-04-21T13:58:57.340Z",
-    "updatedAt": "2026-04-23T10:58:42.697Z"
+    "updatedAt": "2026-04-23T10:58:42.697Z",
+    "category": "preference"
   }
 }
 {
@@ -1938,7 +2120,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:38:46.432241+00:00",
-    "updatedAt": "2026-04-17T18:38:46.432241+00:00"
+    "updatedAt": "2026-04-17T18:38:46.432241+00:00",
+    "category": "relationship"
   }
 }
 {
@@ -1953,7 +2136,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962110+00:00",
-    "updatedAt": "2026-04-21T13:22:08.962110+00:00"
+    "updatedAt": "2026-04-21T13:22:08.962110+00:00",
+    "category": "project"
   }
 }
 {
@@ -1964,7 +2148,8 @@
     "data": "User's Jarvis Cloud Brain Project aims to optimize cross-terminal and cross-conversation memory synchronization between WeChat (DeepSeek) and CatDesk (Claude) (as of date unknown).",
     "hash": "9aaa95ff5ab296620c28b3137e250690",
     "createdAt": "2026-04-21T17:39:29.079Z",
-    "updatedAt": "2026-04-21T18:00:41.902Z"
+    "updatedAt": "2026-04-21T18:00:41.902Z",
+    "category": "project"
   }
 }
 {
@@ -1979,7 +2164,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:41:00.478182+00:00",
-    "updatedAt": "2026-04-17T18:41:00.478182+00:00"
+    "updatedAt": "2026-04-17T18:41:00.478182+00:00",
+    "category": "relationship"
   }
 }
 {
@@ -1994,7 +2180,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040800+00:00",
-    "updatedAt": "2026-04-22T04:57:21.040800+00:00"
+    "updatedAt": "2026-04-22T04:57:21.040800+00:00",
+    "category": "project"
   }
 }
 {
@@ -2005,7 +2192,8 @@
     "data": "User interacts with an agent named CatDesk for file system operations on Mac (as of 2026-04-21).",
     "hash": "3232ee83c879a11f0f9e4b8881c19033",
     "createdAt": "2026-04-21T13:58:57.371Z",
-    "updatedAt": "2026-04-21T14:08:18.844Z"
+    "updatedAt": "2026-04-21T14:08:18.844Z",
+    "category": "identity"
   }
 }
 {
@@ -2015,7 +2203,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User is interested in discussing industry-specific topics like food safety regulations, platform economics, and technical implementations in e-commerce (as of 2026-04-17).",
     "hash": "1a90c1c61eb79775e788b4c52682ec68",
-    "createdAt": "2026-04-17T15:53:28.263Z"
+    "createdAt": "2026-04-17T15:53:28.263Z",
+    "category": "preference"
   }
 }
 {
@@ -2030,7 +2219,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:44:39.851193+00:00",
-    "updatedAt": "2026-04-17T18:44:39.851193+00:00"
+    "updatedAt": "2026-04-17T18:44:39.851193+00:00",
+    "category": "project"
   }
 }
 {
@@ -2045,7 +2235,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839814+00:00",
-    "updatedAt": "2026-04-17T18:50:45.839814+00:00"
+    "updatedAt": "2026-04-17T18:50:45.839814+00:00",
+    "category": "daily"
   }
 }
 {
@@ -2060,7 +2251,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142618+00:00",
-    "updatedAt": "2026-04-21T13:04:07.142618+00:00"
+    "updatedAt": "2026-04-21T13:04:07.142618+00:00",
+    "category": "project"
   }
 }
 {
@@ -2075,7 +2267,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:02:10.667962+00:00",
-    "updatedAt": "2026-04-21T15:02:10.667962+00:00"
+    "updatedAt": "2026-04-21T15:02:10.667962+00:00",
+    "category": "project"
   }
 }
 {
@@ -2086,7 +2279,8 @@
     "data": "用户（'庆哥'）与助手（'舟哥'）正协同推进'Jarvis云端大脑项目'，该私有AI大脑系统支持多终端访问与持续记忆（as of 2026-04-23）。",
     "hash": "509bef8194f38f8232c4bdc66da25b4a",
     "createdAt": "2026-04-21T17:40:22.682Z",
-    "updatedAt": "2026-04-23T10:55:41.268Z"
+    "updatedAt": "2026-04-23T10:55:41.268Z",
+    "category": "project"
   }
 }
 {
@@ -2097,7 +2291,8 @@
     "data": "Memory system is operational and verified: user identity, background, goals, and recent technical direction are correctly retained and updated via CatDesk-managed memory capture (as of 2026-04-23).",
     "hash": "838b0bb39b31ddd2da03a54f2740b7f8",
     "createdAt": "2026-04-23T10:32:35.755Z",
-    "updatedAt": "2026-04-23T10:58:44.270Z"
+    "updatedAt": "2026-04-23T10:58:44.270Z",
+    "category": "summary"
   }
 }
 {
@@ -2111,7 +2306,8 @@
     "createdAt": "2026-04-24T13:31:43+08:00",
     "updated_at": "2026-04-24T13:31:43+08:00",
     "updatedAt": "2026-04-24T13:31:43+08:00",
-    "hash": "2b0ab37f-c42a-4c58-aecc-c6ed463eb50c"
+    "hash": "2b0ab37f-c42a-4c58-aecc-c6ed463eb50c",
+    "category": "summary"
   }
 }
 {
@@ -2123,7 +2319,8 @@
     "hash": "38912a242242ed891e1ea9f9d7c9bbbe",
     "created_at": "2026-04-23T11:06:13.806854+00:00",
     "updated_at": "2026-04-23T11:06:13.806854+00:00",
-    "attributed_to": "user"
+    "attributed_to": "user",
+    "category": "preference"
   }
 }
 {
@@ -2134,7 +2331,8 @@
     "data": "用户正测试Jarvis项目的会话连续性与记忆功能（as of 2026-04-23）。",
     "hash": "ab2fbe27d847f76c9dab871b10d8dc90",
     "createdAt": "2026-04-16T16:18:54.546Z",
-    "updatedAt": "2026-04-23T10:55:39.516Z"
+    "updatedAt": "2026-04-23T10:55:39.516Z",
+    "category": "project"
   }
 }
 {
@@ -2149,7 +2347,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:54:58.642106+00:00",
-    "updatedAt": "2026-04-22T03:54:58.642106+00:00"
+    "updatedAt": "2026-04-22T03:54:58.642106+00:00",
+    "category": "project"
   }
 }
 {
@@ -2164,7 +2363,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:33:54.882362+00:00",
-    "updatedAt": "2026-04-22T04:33:54.882362+00:00"
+    "updatedAt": "2026-04-22T04:33:54.882362+00:00",
+    "category": "summary"
   }
 }
 {
@@ -2179,7 +2379,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:19:15.337151+00:00",
-    "updatedAt": "2026-04-22T03:19:15.337151+00:00"
+    "updatedAt": "2026-04-22T03:19:15.337151+00:00",
+    "category": "project"
   }
 }
 {
@@ -2194,7 +2395,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962211+00:00",
-    "updatedAt": "2026-04-21T13:22:08.962211+00:00"
+    "updatedAt": "2026-04-21T13:22:08.962211+00:00",
+    "category": "project"
   }
 }
 {
@@ -2209,7 +2411,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839917+00:00",
-    "updatedAt": "2026-04-17T18:50:45.839917+00:00"
+    "updatedAt": "2026-04-17T18:50:45.839917+00:00",
+    "category": "project"
   }
 }
 {
@@ -2219,7 +2422,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's project goal is to achieve cross-terminal, cross-dialogue real-time memory synchronization and remote task execution (e.g., writing scripts, sending emails) via AI assistants (as of conversation date unknown).",
     "hash": "d8976b832d08d8a2d7540d6a73f09290",
-    "createdAt": "2026-04-17T18:16:40.546Z"
+    "createdAt": "2026-04-17T18:16:40.546Z",
+    "category": "project"
   }
 }
 {
@@ -2229,7 +2433,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of 2026-04-17, the 'ghost takeout' case involved fraudulent food business licenses and fake addresses, with a specific example being the 'Sweet Love Letter' cake shop chain having 378 stores with forged permits and no physical locations.",
     "hash": "f29cd5d3c9f8361b0b6fcbbb13c950b0",
-    "createdAt": "2026-04-17T15:48:12.961Z"
+    "createdAt": "2026-04-17T15:48:12.961Z",
+    "category": "summary"
   }
 }
 {
@@ -2244,7 +2449,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072175+00:00",
-    "updatedAt": "2026-04-21T14:45:22.072175+00:00"
+    "updatedAt": "2026-04-21T14:45:22.072175+00:00",
+    "category": "project"
   }
 }
 {
@@ -2255,7 +2461,8 @@
     "data": "User has a '私人电台 Morning Briefing' project that delivers daily podcast audio via Google Cloud, Python, ffmpeg, and Telegram Bot (as of 2026-03).",
     "hash": "0044a524ac74d05cf33495a78851aed1",
     "createdAt": "2026-04-21T17:53:08.434Z",
-    "updatedAt": "2026-04-21T17:59:14.466Z"
+    "updatedAt": "2026-04-21T17:59:14.466Z",
+    "category": "project"
   }
 }
 {
@@ -2266,7 +2473,8 @@
     "data": "As of the conversation date, the user has an active Jarvis cloud brain project aimed at creating a private AI brain with multi-terminal access and continuous memory. The project is in its third phase, focusing on task distribution and collaboration mechanisms, deployed on Alibaba Cloud Lightweight Server with OpenClaw framework and WeChat ClawBot. The system supports multi-terminal access (e.g., WeChat, CatDesk), task distribution via API, and memory storage on Alibaba Cloud Qdrant, but faces challenges with cross-terminal memory synchronization (e.g., between DeepSeek on WeChat and Claude on CatDesk) and real-time task processing.",
     "hash": "f09b057d1f8e8fa9932520b1dde77247",
     "createdAt": "2026-04-16T16:18:31.066Z",
-    "updatedAt": "2026-04-22T03:54:20.218Z"
+    "updatedAt": "2026-04-22T03:54:20.218Z",
+    "category": "project"
   }
 }
 {
@@ -2281,7 +2489,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683589+00:00",
-    "updatedAt": "2026-04-17T17:19:08.683589+00:00"
+    "updatedAt": "2026-04-17T17:19:08.683589+00:00",
+    "category": "project"
   }
 }
 {
@@ -2296,7 +2505,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:35:13.347568+00:00",
-    "updatedAt": "2026-04-17T18:35:13.347568+00:00"
+    "updatedAt": "2026-04-17T18:35:13.347568+00:00",
+    "category": "decision"
   }
 }
 {
@@ -2307,7 +2517,8 @@
     "data": "用户技术学习路径更新：已放弃短期 Rust 学习计划，转为继续深入 TypeScript（as of 2026-04-23）",
     "hash": "57a9ea67d0736d2dac29c262c0493043",
     "createdAt": "2026-04-23T10:41:01.948Z",
-    "updatedAt": "2026-04-23T13:44:55.496Z"
+    "updatedAt": "2026-04-23T13:44:55.496Z",
+    "category": "preference"
   }
 }
 {
@@ -2318,7 +2529,8 @@
     "data": "User and assistant have a pact from 2026-04-07 emphasizing honesty and reliability in assistance.",
     "hash": "75669c7114919ec1022482c0643ab76d",
     "createdAt": "2026-04-19T12:41:02.370Z",
-    "updatedAt": "2026-04-21T17:59:14.503Z"
+    "updatedAt": "2026-04-21T17:59:14.503Z",
+    "category": "relationship"
   }
 }
 {
@@ -2329,7 +2541,8 @@
     "data": "As of 2026-04-22, the user has a collaborative history with the assistant, including projects like Private Radio Morning Briefing (March 2026) and Meituan Backend Automation Acceptance (March 2026), with a commitment to honesty and verification in uncertain matters.",
     "hash": "4cca8996fef4f67783237050c9a448cb",
     "createdAt": "2026-04-19T15:39:28.566Z",
-    "updatedAt": "2026-04-22T03:54:21.244Z"
+    "updatedAt": "2026-04-22T03:54:21.244Z",
+    "category": "relationship"
   }
 }
 {
@@ -2340,7 +2553,8 @@
     "data": "用户咖啡偏好为冰美式、不加糖（as of 2026-04-23）。",
     "hash": "a44b2f8ba82ece77177a51ce0f99931b",
     "createdAt": "2026-04-17T17:45:52.199Z",
-    "updatedAt": "2026-04-23T10:55:37.442Z"
+    "updatedAt": "2026-04-23T10:55:37.442Z",
+    "category": "preference"
   }
 }
 {
@@ -2351,7 +2565,23 @@
     "data": "User's timezone is Beijing (UTC+8), and as of 2026-04-23, it is consistent with local time in Beijing.",
     "hash": "7204c200c8b48651fa1ac20521edc863",
     "createdAt": "2026-04-16T16:18:54.516Z",
-    "updatedAt": "2026-04-23T10:58:44.625Z"
+    "updatedAt": "2026-04-23T10:58:44.625Z",
+    "category": "daily"
+  }
+}
+{
+  "id": "deb9dfd6-b666-4bdf-b436-eadda78fe34b",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-24：完成 Jarvis 5.5.1 提醒服务全链路部署与验证。task-queue 升级到 v1.2.0（新增 reminders CRUD + 后台调度器 + 直连 Qdrant recall）。docker-compose 接入 jarvis-net 网络直连 Qdrant:6333。宿主机部署 reminder_push_agent.py（systemd 守护，15s 轮询 triggered 提醒，docker exec openclaw message send 推送微信）。E2E 验证成功：创建提醒→30s调度触发→recall记忆上下文→推送代理→微信推送。OpenClaw mem0 暂时关闭（anonymousTelemetryId 导致 CLI config 校验失败），需后续恢复。",
+    "data": "[对话摘要] 2026-04-24：完成 Jarvis 5.5.1 提醒服务全链路部署与验证。task-queue 升级到 v1.2.0（新增 reminders CRUD + 后台调度器 + 直连 Qdrant recall）。docker-compose 接入 jarvis-net 网络直连 Qdrant:6333。宿主机部署 reminder_push_agent.py（systemd 守护，15s 轮询 triggered 提醒，docker exec openclaw message send 推送微信）。E2E 验证成功：创建提醒→30s调度触发→recall记忆上下文→推送代理→微信推送。OpenClaw mem0 暂时关闭（anonymousTelemetryId 导致 CLI config 校验失败），需后续恢复。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-24T19:42:15+08:00",
+    "createdAt": "2026-04-24T19:42:15+08:00",
+    "updated_at": "2026-04-24T19:42:15+08:00",
+    "updatedAt": "2026-04-24T19:42:15+08:00",
+    "hash": "dc8fc647-7f94-4c52-b2cc-4be23a3e2eca"
   }
 }
 {
@@ -2362,7 +2592,8 @@
     "data": "截至2026-04-23，用户Jarvis系统面临技术挑战：微信（DeepSeek）与CatDesk（Claude）间记忆同步延迟、模型级记忆机制差异、任务调度需平衡定时轮询与实时推送（as of 2026-04-23）。",
     "hash": "fba5df34c0b4ef48b591e5aae6274336",
     "createdAt": "2026-04-21T18:13:58.759Z",
-    "updatedAt": "2026-04-23T10:55:40.693Z"
+    "updatedAt": "2026-04-23T10:55:40.693Z",
+    "category": "project"
   }
 }
 {
@@ -2377,7 +2608,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852080+00:00",
-    "updatedAt": "2026-04-21T10:34:40.852080+00:00"
+    "updatedAt": "2026-04-21T10:34:40.852080+00:00",
+    "category": "project"
   }
 }
 {
@@ -2387,7 +2619,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "Analysts have an average target price of $105.44 for DUOL, with ratings including 4 buy, 18 hold, and 1 sell, indicating a consensus of cautious optimism.",
     "hash": "41e5337c454ef2e71bcc68ba4c4fc051",
-    "createdAt": "2026-04-19T09:22:03.378Z"
+    "createdAt": "2026-04-19T09:22:03.378Z",
+    "category": "summary"
   }
 }
 {
@@ -2398,7 +2631,8 @@
     "data": "用户重视跨会话对话与记忆连续性，期望助手能基于过往协作保留上下文以实现真实协作（as of 2026-04-23）。",
     "hash": "830438af8a0a6f824515ba12736d12e1",
     "createdAt": "2026-04-16T16:07:39.714Z",
-    "updatedAt": "2026-04-23T10:55:41.673Z"
+    "updatedAt": "2026-04-23T10:55:41.673Z",
+    "category": "summary"
   }
 }
 {
@@ -2413,7 +2647,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839957+00:00",
-    "updatedAt": "2026-04-17T18:50:45.839957+00:00"
+    "updatedAt": "2026-04-17T18:50:45.839957+00:00",
+    "category": "summary"
   }
 }
 {
@@ -2424,7 +2659,8 @@
     "data": "As of 2026-04-21, user's Mac desktop file creation task via CatDesk was completed, resulting in 'hello-from-wechat.txt' with today's date and specified content.",
     "hash": "78fa434646c8bb3ec07fa3fa266746f0",
     "createdAt": "2026-04-21T13:58:57.356Z",
-    "updatedAt": "2026-04-21T17:01:34.898Z"
+    "updatedAt": "2026-04-21T17:01:34.898Z",
+    "category": "daily"
   }
 }
 {
@@ -2438,7 +2674,8 @@
     "createdAt": "2026-04-24T11:07:20+08:00",
     "updated_at": "2026-04-24T11:07:20+08:00",
     "updatedAt": "2026-04-24T11:07:20+08:00",
-    "hash": "fa9884c2-55c4-429c-b182-4935c1ca6fe0"
+    "hash": "fa9884c2-55c4-429c-b182-4935c1ca6fe0",
+    "category": "relationship"
   }
 }
 {
@@ -2453,7 +2690,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040765+00:00",
-    "updatedAt": "2026-04-22T04:57:21.040765+00:00"
+    "updatedAt": "2026-04-22T04:57:21.040765+00:00",
+    "category": "project"
   }
 }
 {
@@ -2467,7 +2705,8 @@
     "createdAt": "2026-04-22T18:38:19+08:00",
     "updated_at": "2026-04-22T18:38:19+08:00",
     "updatedAt": "2026-04-22T18:38:19+08:00",
-    "hash": "fb635e57-249f-451a-90fa-7f191d5a6193"
+    "hash": "fb635e57-249f-451a-90fa-7f191d5a6193",
+    "category": "summary"
   }
 }
 {
@@ -2477,7 +2716,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's favorite city is Chengdu (as of conversation date unknown).",
     "hash": "d5dba2b7f467d9e442e937cd0ab4c332",
-    "createdAt": "2026-04-17T18:16:40.559Z"
+    "createdAt": "2026-04-17T18:16:40.559Z",
+    "category": "preference"
   }
 }
 {
@@ -2488,7 +2728,8 @@
     "data": "As of 2026-04-17, the fine included penalties for platform legal representatives and food safety directors totaling 19.6874 million RMB.",
     "hash": "3089292e081054a8a1260fb2e19b38bf",
     "createdAt": "2026-04-17T15:48:12.978Z",
-    "updatedAt": "2026-04-17T15:54:57.556Z"
+    "updatedAt": "2026-04-17T15:54:57.556Z",
+    "category": "summary"
   }
 }
 {
@@ -2498,7 +2739,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "As of 2026-04-17, penalties included corrective orders, suspension of new cake shop registrations for 3-9 months, and fines, marking the largest penalty since the 2015 revision of China's Food Safety Law.",
     "hash": "ad0ad98ba32a944fc9f8f3b5d2905a40",
-    "createdAt": "2026-04-17T15:48:12.993Z"
+    "createdAt": "2026-04-17T15:48:12.993Z",
+    "category": "daily"
   }
 }
 {
@@ -2512,7 +2754,8 @@
     "createdAt": "2026-04-23T01:33:56+08:00",
     "updated_at": "2026-04-23T01:33:56+08:00",
     "updatedAt": "2026-04-23T01:33:56+08:00",
-    "hash": "be08562a-04f9-477b-a495-b37fb3026405"
+    "hash": "be08562a-04f9-477b-a495-b37fb3026405",
+    "category": "summary"
   }
 }
 {
@@ -2527,7 +2770,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852061+00:00",
-    "updatedAt": "2026-04-21T10:34:40.852061+00:00"
+    "updatedAt": "2026-04-21T10:34:40.852061+00:00",
+    "category": "decision"
   }
 }
 {
@@ -2537,7 +2781,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User's occupation involves working in an industry related to e-commerce platforms and technology, with knowledge of 'grey innovations' and platform strategies (as of conversation date unknown).",
     "hash": "678bcb49e08727d4fe8ba1a1eb71b11c",
-    "createdAt": "2026-04-17T18:16:40.515Z"
+    "createdAt": "2026-04-17T18:16:40.515Z",
+    "category": "identity"
   }
 }
 {
@@ -2548,7 +2793,8 @@
     "data": "截至2026-04-23，Jarvis云端大脑项目已进入第四期收尾阶段，并规划第五期启动；此前各阶段未在记忆中详述（as of 2026-04-23）。",
     "hash": "f905d4ebee21ff3e05b5454bf30bae96",
     "createdAt": "2026-04-21T17:54:33.962Z",
-    "updatedAt": "2026-04-23T10:55:39.228Z"
+    "updatedAt": "2026-04-23T10:55:39.228Z",
+    "category": "project"
   }
 }
 {
@@ -2562,7 +2808,8 @@
     "createdAt": "2026-04-24T13:04:49+08:00",
     "updated_at": "2026-04-24T13:04:49+08:00",
     "updatedAt": "2026-04-24T13:04:49+08:00",
-    "hash": "9e4b3630-6b33-42d4-91ef-f0fcbcdf2498"
+    "hash": "9e4b3630-6b33-42d4-91ef-f0fcbcdf2498",
+    "category": "summary"
   }
 }
 {
@@ -2573,7 +2820,8 @@
     "data": "用户与AI助手构成'战友关系'（comrade-in-arms），信任基础源于Morning Briefing、美团自动化及Jarvis云端大脑等项目协作（as of 2026-04-23）。",
     "hash": "ac8ccabb0cf25acce21238358c3946f6",
     "createdAt": "2026-04-16T16:18:41.259Z",
-    "updatedAt": "2026-04-23T10:55:41.569Z"
+    "updatedAt": "2026-04-23T10:55:41.569Z",
+    "category": "relationship"
   }
 }
 {
@@ -2588,7 +2836,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:18:56.426055+00:00",
-    "updatedAt": "2026-04-22T03:18:56.426055+00:00"
+    "updatedAt": "2026-04-22T03:18:56.426055+00:00",
+    "category": "decision"
   }
 }
 {
@@ -2603,7 +2852,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:35.065585+00:00",
-    "updatedAt": "2026-04-22T03:16:35.065585+00:00"
+    "updatedAt": "2026-04-22T03:16:35.065585+00:00",
+    "category": "project"
   }
 }
 {
@@ -2618,7 +2868,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:35.065566+00:00",
-    "updatedAt": "2026-04-22T03:16:35.065566+00:00"
+    "updatedAt": "2026-04-22T03:16:35.065566+00:00",
+    "category": "project"
   }
 }
 {
@@ -2633,7 +2884,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072157+00:00",
-    "updatedAt": "2026-04-21T14:45:22.072157+00:00"
+    "updatedAt": "2026-04-21T14:45:22.072157+00:00",
+    "category": "daily"
   }
 }
 {
@@ -2644,7 +2896,8 @@
     "data": "As of the conversation date, Claude (via CatDesk) completed an analysis of the user's Duolingo investment, providing a detailed report covering fundamentals, analyst consensus, and three strategy options, with a key catalyst being the Q1 2026 earnings report in early May.",
     "hash": "e29b5f384385f14447097149707db810",
     "createdAt": "2026-04-19T09:22:03.391Z",
-    "updatedAt": "2026-04-21T17:44:05.635Z"
+    "updatedAt": "2026-04-21T17:44:05.635Z",
+    "category": "summary"
   }
 }
 {
@@ -2659,7 +2912,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:51:54.424945+00:00",
-    "updatedAt": "2026-04-17T18:51:54.424945+00:00"
+    "updatedAt": "2026-04-17T18:51:54.424945+00:00",
+    "category": "project"
   }
 }
 {
@@ -2673,7 +2927,8 @@
     "createdAt": "2026-04-24T14:36:04+08:00",
     "updated_at": "2026-04-24T14:36:04+08:00",
     "updatedAt": "2026-04-24T14:36:04+08:00",
-    "hash": "0dc2af19-e3c0-4e87-bca7-65215c4b0cde"
+    "hash": "0dc2af19-e3c0-4e87-bca7-65215c4b0cde",
+    "category": "summary"
   }
 }
 {
@@ -2682,7 +2937,8 @@
     "userId": "fanchangqing",
     "data": "庆哥喜欢喝咖啡，每天早上必喝一杯咖啡",
     "hash": "c1e17e7803586d8d79fbaf16633fcab7",
-    "createdAt": "2026-04-16T16:08:28.028Z"
+    "createdAt": "2026-04-16T16:08:28.028Z",
+    "category": "preference"
   }
 }
 {
@@ -2693,7 +2949,8 @@
     "data": "User collaborated on a private radio Morning Briefing project in 2026-03, using Google Cloud, Python, ffmpeg, and Telegram Bot, with a Xuecheng master document contentId: 2752818208 (as of 2026-03).",
     "hash": "a681dbed3c061c165c4a4f22f9c2053b",
     "createdAt": "2026-04-16T16:07:39.744Z",
-    "updatedAt": "2026-04-19T12:41:02.304Z"
+    "updatedAt": "2026-04-19T12:41:02.304Z",
+    "category": "project"
   }
 }
 {
@@ -2708,7 +2965,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683570+00:00",
-    "updatedAt": "2026-04-17T17:19:08.683570+00:00"
+    "updatedAt": "2026-04-17T17:19:08.683570+00:00",
+    "category": "project"
   }
 }
 {
@@ -2719,7 +2977,8 @@
     "data": "As of 2026-04-22, the user's investment strategy for Claude includes detailed band operation analysis with support/resistance levels, position management, risk controls, and key time nodes like Q1 earnings on May 3-4, 2026.",
     "hash": "57f101d972c7cdfcaf871aa164a18d49",
     "createdAt": "2026-04-21T18:13:58.774Z",
-    "updatedAt": "2026-04-21T18:16:47.881Z"
+    "updatedAt": "2026-04-21T18:16:47.881Z",
+    "category": "project"
   }
 }
 {
@@ -2734,7 +2993,8 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:44:04.742406+00:00",
-    "updatedAt": "2026-04-17T18:44:04.742406+00:00"
+    "updatedAt": "2026-04-17T18:44:04.742406+00:00",
+    "category": "daily"
   }
 }
 {
@@ -2744,7 +3004,8 @@
     "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
     "data": "User is referred to as '庆哥' (as of 2026-04-22).",
     "hash": "c399e4e4e67f8fa4796af7c1e57fc742",
-    "createdAt": "2026-04-21T18:00:42.898Z"
+    "createdAt": "2026-04-21T18:00:42.898Z",
+    "category": "identity"
   }
 }
 {
@@ -2759,6 +3020,7 @@
     "attributed_to": "user",
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072110+00:00",
-    "updatedAt": "2026-04-21T14:45:22.072110+00:00"
+    "updatedAt": "2026-04-21T14:45:22.072110+00:00",
+    "category": "project"
   }
 }

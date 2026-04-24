@@ -1,5 +1,5 @@
 """
-Jarvis MCP Server（五期升级版）
+Jarvis MCP Server（五期 5.2 升级版）
 - 基于 FastMCP + 直连 Qdrant（绕过 mem0 SDK 的 LLM 调用）
 - embedding 用 DashScope text-embedding-v3（1024维）
 - 新增 HTTP /api/recall 端点，供微信端 exec curl 调用
@@ -8,6 +8,8 @@ Jarvis MCP Server（五期升级版）
 - capture 噪音过滤：规则层（NOISE_PATTERNS + VALUE_SIGNALS）+ 数据安全黑名单（DATA_SECURITY_BLACKLIST）
 - capture 去重：双档阈值（0.85 语义重复 / 0.95 完全重复）
 - capture thinking 标签清洗：防止 DeepSeek 推理过程泄露到记忆
+- 5.2 capture 自动分类：qwen-turbo 对新记忆分类
+- 5.2 /api/config/catdesk 端点：CatDesk 拉取人格档案 + 规则
 - 兼容微信端 openclaw-mem0（Node.js）写入的 camelCase 数据格式
 """
 import os
@@ -90,6 +92,53 @@ DATA_SECURITY_BLACKLIST = [
 # 去重阈值
 DEDUP_THRESHOLD_EXACT = 0.95    # >= 0.95：完全重复，只更新 timestamp
 DEDUP_THRESHOLD_SIMILAR = 0.85  # >= 0.85：语义重复，取长策略
+
+
+# ── 记忆分类（5.2 新增） ────────────────────────────────────────────────────
+
+CLASSIFY_PROMPT = """对以下记忆内容做分类，只返回一个类别标签。
+
+可选类别：
+- identity: 关于顾舟或庆哥的身份定义（名字、角色、关系）
+- preference: 个人偏好和习惯（喜好、风格、工作方式）
+- project: 项目进展和技术选型
+- decision: 重要决策和结论
+- relationship: 人际关系和互动模式
+- daily: 日常记录和备忘
+- summary: 对话摘要
+
+内容：{content}
+
+只返回类别标签，不要解释："""
+
+VALID_CATEGORIES = {
+    "identity", "preference", "project", "decision",
+    "relationship", "daily", "summary",
+}
+
+_classify_client = openai.OpenAI(
+    api_key=DASHSCOPE_API_KEY,
+    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    timeout=5.0,
+)
+
+
+def classify_memory(content: str) -> str:
+    """对记忆内容分类，返回类别标签。失败时兜底返回 daily"""
+    try:
+        response = _classify_client.chat.completions.create(
+            model="qwen-turbo",
+            messages=[
+                {"role": "user", "content": CLASSIFY_PROMPT.format(content=content)},
+            ],
+            max_tokens=10,
+            temperature=0,
+        )
+        category = response.choices[0].message.content.strip().lower()
+        return category if category in VALID_CATEGORIES else "daily"
+    except Exception:
+        return "daily"
+
 
 # thinking 标签正则（兼容多种格式）
 _THINK_TAG_RE = re.compile(
@@ -325,11 +374,18 @@ def capture(content: str, user_id: str = "fanchangqing") -> str:
             existing_content = (existing.payload or {}).get("memory") or (existing.payload or {}).get("data") or ""
             if len(content) > len(existing_content):
                 # 新内容更详细，覆盖旧记录
+                # 5.2 重新分类
+                try:
+                    category = classify_memory(content)
+                except Exception:
+                    category = (existing.payload or {}).get("category", "daily")
+
                 payload = {
                     "memory": content,
                     "data": content,
                     "user_id": user_id,
                     "userId": user_id,
+                    "category": category,
                     "created_at": (existing.payload or {}).get("created_at") or (existing.payload or {}).get("createdAt") or now_iso,
                     "createdAt": (existing.payload or {}).get("createdAt") or (existing.payload or {}).get("created_at") or now_iso,
                     "updated_at": now_iso,
@@ -364,11 +420,19 @@ def capture(content: str, user_id: str = "fanchangqing") -> str:
 
         # Step 3: 正常新增
         point_id = str(uuid.uuid4())
+
+        # 5.2 分类
+        try:
+            category = classify_memory(content)
+        except Exception:
+            category = "daily"
+
         payload = {
             "memory": content,
             "data": content,
             "user_id": user_id,
             "userId": user_id,
+            "category": category,
             "created_at": now_iso,
             "createdAt": now_iso,
             "updated_at": now_iso,
@@ -515,6 +579,78 @@ async def http_recall(request: Request) -> JSONResponse:
         )
 
 
+
+
+
+
+@mcp.custom_route("/api/capture", methods=["POST"])
+async def http_capture(request: Request) -> JSONResponse:
+    """
+    HTTP capture 端点，供微信端和测试脚本调用。
+    请求体：{"content": "...", "user_id": "fanchangqing"}
+    """
+    try:
+        body = await request.json()
+    except Exception:
+        return JSONResponse({"error": "Invalid JSON body"}, status_code=400)
+
+    content = body.get("content", "")
+    user_id = body.get("user_id", USER_ID)
+
+    if not content:
+        return JSONResponse({"error": "content is required"}, status_code=400)
+
+    t0 = time.time()
+
+    try:
+        result = await asyncio.get_event_loop().run_in_executor(
+            None, capture, content, user_id
+        )
+        elapsed_ms = int((time.time() - t0) * 1000)
+        return JSONResponse({
+            "result": result,
+            "elapsed_ms": elapsed_ms,
+        })
+    except Exception as e:
+        elapsed_ms = int((time.time() - t0) * 1000)
+        return JSONResponse(
+            {"error": str(e), "elapsed_ms": elapsed_ms},
+            status_code=500
+        )
+
+# ── CatDesk 配置端点（5.2 三层互通） ─────────────────────────────────────────
+
+CATDESK_FRAGMENT_PATH = "/opt/jarvis/master/dist/catdesk_agents_fragment.md"
+
+@mcp.custom_route("/api/config/catdesk", methods=["GET"])
+async def get_catdesk_config(request: Request) -> JSONResponse:
+    """CatDesk 端配置拉取端点：返回 MEMORY.md + catdesk_rules.md 组装的配置片段"""
+    try:
+        from pathlib import Path
+        fragment_path = Path(CATDESK_FRAGMENT_PATH)
+
+        if not fragment_path.exists():
+            return JSONResponse(
+                {"error": "配置片段尚未生成，请先执行 sync.py"},
+                status_code=404
+            )
+
+        content = fragment_path.read_text(encoding="utf-8")
+        last_modified = datetime.fromtimestamp(
+            fragment_path.stat().st_mtime
+        ).isoformat()
+
+        return JSONResponse({
+            "content": content,
+            "length": len(content),
+            "last_modified": last_modified,
+            "source": "sync.py -> catdesk_agents_fragment.md",
+        })
+    except Exception as e:
+        print(f"[CONFIG ENDPOINT ERROR] {e}", flush=True)
+        return JSONResponse({"error": str(e)}, status_code=500)
+
+
 # ── 启动 ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import warnings
@@ -531,10 +667,13 @@ if __name__ == "__main__":
     print(f"  HTTP 端点:")
     print(f"    GET  /health     - 健康检查")
     print(f"    POST /api/recall - 记忆召回（微信端 curl 调用）")
+    print(f"    POST /api/capture - 记忆存储（5.2 HTTP 端点）")
+    print(f"    GET  /api/config/catdesk - CatDesk 配置拉取（5.2）")
     print(f"  recall 超时: {RECALL_TIMEOUT}s")
     print(f"  capture 去重阈值: exact={DEDUP_THRESHOLD_EXACT} similar={DEDUP_THRESHOLD_SIMILAR}")
     print(f"  噪音过滤: {len(NOISE_PATTERNS)} patterns, {len(DATA_SECURITY_BLACKLIST)} security rules")
     print(f"  thinking 清洗: enabled (regex fallback)")
+    print(f"  记忆分类: enabled (qwen-turbo, 5.2)")
 
 
     # 启动预热：验证 Qdrant 连接 + 预热首次查询
