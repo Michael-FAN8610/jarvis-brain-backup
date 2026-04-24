@@ -22,30 +22,40 @@ echo "========================================"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Backup started"
 echo "========================================"
 
-# --- Step 1: Qdrant snapshot ---
-echo "[Step 1] Creating Qdrant snapshot for collection: $COLLECTION"
-SNAP_RESP=$(curl -sf -X POST "$QDRANT_API/collections/$COLLECTION/snapshots")
-SNAP_NAME=$(echo "$SNAP_RESP" | jq -r '.result.name')
-if [ -z "$SNAP_NAME" ] || [ "$SNAP_NAME" = "null" ]; then
-    echo "ERROR: Failed to create Qdrant snapshot"
-    echo "Response: $SNAP_RESP"
-    exit 1
-fi
-echo "Snapshot created: $SNAP_NAME"
+# --- Step 1: Qdrant snapshot (only if points changed) ---
+echo "[Step 1] Checking Qdrant collection: $COLLECTION"
+TOTAL=$(curl -sf "$QDRANT_API/collections/$COLLECTION" | jq '.result.points_count')
+echo "Current points: $TOTAL"
 
-# Download snapshot
-echo "Downloading snapshot..."
-SNAP_DIR="$REPO_DIR/qdrant_snapshots"
-curl -sf -o "$SNAP_DIR/latest.snapshot" \
-    "$QDRANT_API/collections/$COLLECTION/snapshots/$SNAP_NAME"
-echo "Snapshot saved: $(du -h "$SNAP_DIR/latest.snapshot" | cut -f1)"
+# Read previous point count from metadata
+PREV_POINTS=0
+if [ -f "$REPO_DIR/backup_metadata.json" ]; then
+    PREV_POINTS=$(jq -r '.qdrant_points // 0' "$REPO_DIR/backup_metadata.json")
+fi
+
+if [ "$TOTAL" != "$PREV_POINTS" ] || [ ! -f "$REPO_DIR/qdrant_snapshots/latest.snapshot" ]; then
+    echo "Points changed ($PREV_POINTS -> $TOTAL) or snapshot missing, creating new snapshot..."
+    SNAP_RESP=$(curl -sf -X POST "$QDRANT_API/collections/$COLLECTION/snapshots")
+    SNAP_NAME=$(echo "$SNAP_RESP" | jq -r '.result.name')
+    if [ -z "$SNAP_NAME" ] || [ "$SNAP_NAME" = "null" ]; then
+        echo "ERROR: Failed to create Qdrant snapshot"
+        echo "Response: $SNAP_RESP"
+        exit 1
+    fi
+    echo "Snapshot created: $SNAP_NAME"
+
+    curl -sf -o "$REPO_DIR/qdrant_snapshots/latest.snapshot" \
+        "$QDRANT_API/collections/$COLLECTION/snapshots/$SNAP_NAME"
+    echo "Snapshot saved: $(du -h "$REPO_DIR/qdrant_snapshots/latest.snapshot" | cut -f1)"
+
+    # Cleanup server-side snapshot
+    curl -sf -X DELETE "$QDRANT_API/collections/$COLLECTION/snapshots/$SNAP_NAME" > /dev/null || true
+else
+    echo "Points unchanged ($TOTAL), skipping snapshot"
+fi
 
 # Export points as JSON (human-readable, for diffing)
 echo "Exporting points as JSON..."
-TOTAL=$(curl -sf "$QDRANT_API/collections/$COLLECTION" | jq '.result.points_count')
-echo "Total points: $TOTAL"
-
-# Scroll all points (without vectors for readability)
 curl -sf -X POST "$QDRANT_API/collections/$COLLECTION/points/scroll" \
     -H 'Content-Type: application/json' \
     -d "{\"limit\": $TOTAL, \"with_payload\": true, \"with_vector\": false}" \
@@ -67,9 +77,7 @@ echo "MCP Server files synced"
 # --- Step 3: OpenClaw config ---
 echo "[Step 3] Copying OpenClaw configuration"
 mkdir -p "$REPO_DIR/openclaw_config"
-# Core config file
 cp "$OPENCLAW_CONFIG/openclaw.json" "$REPO_DIR/openclaw_config/openclaw.json"
-# Extensions (including patched mem0 plugin)
 if [ -d "$OPENCLAW_CONFIG/extensions" ]; then
     rsync -a --delete \
         --exclude='node_modules' \
@@ -77,18 +85,16 @@ if [ -d "$OPENCLAW_CONFIG/extensions" ]; then
 fi
 echo "OpenClaw config synced"
 
-# --- Step 4: Metadata ---
+# --- Step 4: Metadata (stable fields only, no timestamp) ---
 echo "[Step 4] Writing backup metadata"
 cat > "$REPO_DIR/backup_metadata.json" << METAEOF
 {
-    "timestamp": "$(date -Iseconds)",
     "qdrant_collection": "$COLLECTION",
     "qdrant_points": $TOTAL,
     "snapshot_file": "latest.snapshot",
     "mcp_server_path": "$MCP_DIR",
     "openclaw_config_path": "$OPENCLAW_CONFIG",
-    "hostname": "$(hostname)",
-    "kernel": "$(uname -r)"
+    "hostname": "$(hostname)"
 }
 METAEOF
 echo "Metadata written"
@@ -96,8 +102,6 @@ echo "Metadata written"
 # --- Step 5: Git commit & push ---
 echo "[Step 5] Committing and pushing to GitHub"
 cd "$REPO_DIR"
-
-# Configure SSH for this git operation
 export GIT_SSH_COMMAND="ssh -i $SSH_KEY -o StrictHostKeyChecking=accept-new"
 
 git add -A
@@ -109,10 +113,6 @@ else
     git push -u origin master
     echo "Pushed to GitHub successfully"
 fi
-
-# --- Cleanup: delete Qdrant snapshot from server ---
-echo "[Cleanup] Deleting Qdrant snapshot from server storage"
-curl -sf -X DELETE "$QDRANT_API/collections/$COLLECTION/snapshots/$SNAP_NAME" > /dev/null || true
 
 echo "========================================"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Backup completed successfully"
