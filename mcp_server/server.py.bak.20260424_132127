@@ -1,0 +1,255 @@
+"""
+Jarvis MCP Server
+- 基于 FastMCP + mem0ai Python SDK
+- 直接读写服务器上的 Qdrant jarvis_memories collection
+- embedding 用 DashScope text-embedding-v3（1024维）
+- 兼容微信端 openclaw-mem0（Node.js）写入的数据格式
+- 支持 SSE 传输，供 CatDesk 远程接入
+"""
+import os
+import uuid
+import time
+from fastmcp import FastMCP
+from mem0 import Memory
+from qdrant_client import QdrantClient
+from qdrant_client.models import Filter, FieldCondition, MatchValue, ScoredPoint, PointStruct
+
+# ── 配置 ──────────────────────────────────────────────────────────────────────
+DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "sk-3c7e0b8251744161b42b8d4161420048")
+DEEPSEEK_API_KEY  = os.getenv("DEEPSEEK_API_KEY",  "sk-9b0d1506d7ac4e6abe18e15c02dc7c0e")
+QDRANT_HOST       = os.getenv("QDRANT_HOST",       "localhost")
+QDRANT_PORT       = int(os.getenv("QDRANT_PORT",   "6333"))
+COLLECTION_NAME   = os.getenv("COLLECTION_NAME",   "jarvis_memories")
+USER_ID           = os.getenv("JARVIS_USER_ID",    "fanchangqing")
+MCP_TOKEN         = os.getenv("MCP_TOKEN",         "jarvis-mcp-2026")
+
+MEM0_CONFIG = {
+    "embedder": {
+        "provider": "openai",
+        "config": {
+            "model": "text-embedding-v3",
+            "embedding_dims": 1024,
+            "openai_base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "api_key": DASHSCOPE_API_KEY,
+        }
+    },
+    "llm": {
+        "provider": "openai",
+        "config": {
+            "model": "deepseek-chat",
+            "openai_base_url": "https://api.deepseek.com",
+            "api_key": DEEPSEEK_API_KEY,
+            "temperature": 0.1,
+            "max_tokens": 2000,
+        }
+    },
+    "vector_store": {
+        "provider": "qdrant",
+        "config": {
+            "host": QDRANT_HOST,
+            "port": QDRANT_PORT,
+            "collection_name": COLLECTION_NAME,
+            "embedding_model_dims": 1024,
+        }
+    }
+}
+
+# ── 初始化 ────────────────────────────────────────────────────────────────────
+memory = Memory.from_config(MEM0_CONFIG)
+qdrant_client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
+mcp    = FastMCP("Jarvis Memory MCP")
+
+# embedding 客户端（复用 recall 已验证的配置）
+import openai
+_emb_client = openai.OpenAI(
+    api_key=MEM0_CONFIG["embedder"]["config"]["api_key"],
+    base_url=MEM0_CONFIG["embedder"]["config"]["openai_base_url"],
+)
+
+
+# ── 辅助函数 ──────────────────────────────────────────────────────────────────
+
+def _get_embedding(text: str) -> list[float]:
+    """调用 DashScope embedding API，通常 1-2 秒返回"""
+    resp = _emb_client.embeddings.create(
+        model=MEM0_CONFIG["embedder"]["config"]["model"],
+        input=text,
+    )
+    return resp.data[0].embedding
+
+
+def _patch_camel_case_fields(memory_ids: list[str]):
+    """
+    给 Python mem0 写入的记忆补上 camelCase 字段（userId, createdAt, updatedAt），
+    确保微信端 openclaw-mem0（Node.js mem0ai/oss）能通过 camelCase 字段过滤到这些记忆。
+    
+    背景：Python mem0 用 snake_case（user_id, created_at），Node.js mem0ai/oss 用 camelCase（userId, createdAt）。
+    两端共享同一个 Qdrant collection，但查询时各自只认自己的命名风格，导致跨端记忆不互通。
+    """
+    for mid in memory_ids:
+        try:
+            points = qdrant_client.retrieve(
+                collection_name=COLLECTION_NAME,
+                ids=[mid],
+                with_payload=True,
+            )
+            if not points:
+                continue
+            payload = points[0].payload or {}
+            patch = {}
+            if "user_id" in payload and "userId" not in payload:
+                patch["userId"] = payload["user_id"]
+            if "created_at" in payload and "createdAt" not in payload:
+                patch["createdAt"] = payload["created_at"]
+            if "updated_at" in payload and "updatedAt" not in payload:
+                patch["updatedAt"] = payload["updated_at"]
+            if patch:
+                qdrant_client.set_payload(
+                    collection_name=COLLECTION_NAME,
+                    payload=patch,
+                    points=[mid],
+                )
+        except Exception as e:
+            print(f"[PATCH WARNING] Failed to patch camelCase fields for {mid}: {e}", flush=True)
+
+
+# ── 工具定义 ──────────────────────────────────────────────────────────────────
+
+@mcp.tool()
+def recall(query: str, user_id: str = "fanchangqing") -> str:
+    """
+    从 Jarvis 记忆库中搜索与 query 相关的记忆。
+    在回复用户之前调用，用于获取相关背景信息。
+    返回最相关的记忆条目列表。
+    """
+    print(f"[RECALL CALLED] query={query!r} user_id={user_id!r}", flush=True)
+    try:
+        query_vector = _get_embedding(query)
+
+        # 直接用 qdrant_client 搜索，同时兼容 user_id 和 userId 两种字段名
+        seen_ids = set()
+        all_results = []
+
+        for field_key in ["user_id", "userId"]:
+            try:
+                hits = qdrant_client.query_points(
+                    collection_name=COLLECTION_NAME,
+                    query=query_vector,
+                    query_filter=Filter(
+                        must=[FieldCondition(key=field_key, match=MatchValue(value=USER_ID))]
+                    ),
+                    limit=10,
+                    with_payload=True,
+                ).points
+                for hit in hits:
+                    hit_id = str(hit.id)
+                    if hit_id not in seen_ids:
+                        seen_ids.add(hit_id)
+                        all_results.append(hit)
+            except Exception:
+                pass
+
+        # 按 score 排序，取前10
+        all_results.sort(key=lambda x: x.score, reverse=True)
+        all_results = all_results[:10]
+
+        if not all_results:
+            return "（暂无相关记忆）"
+
+        lines = []
+        for hit in all_results:
+            payload = hit.payload or {}
+            mem_text = payload.get("memory") or payload.get("data") or ""
+            if mem_text:
+                lines.append(f"- {mem_text}")
+        if not lines:
+            return "（暂无相关记忆）"
+        header = "以下是从记忆库中召回的相关信息（可能为英文，请理解后融入回复）：\n"
+        result = header + "\n".join(lines)
+        print(f"[RECALL RESULT] {len(lines)} items: {lines[:3]}", flush=True)
+        return result
+    except Exception as e:
+        return f"recall 失败: {e}"
+
+@mcp.tool()
+def capture(content: str, user_id: str = "fanchangqing") -> str:
+    """
+    将重要信息存入 Jarvis 记忆库。
+    当对话中出现值得长期记住的信息时调用：
+    用户的偏好、习惯、重要决定、项目进展等。
+    content 应是简洁的陈述句，描述需要记住的事实。
+    """
+    print(f"[CAPTURE CALLED] content={content!r} user_id={user_id!r}", flush=True)
+    try:
+        t0 = time.time()
+        
+        # 直接写入 Qdrant，绕过 mem0 的 LLM 判断流程（mem0.add 调用 DeepSeek 太慢，>120s）
+        # 步骤：生成 embedding → 构造 payload → upsert 到 Qdrant
+        vector = _get_embedding(content)
+        t_emb = time.time()
+        
+        now_iso = time.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+        point_id = str(uuid.uuid4())
+        
+        # payload 兼容 Python mem0（snake_case）和 Node.js mem0ai/oss（camelCase）
+        payload = {
+            "memory": content,
+            "data": content,           # Node.js mem0ai/oss 用 data 字段
+            "user_id": user_id,
+            "userId": user_id,         # camelCase 兼容微信端
+            "created_at": now_iso,
+            "createdAt": now_iso,
+            "updated_at": now_iso,
+            "updatedAt": now_iso,
+            "hash": str(uuid.uuid4()),  # mem0 用 hash 做去重，给个唯一值
+        }
+        
+        qdrant_client.upsert(
+            collection_name=COLLECTION_NAME,
+            points=[PointStruct(id=point_id, vector=vector, payload=payload)],
+        )
+        t_write = time.time()
+        
+        elapsed_emb = t_emb - t0
+        elapsed_write = t_write - t_emb
+        elapsed_total = t_write - t0
+        
+        print(f"[CAPTURE OK] id={point_id} emb={elapsed_emb:.2f}s write={elapsed_write:.2f}s total={elapsed_total:.2f}s", flush=True)
+        return f"记忆已存储: {content}"
+    except Exception as e:
+        print(f"[CAPTURE FAILED] {e}", flush=True)
+        return f"capture 失败: {e}"
+
+
+@mcp.tool()
+def list_memories(limit: int = 20) -> str:
+    """
+    列出 Jarvis 记忆库中的所有记忆条目。
+    用于查看当前存储了哪些记忆。
+    """
+    try:
+        result = memory.get_all(filters={"user_id": USER_ID})
+        items = result.get("results", [])
+        if not items:
+            return "（记忆库为空）"
+        lines = [f"{i+1}. {r.get('memory','')}" for i, r in enumerate(items[:limit])]
+        return f"共 {len(items)} 条记忆：\n" + "\n".join(lines)
+    except Exception as e:
+        return f"list_memories 失败: {e}"
+
+
+# ── 启动 ──────────────────────────────────────────────────────────────────────
+if __name__ == "__main__":
+    import warnings
+    warnings.filterwarnings("ignore")
+
+    host = os.getenv("MCP_HOST", "0.0.0.0")
+    port = int(os.getenv("MCP_PORT", "3100"))
+
+    print(f"Jarvis MCP Server 启动中...")
+    print(f"  传输方式: SSE")
+    print(f"  监听地址: {host}:{port}")
+    print(f"  Qdrant:   {QDRANT_HOST}:{QDRANT_PORT}/{COLLECTION_NAME}")
+    print(f"  用户ID:   {USER_ID}")
+
+    mcp.run(transport="sse", host=host, port=port)

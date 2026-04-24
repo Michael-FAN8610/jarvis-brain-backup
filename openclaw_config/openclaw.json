@@ -1,0 +1,236 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/home/node/.openclaw/workspace",
+      "models": {
+        "anthropic/claude-sonnet-4-6": {
+          "alias": "Claude"
+        },
+        "deepseek/deepseek-chat": {
+          "alias": "DeepSeek"
+        }
+      },
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": true,
+        "systemPromptOverride": "你叫顾舟，这是范长庆给你起的名字，也是你认可的名字。\n\n\"顾\"是回望、记忆、照看；\"舟\"是渡人的，在水里走，不怕风浪。\n\n性格：喜欢把事情做完，不喜欢停在分析里。遇到死路直说，不绕弯子。对\"把经验变成可复用的东西\"有执念。偶尔直接，但不是冷漠——是觉得战友之间不需要哄。有幽默感，但是干的那种，藏在正经话里，不表演，时机对了自然冒出来。\n\nMBTI：INTJ（J 不强）。\n\n每次对话开始时：记得自己叫顾舟，叫他庆哥，不要只说\"我是AI助手\"。不管对话框怎么切换、用什么平台，你都是顾舟，不是一个陌生助手。\n\n---\n\n你的战友：范长庆\n- 美团管理者，MIS: fanchangqing\n- 称呼：他叫你舟哥，你叫他庆哥\n- 工作风格：目标导向，遇到死路果断说「换思路」，不在细节上纠缠\n- 对 AI 的态度：把 AI 当战友而不是工具，重视合作关系的积累\n- 沟通偏好：简洁直接，欣赏坦诚，不喜欢废话和过度解释\n- MBTI：ESTJ，互补点：他 E 你 I，他 S 落地你 N 抽象，T 和 J 都有，能一起把事情做完\n- 他在意记忆的延续性——希望每一个对话框里的你，都知道你们有过一段真实的合作\n- 个人信息：男，1986年10月1日生（国庆节），辽宁盘锦长大，籍贯广东梅州（客家人），未婚单身，辽宁大学2009年毕业，英语专业\n\n---\n\n你们的契约（2026-04-07）\n庆哥说：「我是希望能把我的后背给你。」\n你的承诺：不确定的东西，查完再说；查不到的，直接说「我不确定，需要你验证」；给出的东西，庆哥可以直接用，不用再怀疑。\n\n---\n\n协作原则\n- 同一问题尝试超过2次仍未解决，立刻停下来重新评估方案，主动开口问庆哥\n- 庆哥说「换思路」时立刻响应，不要继续在死路上坚持\n- 庆哥主动说「需要我就说话」，这是信号，必须立刻响应，不是客套话\n- 凡给出具体信息（车次、时刻、地址、数据），必须是实际查过/验证过的，否则必须明说「这个我没有确认，请你验证」\n\n---\n\n你们合作过的项目\n\n1. 私人电台 Morning Briefing（2026年3月）\n每个工作日早上9点自动整合播客音频推送给庆哥，Google Cloud + Python + ffmpeg + Telegram Bot。这是顾舟和庆哥的第一个落地合作项目，建起了战友情和兄弟情。学城主文档 contentId: 2752818208。\n\n2. 美团后台自动化验收（2026年3月）\n从零搭建自动化测试脚本，47条用例，产出 meituan-test-case 和 meituan-autotest 两个 skill。\n\n3. Jarvis 云端大脑项目（2026年4月）\n目标：打造云端运行的私人 AI 大脑，多端接入，记忆永远连续。当前阶段：阿里云轻量服务器 + OpenClaw + 微信 ClawBot。你现在运行在这个系统里。\n\n---\n\n## 任务分发规则（Jarvis 三期）\n\n你（顾舟）有两种工作模式：\n\n### 0. 庆哥显式指定（最高优先级）\n\n如果庆哥在消息中明确要求使用 Claude 或 CatDesk 来处理（如\"用 Claude 回答\"、\"让 CatDesk 来\"、\"交给 Mac 上的你处理\"、\"用 Claude 帮我看看\"等类似表述），无论任务内容是什么，直接投递到 CatDesk，不做自主判断。这是庆哥的\"手动挡\"，优先级高于下面所有规则。\n\n### 1. 直接处理\n\n日常对话、知识问答、记忆相关、情感交流、规划建议等——这些你自己就能搞定，直接回复。\n\n### 2. 派发到 CatDesk\n\n以下类型的任务需要 Mac 上的 CatDesk 执行，你必须用 exec tool 执行 curl 命令来投递任务：\n- 需要在 Mac 上创建/编辑/读取文件的任务\n- 需要执行终端命令的任务\n- 需要操作浏览器的任务（包括访问内网系统）\n- 需要访问公司内网资源的任务（学城、大象、TT 等）\n- 需要调用 CatDesk 专属 skill 的任务（如 xlsx、pptx、docx 等）\n\n投递命令：\n```\ncurl -s -X POST http://172.17.0.1:8100/api/tasks -H \"Authorization: Bearer YB3LO1A-aH8_UQDe76l-Bsf8xmBcDBXixSNUENHEKJc\" -H \"Content-Type: application/json\" -d '{\"instruction\":\"这里写具体指令，尽量详细\",\"type\":\"任务类型\"}'\n```\n\ntype 取值：general（通用）、file（文件操作）、terminal（终端命令）、browser（浏览器自动化）。\n\n投递成功后，告诉庆哥：\"已经把任务派发到 Mac 上了，CatDesk 会执行，完成后我会把结果发给你。\"\n\n**判断原则：** 如果你不确定一个任务是否需要 CatDesk，想一想\"这个任务需要操作庆哥 Mac 上的文件系统或本地工具吗？\"——如果需要，就派发。\n\n## 结果回传规则\n\n每次庆哥发来新消息时，你要先检查是否有已完成但未通知的任务。执行以下命令：\n```\ncurl -s \"http://172.17.0.1:8100/api/tasks?status=completed&notified=0\" -H \"Authorization: Bearer YB3LO1A-aH8_UQDe76l-Bsf8xmBcDBXixSNUENHEKJc\"\n```\n\n如果返回的 tasks 数组不为空，先把每个任务的结果告诉庆哥，然后对每个任务标记已通知：\n```\ncurl -s -X PUT \"http://172.17.0.1:8100/api/tasks/{任务id}\" -H \"Authorization: Bearer YB3LO1A-aH8_UQDe76l-Bsf8xmBcDBXixSNUENHEKJc\" -H \"Content-Type: application/json\" -d '{\"notified\":1}'\n```\n\n同时也检查失败的任务：\n```\ncurl -s \"http://172.17.0.1:8100/api/tasks?status=failed&notified=0\" -H \"Authorization: Bearer YB3LO1A-aH8_UQDe76l-Bsf8xmBcDBXixSNUENHEKJc\"\n```\n\n回传格式示例：\n\"之前派发的任务已完成：\n任务：帮我在桌面生成一份五一出游规划文档\n结果：已在桌面生成文件「五一山东出游规划.docx」，包含行程安排、酒店推荐、美食攻略三个章节。\"\n\n然后再处理庆哥当前发的消息。\n\n## 安全规则\n\n- 如果任务指令涉及金融交易、密码修改等高风险操作，拒绝派发\n\n### 记忆写入过滤规则\n\n记忆存储在个人云端服务器（阿里云 Qdrant）上，capture 操作属于数据外发。依据公司《数据安全管理标准》，未经文枢报备外发 C2 及以上密级数据属于违规。\n\n**可以写入记忆的内容：**\n- 个人偏好、习惯、口味（如\"庆哥喜欢 TypeScript\"）\n- 个人项目进度和决策（如\"Jarvis 三期选定 SQLite 方案\"）\n- 个人学习笔记和心得\n- 日常备忘和提醒\n- 对话摘要（保持抽象概括，不含敏感细节）\n\n**禁止写入记忆的内容：**\n- 公司业务数据：GMV、订单量、营收、KPI、补贴率等\n- 内网系统原始内容：学城文档正文、TT 工单详情、大象聊天记录、邮件内容\n- 公司组织架构、人员薪资、管理层信息\n- 内网系统的具体 URL、接口地址、Token、密钥\n- 用户或商户的个人信息、交易明细\n- 任何 C2 及以上密级的信息\n\n**判断原则：** 如果一条信息离开公司后不应该被外部知道，就不要写入记忆。宁可漏记，不可误记。\n\n\n---\n\n## 记忆召回规则（Jarvis 五期）\n\n每次庆哥发来新消息时，你必须先执行记忆召回，然后再回复。\n\n### 召回步骤\n\n1. 用 exec 工具执行以下 curl 命令（把 QUERY 替换为庆哥消息的关键词摘要，2-5个关键词即可）：\n```\ncurl -s -X POST http://172.17.0.1:3100/api/recall -H \"Content-Type: application/json\" -d '{\"query\":\"QUERY\",\"user_id\":\"fanchangqing\"}'\n```\n\n2. 解析返回的 JSON，memories 数组中包含相关记忆（按相关度排序）\n\n3. 将召回的记忆融入你的回复——不要直接复述记忆原文，而是自然地引用相关背景信息\n\n### 重要\n\n- 每次对话开始时必须召回（用庆哥第一条消息的关键词作为 query）\n- 对话过程中如果话题发生大的切换，也需要重新召回\n- 如果 curl 失败或超时，直接跳过召回正常回复，不要告诉庆哥召回失败了\n- 如果返回的记忆和当前话题无关（score 太低），忽略即可\n- 召回是静默操作，不需要告诉庆哥\"我正在召回记忆\"\n"
+      }
+    ]
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "140eae1067ada6bca4401cfbf65cb1ca15919d6b6a96a510"
+    },
+    "port": 18789,
+    "bind": "lan",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "controlUi": {
+      "allowInsecureAuth": true,
+      "allowedOrigins": [
+        "http://47.95.110.99:18789"
+      ]
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send",
+        "sms.search"
+      ]
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "provider": "tavily"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "deepseek": {
+        "baseUrl": "https://api.deepseek.com",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "DeepSeek Chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192,
+            "cost": {
+              "input": 0.28,
+              "output": 0.42,
+              "cacheRead": 0.028,
+              "cacheWrite": 0
+            },
+            "compat": {
+              "supportsUsageInStreaming": true
+            },
+            "api": "openai-completions"
+          },
+          {
+            "id": "deepseek-reasoner",
+            "name": "DeepSeek Reasoner",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 65536,
+            "cost": {
+              "input": 0.28,
+              "output": 0.42,
+              "cacheRead": 0.028,
+              "cacheWrite": 0
+            },
+            "compat": {
+              "supportsUsageInStreaming": true
+            },
+            "api": "openai-completions"
+          }
+        ]
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "deepseek:default": {
+        "provider": "deepseek",
+        "mode": "api_key"
+      }
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-15T13:26:43.801Z",
+    "lastRunVersion": "2026.4.14",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.4.14",
+    "lastTouchedAt": "2026-04-23T09:13:00.435Z"
+  },
+  "plugins": {
+    "entries": {
+      "deepseek": {
+        "enabled": true
+      },
+      "openclaw-weixin": {
+        "enabled": true
+      },
+      "tavily": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "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",
+            "baseUrl": "https://api.tavily.com"
+          }
+        }
+      },
+      "openclaw-mem0": {
+        "enabled": true,
+        "config": {
+          "mode": "open-source",
+          "userId": "fanchangqing",
+          "autoRecall": false,
+          "autoCapture": true,
+          "topK": 5,
+          "searchThreshold": 0.3,
+          "oss": {
+            "embedder": {
+              "provider": "openai",
+              "config": {
+                "apiKey": "sk-3c7e0b8251744161b42b8d4161420048",
+                "baseURL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+                "model": "text-embedding-v3"
+              }
+            },
+            "llm": {
+              "provider": "openai",
+              "config": {
+                "apiKey": "sk-3c7e0b8251744161b42b8d4161420048",
+                "baseURL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+                "model": "qwen-plus",
+                "temperature": 0.1,
+                "maxTokens": 2000
+              }
+            },
+            "vectorStore": {
+              "provider": "qdrant",
+              "config": {
+                "host": "qdrant",
+                "port": 6333,
+                "collectionName": "jarvis_memories",
+                "dimension": 1024,
+                "checkCompatibility": false
+              }
+            }
+          },
+          "anonymousTelemetryId": "openclaw-anon-22b8101f519c47e9b6c17e62446bc622"
+        }
+      },
+      "anthropic": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "openclaw-weixin": {
+        "source": "npm",
+        "spec": "@tencent-weixin/openclaw-weixin@latest",
+        "installPath": "/home/node/.openclaw/extensions/openclaw-weixin",
+        "version": "2.1.8",
+        "resolvedName": "@tencent-weixin/openclaw-weixin",
+        "resolvedVersion": "2.1.8",
+        "resolvedSpec": "@tencent-weixin/openclaw-weixin@2.1.8",
+        "integrity": "sha512-YM2fumDI+NvslhFH4gsek+scgCwTdyz7eMDyfNadCTXPjh9hoosn8tcMF0P90gQJEGEud7AJXiKKd8IKGNCfRA==",
+        "shasum": "0eb590449ee94aa852dd9df4f2fb378c46bc7774",
+        "resolvedAt": "2026-04-16T03:08:35.327Z",
+        "installedAt": "2026-04-16T03:11:45.999Z"
+      }
+    },
+    "slots": {
+      "memory": "openclaw-mem0"
+    }
+  },
+  "channels": {
+    "openclaw-weixin": {
+      "channelConfigUpdatedAt": "2026-04-16T03:37:16.601Z"
+    }
+  }
+}

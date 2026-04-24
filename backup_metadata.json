@@ -1,0 +1,10 @@
+{
+    "timestamp": "2026-04-24T14:31:24+08:00",
+    "qdrant_collection": "jarvis_memories",
+    "qdrant_points": 215,
+    "snapshot_file": "jarvis_memories-7787854764457450-2026-04-24-06-31-23.snapshot",
+    "mcp_server_path": "/opt/jarvis-mcp",
+    "openclaw_config_path": "/var/lib/docker/volumes/openclaw_openclaw-config/_data",
+    "hostname": "iZ2zejcvpaz5cwpkq781jvZ",
+    "kernel": "5.15.0-142-generic"
+}

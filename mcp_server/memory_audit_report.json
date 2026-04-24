@@ -1,0 +1,394 @@
+{
+  "audit_time": "2026-04-24T14:13:52.043247",
+  "total_memories": 222,
+  "duplicate_pairs": 48,
+  "threshold": 0.85,
+  "exact_duplicates": 12,
+  "similar_pairs": 36,
+  "pairs": [
+    {
+      "id_a": "2739ecb2-f165-4a34-859c-db70d4964e80",
+      "id_b": "42087837-01f6-4992-92cb-b6497f245852",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 1.0,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "2739ecb2-f165-4a34-859c-db70d4964e80",
+      "id_b": "518a153c-c22b-4acd-b350-a7b8a145f7c4",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 1.0,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "2739ecb2-f165-4a34-859c-db70d4964e80",
+      "id_b": "8e42806d-f469-4429-9987-4109895023a9",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 1.0,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "42087837-01f6-4992-92cb-b6497f245852",
+      "id_b": "518a153c-c22b-4acd-b350-a7b8a145f7c4",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 1.0,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "42087837-01f6-4992-92cb-b6497f245852",
+      "id_b": "8e42806d-f469-4429-9987-4109895023a9",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 1.0,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "518a153c-c22b-4acd-b350-a7b8a145f7c4",
+      "id_b": "8e42806d-f469-4429-9987-4109895023a9",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 1.0,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "5d160f81-6e24-4ec1-b814-50f2438f9f7f",
+      "id_b": "ba60a630-0061-4e9d-8ae2-bad5d4c7341f",
+      "content_a": "User completed regression testing for the second phase of the Jarvis memory platform on April 18, 2026, with all tests p",
+      "content_b": "User completed regression testing for the second phase of the Jarvis memory platform on April 18, 2026, with all four te",
+      "score": 0.9923,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "76313dbb-bf1e-45c3-bb1a-090e4626cbcc",
+      "id_b": "8772e085-e54f-427e-919c-16b1fdefa882",
+      "content_a": "User wrote a retrospective document for Jarvis phase three (Jarvis三期复盘.md) on April 21, 2026, where Qingge added the cor",
+      "content_b": "User completed writing the retrospective document for Jarvis phase three (Jarvis三期复盘文档) on April 22, 2026, with Qingge a",
+      "score": 0.9705,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "2739ecb2-f165-4a34-859c-db70d4964e80",
+      "id_b": "7b13aa6d-ecff-4607-8f42-fd4c8d601da4",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）；用户昵称为'庆哥'（as of 2026-04-23）。",
+      "score": 0.952,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "42087837-01f6-4992-92cb-b6497f245852",
+      "id_b": "7b13aa6d-ecff-4607-8f42-fd4c8d601da4",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）；用户昵称为'庆哥'（as of 2026-04-23）。",
+      "score": 0.952,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "518a153c-c22b-4acd-b350-a7b8a145f7c4",
+      "id_b": "7b13aa6d-ecff-4607-8f42-fd4c8d601da4",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）；用户昵称为'庆哥'（as of 2026-04-23）。",
+      "score": 0.952,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "7b13aa6d-ecff-4607-8f42-fd4c8d601da4",
+      "id_b": "8e42806d-f469-4429-9987-4109895023a9",
+      "content_a": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）；用户昵称为'庆哥'（as of 2026-04-23）。",
+      "content_b": "用户姓名为范长庆，辽宁盘锦人，客家人，辽宁大学英语专业2009届毕业生（as of 2026-04-23）；身高174cm，当前目标为减肥（as of 2026-04-23）。",
+      "score": 0.952,
+      "suggestion": "delete_one"
+    },
+    {
+      "id_a": "7c6aa76a-77c1-4065-9a6e-6b4ef1c427a9",
+      "id_b": "fce35c29-0835-4cd6-8daa-aa3141a6f441",
+      "content_a": "User conducted the first capture latency test on April 17, 2026.",
+      "content_b": "User conducted the second capture latency test on April 17, 2026.",
+      "score": 0.9456,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "5d160f81-6e24-4ec1-b814-50f2438f9f7f",
+      "id_b": "9330de06-6a31-4c0f-bb52-72118ec64fce",
+      "content_a": "User completed regression testing for the second phase of the Jarvis memory platform on April 18, 2026, with all tests p",
+      "content_b": "User completed the second phase of the Jarvis memory platform on April 18, 2026, with all four regression tests passing ",
+      "score": 0.945,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "9330de06-6a31-4c0f-bb52-72118ec64fce",
+      "id_b": "ba60a630-0061-4e9d-8ae2-bad5d4c7341f",
+      "content_a": "User completed the second phase of the Jarvis memory platform on April 18, 2026, with all four regression tests passing ",
+      "content_b": "User completed regression testing for the second phase of the Jarvis memory platform on April 18, 2026, with all four te",
+      "score": 0.9444,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "6576b886-d10a-4f20-a9a1-7788686fe2d6",
+      "id_b": "fce35c29-0835-4cd6-8daa-aa3141a6f441",
+      "content_a": "User conducted the third capture latency test on April 17, 2026.",
+      "content_b": "User conducted the second capture latency test on April 17, 2026.",
+      "score": 0.9409,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "6576b886-d10a-4f20-a9a1-7788686fe2d6",
+      "id_b": "7c6aa76a-77c1-4065-9a6e-6b4ef1c427a9",
+      "content_a": "User conducted the third capture latency test on April 17, 2026.",
+      "content_b": "User conducted the first capture latency test on April 17, 2026.",
+      "score": 0.9323,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "2b87d86f-6d03-4a9a-bb03-183dc43910ff",
+      "id_b": "f6af88dc-6294-432c-bdb5-573441c58cda",
+      "content_a": "User received investment analysis from Claude on Duolingo, including fundamentals, analyst consensus, and three strategi",
+      "content_b": "As of the conversation date, Claude (via CatDesk) completed an analysis of the user's Duolingo investment, providing a d",
+      "score": 0.9305,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "509248c7-631b-4f73-bfc0-60915a54e031",
+      "id_b": "8772e085-e54f-427e-919c-16b1fdefa882",
+      "content_a": "User completed the closing work and wrote a retrospective document for the third phase of the Jarvis project on the even",
+      "content_b": "User completed writing the retrospective document for Jarvis phase three (Jarvis三期复盘文档) on April 22, 2026, with Qingge a",
+      "score": 0.9295,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "13a23af0-f485-426f-b1f8-8ca8dd3d7fa8",
+      "id_b": "e5a492e5-53ec-4fce-a769-2c83f3687021",
+      "content_a": "User completed moving two Automation scheduled task conversations to their respective folders on April 22, 2026: Jarvis任",
+      "content_b": "[对话摘要] 2026-04-22：完成两个 Automation 定时任务的对话窗口搬家——Jarvis任务消费者归到 Jarvis-Automation 文件夹（projectId: 511f233c），私人电台晨报归到私人电台-Aut",
+      "score": 0.9271,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "21c8e2f2-3888-4006-991b-e3113af5b739",
+      "id_b": "5facc2d8-0459-4e28-a0ba-36076ab85905",
+      "content_a": "As of the conversation date, Claude (via CatDesk) completed an analysis of Duolingo holdings and investment strategies, ",
+      "content_b": "As of 2026-04-21, Claude 3.5 Sonnet analyzed the Duolingo investment and recommended considering strategy 2 (partial sel",
+      "score": 0.9266,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "5f0149a5-cd30-462d-868c-4d43310b282b",
+      "id_b": "a94f8700-59ec-49a9-b76c-c22a2ad9aea5",
+      "content_a": "[对话摘要] 2026-04-23：Jarvis四期正式收尾验收通过。完成三件收尾工作：1）修复mem0 capture兼容问题（删除anonymousTelemetryId + LLM切换为DashScope qwen-plus），6轮测",
+      "content_b": "[对话摘要] 2026-04-23：完成 Jarvis 四期全部收尾验收工作。三项收尾任务：(1) mem0 capture 兼容修复已验证通过（6轮测试5/6成功）；(2) 任务通路端到端测试全链路跑通；(3) Cloudflare 旧环",
+      "score": 0.9199,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "51ce511c-c509-4cb2-880e-3a390c80df23",
+      "id_b": "ffb4249c-10e7-4dda-8dad-9fb29cf9ab1a",
+      "content_a": "User completed all preparatory work for the third phase of the Jarvis project on April 20, 2026, including compliance re",
+      "content_b": "User completed all closing work for the third phase of the Jarvis project on April 21, 2026, including updating the Jarv",
+      "score": 0.918,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "70e7d047-f82c-49ff-931a-cf88bfc2fdaa",
+      "id_b": "d67ccb7e-c5c8-4953-8e6b-879700d571c0",
+      "content_a": "User discovered the Alibaba Cloud ECS server's public IP is actually 47.95.110.99 (not previously recorded 47.97.8.132),",
+      "content_b": "User fixed an Alibaba Cloud SSH authentication issue on April 21, 2026, confirming the server's public IP is 47.95.110.9",
+      "score": 0.9179,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "2ae55052-fa22-4f85-821f-6db4617c2457",
+      "id_b": "ee771e54-c272-4f19-8885-ae395ea462d4",
+      "content_a": "[对话摘要] 2026-04-24：完成 Jarvis 五期规划与技术方案撰写。将四期验收遗留的4项待办（recall超时、capture噪音过滤、thinking泄露、DeepSeek容灾）融入五期子版本体系，经8方向并行技术调研后，更新",
+      "content_b": "[对话摘要] 2026-04-24：完成 Jarvis 五期规划与技术方案撰写全流程。经 8 方向并行技术调研（4 个子代理）后输出五期技术方案文档，再由独立审查子代理评审（评分 7.5/10，34 个问题），按 P0-P4 优先级逐项修复",
+      "score": 0.9178,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "38fef31b-07d0-4946-ae6c-524ab21c1fd5",
+      "id_b": "86edf9f9-9fca-41e3-a228-c867c9c8cf31",
+      "content_a": "User declared the third phase of the Jarvis project officially completed on April 21, 2026, with the fourth phase goal b",
+      "content_b": "User plans to start the fourth phase of the Jarvis project on April 22, 2026, which involves replacing the WeChat-side b",
+      "score": 0.9129,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "2a377d58-dfe0-4d0f-b9eb-77a689047003",
+      "id_b": "71a8da7c-6b56-4075-b028-6b1974344dc7",
+      "content_a": "The Jarvis cloud task queue uses FastAPI + SQLite and runs on Alibaba Cloud server 47.95.110.99:8100 in a Docker contain",
+      "content_b": "User confirmed the Jarvis phase three technical implementation details: the task queue uses FastAPI+SQLite deployed on A",
+      "score": 0.9075,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "bcb424f8-39d0-47a0-bae4-c8531f5d0c5b",
+      "id_b": "ffb4249c-10e7-4dda-8dad-9fb29cf9ab1a",
+      "content_a": "User completed all closing work for the third phase of the Jarvis project on April 21, 2026, including updating the proj",
+      "content_b": "User completed all closing work for the third phase of the Jarvis project on April 21, 2026, including updating the Jarv",
+      "score": 0.9067,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "0b49cb36-ccc5-4a48-8208-71fad1d28c0a",
+      "id_b": "95bd48c8-dacb-4521-ab56-8c8606d3f375",
+      "content_a": "Jarvis云端大脑项目旨在实现多端访问与跨会话持续记忆（as of 2026-04-23）。",
+      "content_b": "用户活跃项目包括Jarvis云端大脑，目标是多端访问与持续记忆（as of 2026-04-23）。",
+      "score": 0.9047,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "509248c7-631b-4f73-bfc0-60915a54e031",
+      "id_b": "76313dbb-bf1e-45c3-bb1a-090e4626cbcc",
+      "content_a": "User completed the closing work and wrote a retrospective document for the third phase of the Jarvis project on the even",
+      "content_b": "User wrote a retrospective document for Jarvis phase three (Jarvis三期复盘.md) on April 21, 2026, where Qingge added the cor",
+      "score": 0.903,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "981c5976-9d28-4931-9f25-62036d003048",
+      "id_b": "ff84e489-e34f-4a20-9cc5-39a24dfe38ad",
+      "content_a": "用户偏好被称呼为'庆哥'（as of 2026-04-23）。",
+      "content_b": "User is referred to as '庆哥' (as of 2026-04-22).",
+      "score": 0.8981,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "3a90b69c-1f99-4148-a2e2-780fcf7f31cc",
+      "id_b": "b7fdd2be-a573-422b-9677-778f66a0724f",
+      "content_a": "As of 2026-04-21, the user owns a Mac computer, with CatDesk serving as the task execution agent system.",
+      "content_b": "User interacts with an agent named CatDesk for file system operations on Mac (as of 2026-04-21).",
+      "score": 0.8879,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "70e7d047-f82c-49ff-931a-cf88bfc2fdaa",
+      "id_b": "a838f134-afd8-41a1-a4e4-ed2c12a5c21b",
+      "content_a": "User discovered the Alibaba Cloud ECS server's public IP is actually 47.95.110.99 (not previously recorded 47.97.8.132),",
+      "content_b": "User's Alibaba Cloud ECS server public IP is 47.95.110.99, not the previously recorded 47.95.110.99, with ed25519 public",
+      "score": 0.8871,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "884132c1-b131-4ca4-9155-a49cb5256948",
+      "id_b": "f8e7d391-7b49-4f72-9375-c5c54f6abdec",
+      "content_a": "User's current priority is the third phase of the Jarvis project: installing hands for Gu Zhou (local MCP Server + Tails",
+      "content_b": "The third phase of the Jarvis project, involving installing hands for Gu Zhou (顾舟) with a local MCP Server and Tailscale",
+      "score": 0.8869,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "7fd049e6-b34b-4b98-a8fd-0e2d1c597a25",
+      "id_b": "a5fda583-1d10-4605-b73e-a525c4906179",
+      "content_a": "As of 2026-04-21, user requested weather for Beijing on 2026-04-22, with forecast of sunny to cloudy, high 21°C, low 12°",
+      "content_b": "User has an interest in weather forecasts, specifically for Beijing (as of 2026-04-21).",
+      "score": 0.885,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "17b4a149-964b-4e65-8c54-3076a6530a84",
+      "id_b": "ac6a59c6-9899-4094-b2e8-935a00664cbc",
+      "content_a": "User confirmed that the third phase of the Jarvis project was completed on April 21, 2026, with all 7 acceptance criteri",
+      "content_b": "User declared the third phase of the Jarvis project officially completed on April 21, 2026, with the neural pathway conn",
+      "score": 0.8826,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "17b4a149-964b-4e65-8c54-3076a6530a84",
+      "id_b": "ffb4249c-10e7-4dda-8dad-9fb29cf9ab1a",
+      "content_a": "User confirmed that the third phase of the Jarvis project was completed on April 21, 2026, with all 7 acceptance criteri",
+      "content_b": "User completed all closing work for the third phase of the Jarvis project on April 21, 2026, including updating the Jarv",
+      "score": 0.8817,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "17b4a149-964b-4e65-8c54-3076a6530a84",
+      "id_b": "51ce511c-c509-4cb2-880e-3a390c80df23",
+      "content_a": "User confirmed that the third phase of the Jarvis project was completed on April 21, 2026, with all 7 acceptance criteri",
+      "content_b": "User completed all preparatory work for the third phase of the Jarvis project on April 20, 2026, including compliance re",
+      "score": 0.8786,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "19e549d7-72a2-4481-a92b-1f0c828f328e",
+      "id_b": "7d12d527-0f09-476f-9777-158176f451fb",
+      "content_a": "The task queue database for Jarvis is located at /app/data/jarvis_tasks.db on the server.",
+      "content_b": "The code for the Jarvis cloud task queue is located on the server at /opt/jarvis/task-queue/.",
+      "score": 0.8683,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "05c96857-bcd9-4856-a198-bd53a5116f34",
+      "id_b": "5e1c78d9-b7f5-4306-aada-43427cd23480",
+      "content_a": "As of 2026-04-22, CatDesk uses a timed polling mechanism for tasks, set to Beijing Time, with an hourly interval, which ",
+      "content_b": "User's CatDesk machine uses Beijing time for scheduled tasks (as of 2026-04-22).",
+      "score": 0.8678,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "0b49cb36-ccc5-4a48-8208-71fad1d28c0a",
+      "id_b": "a6831314-3aee-4aab-b660-9ae3b5f21764",
+      "content_a": "Jarvis云端大脑项目旨在实现多端访问与跨会话持续记忆（as of 2026-04-23）。",
+      "content_b": "用户Jarvis云端大脑项目聚焦优化微信与CatDesk之间的跨终端记忆同步（as of 2026-04-23）。",
+      "score": 0.8674,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "45c1406f-60eb-4a65-b839-ab6cf0619883",
+      "id_b": "75cbafb4-2ac3-489a-a93f-d114b013ec0a",
+      "content_a": "As of 2026-04-21, user requested a re-analysis of 多邻国 (DUOL) stock investment strategies using Claude, and the task was ",
+      "content_b": "As of 2026-04-20, Claude completed an analysis of user's 多邻国 investment, detailing holdings, fundamentals, analyst conse",
+      "score": 0.864,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "51ce511c-c509-4cb2-880e-3a390c80df23",
+      "id_b": "bcb424f8-39d0-47a0-bae4-c8531f5d0c5b",
+      "content_a": "User completed all preparatory work for the third phase of the Jarvis project on April 20, 2026, including compliance re",
+      "content_b": "User completed all closing work for the third phase of the Jarvis project on April 21, 2026, including updating the proj",
+      "score": 0.863,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "86edf9f9-9fca-41e3-a228-c867c9c8cf31",
+      "id_b": "8a653b7d-e6e7-4a57-a600-e1709447ddc0",
+      "content_a": "User plans to start the fourth phase of the Jarvis project on April 22, 2026, which involves replacing the WeChat-side b",
+      "content_b": "User plans for the Jarvis fourth phase to involve purchasing a Claude API to replace the brain on the WeChat side, with ",
+      "score": 0.8622,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "59e401f3-c241-4c38-9f11-8bb5f5882425",
+      "id_b": "95bd48c8-dacb-4521-ab56-8c8606d3f375",
+      "content_a": "用户正在使用'Jarvis云端大脑'系统（as of 2026-04-23）。",
+      "content_b": "用户活跃项目包括Jarvis云端大脑，目标是多端访问与持续记忆（as of 2026-04-23）。",
+      "score": 0.8584,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "21c8e2f2-3888-4006-991b-e3113af5b739",
+      "id_b": "f6af88dc-6294-432c-bdb5-573441c58cda",
+      "content_a": "As of the conversation date, Claude (via CatDesk) completed an analysis of Duolingo holdings and investment strategies, ",
+      "content_b": "As of the conversation date, Claude (via CatDesk) completed an analysis of the user's Duolingo investment, providing a d",
+      "score": 0.8561,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "21217f42-8d5b-4bfd-b771-fca95b1f7939",
+      "id_b": "831fcdc8-f391-42b4-af56-f15f552ab999",
+      "content_a": "Jarvis 四期预计于2026年4月23日当周收尾，五期规划下周启动，核心方向是增加主动提醒能力。",
+      "content_b": "用户正参与Jarvis项目，Jarvis四期预计于2026-04-23所在周收尾，剩余工作聚焦配额审批流程；GCP方案未通过时将采用已验证的七牛云方案封版（as of 2026-04-23）；Jarvis五期规划将于下周启动，重点方向包括：",
+      "score": 0.8559,
+      "suggestion": "merge"
+    },
+    {
+      "id_a": "38fef31b-07d0-4946-ae6c-524ab21c1fd5",
+      "id_b": "ac6a59c6-9899-4094-b2e8-935a00664cbc",
+      "content_a": "User declared the third phase of the Jarvis project officially completed on April 21, 2026, with the fourth phase goal b",
+      "content_b": "User declared the third phase of the Jarvis project officially completed on April 21, 2026, with the neural pathway conn",
+      "score": 0.8537,
+      "suggestion": "merge"
+    }
+  ]
+}
