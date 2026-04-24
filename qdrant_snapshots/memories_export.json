@@ -1191,6 +1191,20 @@
   }
 }
 {
+  "id": "78ececf6-9177-4288-8852-079a4e5a3f49",
+  "payload": {
+    "memory": "Jarvis 5.1 综合验收测试通过 10/10：Docker资源限制、HNSW参数、数据完整性、recall功能+超时控制、MCP健康检查、备份幂等性、cron配置、启动预热、CatDesk MCP通路。",
+    "data": "Jarvis 5.1 综合验收测试通过 10/10：Docker资源限制、HNSW参数、数据完整性、recall功能+超时控制、MCP健康检查、备份幂等性、cron配置、启动预热、CatDesk MCP通路。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "created_at": "2026-04-24T14:44:16+08:00",
+    "createdAt": "2026-04-24T14:44:16+08:00",
+    "updated_at": "2026-04-24T14:44:16+08:00",
+    "updatedAt": "2026-04-24T14:44:16+08:00",
+    "hash": "772297ac-4629-4e31-84de-b1a1fad4902c"
+  }
+}
+{
   "id": "797b1944-2db3-4c6d-998b-ca8f2c7a9f77",
   "payload": {
     "user_id": "fanchangqing",
