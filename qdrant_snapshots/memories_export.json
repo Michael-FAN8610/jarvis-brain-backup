@@ -2649,6 +2649,20 @@
   }
 }
 {
+  "id": "f909bb1d-42a6-4921-a87e-1e378daa5d2e",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-24：完成 Jarvis 五期 5.1 剩余任务。GitHub 自动备份全链路搭建完成：Deploy Key 认证、jarvis-brain-backup 仓库初始化（LFS tracking snapshot/tar.gz/tar.zst）、backup.sh 脚本（Qdrant snapshot + JSON export + MCP server + OpenClaw config → git push）、cron 每天凌晨3点执行，首次备份成功推送72个文件+5.2MB LFS snapshot。Qdrant 服务端优化：Docker 资源限制（512M memory, 0.5 CPU）、HNSW 参数调优（m=16→8, ef_construct=100→50，内存从36MB降至30MB）、MCP Server 启动预热。recall 端到端验证正常：281ms/10条。",
+    "data": "[对话摘要] 2026-04-24：完成 Jarvis 五期 5.1 剩余任务。GitHub 自动备份全链路搭建完成：Deploy Key 认证、jarvis-brain-backup 仓库初始化（LFS tracking snapshot/tar.gz/tar.zst）、backup.sh 脚本（Qdrant snapshot + JSON export + MCP server + OpenClaw config → git push）、cron 每天凌晨3点执行，首次备份成功推送72个文件+5.2MB LFS snapshot。Qdrant 服务端优化：Docker 资源限制（512M memory, 0.5 CPU）、HNSW 参数调优（m=16→8, ef_construct=100→50，内存从36MB降至30MB）、MCP Server 启动预热。recall 端到端验证正常：281ms/10条。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "created_at": "2026-04-24T14:36:04+08:00",
+    "createdAt": "2026-04-24T14:36:04+08:00",
+    "updated_at": "2026-04-24T14:36:04+08:00",
+    "updatedAt": "2026-04-24T14:36:04+08:00",
+    "hash": "0dc2af19-e3c0-4e87-bca7-65215c4b0cde"
+  }
+}
+{
   "id": "f9d8d189-267d-4fdb-89d8-614d825f7bfd",
   "payload": {
     "userId": "fanchangqing",

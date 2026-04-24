@@ -536,4 +536,12 @@ if __name__ == "__main__":
     print(f"  噪音过滤: {len(NOISE_PATTERNS)} patterns, {len(DATA_SECURITY_BLACKLIST)} security rules")
     print(f"  thinking 清洗: enabled (regex fallback)")
 
+
+    # 启动预热：验证 Qdrant 连接 + 预热首次查询
+    try:
+        info = qdrant_client.get_collection(COLLECTION_NAME)
+        print(f"  Qdrant 预热: {info.points_count} points, status=ok")
+    except Exception as e:
+        print(f"  WARNING: Qdrant 预热失败: {e}")
+
     mcp.run(transport="sse", host=host, port=port)
