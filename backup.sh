@@ -36,10 +36,9 @@ echo "Snapshot created: $SNAP_NAME"
 # Download snapshot
 echo "Downloading snapshot..."
 SNAP_DIR="$REPO_DIR/qdrant_snapshots"
-rm -f "$SNAP_DIR"/*.snapshot  # Remove old snapshots (LFS tracks them)
-curl -sf -o "$SNAP_DIR/$SNAP_NAME" \
+curl -sf -o "$SNAP_DIR/latest.snapshot" \
     "$QDRANT_API/collections/$COLLECTION/snapshots/$SNAP_NAME"
-echo "Snapshot saved: $(du -h "$SNAP_DIR/$SNAP_NAME" | cut -f1)"
+echo "Snapshot saved: $(du -h "$SNAP_DIR/latest.snapshot" | cut -f1)"
 
 # Export points as JSON (human-readable, for diffing)
 echo "Exporting points as JSON..."
@@ -85,7 +84,7 @@ cat > "$REPO_DIR/backup_metadata.json" << METAEOF
     "timestamp": "$(date -Iseconds)",
     "qdrant_collection": "$COLLECTION",
     "qdrant_points": $TOTAL,
-    "snapshot_file": "$SNAP_NAME",
+    "snapshot_file": "latest.snapshot",
     "mcp_server_path": "$MCP_DIR",
     "openclaw_config_path": "$OPENCLAW_CONFIG",
     "hostname": "$(hostname)",
