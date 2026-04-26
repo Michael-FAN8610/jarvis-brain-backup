@@ -117,3 +117,6 @@ fi
 echo "========================================"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Backup completed successfully"
 echo "========================================"
+
+# [5.6 运维加固] systemd 服务清单快照（2026-04-26 追加）
+systemctl list-unit-files 'jarvis-*' > /opt/jarvis/backup/systemd_snapshot.txt

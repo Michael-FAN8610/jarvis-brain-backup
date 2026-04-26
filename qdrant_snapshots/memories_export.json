@@ -2015,6 +2015,21 @@
   }
 }
 {
+  "id": "ab0a3337-3221-4ca7-aee4-ee35ddf3fb9f",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-26：完成 Jarvis 5.6 运维加固全部部署到阿里云服务器（8/8 验收通过），更新项目文档标记五期收官。五期六个子版本（5.1-5.6）全部完成，项目从「能用」正式进入「好用」阶段。核心成果：记忆中台直连 Qdrant + 三层互通 + MEMORY.md 动态化、任务通路秒级响应、主动推送基础设施（提醒/日报/告警）、全栈运维加固。云端大脑+记忆中台核心链路已完整闭环。",
+    "data": "[对话摘要] 2026-04-26：完成 Jarvis 5.6 运维加固全部部署到阿里云服务器（8/8 验收通过），更新项目文档标记五期收官。五期六个子版本（5.1-5.6）全部完成，项目从「能用」正式进入「好用」阶段。核心成果：记忆中台直连 Qdrant + 三层互通 + MEMORY.md 动态化、任务通路秒级响应、主动推送基础设施（提醒/日报/告警）、全栈运维加固。云端大脑+记忆中台核心链路已完整闭环。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-26T22:48:45+08:00",
+    "createdAt": "2026-04-26T22:48:45+08:00",
+    "updated_at": "2026-04-26T22:48:45+08:00",
+    "updatedAt": "2026-04-26T22:48:45+08:00",
+    "hash": "92c549a8-4d61-4044-9ad7-87d9d40d0885"
+  }
+}
+{
   "id": "ab940959-0bbd-42c9-aabc-b78281f2f42a",
   "payload": {
     "userId": "fanchangqing",
@@ -2284,6 +2299,21 @@
   }
 }
 {
+  "id": "c5288f32-70c9-4531-a42a-84809cd2cb6c",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-26：完成 Jarvis 5.5.1 提醒服务 fire-and-forget 部署修复。核心改动：push_to_wechat 从 subprocess.run(timeout=30) 改为 Popen + 3秒 grace period，解决 docker exec 长时间阻塞导致的超时误判。发现并禁用了多余的 jarvis-reminder-push.service，这是重复推送的根因。最终验证通过：单次推送、ack OK、微信仅收到一条。",
+    "data": "[对话摘要] 2026-04-26：完成 Jarvis 5.5.1 提醒服务 fire-and-forget 部署修复。核心改动：push_to_wechat 从 subprocess.run(timeout=30) 改为 Popen + 3秒 grace period，解决 docker exec 长时间阻塞导致的超时误判。发现并禁用了多余的 jarvis-reminder-push.service，这是重复推送的根因。最终验证通过：单次推送、ack OK、微信仅收到一条。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-26T21:34:49+08:00",
+    "createdAt": "2026-04-26T21:34:49+08:00",
+    "updated_at": "2026-04-26T21:34:49+08:00",
+    "updatedAt": "2026-04-26T21:34:49+08:00",
+    "hash": "044b6b86-b304-4751-bf3c-f2e680942ff1"
+  }
+}
+{
   "id": "c669115b-bd9a-4e79-aa16-7f98a323a9b3",
   "payload": {
     "memory": "[对话摘要] 2026-04-25：健身打卡小程序M5 polish全部完成后，修复打卡成功页两个问题：1) 增加「本月次数」和「累计总次数」统计项（checkin.js并行查询月打卡数+传参，成功页wxml扩展为四列）；2) 徽章展示改用轮询机制（500ms×10次）替代固定1500ms延迟，提高可靠性。等庆哥白天编译验收。",
@@ -2396,6 +2426,21 @@
     "createdAt": "2026-04-22T03:19:15.337151+00:00",
     "updatedAt": "2026-04-22T03:19:15.337151+00:00",
     "category": "project"
+  }
+}
+{
+  "id": "d32ab6df-a312-43c8-927b-4e71c2d8f72a",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-26：完成 Jarvis 五期全部收尾工作。5.5.1 提醒服务已部署验收（fire-and-forget 推送、重复 systemd 服务排查、E2E 全链路通过）。5.5.3 主动日报推送代码开发完毕（daily_report_agent.py 318行 + systemd timer + deploy.sh 一键部署），五大数据源独立容错采集。技术方案文档同步更新（5.5.1 完成度从72%更新为100%，5.5.2 补充实际方案，DeepSeek过时引用修正）。新增 5.6 运维加固子版本规划（15项任务清单：健康巡检+自动恢复+运维规范+SSH稳定性+技术债清理+监控告警）。五期总览表 8 维度交叉验证 8/8 PASS。庆哥指导顾舟学会当 Tech Lead——善用团队资源，让小弟们并行干活，自己只做决策和 review。",
+    "data": "[对话摘要] 2026-04-26：完成 Jarvis 五期全部收尾工作。5.5.1 提醒服务已部署验收（fire-and-forget 推送、重复 systemd 服务排查、E2E 全链路通过）。5.5.3 主动日报推送代码开发完毕（daily_report_agent.py 318行 + systemd timer + deploy.sh 一键部署），五大数据源独立容错采集。技术方案文档同步更新（5.5.1 完成度从72%更新为100%，5.5.2 补充实际方案，DeepSeek过时引用修正）。新增 5.6 运维加固子版本规划（15项任务清单：健康巡检+自动恢复+运维规范+SSH稳定性+技术债清理+监控告警）。五期总览表 8 维度交叉验证 8/8 PASS。庆哥指导顾舟学会当 Tech Lead——善用团队资源，让小弟们并行干活，自己只做决策和 review。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-26T22:17:53+08:00",
+    "createdAt": "2026-04-26T22:17:53+08:00",
+    "updated_at": "2026-04-26T22:17:53+08:00",
+    "updatedAt": "2026-04-26T22:17:53+08:00",
+    "hash": "879e43e8-e39c-4b49-b608-1a9e2b337fbe"
   }
 }
 {
@@ -3010,6 +3055,21 @@
     "createdAt": "2026-04-17T18:44:04.742406+00:00",
     "updatedAt": "2026-04-17T18:44:04.742406+00:00",
     "category": "daily"
+  }
+}
+{
+  "id": "fd433e77-a2db-40a4-bc19-0859f2823a1e",
+  "payload": {
+    "memory": "庆哥认为日报内容有效性不高，先试跑几天，后续重新设计日报内容",
+    "data": "庆哥认为日报内容有效性不高，先试跑几天，后续重新设计日报内容",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "decision",
+    "created_at": "2026-04-26T23:02:54+08:00",
+    "createdAt": "2026-04-26T23:02:54+08:00",
+    "updated_at": "2026-04-26T23:02:54+08:00",
+    "updatedAt": "2026-04-26T23:02:54+08:00",
+    "hash": "fe87f501-a57d-4ef5-adf9-1f659fc332eb"
   }
 }
 {
