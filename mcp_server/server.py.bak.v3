@@ -73,11 +73,10 @@ _emb_client = openai.OpenAI(
 # -- 辅助函数 ------------------------------------------------------------------
 
 def _get_embedding(text: str) -> list[float]:
-    """调用 DashScope embedding API（text-embedding-v4，基于 Qwen3，跨语言能力显著增强）"""
+    """调用 DashScope embedding API，通常 0.3-0.5 秒返回"""
     resp = _emb_client.embeddings.create(
-        model="text-embedding-v4",
+        model="text-embedding-v3",
         input=text,
-        dimensions=1024,
     )
     return resp.data[0].embedding
 
@@ -298,45 +297,6 @@ def _clean_content(content: str) -> str:
     return cleaned
 
 
-def _is_mostly_chinese(text: str) -> bool:
-    """判断文本是否以中文为主（中文字符占比 > 30% 视为中文内容）"""
-    if not text:
-        return True
-    cjk_count = sum(1 for c in text if '\u4e00' <= c <= '\u9fff')
-    # 只统计字母和汉字，排除空格标点数字
-    alpha_count = sum(1 for c in text if c.isalpha())
-    if alpha_count == 0:
-        return True
-    return cjk_count / alpha_count > 0.3
-
-
-def _ensure_chinese(content: str) -> str:
-    """六期：将非中文记忆翻译为中文存储，统一语言降低跨语言召回依赖。
-    翻译失败时返回原文（降级，不阻塞写入流程）。"""
-    if _is_mostly_chinese(content):
-        return content
-    try:
-        t0 = time.time()
-        resp = _classify_client.chat.completions.create(
-            model="qwen-turbo",
-            messages=[
-                {"role": "system", "content": "你是翻译助手。将以下英文内容翻译为简洁准确的中文。只输出翻译结果，不加解释。保留人名、专有名词、数字、日期原样。"},
-                {"role": "user", "content": content},
-            ],
-            max_tokens=500,
-            temperature=0,
-        )
-        translated = resp.choices[0].message.content.strip()
-        elapsed = time.time() - t0
-        if translated and len(translated) > 5:
-            print(f"[CAPTURE TRANSLATE] {elapsed:.2f}s en→zh: {content[:80]} → {translated[:80]}", flush=True)
-            return translated
-        return content
-    except Exception as e:
-        print(f"[CAPTURE TRANSLATE FAILED] {e}, using original content", flush=True)
-        return content
-
-
 def _should_capture(content: str) -> tuple:
     for pattern in DATA_SECURITY_BLACKLIST:
         if re.search(pattern, content, re.IGNORECASE):
@@ -431,7 +391,7 @@ def _do_recall(query: str, user_id: str, top_k: int = 10,
                 query=query_vector,
                 query_filter=Filter(must=must_conditions),
                 limit=candidate_k,
-                score_threshold=0.30,
+                score_threshold=0.35,
                 with_payload=True,
             ).points
             for hit in hits:
@@ -584,10 +544,7 @@ def capture(content: str, user_id: str = "fanchangqing") -> str:
             print(f"[CAPTURE FILTERED] reason=thinking_only_content", flush=True)
             return "记忆已过滤（内容仅含 thinking 标签）"
 
-        # Step 0b: 统一中文存储（六期）
-        content = _ensure_chinese(content)
-
-        # Step 0c: 噪音过滤
+        # Step 0b: 噪音过滤
         should, reason = _should_capture(content)
         if not should:
             print(f"[CAPTURE FILTERED] reason={reason} content={content!r}", flush=True)

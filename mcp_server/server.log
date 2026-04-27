@@ -1,0 +1,727 @@
+/opt/jarvis-mcp/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py:280: UserWarning: Qdrant client version 1.17.1 is incompatible with server version 1.13.6. Major versions should match and minor version difference must not exceed 1. Set check_compatibility=False to skip version check.
+  show_warning(
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                FastMCP 3.2.4                                 │
+│                            https://gofastmcp.com                             │
+│                                                                              │
+│                  🖥  Server:      Jarvis Memory MCP, 3.2.4                    │
+│                  🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+[04/27/26 14:27:51] INFO     Starting MCP server 'Jarvis Memory transport.py:301
+                             MCP' with transport 'sse' on                       
+                             http://0.0.0.0:3100/sse                            
+INFO:     Started server process [122573]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:3100 (Press CTRL+C to quit)
+Jarvis MCP Server (六期 6.1) 启动中...
+  传输方式: SSE
+  监听地址: 0.0.0.0:3100
+  Qdrant:   localhost:6333/jarvis_memories
+  用户ID:   fanchangqing
+  HTTP 端点:
+    GET  /health     - 健康检查
+    POST /api/recall - 记忆召回（六期权重重排）
+    POST /api/capture - 记忆存储（六期分层字段）
+    GET  /api/config/catdesk - CatDesk 配置拉取（5.2）
+  recall 超时: 8.0s
+  capture 去重阈值: exact=0.93 similar=0.85
+  噪音过滤: 5 patterns, 6 security rules
+  thinking 清洗: enabled (regex fallback)
+  记忆分类: enabled (qwen-turbo, 5.2)
+  六期增强: 记忆分层(short/mid/long-term) + 权重重排(Ebbinghaus) + 晋升机制
+  Qdrant 预热: 226 points, status=ok
+INFO:     103.37.140.19:9455 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22526 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22923 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35500 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10670 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29235 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35276 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14239 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50493 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:39402 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46772 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46773 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:38696 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35502 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22933 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13057 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23703 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13350 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17811 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17816 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35477 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35481 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:31150 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16235 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23714 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23715 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9964 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25637 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37963 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2857 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24218 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11316 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47728 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10752 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12415 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12410 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25872 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25870 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35280 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37574 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37563 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37545 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:48714 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18935 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23478 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23484 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17775 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42104 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45364 - "GET /health HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18882 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40682 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16793 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37119 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33481 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33495 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24232 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24960 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22921 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22912 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51299 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20665 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20018 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12741 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:26450 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:21661 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44844 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44846 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25611 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14072 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36058 - "POST /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45090 - "POST /mcp HTTP/1.1" 404 Not Found
+INFO:     103.37.140.19:46433 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46423 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33282 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33296 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33306 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33314 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29293 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:48170 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18022 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:55370 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42385 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42388 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9418 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18078 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14638 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37956 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54856 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17351 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29391 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27163 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:38847 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12379 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43457 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43456 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54633 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54634 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:6760 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41168 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15673 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15665 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10781 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10786 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50640 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50646 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:30522 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37696 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46656 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17748 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50837 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50832 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:8996 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:26920 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:36519 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19464 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24125 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24123 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12383 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14066 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18745 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42188 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10467 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10474 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:36027 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:36021 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16386 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17950 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42347 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42353 - "GET /sse HTTP/1.1" 200 OK
+[RECALL] query='庆哥的技术偏好' | emb=0.71s search=0.02s rerank+update=0.02s total=0.75s results=5 promotions=0
+INFO:     127.0.0.1:35210 - "POST /api/recall HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45607 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43482 - "GET /sse HTTP/1.1" 200 OK
+[RECALL] query='所有记忆' | emb=0.11s search=0.01s rerank+update=0.05s total=0.17s results=20 promotions=0
+INFO:     127.0.0.1:53038 - "POST /api/recall HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51800 - "GET /health HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23041 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23047 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35654 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28326 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25379 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25384 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15801 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15956 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18099 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22235 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46941 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33523 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29279 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37630 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9730 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9747 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28607 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43057 - "GET /sse HTTP/1.1" 200 OK
+[RECALL] query='stock trading band operation cost reduction earnings' | emb=0.25s search=0.01s rerank+update=0.02s total=0.28s results=5 promotions=0
+INFO:     127.0.0.1:50726 - "POST /api/recall HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50687 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29824 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:48185 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:48187 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35652 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35654 - "GET /sse HTTP/1.1" 200 OK
+[RECALL] query='庆哥学不学Rust还是继续深入TypeScript' | emb=0.11s search=0.01s rerank+update=0.01s total=0.13s results=5 promotions=0
+INFO:     127.0.0.1:60846 - "POST /api/recall HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41608 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9116 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20017 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20011 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19471 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23471 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35526 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46659 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28879 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28880 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40406 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40408 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5749 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16413 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52466 - "POST /mcp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51380 - "POST /mcp HTTP/1.1" 404 Not Found
+INFO:     103.37.140.19:38459 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25630 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51390 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51402 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18690 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23439 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17986 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17985 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5132 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43499 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:38441 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54645 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20292 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20296 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22238 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2735 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43767 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14633 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50818 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51315 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20625 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45380 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:7571 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20865 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25696 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9785 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40563 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41053 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18004 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:49929 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22836 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24288 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:23053 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47360 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22225 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19895 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28020 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28024 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45600 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10180 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50871 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29534 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5944 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:26821 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29218 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29217 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19510 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19509 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45112 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37067 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29309 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29306 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50014 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51386 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11857 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11862 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16385 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11082 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42568 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16253 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11324 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10439 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:4825 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27766 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39208 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39220 - "POST /messages/?session_id=d6abbaa206b849f5a52ae8bf5c98808c HTTP/1.1" 202 Accepted
+WARNING:root:Failed to validate request: Received request before initialization was complete
+INFO:     103.37.140.19:19460 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19459 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50228 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50244 - "POST /messages/?session_id=6221ae978d0146a3a3e8860e6d1b71dc HTTP/1.1" 202 Accepted
+WARNING:root:Failed to validate request: Received request before initialization was complete
+INFO:     103.37.140.19:11658 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:53964 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19479 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54190 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37896 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37910 - "POST /messages/?session_id=34e26d067d62422c91c28a07d2764f87 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37926 - "POST /messages/?session_id=34e26d067d62422c91c28a07d2764f87 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37934 - "POST /messages/?session_id=34e26d067d62422c91c28a07d2764f87 HTTP/1.1" 202 Accepted
+[04/27/26 14:52:29] Error validating tool 'capture'                             
+                    ╭─────────── Traceback (most recent call last) ────────────╮
+                    │ /opt/jarvis-mcp/venv/lib/python3.10/site-packages/fastmc │
+                    │ p/server/server.py:1240 in call_tool                     │
+                    │                                                          │
+                    │ /opt/jarvis-mcp/venv/lib/python3.10/site-packages/fastmc │
+                    │ p/tools/base.py:377 in _run                              │
+                    │                                                          │
+                    │                 ... 4 frames hidden ...                  │
+                    │                                                          │
+                    │ /opt/jarvis-mcp/venv/lib/python3.10/site-packages/anyio/ │
+                    │ _backends/_asyncio.py:1002 in run                        │
+                    │                                                          │
+                    │    999 │   │   │   │   │   exception: BaseException | No │
+                    │   1000 │   │   │   │   │   threadlocals.current_cancel_s │
+                    │   1001 │   │   │   │   │   try:                          │
+                    │ ❱ 1002 │   │   │   │   │   │   result = context.run(func │
+                    │   1003 │   │   │   │   │   except BaseException as exc:  │
+                    │   1004 │   │   │   │   │   │   exception = exc           │
+                    │   1005 │   │   │   │   │   finally:                      │
+                    │                                                          │
+                    │ /opt/jarvis-mcp/venv/lib/python3.10/site-packages/pydant │
+                    │ ic/type_adapter.py:441 in validate_python                │
+                    ╰──────────────────────────────────────────────────────────╯
+                    ValidationError: 1 validation error for call[capture]       
+                    category                                                    
+                      Unexpected keyword argument                               
+                    [type=unexpected_keyword_argument, input_value='preference',
+                    input_type=str]                                             
+                        For further information visit                           
+                    https://errors.pydantic.dev/2.13/v/unexpected_keyword_argume
+                    nt                                                          
+INFO:     127.0.0.1:37944 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37952 - "POST /messages/?session_id=ec6e3a82d4044c6887b89ef12546fc60 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37964 - "POST /messages/?session_id=ec6e3a82d4044c6887b89ef12546fc60 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:37970 - "POST /messages/?session_id=ec6e3a82d4044c6887b89ef12546fc60 HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:31929 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24219 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38856 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38862 - "POST /messages/?session_id=ffb74476ba2842e4b4e0645b3e96050c HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:38876 - "POST /messages/?session_id=ffb74476ba2842e4b4e0645b3e96050c HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:38880 - "POST /messages/?session_id=ffb74476ba2842e4b4e0645b3e96050c HTTP/1.1" 202 Accepted
+[CAPTURE CALLED] content='六期验收测试专用记忆：庆哥喜欢在周末写技术博客' user_id='fanchangqing'
+[CAPTURE OK] id=64a6c994-37d2-4630-bddd-9c94e9e12ed7 tier=mid-term cat=preference emb=0.13s write=0.39s total=0.51s
+INFO:     103.37.140.19:8836 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:26889 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44614 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:55540 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54803 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54807 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29439 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5057 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13756 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13123 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33838 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33841 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60208 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60216 - "POST /messages/?session_id=eba29dddbf9c428290867a2cd392ec03 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60220 - "POST /messages/?session_id=eba29dddbf9c428290867a2cd392ec03 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:60232 - "POST /messages/?session_id=eba29dddbf9c428290867a2cd392ec03 HTTP/1.1" 202 Accepted
+[CAPTURE CALLED] content='六期验收测试专用记忆：庆哥喜欢在周末写技术博客' user_id='fanchangqing'
+[CAPTURE DEDUP] score=1.000 updated_ts_only id=64a6c994-37d2-4630-bddd-9c94e9e12ed7 total=0.23s
+INFO:     103.37.140.19:17258 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10176 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51230 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33237 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12373 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27795 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40930 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40934 - "POST /messages/?session_id=be1033bb07524dcf84d10009a870968c HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40948 - "POST /messages/?session_id=be1033bb07524dcf84d10009a870968c HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:40956 - "POST /messages/?session_id=be1033bb07524dcf84d10009a870968c HTTP/1.1" 202 Accepted
+[CAPTURE CALLED] content='六期验收测试：今天天气很好适合散步' user_id='fanchangqing'
+[CAPTURE FILTERED] reason=noise_pattern_match content='六期验收测试：今天天气很好适合散步'
+INFO:     103.37.140.19:27819 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:39549 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55182 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55190 - "POST /messages/?session_id=3779a44ada4a4973bd31a5a8e242bad9 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55200 - "POST /messages/?session_id=3779a44ada4a4973bd31a5a8e242bad9 HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:55208 - "POST /messages/?session_id=3779a44ada4a4973bd31a5a8e242bad9 HTTP/1.1" 202 Accepted
+[CAPTURE CALLED] content='六期验收测试：庆哥正在调试 Qdrant 向量数据库的分片配置问题' user_id='fanchangqing'
+[CAPTURE OK] id=a7b3f73f-fd76-4598-abb2-e92011492383 tier=short-term cat=project emb=0.11s write=0.41s total=0.53s
+INFO:     103.37.140.19:14235 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14239 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20417 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20423 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17949 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17962 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:7608 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47504 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34362 - "GET /sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34372 - "POST /messages/?session_id=8f31edaf571c457bb518fd24201cf6be HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:34376 - "POST /messages/?session_id=8f31edaf571c457bb518fd24201cf6be HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:34388 - "POST /messages/?session_id=8f31edaf571c457bb518fd24201cf6be HTTP/1.1" 202 Accepted
+[MCP RECALL] query='Qdrant 向量数据库分片配置' user_id='fanchangqing'
+[PROMOTION] a7b3f73f -> mid-term
+[RECALL] query='Qdrant 向量数据库分片配置' | emb=0.27s search=0.02s rerank+update=0.04s total=0.33s results=10 promotions=1
+[MCP RECALL OK] 10 items
+INFO:     103.37.140.19:25053 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15947 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51419 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51425 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25529 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9431 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46340 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50649 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:26883 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47196 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9201 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47514 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16342 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16333 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9672 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9673 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:49083 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:49085 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41282 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41285 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43467 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43468 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14353 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14357 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47286 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:34368 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28990 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29538 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44666 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35296 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:7882 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54680 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:48142 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:48146 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47649 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42091 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12754 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5936 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:39037 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9379 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:53799 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51142 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:34430 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42363 - "POST /messages/?session_id=0a86a2158d76420abc60f27157410aeb HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:42363 - "POST /messages/?session_id=0a86a2158d76420abc60f27157410aeb HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:44420 - "POST /messages/?session_id=0a86a2158d76420abc60f27157410aeb HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:44424 - "POST /messages/?session_id=0a86a2158d76420abc60f27157410aeb HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:44438 - "POST /messages/?session_id=0a86a2158d76420abc60f27157410aeb HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:44431 - "POST /messages/?session_id=0a86a2158d76420abc60f27157410aeb HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:40704 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:49079 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:36975 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40712 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41031 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2693 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12353 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:12375 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:8689 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2733 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:52265 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18901 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15214 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14021 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41621 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47540 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:55393 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42071 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37583 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37576 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13313 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2852 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:15617 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:20305 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:34172 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:38748 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:9350 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37115 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37119 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19699 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45082 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45083 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18092 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:34123 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:49653 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:49653 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:2873 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:10182 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:25175 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:2874 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+INFO:     103.37.140.19:49653 - "POST /messages/?session_id=4048bc299d9941f283e21a6d0375216c HTTP/1.1" 202 Accepted
+[MCP RECALL] query='Jarvis 六期 server.py MCP Server 代码审查 classify_and_extract memory_feedback' user_id='fanchangqing'
+[RECALL] query='Jarvis 六期 server.py MCP Server 代码审查 classify_and_extract memory_feedback' | emb=0.27s search=0.02s rerank+update=0.04s total=0.33s results=10 promotions=0
+[MCP RECALL OK] 10 items
+INFO:     103.37.140.19:30490 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11530 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:7448 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:38769 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:55221 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44636 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14609 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25087 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:46414 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27310 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:55207 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:53259 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22489 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:26769 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18741 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33932 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37711 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37699 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25404 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:31625 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13476 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13475 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27820 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:39367 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:52427 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:50436 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:43086 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11862 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17912 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:32613 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:51395 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47392 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:30680 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27331 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16219 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16346 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40534 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:37114 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:11119 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:29301 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:32943 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5081 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44650 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33348 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18056 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18077 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:18737 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47684 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14036 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:32928 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33688 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10266 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:8272 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:25695 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:32906 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:41333 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:36023 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:35063 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:28018 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2474 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47669 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47654 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44588 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19849 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:31480 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24298 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:44831 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:34310 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17684 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:17679 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:16444 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:33501 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:6350 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:54144 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:42196 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:14219 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5379 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:5388 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27532 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:22761 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:13172 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:24169 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:21338 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:10627 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:2451 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:52455 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:40973 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:19982 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:45738 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:52469 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:27365 - "GET /sse HTTP/1.1" 200 OK
+INFO:     103.37.140.19:47226 - "GET /sse HTTP/1.1" 200 OK
+INFO:     Shutting down
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/fastmcp/server/http.py", line 106, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 64, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 62, in app
+    await response(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/responses.py", line 166, in __call__
+    await send({"type": "http.response.start", "status": self.status_code, "headers": self.raw_headers})
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 161, in _send
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 500, in send
+    raise RuntimeError(f"Expected ASGI message 'http.response.body', but got '{message['type']}'.")
+RuntimeError: Expected ASGI message 'http.response.body', but got 'http.response.start'.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/fastmcp/server/http.py", line 106, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 64, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 62, in app
+    await response(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/responses.py", line 166, in __call__
+    await send({"type": "http.response.start", "status": self.status_code, "headers": self.raw_headers})
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 161, in _send
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 500, in send
+    raise RuntimeError(f"Expected ASGI message 'http.response.body', but got '{message['type']}'.")
+RuntimeError: Expected ASGI message 'http.response.body', but got 'http.response.start'.
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 415, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/fastmcp/server/http.py", line 106, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 64, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/routing.py", line 62, in app
+    await response(scope, receive, send)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/responses.py", line 166, in __call__
+    await send({"type": "http.response.start", "status": self.status_code, "headers": self.raw_headers})
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 39, in sender
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 161, in _send
+    await send(message)
+  File "/opt/jarvis-mcp/venv/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 500, in send
+    raise RuntimeError(f"Expected ASGI message 'http.response.body', but got '{message['type']}'.")
+RuntimeError: Expected ASGI message 'http.response.body', but got 'http.response.start'.
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [122573]

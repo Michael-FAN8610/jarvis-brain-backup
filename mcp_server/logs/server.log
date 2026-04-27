@@ -1,0 +1,50 @@
+/opt/jarvis-mcp/venv/lib/python3.10/site-packages/qdrant_client/qdrant_remote.py:280: UserWarning: Qdrant client version 1.17.1 is incompatible with server version 1.13.6. Major versions should match and minor version difference must not exceed 1. Set check_compatibility=False to skip version check.
+  show_warning(
+Jarvis MCP Server (六期 6.3) 启动中...
+  传输方式: SSE
+  监听地址: 0.0.0.0:3100
+  Qdrant:   localhost:6333/jarvis_memories
+  用户ID:   fanchangqing
+  HTTP 端点:
+    GET  /health              - 健康检查
+    POST /api/recall          - 记忆召回（六期权重重排 + 6.3 结构化过滤）
+    POST /api/capture         - 记忆存储（六期分层字段 + 6.3 实体/时间）
+    POST /api/memories/feedback - 记忆反馈（6.2 正/负反馈）
+    GET  /api/config/catdesk  - CatDesk 配置拉取（5.2）
+  recall 超时: 8.0s
+  capture 去重阈值: exact=0.93 similar=0.85
+  噪音过滤: 5 patterns, 6 security rules
+  thinking 清洗: enabled (regex fallback)
+  记忆分类: enabled (qwen-turbo, 6.3 classify_and_extract)
+  六期增强: 分层 + 权重重排 + 晋升 + 反馈闭环(6.2) + 时序知识图谱(6.3)
+  Qdrant 预热: 226 points, status=ok
+[INDEX] Created payload index: entities (keyword)
+[INDEX] Created payload index: event_date (keyword, for exact match)
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                FastMCP 3.2.4                                 │
+│                            https://gofastmcp.com                             │
+│                                                                              │
+│                  🖥  Server:      Jarvis Memory MCP, 3.2.4                    │
+│                  🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+[04/27/26 15:08:31] INFO     Starting MCP server 'Jarvis Memory transport.py:301
+                             MCP' with transport 'sse' on                       
+                             http://0.0.0.0:3100/sse                            
+INFO:     Started server process [130082]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 3100): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

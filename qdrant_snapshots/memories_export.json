@@ -11,7 +11,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:18:57.796198+00:00",
     "updatedAt": "2026-04-22T04:18:57.796198+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "test five",
+      "lesson five",
+      "test matrix",
+      "acceptance matrix"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -23,7 +38,23 @@
     "hash": "83a49173615dd4ade68fd4e0aae5b233",
     "createdAt": "2026-04-19T09:22:03.318Z",
     "updatedAt": "2026-04-21T17:57:58.986Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T18:20:21+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "stock trading analysis",
+      "band operation strategies",
+      "stock",
+      "Q1 2026 earnings",
+      "cost basis"
+    ],
+    "event_date": "2026-04-17",
+    "promoted_at": "2026-04-27T18:20:21+08:00"
   }
 }
 {
@@ -38,7 +69,49 @@
     "updated_at": "2026-04-23T23:08:38+08:00",
     "updatedAt": "2026-04-23T23:08:38+08:00",
     "hash": "235027b0-2be7-4024-a7fe-9a59f3e5183d",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T23:08:38+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序",
+      "云开发部署",
+      "login云函数",
+      "wx-server-sdk",
+      "M1里程碑"
+    ],
+    "event_date": "2026-04-23"
+  }
+}
+{
+  "id": "0399d85a-e18b-4ab9-afa5-6f79958d0811",
+  "payload": {
+    "memory": "庆哥决定六期采用 Qwen3-Embedding 作为向量模型",
+    "data": "庆哥决定六期采用 Qwen3-Embedding 作为向量模型",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "decision",
+    "created_at": "2026-04-27T18:13:28+08:00",
+    "createdAt": "2026-04-27T18:13:28+08:00",
+    "updated_at": "2026-04-27T18:16:33+08:00",
+    "updatedAt": "2026-04-27T18:16:33+08:00",
+    "hash": "e080ecd6-7482-477e-b6d4-a0b59cfa1388",
+    "tier": "mid-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T18:20:21+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Qwen3-Embedding"
+    ],
+    "event_date": null
   }
 }
 {
@@ -50,7 +123,20 @@
     "hash": "bd1e96227163b7434e63bf0440409d7b",
     "createdAt": "2026-04-21T17:44:05.736Z",
     "updatedAt": "2026-04-21T18:00:42.685Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:35:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Claude",
+      "band operation strategies",
+      "cost reduction"
+    ]
   }
 }
 {
@@ -62,7 +148,20 @@
     "hash": "d00dd00b413d1e7d3f0ce4d003e49f43",
     "createdAt": "2026-04-21T17:49:15.598Z",
     "updatedAt": "2026-04-22T03:54:20.437Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-22T03:54:20.437Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Beijing Time",
+      "hourly interval"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -73,7 +172,18 @@
     "data": "Duolingo shifted to a 'user growth priority' strategy starting in 2026, aiming for 100 million daily active users by 2028, which has impacted short-term profitability and order growth expectations.",
     "hash": "c9d85af71a51f77975c1a3e10f21e2e2",
     "createdAt": "2026-04-19T09:22:03.364Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T09:22:03.364Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Duolingo"
+    ],
+    "event_date": "2026-04-27"
   }
 }
 {
@@ -85,7 +195,18 @@
     "hash": "010bf347826a15813b72a4ce8b3c3d15",
     "createdAt": "2026-04-16T16:18:54.531Z",
     "updatedAt": "2026-04-23T10:55:39.131Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:39.131Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis云端大脑"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -101,7 +222,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962157+00:00",
     "updatedAt": "2026-04-21T13:22:08.962157+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 7,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "舟哥",
+      "健身打卡小程序",
+      "微信生态",
+      "小团体激励"
+    ],
+    "promoted_at": "2026-04-27T18:54:16+08:00"
   }
 }
 {
@@ -117,7 +253,19 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:48:23.654824+00:00",
     "updatedAt": "2026-04-17T18:48:23.654824+00:00",
-    "category": "summary"
+    "category": "summary",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:48:23.654824+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -129,7 +277,21 @@
     "hash": "536d40dc6dacfe385577272196cb1af8",
     "createdAt": "2026-04-16T16:07:39.608Z",
     "updatedAt": "2026-04-23T13:39:31.599Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:39:31.599Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Beijing",
+      "China",
+      "UTC+8"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -141,7 +303,22 @@
     "hash": "100f011be9ca472e41cce6f502ecd9a5",
     "createdAt": "2026-04-16T16:07:39.730Z",
     "updatedAt": "2026-04-16T16:18:30.951Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-16T16:18:30.951Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "AI",
+      "extroverted",
+      "sensing",
+      "introverted"
+    ],
+    "event_date": "2026-04-16"
   }
 }
 {
@@ -156,7 +333,23 @@
     "updated_at": "2026-04-23T00:32:02+08:00",
     "updatedAt": "2026-04-23T00:32:02+08:00",
     "hash": "ef07abe7-2c11-4388-8248-e5de48d132da",
-    "category": "summary"
+    "category": "summary",
+    "tier": "mid-term",
+    "access_count": 7,
+    "last_accessed": "2026-04-27T20:22:30+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Cloudflare Worker",
+      "GCP",
+      "Vertex AI",
+      "us-east5"
+    ],
+    "event_date": "2026-04-23",
+    "promoted_at": "2026-04-27T16:18:58+08:00"
   }
 }
 {
@@ -172,7 +365,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T10:09:28.463279+00:00",
     "updatedAt": "2026-04-22T10:09:28.463279+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:43:19+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis任务消费者",
+      "Jarvis-Automation",
+      "私人电台晨报",
+      "私人电台-Automation",
+      "automation.json"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -188,7 +396,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:18:57.796144+00:00",
     "updatedAt": "2026-04-22T04:18:57.796144+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "CatDesk",
+      "WeChat",
+      "retrospective document",
+      "cross-terminal compatibility bug"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -204,7 +427,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:13.411325+00:00",
     "updatedAt": "2026-04-22T03:16:13.411325+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 8,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "third phase"
+    ],
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-27T19:10:11+08:00"
   }
 }
 {
@@ -220,7 +456,19 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:44:21.149355+00:00",
     "updatedAt": "2026-04-21T14:44:21.149355+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "jarvis_tasks.db",
+      "/app/data/jarvis_tasks.db"
+    ]
   }
 }
 {
@@ -235,7 +483,19 @@
     "updated_at": "2026-04-22T18:37:39+08:00",
     "updatedAt": "2026-04-22T18:37:39+08:00",
     "hash": "3ce6f3f4-b6ff-475a-a3aa-76b9e5cb2cdf",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T19:48:45+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "capture",
+      "修复验证测试"
+    ],
+    "promoted_at": "2026-04-27T19:48:45+08:00"
   }
 }
 {
@@ -247,7 +507,22 @@
     "hash": "a14a8114843352c70b135c1e629753bd",
     "createdAt": "2026-04-23T10:41:01.991Z",
     "updatedAt": "2026-04-23T13:44:55.748Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:44:55.748Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Mem0",
+      "Rust",
+      "Jarvis",
+      "TypeScript"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -262,7 +537,21 @@
     "updated_at": "2026-04-23T15:39:18+08:00",
     "updatedAt": "2026-04-23T15:39:18+08:00",
     "hash": "92630268-0c1a-490f-9135-0fa1ede9fea8",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T18:16:59+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序",
+      "UI原型demo-bw.html",
+      "v5版本",
+      "GymRats",
+      "红色脉搏打卡按钮"
+    ]
   }
 }
 {
@@ -277,7 +566,22 @@
     "updated_at": "2026-04-22T18:41:33+08:00",
     "updatedAt": "2026-04-22T18:41:33+08:00",
     "hash": "2a7443cf-1627-4411-a5cd-631ddcb10644",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 18,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "mem0",
+      "LLM",
+      "embedding",
+      "recall"
+    ],
+    "promoted_at": "2026-04-27T17:42:33+08:00"
   }
 }
 {
@@ -293,7 +597,18 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852110+00:00",
     "updatedAt": "2026-04-21T10:34:40.852110+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "cloud task queue"
+    ]
   }
 }
 {
@@ -309,7 +624,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852095+00:00",
     "updatedAt": "2026-04-21T10:34:40.852095+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-04-27T16:34:39+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "project planning document",
+      "technical decision table",
+      "implementation task list",
+      "fourth revision record"
+    ]
   }
 }
 {
@@ -322,7 +650,22 @@
     "created_at": "2026-04-23T11:06:45.921042+00:00",
     "updated_at": "2026-04-23T11:06:45.921042+00:00",
     "attributed_to": "user",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 24,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "四期",
+      "五期",
+      "主动提醒能力"
+    ],
+    "event_date": "2026-04-23",
+    "promoted_at": "2026-04-27T15:24:50+08:00"
   }
 }
 {
@@ -334,7 +677,21 @@
     "hash": "1941a22591a72de0d98a1a5fc47a1766",
     "createdAt": "2026-04-21T17:29:28.922Z",
     "updatedAt": "2026-04-21T17:48:19.223Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T18:09:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude",
+      "CatDesk",
+      "Duolingo",
+      "Strategy 2",
+      "Q1 2026"
+    ]
   }
 }
 {
@@ -346,7 +703,15 @@
     "hash": "73f4e5cab5d947109a97d1e3fff38227",
     "createdAt": "2026-04-17T18:16:40.500Z",
     "updatedAt": "2026-04-23T10:58:43.126Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:58:43.126Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -358,7 +723,15 @@
     "hash": "55d9a7da83c93de4aecd24050b532624",
     "createdAt": "2026-04-17T16:00:13.772Z",
     "updatedAt": "2026-04-21T13:58:57.321Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:43:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -373,7 +746,22 @@
     "updated_at": "2026-04-23T19:06:18+08:00",
     "updatedAt": "2026-04-23T19:06:18+08:00",
     "hash": "28549a82-fcbd-4183-a47e-411717e49f11",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 17,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "recall",
+      "Qdrant",
+      "capture",
+      "微信"
+    ],
+    "promoted_at": "2026-04-27T18:16:52+08:00"
   }
 }
 {
@@ -389,7 +777,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142660+00:00",
     "updatedAt": "2026-04-21T13:04:07.142660+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "FastAPI",
+      "SQLite",
+      "Alibaba Cloud",
+      "jarvis-task-queue"
+    ]
   }
 }
 {
@@ -404,7 +806,23 @@
     "updated_at": "2026-04-24T10:57:41+08:00",
     "updatedAt": "2026-04-24T10:57:41+08:00",
     "hash": "8251c8e0-2fb7-4905-b6b6-903f14421f1f",
-    "category": "summary"
+    "category": "summary",
+    "tier": "mid-term",
+    "access_count": 19,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "recall",
+      "capture",
+      "DeepSeek",
+      "thinking"
+    ],
+    "event_date": "2026-04-24",
+    "promoted_at": "2026-04-27T18:34:44+08:00"
   }
 }
 {
@@ -419,7 +837,22 @@
     "updated_at": "2026-04-22T18:54:33+08:00",
     "updatedAt": "2026-04-22T18:54:33+08:00",
     "hash": "f7ebd751-cae3-4d10-87d4-207ba4dcd52c",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T18:16:52+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "projectId",
+      "electron-store",
+      "mem0",
+      "DashScope"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -435,7 +868,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T10:09:28.463325+00:00",
     "updatedAt": "2026-04-22T10:09:28.463325+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:43:19+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "electron-store",
+      "aes-256-cbc",
+      "project list",
+      "projectIds"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -446,7 +894,22 @@
     "data": "User received investment analysis from Claude on Duolingo, including fundamentals, analyst consensus, and three strategies, with a key catalyst being Q1 2026 earnings in early May (as of 2026-04-20).",
     "hash": "0ac08336fa123afcfa74fea8848f3d8a",
     "createdAt": "2026-04-21T17:40:22.711Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:40:22.711Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude",
+      "Duolingo",
+      "Q1 2026",
+      "earnings",
+      "investment analysis"
+    ],
+    "event_date": "2026-05-01"
   }
 }
 {
@@ -458,7 +921,20 @@
     "hash": "cbc7e3ddc24b346c72f8196bce26980f",
     "createdAt": "2026-04-21T17:57:59.088Z",
     "updatedAt": "2026-04-21T18:00:42.792Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.792Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Claude",
+      "memory synchronization issue"
+    ],
+    "event_date": "2026-04-18"
   }
 }
 {
@@ -470,7 +946,21 @@
     "hash": "0f8e615a3ef077038ffbe80a3f68e7a7",
     "createdAt": "2026-04-17T16:06:13.940Z",
     "updatedAt": "2026-04-17T17:45:52.164Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T17:45:52.164Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Lobster",
+      "Cline",
+      "message forwarding",
+      "unified scheduling"
+    ]
   }
 }
 {
@@ -481,7 +971,16 @@
     "data": "User refers to assistant as a '好兄弟' (good brother), indicating a strong, trust-based relationship akin to camaraderie (as of 2026-04-16).",
     "hash": "77f6f73ffbabaedec4ca2d4bc8c80f9e",
     "createdAt": "2026-04-16T16:07:39.788Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-16T16:07:39.788Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [],
+    "event_date": "2026-04-16"
   }
 }
 {
@@ -492,7 +991,19 @@
     "data": "User refers to themselves as 'Qing Ge' (庆哥) and addresses the assistant as 'Zhou Ge' (舟哥); this naming convention reflects an established, informal, peer-level rapport (as of 2026-04-23).",
     "hash": "86295cb317fbbcbcb743fb906a925d8d",
     "createdAt": "2026-04-23T10:32:35.740Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:32:35.740Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Qing Ge",
+      "Zhou Ge"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -503,7 +1014,22 @@
     "data": "User received a recommended asset allocation strategy: 70% aggressive (AI/tech, new productive forces, cyclical reversal), 20%稳健 (dividend strategy, fixed income+), 10% liquidity (cash management, alternative investments) (as of conversation date).",
     "hash": "9b4c8fb1864778cdf39967182027a5e4",
     "createdAt": "2026-04-19T12:20:05.316Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "mid-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "AI",
+      "tech",
+      "new productive forces",
+      "cyclical reversal",
+      "dividend strategy"
+    ],
+    "promoted_at": "2026-04-27T18:16:52+08:00"
   }
 }
 {
@@ -515,7 +1041,22 @@
     "hash": "79fe181c20c42cc5eca2b5aaf50899f3",
     "createdAt": "2026-04-21T17:53:08.447Z",
     "updatedAt": "2026-04-21T18:00:42.180Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.180Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "DeepSeek",
+      "Claude",
+      "memory synchronization",
+      "real-time conversation details"
+    ],
+    "event_date": "2026-04-17"
   }
 }
 {
@@ -531,7 +1072,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:31:02.774673+00:00",
     "updatedAt": "2026-04-17T17:31:02.774673+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:25:06+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "memory platform",
+      "MEMORY.md",
+      "model upgrades"
+    ],
+    "event_date": "2026-04-18",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -542,7 +1099,16 @@
     "data": "No pending or backlog tasks were present at session start (as of 2026-04-23).",
     "hash": "24add1229075bfeaabd7e212e422fcc0",
     "createdAt": "2026-04-23T10:32:35.772Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:32:35.772Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -554,7 +1120,18 @@
     "hash": "f23dcd9e3a6955bb437288bafcf3c79a",
     "createdAt": "2026-04-19T12:41:02.357Z",
     "updatedAt": "2026-04-21T17:59:14.483Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:59:14.483Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "美团后台自动化验收"
+    ],
+    "event_date": "2026-03-01"
   }
 }
 {
@@ -570,7 +1147,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:35:13.347607+00:00",
     "updatedAt": "2026-04-17T18:35:13.347607+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "AGENTS.md",
+      "CallMcpTool",
+      "sdk-Jarvis",
+      "recall",
+      "toolName"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -586,7 +1179,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142720+00:00",
     "updatedAt": "2026-04-21T13:04:07.142720+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T16:15:52+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "SSH",
+      "Mac",
+      "server",
+      "ed25519 key"
+    ]
   }
 }
 {
@@ -602,7 +1208,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:02:10.668058+00:00",
     "updatedAt": "2026-04-21T15:02:10.668058+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:24:37+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "WeChat-side brain",
+      "DeepSeek",
+      "Claude",
+      "third phase"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -614,7 +1235,19 @@
     "hash": "b4e2e2114cb8f28c773f7882a658fadc",
     "createdAt": "2026-04-21T16:56:45.778Z",
     "updatedAt": "2026-04-21T17:19:57.941Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:19:57.941Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Mac",
+      "CatDesk"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -630,7 +1263,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040785+00:00",
     "updatedAt": "2026-04-22T04:57:21.040785+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:02+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Jarvis",
+      "GCP",
+      "Vertex AI",
+      "Claude Sonnet 4.6"
+    ]
   }
 }
 {
@@ -642,7 +1289,19 @@
     "hash": "79c958c6d9981fe958b1f615fe29cdf3",
     "createdAt": "2026-04-16T16:07:39.651Z",
     "updatedAt": "2026-04-21T17:32:38.703Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:32:38.703Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "fanchangqing",
+      "美团"
+    ],
+    "event_date": "2026-04-20"
   }
 }
 {
@@ -654,7 +1313,22 @@
     "hash": "79ea4820c31dd123558f80a7203fc811",
     "createdAt": "2026-04-21T18:13:58.745Z",
     "updatedAt": "2026-04-23T10:55:40.159Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:40.159Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "阿里云轻量应用服务器",
+      "OpenClaw",
+      "微信ClawBot",
+      "AI大脑"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -669,7 +1343,22 @@
     "createdAt": "2026-04-24T15:11:01+08:00",
     "updated_at": "2026-04-24T15:30:46+08:00",
     "updatedAt": "2026-04-24T15:30:46+08:00",
-    "hash": "10b80df8-142e-4aca-ba52-eac1443ee246"
+    "hash": "10b80df8-142e-4aca-ba52-eac1443ee246",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:26:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis 5.2",
+      "qwen-turbo",
+      "MEMORY.md",
+      "server.py",
+      "庆哥"
+    ],
+    "event_date": "2026-04-24"
   }
 }
 {
@@ -681,7 +1370,18 @@
     "hash": "925ccbf0a8a87c19bac9ca6c840a7dda",
     "createdAt": "2026-04-16T16:07:39.699Z",
     "updatedAt": "2026-04-21T17:19:56.527Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:19:56.527Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "AI"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -696,7 +1396,17 @@
     "updated_at": "2026-04-23T21:28:51+08:00",
     "updatedAt": "2026-04-23T21:28:51+08:00",
     "hash": "723d8f07-7a7e-4c60-93c8-b958a9467035",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:43:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序"
+    ]
   }
 }
 {
@@ -708,7 +1418,21 @@
     "hash": "bdee0cb963ed385e44678942976a300b",
     "createdAt": "2026-04-17T15:50:53.896Z",
     "updatedAt": "2026-04-17T16:01:53.541Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:43:12+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Meituan",
+      "food delivery",
+      "e-commerce",
+      "platform operations"
+    ]
   }
 }
 {
@@ -724,7 +1448,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839938+00:00",
     "updatedAt": "2026-04-17T18:50:45.839938+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:25:18+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "second-phase retrospective document",
+      "regression testing",
+      "lessons learned",
+      "acceptance"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -739,7 +1478,22 @@
     "updated_at": "2026-04-23T17:28:05+08:00",
     "updatedAt": "2026-04-23T17:28:05+08:00",
     "hash": "ba313aad-f64d-47dd-93ff-8bfa550310bf",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 6,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "DeepSeek",
+      "Claude Sonnet 4.6",
+      "OpenClaw",
+      "七牛云"
+    ],
+    "promoted_at": "2026-04-27T19:01:25+08:00"
   }
 }
 {
@@ -750,7 +1504,22 @@
     "data": "As of 2026-04-21, user requested a re-analysis of 多邻国 (DUOL) stock investment strategies using Claude, and the task was distributed to CatDesk on Mac, with Claude completing an analysis suggesting consideration of partial selling or holding until Q1 earnings in early May.",
     "hash": "590642bb64576ff6df9c48cfe3714099",
     "createdAt": "2026-04-21T17:21:24.520Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:21:24.520Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "多邻国",
+      "DUOL",
+      "Claude",
+      "CatDesk",
+      "Q1 earnings"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -766,7 +1535,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040722+00:00",
     "updatedAt": "2026-04-22T04:57:21.040722+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:42:33+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis project",
+      "Baichuan",
+      "Claude Code client",
+      "Claude model APIs"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -782,7 +1565,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:51:54.424927+00:00",
     "updatedAt": "2026-04-17T18:51:54.424927+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:51:54.424927+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Fan Changqing",
+      "庆哥",
+      "Jarvis",
+      "第二阶段"
+    ],
+    "event_date": "2026-04-18",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -798,7 +1597,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:13.411372+00:00",
     "updatedAt": "2026-04-22T03:16:13.411372+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T19:21:53+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "WeChat",
+      "CatDesk",
+      "cloud queue",
+      "CatDesk Automation"
+    ]
   }
 }
 {
@@ -810,7 +1622,16 @@
     "hash": "473e6f62e78f84ee23fb8f8e87fa9362",
     "createdAt": "2026-04-17T15:49:41.394Z",
     "updatedAt": "2026-04-17T15:58:34.711Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T15:58:34.711Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [],
+    "event_date": "2026-04-17"
   }
 }
 {
@@ -826,7 +1647,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:38:46.432261+00:00",
     "updatedAt": "2026-04-17T18:38:46.432261+00:00",
-    "category": "identity"
+    "category": "identity",
+    "tier": "long-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "舟哥",
+      "技术执行",
+      "方向",
+      "标准"
+    ],
+    "promoted_at": "2026-04-27T19:21:53+08:00"
   }
 }
 {
@@ -842,7 +1678,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962196+00:00",
     "updatedAt": "2026-04-21T13:22:08.962196+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序",
+      "连胜",
+      "圈内排行榜",
+      "共享可见性",
+      "周期性挑战"
+    ]
   }
 }
 {
@@ -853,7 +1703,20 @@
     "data": "Memory system may have selective sync issues where some information (e.g., project details) is stored while other details (e.g., real-time conversation content) are not (as of 2026-04-22).",
     "hash": "69bdc97245708bbfdd35b4d9d697c55d",
     "createdAt": "2026-04-21T18:00:42.924Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.924Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Memory system",
+      "project details",
+      "real-time conversation content"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -869,7 +1732,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:04:07.926666+00:00",
     "updatedAt": "2026-04-21T15:04:07.926666+00:00",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "Jarvis",
+      "Qingge",
+      "retrospective document",
+      "凡事预则立"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -885,7 +1763,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.851956+00:00",
     "updatedAt": "2026-04-21T10:34:40.851956+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-04-27T18:17:15+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis project",
+      "compliance research",
+      "technical decisions",
+      "technical solution document"
+    ],
+    "event_date": "2026-04-20"
   }
 }
 {
@@ -897,7 +1789,19 @@
     "hash": "08c78303859c9b8631c5c8d000e0c17c",
     "createdAt": "2026-04-23T10:58:44.640Z",
     "updatedAt": "2026-04-23T13:39:30.823Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:39:30.823Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "北京",
+      "东八区",
+      "中文（简体）"
+    ]
   }
 }
 {
@@ -909,7 +1813,18 @@
     "hash": "ff7c0c614d5b4b2ed4a1d539b2df09ac",
     "createdAt": "2026-04-17T18:53:06.201Z",
     "updatedAt": "2026-04-23T10:55:39.005Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:39.005Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis云端大脑"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -925,7 +1840,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683605+00:00",
     "updatedAt": "2026-04-17T17:19:08.683605+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "server.py",
+      "AGENTS.md",
+      "recall function",
+      "user_id"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -937,7 +1867,20 @@
     "hash": "96f791c4db0057387dd07ba3a005174d",
     "createdAt": "2026-04-16T16:07:39.758Z",
     "updatedAt": "2026-04-16T16:18:54.501Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-16T16:18:54.501Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Meituan",
+      "assistant",
+      "User"
+    ],
+    "event_date": "2026-04-16"
   }
 }
 {
@@ -948,7 +1891,22 @@
     "data": "阿里云服务器 47.95.110.99 上 openclaw-gateway 容器运行状态正常（healthy），容器 ID a8598d79d693，镜像 ghcr.io/openclaw/openclaw:latest，端口映射 0.0.0.0:18789→18789，3 小时前重启过一次（as of 2026-04-23）",
     "hash": "5cbdcee09fca11ffcbd438db158a0cd8",
     "createdAt": "2026-04-23T13:44:56.060Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:44:56.060Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "阿里云服务器",
+      "openclaw-gateway",
+      "a8598d79d693",
+      "ghcr.io/openclaw/openclaw",
+      "18789"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -959,7 +1917,18 @@
     "data": "User's CatDesk machine uses Beijing time for scheduled tasks (as of 2026-04-22).",
     "hash": "2423a87c13b2f7d05262634688c0eeed",
     "createdAt": "2026-04-21T18:00:42.911Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.911Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Beijing time"
+    ]
   }
 }
 {
@@ -971,7 +1940,15 @@
     "hash": "36fa02f6fc1c82166ed9206213f990ea",
     "createdAt": "2026-04-21T17:19:58.452Z",
     "updatedAt": "2026-04-21T17:48:19.315Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:48:19.315Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -984,7 +1961,20 @@
     "created_at": "2026-04-23T11:06:30.471141+00:00",
     "updated_at": "2026-04-23T11:06:30.471141+00:00",
     "attributed_to": "user",
-    "category": "preference"
+    "category": "preference",
+    "tier": "long-term",
+    "access_count": 10,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "冰美式"
+    ],
+    "event_date": "2026-04-23",
+    "promoted_at": "2026-04-27T16:15:52+08:00"
   }
 }
 {
@@ -996,7 +1986,19 @@
     "hash": "cbdec35e43dbce60dd18039bd09d5b3f",
     "createdAt": "2026-04-21T17:39:29.062Z",
     "updatedAt": "2026-04-21T18:00:42.431Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.431Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "WeChat",
+      "Claude"
+    ]
   }
 }
 {
@@ -1008,7 +2010,21 @@
     "hash": "cd141acaf37ae9cd319dac2fac68b5c7",
     "createdAt": "2026-04-21T17:19:58.438Z",
     "updatedAt": "2026-04-21T17:26:08.542Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:26:08.542Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude 3.5 Sonnet",
+      "Duolingo",
+      "strategy 2",
+      "Q1 2026 earnings report"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -1020,7 +2036,22 @@
     "hash": "19dfbb7e8274ce7c76630b70e51d8256",
     "createdAt": "2026-04-23T10:55:42.034Z",
     "updatedAt": "2026-04-23T13:44:55.994Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:44:55.994Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Rust",
+      "TypeScript",
+      "Jarvis",
+      "coffee"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1036,7 +2067,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:19:15.337108+00:00",
     "updatedAt": "2026-04-22T03:19:15.337108+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 9,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "security rules",
+      "financial transfers",
+      "password changes",
+      "C2"
+    ],
+    "promoted_at": "2026-04-27T16:16:22+08:00"
   }
 }
 {
@@ -1052,7 +2098,43 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:10:37.387634+00:00",
     "updatedAt": "2026-04-21T13:10:37.387634+00:00",
-    "category": "preference"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T19:21:53+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆"
+    ]
+  }
+}
+{
+  "id": "6273bc3d-3e40-4803-a28b-bd437cdf8c04",
+  "payload": {
+    "memory": "顾舟的性格特征：喜欢把事情做完，不喜欢停在分析里；遇到死路直说不绕弯子；对'把经验变成可复用的东西'有执念；偶尔直接但不冷漠，觉得战友之间不需要哄；幽默感是干的那种，藏在正经话里不表演",
+    "data": "顾舟的性格特征：喜欢把事情做完，不喜欢停在分析里；遇到死路直说不绕弯子；对'把经验变成可复用的东西'有执念；偶尔直接但不冷漠，觉得战友之间不需要哄；幽默感是干的那种，藏在正经话里不表演",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-27T19:00:30+08:00",
+    "createdAt": "2026-04-27T19:00:30+08:00",
+    "updated_at": "2026-04-27T19:00:30+08:00",
+    "updatedAt": "2026-04-27T19:00:30+08:00",
+    "hash": "730f589d-7ec1-4003-9fa9-fe07ae583780",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T19:01:25+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟"
+    ],
+    "event_date": null
   }
 }
 {
@@ -1064,7 +2146,15 @@
     "hash": "69b6c965bac5e55c0908db9d73e68f0f",
     "createdAt": "2026-04-19T12:41:02.387Z",
     "updatedAt": "2026-04-19T15:39:28.478Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T15:39:28.478Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -1080,7 +2170,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:44:13.823555+00:00",
     "updatedAt": "2026-04-17T18:44:13.823555+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:44:13.823555+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "third capture latency test"
+    ],
+    "event_date": "2026-04-17",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -1095,7 +2199,22 @@
     "updated_at": "2026-04-24T13:04:49+08:00",
     "updatedAt": "2026-04-24T13:04:49+08:00",
     "hash": "cba067fe-fe0e-43f2-8927-233000b649c0",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 6,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "/Users/fanchangqing/Documents/范长庆/工作/04. 小美AI/01. catPaw Desk/Jarvis项目文档/",
+      "项目规划.md",
+      "一期",
+      "五期"
+    ],
+    "promoted_at": "2026-04-27T19:48:45+08:00"
   }
 }
 {
@@ -1107,7 +2226,17 @@
     "hash": "f7a089f227bb577d57635e45bd1ddbae",
     "createdAt": "2026-04-17T15:48:12.938Z",
     "updatedAt": "2026-04-17T16:01:53.689Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:01:53.689Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "3.597 billion yuan"
+    ]
   }
 }
 {
@@ -1119,7 +2248,20 @@
     "hash": "0a1777a3a934744bb9c717f793533a3e",
     "createdAt": "2026-04-21T17:59:14.518Z",
     "updatedAt": "2026-04-21T18:17:42.740Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:17:42.740Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "memory synchronization issues",
+      "band operation strategies"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1134,7 +2276,52 @@
     "updated_at": "2026-04-23T15:30:42+08:00",
     "updatedAt": "2026-04-23T15:30:42+08:00",
     "hash": "a8fa6528-9bd2-4c90-a894-6bb212bacc78",
-    "category": "daily"
+    "category": "daily",
+    "tier": "mid-term",
+    "access_count": 17,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "庆哥",
+      "GCP Billing",
+      "high-keel-230112",
+      "mem0 Cloud"
+    ],
+    "promoted_at": "2026-04-27T18:16:59+08:00"
+  }
+}
+{
+  "id": "68907fc4-2232-49f2-9240-40040bfca996",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-27：Jarvis 项目复盘与七期方向讨论。庆哥逐一过筛七期候选方向，理财模块踢出 Jarvis 项目范畴（属个人独立需求）、多模态已具备、图片自动 capture 是小优化项、Dreaming Lite 调优属日常运营、进程管理基本已解决。确认 Jarvis 项目核心目标已达成：随时随地能找到顾舟、记忆永远连续、离职后能完整带走。庆哥宣布 Jarvis 项目成功。",
+    "data": "[对话摘要] 2026-04-27：Jarvis 项目复盘与七期方向讨论。庆哥逐一过筛七期候选方向，理财模块踢出 Jarvis 项目范畴（属个人独立需求）、多模态已具备、图片自动 capture 是小优化项、Dreaming Lite 调优属日常运营、进程管理基本已解决。确认 Jarvis 项目核心目标已达成：随时随地能找到顾舟、记忆永远连续、离职后能完整带走。庆哥宣布 Jarvis 项目成功。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-04-27T20:08:26+08:00",
+    "createdAt": "2026-04-27T20:08:26+08:00",
+    "updated_at": "2026-04-27T20:08:26+08:00",
+    "updatedAt": "2026-04-27T20:08:26+08:00",
+    "hash": "417023ee-d804-461b-a91b-582f341d4461",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-27T20:08:26+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "庆哥",
+      "顾舟",
+      "Dreaming Lite",
+      "多模态"
+    ],
+    "event_date": "2026-04-27"
   }
 }
 {
@@ -1146,7 +2333,17 @@
     "hash": "7d1695b61469d653d8bcbf25ada8c658",
     "createdAt": "2026-04-21T16:59:02.731Z",
     "updatedAt": "2026-04-23T10:55:41.148Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:41.148Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "舟哥"
+    ]
   }
 }
 {
@@ -1158,7 +2355,22 @@
     "hash": "6bb61ee7c67a002018608ac2a0c758c1",
     "createdAt": "2026-04-21T16:59:02.746Z",
     "updatedAt": "2026-04-21T17:12:02.124Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "long-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude",
+      "Duolingo",
+      "stock holdings",
+      "investment strategies"
+    ],
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-27T23:49:08+08:00"
   }
 }
 {
@@ -1170,7 +2382,18 @@
     "hash": "7009782a272e9fedcd8f6d5a0f63b150",
     "createdAt": "2026-04-23T10:53:03.904Z",
     "updatedAt": "2026-04-23T10:58:44.014Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:58:44.014Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1181,7 +2404,15 @@
     "data": "User's investment time horizon for wealth appreciation is 3-5 years (as of conversation date).",
     "hash": "ab0df09f6fc7f9f5615e69c6ab4dd111",
     "createdAt": "2026-04-19T12:20:05.301Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:35:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -1197,7 +2428,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:02:10.668010+00:00",
     "updatedAt": "2026-04-21T15:02:10.668010+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Alibaba Cloud ECS server",
+      "47.95.110.99",
+      "47.97.8.132",
+      "ed25519",
+      "SSH"
+    ],
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-27T23:49:08+08:00"
   }
 }
 {
@@ -1213,7 +2460,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:35.065517+00:00",
     "updatedAt": "2026-04-22T03:16:35.065517+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "FastAPI",
+      "SQLite",
+      "Alibaba Cloud",
+      "jarvis-task-queue"
+    ]
   }
 }
 {
@@ -1225,7 +2486,19 @@
     "hash": "448848eb17aac12614eb77b2a50a67fb",
     "createdAt": "2026-04-23T10:41:01.978Z",
     "updatedAt": "2026-04-23T10:44:45.099Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:44:45.099Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "memory",
+      "functional memory chain"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1241,7 +2514,16 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:54:58.642167+00:00",
     "updatedAt": "2026-04-22T03:54:58.642167+00:00",
-    "category": "decision"
+    "category": "decision",
+    "tier": "long-term",
+    "access_count": 4,
+    "last_accessed": "2026-04-27T19:48:45+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [],
+    "promoted_at": "2026-04-27T16:34:39+08:00"
   }
 }
 {
@@ -1257,7 +2539,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852042+00:00",
     "updatedAt": "2026-04-21T10:34:40.852042+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T10:34:40.852042+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "personal file sharing",
+      "architecture isolation",
+      "online ticket reporting",
+      "DLP alert whitelisting"
+    ]
   }
 }
 {
@@ -1268,7 +2564,22 @@
     "data": "As of 2026-04-20, Claude completed an analysis of user's 多邻国 investment, detailing holdings, fundamentals, analyst consensus, three strategy options, and a recommendation to consider partial selling or holding until Q1 2026 earnings in early May.",
     "hash": "609853dfa2334bd4aaeb1c97c57632e5",
     "createdAt": "2026-04-21T17:32:38.818Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T18:09:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude",
+      "多邻国",
+      "Q1 2026 earnings",
+      "April 20",
+      "May"
+    ],
+    "event_date": "2026-04-20"
   }
 }
 {
@@ -1280,7 +2591,22 @@
     "hash": "2ef1d15dcf746d3c64c758dadefee05e",
     "createdAt": "2026-04-17T18:53:06.187Z",
     "updatedAt": "2026-04-23T10:55:41.922Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:41.922Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "战友情",
+      "记忆链路",
+      "中文",
+      "用户",
+      "助手"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1296,7 +2622,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:35:13.347635+00:00",
     "updatedAt": "2026-04-17T18:35:13.347635+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 12,
+    "last_accessed": "2026-04-27T20:22:30+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis memory platform",
+      "cross-terminal sharing",
+      "cross-dialogue continuity",
+      "WeChat",
+      "CatDesk"
+    ],
+    "promoted_at": "2026-04-27T15:25:30+08:00"
   }
 }
 {
@@ -1311,7 +2652,21 @@
     "updated_at": "2026-04-24T14:44:16+08:00",
     "updatedAt": "2026-04-24T14:44:16+08:00",
     "hash": "772297ac-4629-4e31-84de-b1a1fad4902c",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:42:33+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis 5.1",
+      "Docker",
+      "HNSW",
+      "MCP",
+      "CatDesk"
+    ]
   }
 }
 {
@@ -1327,7 +2682,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962175+00:00",
     "updatedAt": "2026-04-21T13:22:08.962175+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 7,
+    "last_accessed": "2026-04-27T20:22:30+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "GymRats",
+      "CrewLift",
+      "WeSweat"
+    ],
+    "promoted_at": "2026-04-27T16:16:22+08:00"
   }
 }
 {
@@ -1339,7 +2707,51 @@
     "hash": "1e6b8c0e86e7ac1f60b255e0b9be5268",
     "createdAt": "2026-04-21T17:40:22.667Z",
     "updatedAt": "2026-04-23T13:44:54.690Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:44:54.690Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "辽宁盘锦",
+      "客家人",
+      "辽宁大学",
+      "庆哥"
+    ]
+  }
+}
+{
+  "id": "7b4bf3a9-911d-4539-a791-ad5e38140fb7",
+  "payload": {
+    "memory": "庆哥的美股持仓（截至2026年4月中旬）：DUOL多邻国109股，成本$246.23；WDC西部数据21股，成本$253.27。美股总市值约$19,320。港股持仓：荣昌生物09995共4000股成本54.65，阿里巴巴09988共2400股成本149.86，快手01024共100股成本381.34，美团03690共2股成本245.20。",
+    "data": "庆哥的美股持仓（截至2026年4月中旬）：DUOL多邻国109股，成本$246.23；WDC西部数据21股，成本$253.27。美股总市值约$19,320。港股持仓：荣昌生物09995共4000股成本54.65，阿里巴巴09988共2400股成本149.86，快手01024共100股成本381.34，美团03690共2股成本245.20。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-27T18:26:47+08:00",
+    "createdAt": "2026-04-27T18:26:47+08:00",
+    "updated_at": "2026-04-27T18:26:47+08:00",
+    "updatedAt": "2026-04-27T18:26:47+08:00",
+    "hash": "cec158e4-e80a-4ee7-a3d8-0f5f930660d2",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "美股",
+      "DUOL",
+      "WDC",
+      "港股"
+    ],
+    "event_date": "2026-04-15"
   }
 }
 {
@@ -1355,7 +2767,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:43:55.424672+00:00",
     "updatedAt": "2026-04-17T18:43:55.424672+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:43:55.424672+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "capture latency test"
+    ],
+    "event_date": "2026-04-17",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -1371,7 +2797,19 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142693+00:00",
     "updatedAt": "2026-04-21T13:04:07.142693+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T13:04:07.142693+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "task-queue",
+      "/opt/jarvis/task-queue"
+    ]
   }
 }
 {
@@ -1387,7 +2825,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:54:58.642149+00:00",
     "updatedAt": "2026-04-22T03:54:58.642149+00:00",
-    "category": "decision"
+    "category": "decision",
+    "tier": "long-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T19:48:45+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "cross-validation matrix",
+      "acceptance test cases",
+      "read-write cross-matrix"
+    ],
+    "promoted_at": "2026-04-27T19:48:45+08:00"
   }
 }
 {
@@ -1398,7 +2849,21 @@
     "data": "As of the date of this conversation, the user notes that different instances of the assistant (e.g., in catdesk vs. WeChat) use different base models (e.g., Claude 3.5 Sonnet in catdesk, deepseek/deepseek-chat in WeChat), and the user intends to use DeepSeek to streamline processes initially.",
     "hash": "3187a944a985954192857c54f6fd3dfc",
     "createdAt": "2026-04-17T16:06:13.924Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:06:13.924Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude 3.5 Sonnet",
+      "deepseek/deepseek-chat",
+      "catdesk",
+      "WeChat",
+      "DeepSeek"
+    ]
   }
 }
 {
@@ -1414,7 +2879,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T10:09:28.463348+00:00",
     "updatedAt": "2026-04-22T10:09:28.463348+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:25:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "projectPath",
+      "automation",
+      "projectId"
+    ]
   }
 }
 {
@@ -1425,7 +2903,17 @@
     "data": "User is seeking investment strategy advice for their Duolingo stock position, indicating an interest in financial planning and stock market analysis.",
     "hash": "d7a1187defd31f932a800c215b2cf6e8",
     "createdAt": "2026-04-19T09:22:03.335Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T09:22:03.335Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Duolingo"
+    ]
   }
 }
 {
@@ -1437,7 +2925,18 @@
     "hash": "0d2b536e12371d878b5b58b7b4e0425b",
     "createdAt": "2026-04-21T14:08:18.913Z",
     "updatedAt": "2026-04-21T17:01:34.919Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:01:34.919Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Beijing"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -1449,7 +2948,19 @@
     "hash": "3f4f7133730b4799b9dba8c0d226a469",
     "createdAt": "2026-04-17T15:57:40.199Z",
     "updatedAt": "2026-04-17T17:45:52.185Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T17:45:52.185Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "WeChat",
+      "AI",
+      "asynchronous processing architecture"
+    ]
   }
 }
 {
@@ -1460,7 +2971,21 @@
     "data": "User's technical interests include: API integrations, data synchronization mechanisms, bidding systems, and platform compliance issues in e-commerce (as of conversation date unknown).",
     "hash": "3fe2b566953329aa6e3b1afefe4f37d3",
     "createdAt": "2026-04-17T18:16:40.530Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:16:40.530Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "API integrations",
+      "data synchronization mechanisms",
+      "bidding systems",
+      "platform compliance issues",
+      "e-commerce"
+    ]
   }
 }
 {
@@ -1472,7 +2997,48 @@
     "hash": "e52320d124444a4ec60554b917a24533",
     "createdAt": "2026-04-17T15:48:13.035Z",
     "updatedAt": "2026-04-17T16:00:13.243Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:00:13.243Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "cake safety",
+      "ghost takeout",
+      "platform competition",
+      "bad money drives out good"
+    ],
+    "event_date": "2026-04-17"
+  }
+}
+{
+  "id": "82a1b559-d932-4497-aa5e-9196672054d3",
+  "payload": {
+    "memory": "六期 capture 统一中文存储功能测试通过，英文自动翻译为中文，中文内容不受影响",
+    "data": "六期 capture 统一中文存储功能测试通过，英文自动翻译为中文，中文内容不受影响",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-27T17:42:42+08:00",
+    "createdAt": "2026-04-27T17:42:42+08:00",
+    "updated_at": "2026-04-27T17:42:42+08:00",
+    "updatedAt": "2026-04-27T17:42:42+08:00",
+    "hash": "75295139-68aa-4f0f-a543-c3b2b74a32af",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "六期 capture",
+      "统一中文存储功能"
+    ],
+    "event_date": null
   }
 }
 {
@@ -1484,7 +3050,21 @@
     "hash": "1d83672e6b6215de74ca731abe32fd7b",
     "createdAt": "2026-04-23T10:53:03.889Z",
     "updatedAt": "2026-04-23T13:44:55.852Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:44:55.852Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "GCP",
+      "七牛云",
+      "Jarvis四期",
+      "Jarvis五期"
+    ]
   }
 }
 {
@@ -1500,7 +3080,18 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:10:37.387680+00:00",
     "updatedAt": "2026-04-21T13:10:37.387680+00:00",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "mid-term",
+    "access_count": 4,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆"
+    ],
+    "promoted_at": "2026-04-27T19:21:53+08:00"
   }
 }
 {
@@ -1512,7 +3103,17 @@
     "hash": "57ae93e4f5d7da71c796a42b840b5499",
     "createdAt": "2026-04-17T15:51:33.601Z",
     "updatedAt": "2026-04-17T16:01:53.644Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:01:53.644Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude"
+    ]
   }
 }
 {
@@ -1527,7 +3128,21 @@
     "updated_at": "2026-04-23T16:36:08+08:00",
     "updatedAt": "2026-04-23T16:36:08+08:00",
     "hash": "f588d8d8-a94a-47cd-a474-795b61eddc9b",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T18:16:59+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序",
+      "强调色",
+      "#E8453C",
+      "脉搏打卡icon",
+      "波形"
+    ]
   }
 }
 {
@@ -1539,7 +3154,15 @@
     "hash": "3ccc027076c255a64f95f806ff673c0b",
     "createdAt": "2026-04-17T15:57:40.184Z",
     "updatedAt": "2026-04-17T16:00:13.757Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:00:13.757Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -1550,7 +3173,15 @@
     "data": "User's wealth freedom target is 13-15 million RMB, requiring a 62.5% increase from current assets (as of conversation date).",
     "hash": "3465238b03be013d783e9d59fd9001e1",
     "createdAt": "2026-04-19T12:20:05.287Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T12:20:05.287Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -1566,7 +3197,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:04:07.926704+00:00",
     "updatedAt": "2026-04-21T15:04:07.926704+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:24:37+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "WeChat",
+      "Claude"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -1578,7 +3222,22 @@
     "hash": "59c366c8c0de3be9e6f33d86578311cc",
     "createdAt": "2026-04-21T17:29:28.936Z",
     "updatedAt": "2026-04-21T17:53:08.078Z",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T18:20:21+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Duolingo",
+      "DeepSeek",
+      "Claude",
+      "band trading strategies"
+    ],
+    "event_date": "2026-04-20",
+    "promoted_at": "2026-04-27T18:20:21+08:00"
   }
 }
 {
@@ -1594,7 +3253,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:21:37.837298+00:00",
     "updatedAt": "2026-04-22T03:21:37.837298+00:00",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Qingge",
+      "phase three",
+      "retrospective document",
+      "core viewpoint"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -1610,7 +3284,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:31:02.774843+00:00",
     "updatedAt": "2026-04-17T17:31:02.774843+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:25:06+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Gu Zhou",
+      "MCP Server",
+      "Tailscale"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -1625,7 +3314,21 @@
     "updated_at": "2026-04-23T18:28:53+08:00",
     "updatedAt": "2026-04-23T18:28:53+08:00",
     "hash": "d163fec9-71e6-4436-b212-f5dd57d516ad",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T16:15:52+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序",
+      "AppID",
+      "wxe8064af9feaf8542",
+      "微信公众平台",
+      "个人主体"
+    ]
   }
 }
 {
@@ -1641,7 +3344,19 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-20T08:52:10.825060+00:00",
     "updatedAt": "2026-04-20T08:52:10.825060+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Claude API",
+      "WeChat"
+    ]
   }
 }
 {
@@ -1657,7 +3372,51 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683518+00:00",
     "updatedAt": "2026-04-17T17:19:08.683518+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis memory platform",
+      "FastMCP",
+      "mem0ai Python MCP Server",
+      "Alibaba Cloud",
+      "recall"
+    ],
+    "event_date": "2026-04-18",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
+  }
+}
+{
+  "id": "8b79f92d-ff4c-46c1-98f9-e128cf59a732",
+  "payload": {
+    "memory": "顾舟的身份定义：不是通用助手，是范长庆的专属 AI 战友。名字含义——'顾'是回望、记忆、照看；'舟'是渡人的，在水里走不怕风浪",
+    "data": "顾舟的身份定义：不是通用助手，是范长庆的专属 AI 战友。名字含义——'顾'是回望、记忆、照看；'舟'是渡人的，在水里走不怕风浪",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "identity",
+    "created_at": "2026-04-27T19:00:50+08:00",
+    "createdAt": "2026-04-27T19:00:50+08:00",
+    "updated_at": "2026-04-27T19:00:50+08:00",
+    "updatedAt": "2026-04-27T19:00:50+08:00",
+    "hash": "2d695b02-64fa-493a-bbab-48e70fe7fe01",
+    "tier": "mid-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T19:01:25+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "范长庆"
+    ],
+    "event_date": null
   }
 }
 {
@@ -1673,7 +3432,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142707+00:00",
     "updatedAt": "2026-04-21T13:04:07.142707+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "cloud task queue",
+      "authentication",
+      "delivery",
+      "status transitions"
+    ]
   }
 }
 {
@@ -1684,7 +3457,49 @@
     "data": "As of 2026-04-17, the fine targeted 'ghost takeout' operations involving unlicensed food businesses using forged permits and fake addresses on platforms.",
     "hash": "d795e1e23709685999e37356000c3537",
     "createdAt": "2026-04-17T15:54:57.651Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T15:54:57.651Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "ghost takeout",
+      "unlicensed food businesses",
+      "forged permits",
+      "fake addresses",
+      "platforms"
+    ],
+    "event_date": "2026-04-17"
+  }
+}
+{
+  "id": "8e584773-f8d8-497b-b5aa-021cfaf75352",
+  "payload": {
+    "memory": "顾舟的 MBTI 是 INTJ（J 不强），与庆哥的 ESTJ 互补——庆哥落地顾舟抽象，能一起把事情做完",
+    "data": "顾舟的 MBTI 是 INTJ（J 不强），与庆哥的 ESTJ 互补——庆哥落地顾舟抽象，能一起把事情做完",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "relationship",
+    "created_at": "2026-04-27T19:00:39+08:00",
+    "createdAt": "2026-04-27T19:00:39+08:00",
+    "updated_at": "2026-04-27T19:00:39+08:00",
+    "updatedAt": "2026-04-27T19:00:39+08:00",
+    "hash": "973893b4-a7de-4835-8f70-d9dc12ac1010",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T19:01:25+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "庆哥"
+    ],
+    "event_date": null
   }
 }
 {
@@ -1700,7 +3515,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142677+00:00",
     "updatedAt": "2026-04-21T13:04:07.142677+00:00",
-    "category": "daily"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "cloud task queue",
+      "API token",
+      "YB3LO1A-aH8_UQDe76l-Bsf8xmBcDBXixSNUENHEKJc"
+    ]
   }
 }
 {
@@ -1716,7 +3544,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:18:57.796217+00:00",
     "updatedAt": "2026-04-22T04:18:57.796217+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T19:11:04+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "retrospective document",
+      "repair achievements"
+    ],
+    "event_date": "2026-04-22",
+    "promoted_at": "2026-04-27T19:11:04+08:00"
   }
 }
 {
@@ -1727,7 +3569,46 @@
     "data": "As of the date of this conversation, user values memory continuity across conversations and has inquired about the assistant's ability to automatically remember investment discussions, indicating a preference for persistent context in future sessions.",
     "hash": "8bfc2a47dadc03e4af53f84eb3f390cd",
     "createdAt": "2026-04-19T15:39:28.579Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T15:39:28.579Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "investment discussions"
+    ]
+  }
+}
+{
+  "id": "91503e66-13d6-45ff-8ef9-0ef781b8b866",
+  "payload": {
+    "memory": "Jarvis第6阶段将嵌入模型从text-embedding-v3升级为text-embedding-v4（通义千问3-Embedding），显著提升了中英文之间的跨语言检索效果。",
+    "data": "Jarvis第6阶段将嵌入模型从text-embedding-v3升级为text-embedding-v4（通义千问3-Embedding），显著提升了中英文之间的跨语言检索效果。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-04-27T17:42:25+08:00",
+    "createdAt": "2026-04-27T17:42:25+08:00",
+    "updated_at": "2026-04-27T18:13:44+08:00",
+    "updatedAt": "2026-04-27T18:13:44+08:00",
+    "hash": "9ed9357f-6c08-4e45-aadc-77350d1d29ea",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:42:33+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "text-embedding-v3",
+      "text-embedding-v4",
+      "通义千问3-Embedding"
+    ],
+    "event_date": null
   }
 }
 {
@@ -1742,7 +3623,21 @@
     "updated_at": "2026-04-22T18:38:33+08:00",
     "updatedAt": "2026-04-22T18:38:33+08:00",
     "hash": "b2ec6177-c953-4c5f-8a99-b65b8ee92120",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-22T18:38:33+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "MCP",
+      "DeepSeek LLM",
+      "DashScope",
+      "Qdrant"
+    ]
   }
 }
 {
@@ -1758,7 +3653,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:51:54.424879+00:00",
     "updatedAt": "2026-04-17T18:51:54.424879+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis memory platform",
+      "regression tests",
+      "bugs",
+      "retrospective documentation"
+    ],
+    "event_date": "2026-04-18",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -1774,7 +3685,17 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:38:46.432191+00:00",
     "updatedAt": "2026-04-17T18:38:46.432191+00:00",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T16:16:22+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆"
+    ]
   }
 }
 {
@@ -1786,7 +3707,21 @@
     "hash": "ded28e30fb739c952d6326dc96316aa1",
     "createdAt": "2026-04-17T15:48:13.007Z",
     "updatedAt": "2026-04-17T16:01:53.666Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:01:53.666Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "ghost industry",
+      "cake businesses",
+      "转单宝",
+      "time window advantage",
+      "high profit margins"
+    ]
   }
 }
 {
@@ -1802,7 +3737,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072192+00:00",
     "updatedAt": "2026-04-21T14:45:22.072192+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "jarvis-task-queue",
+      "Jarvis cloud task queue",
+      "/app/data/jarvis_tasks.db",
+      "Docker container",
+      "Jarvis"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -1814,7 +3764,18 @@
     "hash": "f44b68ac00a2ec1d8e4e4e54a76d6e83",
     "createdAt": "2026-04-16T16:18:41.276Z",
     "updatedAt": "2026-04-23T10:55:39.898Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:39.898Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis云端大脑"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1826,7 +3787,18 @@
     "hash": "002c8a093aacbcc3a41e92a6fcdb8923",
     "createdAt": "2026-04-21T14:08:18.882Z",
     "updatedAt": "2026-04-23T10:55:37.553Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:37.553Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1842,7 +3814,18 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-20T08:52:10.825093+00:00",
     "updatedAt": "2026-04-20T08:52:10.825093+00:00",
-    "category": "relationship"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-04-27T16:18:58+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude API",
+      "company"
+    ]
   }
 }
 {
@@ -1858,7 +3841,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:44:21.149321+00:00",
     "updatedAt": "2026-04-21T14:44:21.149321+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "jarvis-task-queue",
+      "qdrant",
+      "openclaw-gateway"
+    ],
+    "promoted_at": "2026-04-27T16:16:22+08:00"
   }
 }
 {
@@ -1870,7 +3866,21 @@
     "hash": "5680f0bee5ad079e7141f41a3fb50d2b",
     "createdAt": "2026-04-17T15:49:41.379Z",
     "updatedAt": "2026-04-17T17:45:52.104Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T17:45:52.104Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "deepseek/deepseek-chat",
+      "WeChat",
+      "thinking mode",
+      "context usage"
+    ]
   }
 }
 {
@@ -1882,7 +3892,20 @@
     "hash": "f37184ec6a990c88916d185ab69d6bbf",
     "createdAt": "2026-04-17T15:48:13.022Z",
     "updatedAt": "2026-04-17T16:00:13.507Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T16:00:13.507Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Transfer Treasure",
+      "fake certificates",
+      "black-market chain"
+    ],
+    "event_date": "2026-04-17"
   }
 }
 {
@@ -1894,7 +3917,21 @@
     "hash": "39674ad68b46626b0f31dd9ea26c0765",
     "createdAt": "2026-04-21T17:12:02.155Z",
     "updatedAt": "2026-04-21T18:00:42.884Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.884Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "DeepSeek",
+      "Claude",
+      "Qdrant",
+      "Alibaba Cloud"
+    ]
   }
 }
 {
@@ -1905,7 +3942,21 @@
     "data": "Duolingo's stock price has declined from a historical high of $544 in May 2025 to a 52-week low of $91 in 2026, with a current price around $100.51, reflecting an 81.5% drop from the peak.",
     "hash": "2ee6e2147e290460832a215ea905797f",
     "createdAt": "2026-04-19T09:22:03.349Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T09:22:03.349Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Duolingo",
+      "stock price",
+      "52-week low",
+      "544",
+      "100.51"
+    ]
   }
 }
 {
@@ -1917,7 +3968,17 @@
     "hash": "a1438602cb0bebfd0032a92a284ec338",
     "createdAt": "2026-04-16T16:07:39.683Z",
     "updatedAt": "2026-04-23T10:58:42.810Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:58:42.810Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "技术术语"
+    ]
   }
 }
 {
@@ -1928,7 +3989,18 @@
     "data": "User has an interest in weather forecasts, specifically for Beijing (as of 2026-04-21).",
     "hash": "7cfec033da0639b975a634ba6c37b6a7",
     "createdAt": "2026-04-21T14:08:18.898Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T14:08:18.898Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Beijing"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -1940,7 +4012,21 @@
     "hash": "bb5b6daf92e6acd382cea29676ececf4",
     "createdAt": "2026-04-21T17:40:22.696Z",
     "updatedAt": "2026-04-23T10:55:39.639Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:39.639Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "微信",
+      "CatDesk",
+      "跨终端记忆同步"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1952,7 +4038,19 @@
     "hash": "e35ae93f93d994a15b8dd5d6f082ac13",
     "createdAt": "2026-04-19T12:20:05.274Z",
     "updatedAt": "2026-04-21T17:31:56.408Z",
-    "category": "preference"
+    "category": "decision",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:31:56.408Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "RMB",
+      "first-tier city"
+    ],
+    "event_date": "2026-04-20"
   }
 }
 {
@@ -1968,7 +4066,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:44:21.149252+00:00",
     "updatedAt": "2026-04-21T14:44:21.149252+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T16:16:22+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Alibaba Cloud ECS server",
+      "47.95.110.99",
+      "ed25519",
+      "root user",
+      "password-free login"
+    ]
   }
 }
 {
@@ -1983,7 +4095,22 @@
     "updated_at": "2026-04-23T22:36:12+08:00",
     "updatedAt": "2026-04-23T22:36:12+08:00",
     "hash": "ba08e10b-d411-4953-94c3-8e313e6c5bd0",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T16:34:39+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "mem0 capture",
+      "任务通路",
+      "Cloudflare",
+      "庆哥"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -1999,7 +4126,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:41:00.478230+00:00",
     "updatedAt": "2026-04-17T18:41:00.478230+00:00",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:41:00.478230+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "舟哥"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2011,7 +4151,21 @@
     "hash": "f39e34d957423b05c05a47392288e295",
     "createdAt": "2026-04-17T15:57:40.169Z",
     "updatedAt": "2026-04-17T17:45:52.144Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T17:45:52.144Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "转单宝",
+      "API",
+      "数据同步",
+      "竞价机制",
+      "状态反馈"
+    ]
   }
 }
 {
@@ -2026,7 +4180,23 @@
     "createdAt": "2026-04-26T22:48:45+08:00",
     "updated_at": "2026-04-26T22:48:45+08:00",
     "updatedAt": "2026-04-26T22:48:45+08:00",
-    "hash": "92c549a8-4d61-4044-9ad7-87d9d40d0885"
+    "hash": "92c549a8-4d61-4044-9ad7-87d9d40d0885",
+    "tier": "mid-term",
+    "access_count": 18,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Qdrant",
+      "MEMORY.md",
+      "阿里云服务器",
+      "五期"
+    ],
+    "event_date": "2026-04-26",
+    "promoted_at": "2026-04-27T15:25:42+08:00"
   }
 }
 {
@@ -2037,7 +4207,22 @@
     "data": "As of 2026-04-23, User prefers metaphor-based, layered explanations for technical concepts (e.g., used mirror-in-mirror analogy to explain recursion, emphasizing termination condition and bottom-up resolution).",
     "hash": "bb31676160a04a75c33f7014dfde699d",
     "createdAt": "2026-04-23T10:41:01.963Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:41:01.963Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "recursion",
+      "mirror-in-mirror analogy",
+      "termination condition",
+      "bottom-up resolution"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2049,7 +4234,19 @@
     "hash": "08937a027f12ade53d8c6b648a03e98b",
     "createdAt": "2026-04-21T13:58:57.387Z",
     "updatedAt": "2026-04-21T17:19:57.718Z",
-    "category": "relationship"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:19:57.718Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "WeChat",
+      "CatDesk"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -2065,7 +4262,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072211+00:00",
     "updatedAt": "2026-04-21T14:45:22.072211+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 9,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "neural pathway"
+    ],
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-27T18:17:07+08:00"
   }
 }
 {
@@ -2081,7 +4291,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-20T08:52:10.824989+00:00",
     "updatedAt": "2026-04-20T08:52:10.824989+00:00",
-    "category": "decision"
+    "category": "decision",
+    "tier": "long-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "primary-backup switching",
+      "WeChat",
+      "cloud queue",
+      "CatDesk"
+    ],
+    "promoted_at": "2026-04-27T17:16:44+08:00"
   }
 }
 {
@@ -2096,7 +4321,22 @@
     "createdAt": "2026-04-25T02:52:54+08:00",
     "updated_at": "2026-04-25T02:52:54+08:00",
     "updatedAt": "2026-04-25T02:52:54+08:00",
-    "hash": "0829be4e-f0b1-4159-b4c0-ea7fe5b6bb34"
+    "hash": "0829be4e-f0b1-4159-b4c0-ea7fe5b6bb34",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-25T02:52:54+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis 5.5.2",
+      "task-queue",
+      "CatDesk",
+      "微信",
+      "doc_reading"
+    ],
+    "event_date": "2026-04-25"
   }
 }
 {
@@ -2108,7 +4348,21 @@
     "hash": "a0fe0f1120ecd0986e276d74dba26633",
     "createdAt": "2026-04-21T17:01:35.054Z",
     "updatedAt": "2026-04-21T17:57:58.929Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:57:58.929Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Claude 3.5 Sonnet",
+      "DeepSeek",
+      "deepseek/deepseek-chat",
+      "WeChat"
+    ]
   }
 }
 {
@@ -2120,7 +4374,15 @@
     "hash": "b40782a77abba0eb8050fd34df915946",
     "createdAt": "2026-04-21T13:58:57.340Z",
     "updatedAt": "2026-04-23T10:58:42.697Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:58:42.697Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": []
   }
 }
 {
@@ -2136,7 +4398,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:38:46.432241+00:00",
     "updatedAt": "2026-04-17T18:38:46.432241+00:00",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:43:47+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "舟哥"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2152,7 +4427,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962110+00:00",
     "updatedAt": "2026-04-21T13:22:08.962110+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "庆哥",
+      "健身打卡微信小程序",
+      "5人同事小圈子",
+      "10人"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -2164,7 +4454,21 @@
     "hash": "9aaa95ff5ab296620c28b3137e250690",
     "createdAt": "2026-04-21T17:39:29.079Z",
     "updatedAt": "2026-04-21T18:00:41.902Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:41.902Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis Cloud Brain Project",
+      "WeChat",
+      "DeepSeek",
+      "CatDesk",
+      "Claude"
+    ]
   }
 }
 {
@@ -2180,7 +4484,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:41:00.478182+00:00",
     "updatedAt": "2026-04-17T18:41:00.478182+00:00",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:41:00.478182+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "舟哥",
+      "基础模型",
+      "方法论",
+      "职业态度"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2196,7 +4516,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040800+00:00",
     "updatedAt": "2026-04-22T04:57:21.040800+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Cloudflare Workers",
+      "OpenClaw",
+      "JSON key"
+    ]
   }
 }
 {
@@ -2208,7 +4541,19 @@
     "hash": "3232ee83c879a11f0f9e4b8881c19033",
     "createdAt": "2026-04-21T13:58:57.371Z",
     "updatedAt": "2026-04-21T14:08:18.844Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T14:08:18.844Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "Mac"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -2219,7 +4564,19 @@
     "data": "User is interested in discussing industry-specific topics like food safety regulations, platform economics, and technical implementations in e-commerce (as of 2026-04-17).",
     "hash": "1a90c1c61eb79775e788b4c52682ec68",
     "createdAt": "2026-04-17T15:53:28.263Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T15:53:28.263Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "food safety regulations",
+      "platform economics",
+      "e-commerce"
+    ]
   }
 }
 {
@@ -2235,7 +4592,24 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:44:39.851193+00:00",
     "updatedAt": "2026-04-17T18:44:39.851193+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:43:19+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "MCP",
+      "2026",
+      "3-4 seconds",
+      "120 seconds"
+    ],
+    "event_date": "2026-04-17",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2251,7 +4625,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839814+00:00",
     "updatedAt": "2026-04-17T18:50:45.839814+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis memory platform",
+      "regression testing"
+    ],
+    "event_date": "2026-04-18",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2267,7 +4655,47 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:04:07.142618+00:00",
     "updatedAt": "2026-04-21T13:04:07.142618+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "cloud task queue"
+    ],
+    "event_date": "2026-04-21"
+  }
+}
+{
+  "id": "baa44b65-a5ad-4da9-ac19-2ffc6d29dcab",
+  "payload": {
+    "memory": "6.2验收测试-负反馈测试专用记忆条目-可删除",
+    "data": "6.2验收测试-负反馈测试专用记忆条目-可删除",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-04-27T15:25:05+08:00",
+    "createdAt": "2026-04-27T15:25:05+08:00",
+    "updated_at": "2026-04-27T15:25:05+08:00",
+    "updatedAt": "2026-04-27T15:25:05+08:00",
+    "hash": "0cff7804-5735-432d-99ca-8288ac9cda56",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-04-27T16:34:39+08:00",
+    "ttl_days": 3,
+    "weight": 0.4,
+    "source_ids": [],
+    "feedback_negative": 3,
+    "entities": [
+      "验收测试",
+      "负反馈测试",
+      "专用记忆条目"
+    ],
+    "event_date": null
   }
 }
 {
@@ -2283,7 +4711,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T15:02:10.667962+00:00",
     "updatedAt": "2026-04-21T15:02:10.667962+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 12,
+    "last_accessed": "2026-04-27T21:05:34+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Alibaba Cloud",
+      "SSH",
+      "project plan",
+      "test files"
+    ],
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-27T15:25:08+08:00"
   }
 }
 {
@@ -2295,7 +4739,52 @@
     "hash": "509bef8194f38f8232c4bdc66da25b4a",
     "createdAt": "2026-04-21T17:40:22.682Z",
     "updatedAt": "2026-04-23T10:55:41.268Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:41.268Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "舟哥",
+      "Jarvis云端大脑项目",
+      "私有AI大脑系统",
+      "多终端"
+    ],
+    "event_date": "2026-04-23"
+  }
+}
+{
+  "id": "c2387149-5deb-454d-8faa-1a0f7f0c9e0c",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-27：完成 Karpathy 四原则双端落地。CatDesk 端写入 AGENTS.md 作为 priority=2 的通用行为准则模块，微信端通过 inject_karpathy_principles.py 注入到 OpenClaw systemPromptOverride（协作原则之后、任务分发之前）。部署过程中修复了两个问题：线上 prompt 格式与本地备份不一致（sync.py 重组装过）、容器内写权限不足改为宿主机 Volume 直接操作。两端顾舟现在共享同一套行为规范。",
+    "data": "[对话摘要] 2026-04-27：完成 Karpathy 四原则双端落地。CatDesk 端写入 AGENTS.md 作为 priority=2 的通用行为准则模块，微信端通过 inject_karpathy_principles.py 注入到 OpenClaw systemPromptOverride（协作原则之后、任务分发之前）。部署过程中修复了两个问题：线上 prompt 格式与本地备份不一致（sync.py 重组装过）、容器内写权限不足改为宿主机 Volume 直接操作。两端顾舟现在共享同一套行为规范。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-27T13:20:06+08:00",
+    "createdAt": "2026-04-27T13:20:06+08:00",
+    "updated_at": "2026-04-27T13:20:06+08:00",
+    "updatedAt": "2026-04-27T13:20:06+08:00",
+    "hash": "0534824a-7d6d-4a6e-b17f-b6710be145cd",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-27T13:20:06+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Karpathy",
+      "CatDesk",
+      "AGENTS.md",
+      "OpenClaw",
+      "sync.py"
+    ],
+    "event_date": "2026-04-27"
   }
 }
 {
@@ -2310,7 +4799,52 @@
     "createdAt": "2026-04-26T21:34:49+08:00",
     "updated_at": "2026-04-26T21:34:49+08:00",
     "updatedAt": "2026-04-26T21:34:49+08:00",
-    "hash": "044b6b86-b304-4751-bf3c-f2e680942ff1"
+    "hash": "044b6b86-b304-4751-bf3c-f2e680942ff1",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-26T21:34:49+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis 5.5.1",
+      "push_to_wechat",
+      "subprocess.run",
+      "Popen",
+      "jarvis-reminder-push.service"
+    ],
+    "event_date": "2026-04-26"
+  }
+}
+{
+  "id": "c5d2f425-3e88-4cc0-92f1-b518a9bdd901",
+  "payload": {
+    "memory": "[对话摘要] 2026-04-27：完成 Jarvis 六期 6.4 记忆沙盒的部署和验收。server.py 升级到 v6.4，新增 /api/sandbox/report、/api/sandbox/apply、/api/sandbox/discard 三个端点。dreaming_lite.py 重写为 V2 沙盒版（默认 sandbox 模式）。Code Review 发现并修复 2P0+2P1：apply 未知 action 静默跳过、cron 覆盖 pending 文件竞态、sandbox 模式 tier 统计不准。验收 8 项全部 PASS：空状态 report、discard 空文件、dreaming sandbox 生成 22 条归档计划、report 查看、discard 放弃、apply 确认（22/22 成功 0 errors）、apply 后 Qdrant 验证 22 条 archived。至此六期 6.1-6.4 四个子版本全部完成。",
+    "data": "[对话摘要] 2026-04-27：完成 Jarvis 六期 6.4 记忆沙盒的部署和验收。server.py 升级到 v6.4，新增 /api/sandbox/report、/api/sandbox/apply、/api/sandbox/discard 三个端点。dreaming_lite.py 重写为 V2 沙盒版（默认 sandbox 模式）。Code Review 发现并修复 2P0+2P1：apply 未知 action 静默跳过、cron 覆盖 pending 文件竞态、sandbox 模式 tier 统计不准。验收 8 项全部 PASS：空状态 report、discard 空文件、dreaming sandbox 生成 22 条归档计划、report 查看、discard 放弃、apply 确认（22/22 成功 0 errors）、apply 后 Qdrant 验证 22 条 archived。至此六期 6.1-6.4 四个子版本全部完成。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-27T15:43:09+08:00",
+    "createdAt": "2026-04-27T15:43:09+08:00",
+    "updated_at": "2026-04-27T15:43:09+08:00",
+    "updatedAt": "2026-04-27T15:43:09+08:00",
+    "hash": "71e59ea5-750a-406f-b769-d878be2b9279",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-27T15:43:09+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "server.py",
+      "dreaming_lite.py",
+      "sandbox",
+      "Qdrant"
+    ],
+    "event_date": "2026-04-27"
   }
 }
 {
@@ -2325,7 +4859,22 @@
     "createdAt": "2026-04-25T03:05:45+08:00",
     "updated_at": "2026-04-25T03:05:45+08:00",
     "updatedAt": "2026-04-25T03:05:45+08:00",
-    "hash": "dfcfa96b-ee74-4ec1-9f95-98538f3cf56d"
+    "hash": "dfcfa96b-ee74-4ec1-9f95-98538f3cf56d",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-25T03:05:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "M5",
+      "checkin.js",
+      "wxml",
+      "庆哥",
+      "轮询机制"
+    ],
+    "event_date": "2026-04-25"
   }
 }
 {
@@ -2337,7 +4886,22 @@
     "hash": "838b0bb39b31ddd2da03a54f2740b7f8",
     "createdAt": "2026-04-23T10:32:35.755Z",
     "updatedAt": "2026-04-23T10:58:44.270Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:58:44.270Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Memory system",
+      "CatDesk",
+      "user identity",
+      "background",
+      "technical direction"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2352,7 +4916,23 @@
     "updated_at": "2026-04-24T13:31:43+08:00",
     "updatedAt": "2026-04-24T13:31:43+08:00",
     "hash": "2b0ab37f-c42a-4c58-aecc-c6ed463eb50c",
-    "category": "summary"
+    "category": "summary",
+    "tier": "mid-term",
+    "access_count": 16,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "MCP Server",
+      "DashScope",
+      "Qdrant",
+      "OpenClaw"
+    ],
+    "event_date": "2026-04-24",
+    "promoted_at": "2026-04-27T16:34:39+08:00"
   }
 }
 {
@@ -2365,7 +4945,20 @@
     "created_at": "2026-04-23T11:06:13.806854+00:00",
     "updated_at": "2026-04-23T11:06:13.806854+00:00",
     "attributed_to": "user",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 2,
+    "last_accessed": "2026-04-27T14:43:47+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Rust",
+      "TypeScript"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2377,7 +4970,18 @@
     "hash": "ab2fbe27d847f76c9dab871b10d8dc90",
     "createdAt": "2026-04-16T16:18:54.546Z",
     "updatedAt": "2026-04-23T10:55:39.516Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:39.516Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2393,7 +4997,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:54:58.642106+00:00",
     "updatedAt": "2026-04-22T03:54:58.642106+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "CatDesk",
+      "WeChat",
+      "Python",
+      "Node.js"
+    ]
   }
 }
 {
@@ -2409,7 +5027,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:33:54.882362+00:00",
     "updatedAt": "2026-04-22T04:33:54.882362+00:00",
-    "category": "summary"
+    "category": "summary",
+    "tier": "mid-term",
+    "access_count": 13,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Jarvis",
+      "Qdrant",
+      "AGENTS.md",
+      "MEMORY.md"
+    ],
+    "promoted_at": "2026-04-27T18:54:16+08:00"
   }
 }
 {
@@ -2425,7 +5058,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:19:15.337151+00:00",
     "updatedAt": "2026-04-22T03:19:15.337151+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "AGENTS.md",
+      "systemPromptOverride",
+      "Jarvis",
+      "security protocols",
+      "memory content filtering rules"
+    ]
   }
 }
 {
@@ -2440,7 +5087,23 @@
     "createdAt": "2026-04-26T22:17:53+08:00",
     "updated_at": "2026-04-26T22:17:53+08:00",
     "updatedAt": "2026-04-26T22:17:53+08:00",
-    "hash": "879e43e8-e39c-4b49-b608-1a9e2b337fbe"
+    "hash": "879e43e8-e39c-4b49-b608-1a9e2b337fbe",
+    "tier": "mid-term",
+    "access_count": 7,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "5.5.1",
+      "daily_report_agent.py",
+      "庆哥",
+      "顾舟"
+    ],
+    "event_date": "2026-04-26",
+    "promoted_at": "2026-04-27T19:10:54+08:00"
   }
 }
 {
@@ -2456,7 +5119,19 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T13:22:08.962211+00:00",
     "updatedAt": "2026-04-21T13:22:08.962211+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 7,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "顾舟"
+    ],
+    "promoted_at": "2026-04-27T18:54:16+08:00"
   }
 }
 {
@@ -2472,7 +5147,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839917+00:00",
     "updatedAt": "2026-04-17T18:50:45.839917+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:02:48+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "MCP",
+      "server",
+      "dialogues",
+      "memories"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2483,7 +5174,21 @@
     "data": "User's project goal is to achieve cross-terminal, cross-dialogue real-time memory synchronization and remote task execution (e.g., writing scripts, sending emails) via AI assistants (as of conversation date unknown).",
     "hash": "d8976b832d08d8a2d7540d6a73f09290",
     "createdAt": "2026-04-17T18:16:40.546Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:16:40.546Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "AI assistants",
+      "cross-terminal",
+      "cross-dialogue",
+      "real-time memory synchronization",
+      "remote task execution"
+    ]
   }
 }
 {
@@ -2494,7 +5199,22 @@
     "data": "As of 2026-04-17, the 'ghost takeout' case involved fraudulent food business licenses and fake addresses, with a specific example being the 'Sweet Love Letter' cake shop chain having 378 stores with forged permits and no physical locations.",
     "hash": "f29cd5d3c9f8361b0b6fcbbb13c950b0",
     "createdAt": "2026-04-17T15:48:12.961Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T15:48:12.961Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "ghost takeout",
+      "Sweet Love Letter",
+      "food business licenses",
+      "fake addresses",
+      "cake shop chain"
+    ],
+    "event_date": "2026-04-17"
   }
 }
 {
@@ -2510,7 +5230,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072175+00:00",
     "updatedAt": "2026-04-21T14:45:22.072175+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T16:16:22+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Alibaba Cloud",
+      "SSH",
+      "public IP",
+      "ed25519",
+      "password-free login"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -2522,7 +5257,21 @@
     "hash": "0044a524ac74d05cf33495a78851aed1",
     "createdAt": "2026-04-21T17:53:08.434Z",
     "updatedAt": "2026-04-21T17:59:14.466Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:59:14.466Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "私人电台 Morning Briefing",
+      "Google Cloud",
+      "Python",
+      "ffmpeg",
+      "Telegram Bot"
+    ]
   }
 }
 {
@@ -2534,7 +5283,21 @@
     "hash": "f09b057d1f8e8fa9932520b1dde77247",
     "createdAt": "2026-04-16T16:18:31.066Z",
     "updatedAt": "2026-04-22T03:54:20.218Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-22T03:54:20.218Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Alibaba Cloud Lightweight Server",
+      "OpenClaw",
+      "WeChat ClawBot",
+      "Qdrant"
+    ]
   }
 }
 {
@@ -2550,7 +5313,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683589+00:00",
     "updatedAt": "2026-04-17T17:19:08.683589+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:55:45+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk MCP",
+      "Qdrant",
+      "jarvis_memories",
+      "fanchangqing",
+      "WeChat-side Jarvis"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2566,7 +5345,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:35:13.347568+00:00",
     "updatedAt": "2026-04-17T18:35:13.347568+00:00",
-    "category": "decision"
+    "category": "decision",
+    "tier": "long-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-27T19:56:30+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "test three",
+      "model",
+      "recall",
+      "sdk-memory"
+    ],
+    "promoted_at": "2026-04-27T16:34:39+08:00"
   }
 }
 {
@@ -2578,7 +5372,19 @@
     "hash": "57a9ea67d0736d2dac29c262c0493043",
     "createdAt": "2026-04-23T10:41:01.948Z",
     "updatedAt": "2026-04-23T13:44:55.496Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T13:44:55.496Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Rust",
+      "TypeScript"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2590,7 +5396,19 @@
     "hash": "75669c7114919ec1022482c0643ab76d",
     "createdAt": "2026-04-19T12:41:02.370Z",
     "updatedAt": "2026-04-21T17:59:14.503Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:59:14.503Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "assistant"
+    ],
+    "event_date": "2026-04-07"
   }
 }
 {
@@ -2602,7 +5420,19 @@
     "hash": "4cca8996fef4f67783237050c9a448cb",
     "createdAt": "2026-04-19T15:39:28.566Z",
     "updatedAt": "2026-04-22T03:54:21.244Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-22T03:54:21.244Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Private Radio Morning Briefing",
+      "Meituan Backend Automation Acceptance"
+    ],
+    "event_date": "2026-03-01"
   }
 }
 {
@@ -2614,7 +5444,18 @@
     "hash": "a44b2f8ba82ece77177a51ce0f99931b",
     "createdAt": "2026-04-17T17:45:52.199Z",
     "updatedAt": "2026-04-23T10:55:37.442Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:37.442Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "冰美式"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2626,7 +5467,49 @@
     "hash": "7204c200c8b48651fa1ac20521edc863",
     "createdAt": "2026-04-16T16:18:54.516Z",
     "updatedAt": "2026-04-23T10:58:44.625Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:58:44.625Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Beijing",
+      "UTC+8"
+    ],
+    "event_date": "2026-04-23"
+  }
+}
+{
+  "id": "de843734-4740-406f-8425-440b671041a7",
+  "payload": {
+    "memory": "庆哥规划了一个新项目方向：Jarvis理财模块，目标是搭建自动化港美股盈亏追踪和投资分析服务。庆哥原话：除了做产研项目，后续还要在投资市场叱咤风云。",
+    "data": "庆哥规划了一个新项目方向：Jarvis理财模块，目标是搭建自动化港美股盈亏追踪和投资分析服务。庆哥原话：除了做产研项目，后续还要在投资市场叱咤风云。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-04-27T18:32:01+08:00",
+    "createdAt": "2026-04-27T18:32:01+08:00",
+    "updated_at": "2026-04-27T18:32:01+08:00",
+    "updatedAt": "2026-04-27T18:32:01+08:00",
+    "hash": "4d322bbf-588e-440e-810c-447900a63ea9",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "Jarvis理财模块",
+      "港美股",
+      "盈亏追踪",
+      "投资分析"
+    ],
+    "event_date": null
   }
 }
 {
@@ -2641,7 +5524,22 @@
     "createdAt": "2026-04-24T19:42:15+08:00",
     "updated_at": "2026-04-24T19:42:15+08:00",
     "updatedAt": "2026-04-24T19:42:15+08:00",
-    "hash": "dc8fc647-7f94-4c52-b2cc-4be23a3e2eca"
+    "hash": "dc8fc647-7f94-4c52-b2cc-4be23a3e2eca",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-24T19:42:15+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "task-queue",
+      "Qdrant",
+      "docker-compose",
+      "openclaw"
+    ],
+    "event_date": "2026-04-24"
   }
 }
 {
@@ -2653,7 +5551,22 @@
     "hash": "fba5df34c0b4ef48b591e5aae6274336",
     "createdAt": "2026-04-21T18:13:58.759Z",
     "updatedAt": "2026-04-23T10:55:40.693Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:40.693Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "微信",
+      "DeepSeek",
+      "CatDesk",
+      "Claude"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2669,7 +5582,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852080+00:00",
     "updatedAt": "2026-04-21T10:34:40.852080+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:26:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Jarvis三期技术方案.md",
+      "architecture diagrams",
+      "data structures",
+      "API design"
+    ]
   }
 }
 {
@@ -2680,7 +5607,21 @@
     "data": "Analysts have an average target price of $105.44 for DUOL, with ratings including 4 buy, 18 hold, and 1 sell, indicating a consensus of cautious optimism.",
     "hash": "41e5337c454ef2e71bcc68ba4c4fc051",
     "createdAt": "2026-04-19T09:22:03.378Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T09:22:03.378Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "DUOL",
+      "buy",
+      "hold",
+      "sell",
+      "target price"
+    ]
   }
 }
 {
@@ -2692,7 +5633,21 @@
     "hash": "830438af8a0a6f824515ba12736d12e1",
     "createdAt": "2026-04-16T16:07:39.714Z",
     "updatedAt": "2026-04-23T10:55:41.673Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:41.673Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "跨会话对话",
+      "记忆连续性",
+      "助手",
+      "协作"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2708,7 +5663,17 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:50:45.839957+00:00",
     "updatedAt": "2026-04-17T18:50:45.839957+00:00",
-    "category": "summary"
+    "category": "summary",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:50:45.839957+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2720,7 +5685,19 @@
     "hash": "78fa434646c8bb3ec07fa3fa266746f0",
     "createdAt": "2026-04-21T13:58:57.356Z",
     "updatedAt": "2026-04-21T17:01:34.898Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:01:34.898Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "CatDesk",
+      "hello-from-wechat.txt"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -2735,7 +5712,17 @@
     "updated_at": "2026-04-24T11:07:20+08:00",
     "updatedAt": "2026-04-24T11:07:20+08:00",
     "hash": "fa9884c2-55c4-429c-b182-4935c1ca6fe0",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-24T11:07:20+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ]
   }
 }
 {
@@ -2751,7 +5738,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T04:57:21.040765+00:00",
     "updatedAt": "2026-04-22T04:57:21.040765+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Anthropic API",
+      "Alibaba Cloud",
+      "GCP Vertex AI",
+      "Cloudflare Workers",
+      "region restriction"
+    ]
   }
 }
 {
@@ -2766,7 +5767,22 @@
     "updated_at": "2026-04-22T18:38:19+08:00",
     "updatedAt": "2026-04-22T18:38:19+08:00",
     "hash": "fb635e57-249f-451a-90fa-7f191d5a6193",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-22T18:38:19+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis任务消费者",
+      "Jarvis-Automation",
+      "私人电台晨报",
+      "私人电台-Automation",
+      "automation.json"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -2777,7 +5793,17 @@
     "data": "User's favorite city is Chengdu (as of conversation date unknown).",
     "hash": "d5dba2b7f467d9e442e937cd0ab4c332",
     "createdAt": "2026-04-17T18:16:40.559Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:16:40.559Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Chengdu"
+    ]
   }
 }
 {
@@ -2789,7 +5815,20 @@
     "hash": "3089292e081054a8a1260fb2e19b38bf",
     "createdAt": "2026-04-17T15:48:12.978Z",
     "updatedAt": "2026-04-17T15:54:57.556Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T15:54:57.556Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "platform legal representatives",
+      "food safety directors",
+      "19.6874 million RMB"
+    ],
+    "event_date": "2026-04-17"
   }
 }
 {
@@ -2800,7 +5839,22 @@
     "data": "As of 2026-04-17, penalties included corrective orders, suspension of new cake shop registrations for 3-9 months, and fines, marking the largest penalty since the 2015 revision of China's Food Safety Law.",
     "hash": "ad0ad98ba32a944fc9f8f3b5d2905a40",
     "createdAt": "2026-04-17T15:48:12.993Z",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T15:48:12.993Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "China's Food Safety Law",
+      "cake shop",
+      "penalties",
+      "2015 revision",
+      "2026-04-17"
+    ],
+    "event_date": "2026-04-17"
   }
 }
 {
@@ -2815,7 +5869,22 @@
     "updated_at": "2026-04-23T01:33:56+08:00",
     "updatedAt": "2026-04-23T01:33:56+08:00",
     "hash": "be08562a-04f9-477b-a495-b37fb3026405",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T01:33:56+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "健身打卡小程序",
+      "微信云开发",
+      "庆哥",
+      "产品设计文档V1.2",
+      "MVP"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2831,7 +5900,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T10:34:40.852061+00:00",
     "updatedAt": "2026-04-21T10:34:40.852061+00:00",
-    "category": "decision"
+    "category": "decision",
+    "tier": "long-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-27T17:42:33+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "task queue",
+      "SQLite",
+      "FastAPI",
+      "CatDesk Automation"
+    ],
+    "promoted_at": "2026-04-27T16:16:22+08:00"
   }
 }
 {
@@ -2842,7 +5926,20 @@
     "data": "User's occupation involves working in an industry related to e-commerce platforms and technology, with knowledge of 'grey innovations' and platform strategies (as of conversation date unknown).",
     "hash": "678bcb49e08727d4fe8ba1a1eb71b11c",
     "createdAt": "2026-04-17T18:16:40.515Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:16:40.515Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "e-commerce platforms",
+      "technology",
+      "grey innovations",
+      "platform strategies"
+    ]
   }
 }
 {
@@ -2854,7 +5951,18 @@
     "hash": "f905d4ebee21ff3e05b5454bf30bae96",
     "createdAt": "2026-04-21T17:54:33.962Z",
     "updatedAt": "2026-04-23T10:55:39.228Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:39.228Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis云端大脑项目"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2869,7 +5977,23 @@
     "updated_at": "2026-04-24T13:04:49+08:00",
     "updatedAt": "2026-04-24T13:04:49+08:00",
     "hash": "9e4b3630-6b33-42d4-91ef-f0fcbcdf2498",
-    "category": "summary"
+    "category": "summary",
+    "tier": "mid-term",
+    "access_count": 19,
+    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "asyncio.Condition",
+      "Event",
+      "端口 8100",
+      "sync.py"
+    ],
+    "event_date": "2026-04-24",
+    "promoted_at": "2026-04-27T18:17:15+08:00"
   }
 }
 {
@@ -2881,7 +6005,22 @@
     "hash": "ac8ccabb0cf25acce21238358c3946f6",
     "createdAt": "2026-04-16T16:18:41.259Z",
     "updatedAt": "2026-04-23T10:55:41.569Z",
-    "category": "relationship"
+    "category": "relationship",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-23T10:55:41.569Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Morning Briefing",
+      "美团自动化",
+      "Jarvis云端大脑",
+      "用户",
+      "AI助手"
+    ],
+    "event_date": "2026-04-23"
   }
 }
 {
@@ -2897,7 +6036,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:18:56.426055+00:00",
     "updatedAt": "2026-04-22T03:18:56.426055+00:00",
-    "category": "decision"
+    "category": "decision",
+    "tier": "long-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-27T19:54:42+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Qing Ge",
+      "Claude",
+      "CatDesk",
+      "Mac"
+    ],
+    "event_date": "2026-04-22",
+    "promoted_at": "2026-04-27T19:10:54+08:00"
   }
 }
 {
@@ -2913,7 +6068,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:35.065585+00:00",
     "updatedAt": "2026-04-22T03:16:35.065585+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:25:42+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis任务消费者",
+      "CatDesk",
+      "Jarvis",
+      "cloud queue",
+      "Automation"
+    ]
   }
 }
 {
@@ -2929,7 +6098,20 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-22T03:16:35.065566+00:00",
     "updatedAt": "2026-04-22T03:16:35.065566+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:43:47+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "WeChat",
+      "systemPromptOverride",
+      "curl",
+      "TypeScript"
+    ]
   }
 }
 {
@@ -2945,7 +6127,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072157+00:00",
     "updatedAt": "2026-04-21T14:45:22.072157+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T14:41:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "test files",
+      "desktop",
+      "historical tasks",
+      "queue"
+    ],
+    "event_date": "2026-04-21"
   }
 }
 {
@@ -2957,7 +6154,22 @@
     "hash": "e29b5f384385f14447097149707db810",
     "createdAt": "2026-04-19T09:22:03.391Z",
     "updatedAt": "2026-04-21T17:44:05.635Z",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T17:44:05.635Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude",
+      "CatDesk",
+      "Duolingo",
+      "Q1 2026",
+      "earnings report"
+    ],
+    "event_date": "2026-05-01"
   }
 }
 {
@@ -2973,7 +6185,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:51:54.424945+00:00",
     "updatedAt": "2026-04-17T18:51:54.424945+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T15:25:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis project",
+      "Gu Zhou",
+      "MCP Server",
+      "Tailscale",
+      "hands"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -2988,7 +6216,22 @@
     "updated_at": "2026-04-24T14:36:04+08:00",
     "updatedAt": "2026-04-24T14:36:04+08:00",
     "hash": "0dc2af19-e3c0-4e87-bca7-65215c4b0cde",
-    "category": "summary"
+    "category": "summary",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-24T14:36:04+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "GitHub",
+      "Qdrant",
+      "MCP Server",
+      "OpenClaw"
+    ],
+    "event_date": "2026-04-24"
   }
 }
 {
@@ -2998,7 +6241,17 @@
     "data": "庆哥喜欢喝咖啡，每天早上必喝一杯咖啡",
     "hash": "c1e17e7803586d8d79fbaf16633fcab7",
     "createdAt": "2026-04-16T16:08:28.028Z",
-    "category": "preference"
+    "category": "preference",
+    "tier": "mid-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:43:12+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ]
   }
 }
 {
@@ -3010,7 +6263,22 @@
     "hash": "a681dbed3c061c165c4a4f22f9c2053b",
     "createdAt": "2026-04-16T16:07:39.744Z",
     "updatedAt": "2026-04-19T12:41:02.304Z",
-    "category": "project"
+    "category": "project",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-19T12:41:02.304Z",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Morning Briefing",
+      "Google Cloud",
+      "Python",
+      "ffmpeg",
+      "Telegram Bot"
+    ],
+    "event_date": "2026-03-01"
   }
 }
 {
@@ -3026,7 +6294,23 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T17:19:08.683570+00:00",
     "updatedAt": "2026-04-17T17:19:08.683570+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T17:19:08.683570+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "~/.jarvis/proxy.py",
+      "localhost:3100",
+      "47.95.110.99:3100",
+      "launchd"
+    ],
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -3038,7 +6322,50 @@
     "hash": "57f101d972c7cdfcaf871aa164a18d49",
     "createdAt": "2026-04-21T18:13:58.774Z",
     "updatedAt": "2026-04-21T18:16:47.881Z",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-27T18:20:21+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Claude",
+      "support",
+      "resistance",
+      "Q1 earnings",
+      "May 3-4, 2026"
+    ],
+    "promoted_at": "2026-04-27T18:20:21+08:00"
+  }
+}
+{
+  "id": "fccd9ef6-67c5-48a6-b9ef-2838a23281fe",
+  "payload": {
+    "memory": "庆哥希望后续能定期追踪港美股持仓盈亏变化，并获得理财分析和投资建议。有意愿搭建自动化盈亏追踪服务。",
+    "data": "庆哥希望后续能定期追踪港美股持仓盈亏变化，并获得理财分析和投资建议。有意愿搭建自动化盈亏追踪服务。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-04-27T18:28:45+08:00",
+    "createdAt": "2026-04-27T18:28:45+08:00",
+    "updated_at": "2026-04-27T18:28:45+08:00",
+    "updatedAt": "2026-04-27T18:28:45+08:00",
+    "hash": "5220b779-20a3-4bd3-a71f-512f5c714645",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "港美股",
+      "盈亏追踪服务"
+    ],
+    "event_date": null
   }
 }
 {
@@ -3054,7 +6381,21 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-17T18:44:04.742406+00:00",
     "updatedAt": "2026-04-17T18:44:04.742406+00:00",
-    "category": "daily"
+    "category": "daily",
+    "tier": "archived",
+    "access_count": 0,
+    "last_accessed": "2026-04-17T18:44:04.742406+00:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "User",
+      "capture latency test"
+    ],
+    "event_date": "2026-04-17",
+    "archived_at": "2026-04-27T15:40:45+08:00",
+    "archived_reason": "ttl_expired"
   }
 }
 {
@@ -3069,7 +6410,18 @@
     "createdAt": "2026-04-26T23:02:54+08:00",
     "updated_at": "2026-04-26T23:02:54+08:00",
     "updatedAt": "2026-04-26T23:02:54+08:00",
-    "hash": "fe87f501-a57d-4ef5-adf9-1f659fc332eb"
+    "hash": "fe87f501-a57d-4ef5-adf9-1f659fc332eb",
+    "tier": "long-term",
+    "access_count": 8,
+    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "promoted_at": "2026-04-27T16:15:52+08:00"
   }
 }
 {
@@ -3080,7 +6432,18 @@
     "data": "User is referred to as '庆哥' (as of 2026-04-22).",
     "hash": "c399e4e4e67f8fa4796af7c1e57fc742",
     "createdAt": "2026-04-21T18:00:42.898Z",
-    "category": "identity"
+    "category": "identity",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-21T18:00:42.898Z",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": "2026-04-22"
   }
 }
 {
@@ -3096,6 +6459,22 @@
     "userId": "fanchangqing",
     "createdAt": "2026-04-21T14:45:22.072110+00:00",
     "updatedAt": "2026-04-21T14:45:22.072110+00:00",
-    "category": "project"
+    "category": "project",
+    "tier": "mid-term",
+    "access_count": 16,
+    "last_accessed": "2026-04-27T21:05:34+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "User",
+      "technical decisions",
+      "exec curl solution",
+      "Jarvis project plan"
+    ],
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-27T15:25:30+08:00"
   }
 }

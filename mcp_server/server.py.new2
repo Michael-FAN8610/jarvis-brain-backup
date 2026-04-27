@@ -431,7 +431,7 @@ def _do_recall(query: str, user_id: str, top_k: int = 10,
                 query=query_vector,
                 query_filter=Filter(must=must_conditions),
                 limit=candidate_k,
-                score_threshold=0.30,
+                score_threshold=0.35,
                 with_payload=True,
             ).points
             for hit in hits:
