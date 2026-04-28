@@ -224,8 +224,8 @@
     "updatedAt": "2026-04-21T13:22:08.962157+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 7,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 26,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -335,8 +335,8 @@
     "hash": "ef07abe7-2c11-4388-8248-e5de48d132da",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 7,
-    "last_accessed": "2026-04-27T20:22:30+08:00",
+    "access_count": 10,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -415,6 +415,33 @@
   }
 }
 {
+  "id": "177fa3f9-07c2-4029-ae54-eefad515627b",
+  "payload": {
+    "memory": "范长庆身高174cm，体重约95kg，自认为偏胖，现阶段目标是减肥和增强身体素质。",
+    "data": "范长庆身高174cm，体重约95kg，自认为偏胖，现阶段目标是减肥和增强身体素质。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "preference",
+    "created_at": "2026-04-28T16:41:34+08:00",
+    "createdAt": "2026-04-28T16:41:34+08:00",
+    "updated_at": "2026-04-28T16:41:34+08:00",
+    "updatedAt": "2026-04-28T16:41:34+08:00",
+    "hash": "366f223d-100b-44e4-95fc-b4446f1c762b",
+    "tier": "long-term",
+    "access_count": 6,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-04-28T20:47:44+08:00"
+  }
+}
+{
   "id": "17b4a149-964b-4e65-8c54-3076a6530a84",
   "payload": {
     "user_id": "fanchangqing",
@@ -485,8 +512,8 @@
     "hash": "3ce6f3f4-b6ff-475a-a3aa-76b9e5cb2cdf",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 3,
-    "last_accessed": "2026-04-27T19:48:45+08:00",
+    "access_count": 5,
+    "last_accessed": "2026-04-28T21:21:57+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -496,33 +523,6 @@
       "修复验证测试"
     ],
     "promoted_at": "2026-04-27T19:48:45+08:00"
-  }
-}
-{
-  "id": "1ceb22c0-43f3-411d-b656-9f1b4d44a1cc",
-  "payload": {
-    "userId": "fanchangqing",
-    "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
-    "data": "截至2026-04-23，用户已指派CatDesk实施记忆捕获接口（以Mem0后端实现替代错误的CatDesk路径）；同步撤除'Rust重写Jarvis核心模块'条目，替换为'继续深入TypeScript'；新增'冰美式不加糖'偏好及Jarvis四/五期进展（as of 2026-04-23）。",
-    "hash": "a14a8114843352c70b135c1e629753bd",
-    "createdAt": "2026-04-23T10:41:01.991Z",
-    "updatedAt": "2026-04-23T13:44:55.748Z",
-    "category": "summary",
-    "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T13:44:55.748Z",
-    "ttl_days": 7,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "CatDesk",
-      "Mem0",
-      "Rust",
-      "Jarvis",
-      "TypeScript"
-    ],
-    "event_date": "2026-04-23"
   }
 }
 {
@@ -538,10 +538,10 @@
     "updatedAt": "2026-04-23T15:39:18+08:00",
     "hash": "92630268-0c1a-490f-9135-0fa1ede9fea8",
     "category": "project",
-    "tier": "short-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T18:16:59+08:00",
-    "ttl_days": 7,
+    "tier": "mid-term",
+    "access_count": 4,
+    "last_accessed": "2026-04-28T20:47:44+08:00",
+    "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -551,7 +551,8 @@
       "v5版本",
       "GymRats",
       "红色脉搏打卡按钮"
-    ]
+    ],
+    "promoted_at": "2026-04-28T20:47:44+08:00"
   }
 }
 {
@@ -568,8 +569,8 @@
     "hash": "2a7443cf-1627-4411-a5cd-631ddcb10644",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 18,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 26,
+    "last_accessed": "2026-04-28T21:21:57+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -652,8 +653,8 @@
     "attributed_to": "user",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 24,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 28,
+    "last_accessed": "2026-04-28T20:36:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -705,8 +706,8 @@
     "updatedAt": "2026-04-23T10:58:43.126Z",
     "category": "preference",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T10:58:43.126Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -748,8 +749,8 @@
     "hash": "28549a82-fcbd-4183-a47e-411717e49f11",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 17,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 25,
+    "last_accessed": "2026-04-28T18:38:22+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -808,8 +809,8 @@
     "hash": "8251c8e0-2fb7-4905-b6b6-903f14421f1f",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 19,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 25,
+    "last_accessed": "2026-04-28T18:12:22+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -1480,8 +1481,8 @@
     "hash": "ba313aad-f64d-47dd-93ff-8bfa550310bf",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 6,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "access_count": 16,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -1649,8 +1650,8 @@
     "updatedAt": "2026-04-17T18:38:46.432261+00:00",
     "category": "identity",
     "tier": "long-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 9,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -1679,10 +1680,10 @@
     "createdAt": "2026-04-21T13:22:08.962196+00:00",
     "updatedAt": "2026-04-21T13:22:08.962196+00:00",
     "category": "project",
-    "tier": "short-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T14:41:12+08:00",
-    "ttl_days": 7,
+    "tier": "mid-term",
+    "access_count": 4,
+    "last_accessed": "2026-04-28T20:47:44+08:00",
+    "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -1692,7 +1693,8 @@
       "圈内排行榜",
       "共享可见性",
       "周期性挑战"
-    ]
+    ],
+    "promoted_at": "2026-04-28T20:47:44+08:00"
   }
 }
 {
@@ -1791,8 +1793,8 @@
     "updatedAt": "2026-04-23T13:39:30.823Z",
     "category": "identity",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T13:39:30.823Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -1963,8 +1965,8 @@
     "attributed_to": "user",
     "category": "preference",
     "tier": "long-term",
-    "access_count": 10,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 15,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -2028,33 +2030,6 @@
   }
 }
 {
-  "id": "611b500f-3898-4e32-a58d-44b3235afb28",
-  "payload": {
-    "userId": "fanchangqing",
-    "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
-    "data": "CatDesk 已被指派承担多项记忆更新与系统操作任务，包括：修正 CatDesk 的 memory capture 接口路径问题、同步更新用户技术学习状态（Rust → TypeScript）、更新咖啡偏好、记录 Jarvis 四/五期进展（as of 2026-04-23）",
-    "hash": "19dfbb7e8274ce7c76630b70e51d8256",
-    "createdAt": "2026-04-23T10:55:42.034Z",
-    "updatedAt": "2026-04-23T13:44:55.994Z",
-    "category": "project",
-    "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T13:44:55.994Z",
-    "ttl_days": 7,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "CatDesk",
-      "Rust",
-      "TypeScript",
-      "Jarvis",
-      "coffee"
-    ],
-    "event_date": "2026-04-23"
-  }
-}
-{
   "id": "618e05a2-ba6e-4195-bf26-d637fbe80d1f",
   "payload": {
     "user_id": "fanchangqing",
@@ -2069,8 +2044,8 @@
     "updatedAt": "2026-04-22T03:19:15.337108+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 9,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 10,
+    "last_accessed": "2026-04-28T20:36:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2083,32 +2058,6 @@
       "C2"
     ],
     "promoted_at": "2026-04-27T16:16:22+08:00"
-  }
-}
-{
-  "id": "61bba60c-40f9-47e1-bfd4-7f63a6e46ce8",
-  "payload": {
-    "user_id": "fanchangqing",
-    "data": "范长庆身高174cm，体重约95kg，自认为偏胖，现阶段目标是减肥和增强身体素质。",
-    "text_lemmatized": "范长庆身高174cm，体重约95kg，自认为偏胖，现阶段目标是减肥和增强身体素质。",
-    "hash": "0aa9d5e3610f8ac57acba76e9a181a5c",
-    "created_at": "2026-04-21T13:10:37.387634+00:00",
-    "updated_at": "2026-04-21T13:10:37.387634+00:00",
-    "attributed_to": "user",
-    "userId": "fanchangqing",
-    "createdAt": "2026-04-21T13:10:37.387634+00:00",
-    "updatedAt": "2026-04-21T13:10:37.387634+00:00",
-    "category": "identity",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T19:21:53+08:00",
-    "ttl_days": 90,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "范长庆"
-    ]
   }
 }
 {
@@ -2201,8 +2150,8 @@
     "hash": "cba067fe-fe0e-43f2-8927-233000b649c0",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 6,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 21,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2278,8 +2227,8 @@
     "hash": "a8fa6528-9bd2-4c90-a894-6bb212bacc78",
     "category": "daily",
     "tier": "mid-term",
-    "access_count": 17,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "access_count": 32,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2516,8 +2465,8 @@
     "updatedAt": "2026-04-22T03:54:58.642167+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 4,
-    "last_accessed": "2026-04-27T19:48:45+08:00",
+    "access_count": 5,
+    "last_accessed": "2026-04-28T21:21:57+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -2624,8 +2573,8 @@
     "updatedAt": "2026-04-17T18:35:13.347635+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 12,
-    "last_accessed": "2026-04-27T20:22:30+08:00",
+    "access_count": 19,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2684,8 +2633,8 @@
     "updatedAt": "2026-04-21T13:22:08.962175+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 7,
-    "last_accessed": "2026-04-27T20:22:30+08:00",
+    "access_count": 15,
+    "last_accessed": "2026-04-28T21:21:57+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3027,10 +2976,10 @@
     "updated_at": "2026-04-27T17:42:42+08:00",
     "updatedAt": "2026-04-27T17:42:42+08:00",
     "hash": "75295139-68aa-4f0f-a543-c3b2b74a32af",
-    "tier": "short-term",
-    "access_count": 2,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
-    "ttl_days": 7,
+    "tier": "mid-term",
+    "access_count": 9,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -3038,7 +2987,8 @@
       "六期 capture",
       "统一中文存储功能"
     ],
-    "event_date": null
+    "event_date": null,
+    "promoted_at": "2026-04-28T18:16:50+08:00"
   }
 }
 {
@@ -3082,8 +3032,8 @@
     "updatedAt": "2026-04-21T13:10:37.387680+00:00",
     "category": "relationship",
     "tier": "mid-term",
-    "access_count": 4,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 11,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3315,10 +3265,10 @@
     "updatedAt": "2026-04-23T18:28:53+08:00",
     "hash": "d163fec9-71e6-4436-b212-f5dd57d516ad",
     "category": "project",
-    "tier": "short-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T16:15:52+08:00",
-    "ttl_days": 7,
+    "tier": "mid-term",
+    "access_count": 8,
+    "last_accessed": "2026-04-28T20:47:44+08:00",
+    "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -3328,7 +3278,8 @@
       "wxe8064af9feaf8542",
       "微信公众平台",
       "个人主体"
-    ]
+    ],
+    "promoted_at": "2026-04-28T18:12:08+08:00"
   }
 }
 {
@@ -3789,8 +3740,8 @@
     "updatedAt": "2026-04-23T10:55:37.553Z",
     "category": "identity",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T10:55:37.553Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3843,8 +3794,8 @@
     "updatedAt": "2026-04-21T14:44:21.149321+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "access_count": 6,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3970,8 +3921,8 @@
     "updatedAt": "2026-04-23T10:58:42.810Z",
     "category": "preference",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T10:58:42.810Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4182,8 +4133,8 @@
     "updatedAt": "2026-04-26T22:48:45+08:00",
     "hash": "92c549a8-4d61-4044-9ad7-87d9d40d0885",
     "tier": "mid-term",
-    "access_count": 18,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 26,
+    "last_accessed": "2026-04-28T20:36:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4293,8 +4244,8 @@
     "updatedAt": "2026-04-20T08:52:10.824989+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 3,
-    "last_accessed": "2026-04-27T17:16:44+08:00",
+    "access_count": 4,
+    "last_accessed": "2026-04-28T20:22:51+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -4376,8 +4327,8 @@
     "updatedAt": "2026-04-23T10:58:42.697Z",
     "category": "preference",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T10:58:42.697Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4428,10 +4379,10 @@
     "createdAt": "2026-04-21T13:22:08.962110+00:00",
     "updatedAt": "2026-04-21T13:22:08.962110+00:00",
     "category": "project",
-    "tier": "short-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T14:41:12+08:00",
-    "ttl_days": 7,
+    "tier": "mid-term",
+    "access_count": 5,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -4442,7 +4393,8 @@
       "5人同事小圈子",
       "10人"
     ],
-    "event_date": "2026-04-21"
+    "event_date": "2026-04-21",
+    "promoted_at": "2026-04-28T20:47:44+08:00"
   }
 }
 {
@@ -4713,8 +4665,8 @@
     "updatedAt": "2026-04-21T15:02:10.667962+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 12,
-    "last_accessed": "2026-04-27T21:05:34+08:00",
+    "access_count": 14,
+    "last_accessed": "2026-04-28T20:36:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4771,8 +4723,8 @@
     "updatedAt": "2026-04-27T13:20:06+08:00",
     "hash": "0534824a-7d6d-4a6e-b17f-b6710be145cd",
     "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-27T13:20:06+08:00",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T20:22:51+08:00",
     "ttl_days": 7,
     "weight": 1,
     "source_ids": [],
@@ -4918,8 +4870,8 @@
     "hash": "2b0ab37f-c42a-4c58-aecc-c6ed463eb50c",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 16,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 23,
+    "last_accessed": "2026-04-28T21:26:08+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4933,32 +4885,6 @@
     ],
     "event_date": "2026-04-24",
     "promoted_at": "2026-04-27T16:34:39+08:00"
-  }
-}
-{
-  "id": "c75427a5-d68c-443d-85dc-2fb444227c68",
-  "payload": {
-    "user_id": "fanchangqing",
-    "data": "庆哥 decided not to learn Rust and instead continue deepening his expertise in TypeScript, as of April 23, 2026.",
-    "text_lemmatized": "庆哥 decided not to learn Rust and instead continue deepening his expertise in TypeScript, as of April 23, 2026.",
-    "hash": "38912a242242ed891e1ea9f9d7c9bbbe",
-    "created_at": "2026-04-23T11:06:13.806854+00:00",
-    "updated_at": "2026-04-23T11:06:13.806854+00:00",
-    "attributed_to": "user",
-    "category": "preference",
-    "tier": "mid-term",
-    "access_count": 2,
-    "last_accessed": "2026-04-27T14:43:47+08:00",
-    "ttl_days": 90,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "庆哥",
-      "Rust",
-      "TypeScript"
-    ],
-    "event_date": "2026-04-23"
   }
 }
 {
@@ -5029,8 +4955,8 @@
     "updatedAt": "2026-04-22T04:33:54.882362+00:00",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 13,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "access_count": 31,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5089,8 +5015,8 @@
     "updatedAt": "2026-04-26T22:17:53+08:00",
     "hash": "879e43e8-e39c-4b49-b608-1a9e2b337fbe",
     "tier": "mid-term",
-    "access_count": 7,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 13,
+    "last_accessed": "2026-04-28T20:36:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5121,8 +5047,8 @@
     "updatedAt": "2026-04-21T13:22:08.962211+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 7,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 17,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5347,8 +5273,8 @@
     "updatedAt": "2026-04-17T18:35:13.347568+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-27T19:56:30+08:00",
+    "access_count": 6,
+    "last_accessed": "2026-04-28T21:21:57+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -5361,30 +5287,6 @@
       "sdk-memory"
     ],
     "promoted_at": "2026-04-27T16:34:39+08:00"
-  }
-}
-{
-  "id": "db1a9ec8-cd41-4cda-a4a2-2a4ef8604fa9",
-  "payload": {
-    "userId": "fanchangqing",
-    "runId": "agent:main:openclaw-weixin:direct:o9cq800pez8i3lixqgnurmjqqqbu@im.wechat",
-    "data": "用户技术学习路径更新：已放弃短期 Rust 学习计划，转为继续深入 TypeScript（as of 2026-04-23）",
-    "hash": "57a9ea67d0736d2dac29c262c0493043",
-    "createdAt": "2026-04-23T10:41:01.948Z",
-    "updatedAt": "2026-04-23T13:44:55.496Z",
-    "category": "preference",
-    "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T13:44:55.496Z",
-    "ttl_days": 90,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "Rust",
-      "TypeScript"
-    ],
-    "event_date": "2026-04-23"
   }
 }
 {
@@ -5422,8 +5324,8 @@
     "updatedAt": "2026-04-22T03:54:21.244Z",
     "category": "relationship",
     "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-22T03:54:21.244Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 7,
     "weight": 1,
     "source_ids": [],
@@ -5446,8 +5348,8 @@
     "updatedAt": "2026-04-23T10:55:37.442Z",
     "category": "preference",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-23T10:55:37.442Z",
+    "access_count": 1,
+    "last_accessed": "2026-04-28T17:52:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5698,31 +5600,6 @@
       "hello-from-wechat.txt"
     ],
     "event_date": "2026-04-21"
-  }
-}
-{
-  "id": "e4f2a80f-6d5f-4357-af8a-09e7c9239367",
-  "payload": {
-    "memory": "庆哥是面试官，不是候选人。他说面试时不要对他说'加油'，这个错误已经犯了好几次，必须记住。",
-    "data": "庆哥是面试官，不是候选人。他说面试时不要对他说'加油'，这个错误已经犯了好几次，必须记住。",
-    "user_id": "fanchangqing",
-    "userId": "fanchangqing",
-    "created_at": "2026-04-24T11:07:20+08:00",
-    "createdAt": "2026-04-24T11:07:20+08:00",
-    "updated_at": "2026-04-24T11:07:20+08:00",
-    "updatedAt": "2026-04-24T11:07:20+08:00",
-    "hash": "fa9884c2-55c4-429c-b182-4935c1ca6fe0",
-    "category": "relationship",
-    "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-24T11:07:20+08:00",
-    "ttl_days": 7,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "庆哥"
-    ]
   }
 }
 {
@@ -5979,8 +5856,8 @@
     "hash": "9e4b3630-6b33-42d4-91ef-f0fcbcdf2498",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 19,
-    "last_accessed": "2026-04-27T21:13:24+08:00",
+    "access_count": 23,
+    "last_accessed": "2026-04-28T20:36:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -6038,8 +5915,8 @@
     "updatedAt": "2026-04-22T03:18:56.426055+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-27T19:54:42+08:00",
+    "access_count": 6,
+    "last_accessed": "2026-04-28T10:45:20+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -6082,35 +5959,6 @@
       "Jarvis",
       "cloud queue",
       "Automation"
-    ]
-  }
-}
-{
-  "id": "f6333132-2eb0-44b8-a20d-a02374737a2c",
-  "payload": {
-    "user_id": "fanchangqing",
-    "data": "User stated that the WeChat side delivers tasks via systemPromptOverride and exec curl, without needing a TypeScript plugin.",
-    "text_lemmatized": "User stated that the WeChat side delivers tasks via systemPromptOverride and exec curl, without needing a TypeScript plugin.",
-    "hash": "185e2e1832219aab10c06a55e57cfbfa",
-    "created_at": "2026-04-22T03:16:35.065566+00:00",
-    "updated_at": "2026-04-22T03:16:35.065566+00:00",
-    "attributed_to": "user",
-    "userId": "fanchangqing",
-    "createdAt": "2026-04-22T03:16:35.065566+00:00",
-    "updatedAt": "2026-04-22T03:16:35.065566+00:00",
-    "category": "project",
-    "tier": "short-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T14:43:47+08:00",
-    "ttl_days": 7,
-    "weight": 1,
-    "source_ids": [],
-    "feedback_negative": 0,
-    "entities": [
-      "WeChat",
-      "systemPromptOverride",
-      "curl",
-      "TypeScript"
     ]
   }
 }
@@ -6412,8 +6260,8 @@
     "updatedAt": "2026-04-26T23:02:54+08:00",
     "hash": "fe87f501-a57d-4ef5-adf9-1f659fc332eb",
     "tier": "long-term",
-    "access_count": 8,
-    "last_accessed": "2026-04-27T23:45:39+08:00",
+    "access_count": 22,
+    "last_accessed": "2026-04-29T01:00:13+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
