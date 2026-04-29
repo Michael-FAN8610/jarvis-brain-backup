@@ -1194,6 +1194,45 @@ async def sandbox_discard(request: Request) -> JSONResponse:
         return JSONResponse({"error": str(e)}, status_code=500)
 
 
+
+# -- CatDesk MEMORY.md 拉取端点（带 token 认证） --------------------------------
+
+MEMORY_MD_PATH = "/opt/jarvis/memory/MEMORY.md"
+
+@mcp.custom_route("/api/memory", methods=["GET"])
+async def get_memory_md(request: Request) -> JSONResponse:
+    """CatDesk 端拉取纯 MEMORY.md 内容，带 token 认证。
+    Header: Authorization: Bearer <MCP_TOKEN>
+    返回: {"content": "...", "last_modified": "...", "size": N}
+    """
+    # Token 认证
+    auth_header = request.headers.get("authorization", "")
+    if not auth_header.startswith("Bearer "):
+        return JSONResponse({"error": "Missing Authorization header"}, status_code=401)
+    token = auth_header[7:]
+    if token != MCP_TOKEN:
+        return JSONResponse({"error": "Invalid token"}, status_code=403)
+
+    try:
+        from pathlib import Path
+        mem_path = Path(MEMORY_MD_PATH)
+        if not mem_path.exists():
+            return JSONResponse(
+                {"error": "MEMORY.md not found, run generate_memory.py first"},
+                status_code=404
+            )
+        mem_content = mem_path.read_text(encoding="utf-8")
+        last_modified = datetime.fromtimestamp(mem_path.stat().st_mtime).isoformat()
+        return JSONResponse({
+            "content": mem_content,
+            "size": len(mem_content),
+            "last_modified": last_modified,
+        })
+    except Exception as e:
+        print(f"[MEMORY ENDPOINT ERROR] {e}", flush=True)
+        return JSONResponse({"error": str(e)}, status_code=500)
+
+
 # -- CatDesk 配置端点（5.2 三层互通） -----------------------------------------
 
 CATDESK_FRAGMENT_PATH = "/opt/jarvis/master/dist/catdesk_agents_fragment.md"

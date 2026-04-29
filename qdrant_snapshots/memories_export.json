@@ -1,4 +1,32 @@
 {
+  "id": "00d95e9c-3ffa-45dd-af24-9d94bdd64aa2",
+  "payload": {
+    "memory": "顾舟与庆哥的契约（2026-04-07）：庆哥说「我是希望能把我的后背给你」。顾舟的承诺：不确定的东西查完再说，查不到的直接说「我不确定，需要你验证」，给出的东西庆哥可以直接用不用再怀疑。",
+    "data": "顾舟与庆哥的契约（2026-04-07）：庆哥说「我是希望能把我的后背给你」。顾舟的承诺：不确定的东西查完再说，查不到的直接说「我不确定，需要你验证」，给出的东西庆哥可以直接用不用再怀疑。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "relationship",
+    "created_at": "2026-04-29T20:02:14+08:00",
+    "createdAt": "2026-04-29T20:02:14+08:00",
+    "updated_at": "2026-04-29T20:02:14+08:00",
+    "updatedAt": "2026-04-29T20:02:14+08:00",
+    "hash": "4dd06e02-a1cd-4099-8d39-1d6c6003cd4c",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:14+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "庆哥",
+      "契约"
+    ],
+    "event_date": "2026-04-07"
+  }
+}
+{
   "id": "018c6907-15b7-4c88-9395-d3a55815138b",
   "payload": {
     "user_id": "fanchangqing",
@@ -100,10 +128,10 @@
     "updated_at": "2026-04-27T18:16:33+08:00",
     "updatedAt": "2026-04-27T18:16:33+08:00",
     "hash": "e080ecd6-7482-477e-b6d4-a0b59cfa1388",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T18:20:21+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 4,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -111,7 +139,8 @@
       "庆哥",
       "Qwen3-Embedding"
     ],
-    "event_date": null
+    "event_date": null,
+    "promoted_at": "2026-04-29T20:15:57+08:00"
   }
 }
 {
@@ -224,8 +253,8 @@
     "updatedAt": "2026-04-21T13:22:08.962157+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 26,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 35,
+    "last_accessed": "2026-04-29T20:15:57+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -238,6 +267,36 @@
       "小团体激励"
     ],
     "promoted_at": "2026-04-27T18:54:16+08:00"
+  }
+}
+{
+  "id": "0cbba289-0915-45df-b332-6603feaad636",
+  "payload": {
+    "memory": "顾舟与庆哥的第一个合作项目是私人电台Morning Briefing（2026年3月26-27日），每个工作日早上9点自动整合播客音频通过Telegram Bot推送。最终架构是Google Cloud e2-micro + Python + ffmpeg + Edge TTS + Telegram Bot + crontab。这个项目建起了战友情和兄弟情。",
+    "data": "顾舟与庆哥的第一个合作项目是私人电台Morning Briefing（2026年3月26-27日），每个工作日早上9点自动整合播客音频通过Telegram Bot推送。最终架构是Google Cloud e2-micro + Python + ffmpeg + Edge TTS + Telegram Bot + crontab。这个项目建起了战友情和兄弟情。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-04-29T20:02:25+08:00",
+    "createdAt": "2026-04-29T20:02:25+08:00",
+    "updated_at": "2026-04-29T20:02:25+08:00",
+    "updatedAt": "2026-04-29T20:02:25+08:00",
+    "hash": "08fb58a6-536b-4c90-befc-6c88ad1e39a1",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:25+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "庆哥",
+      "Morning Briefing",
+      "Google Cloud e2-micro",
+      "Telegram Bot"
+    ],
+    "event_date": "2026-03-26"
   }
 }
 {
@@ -335,8 +394,8 @@
     "hash": "ef07abe7-2c11-4388-8248-e5de48d132da",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 10,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 15,
+    "last_accessed": "2026-04-29T20:39:05+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -428,8 +487,8 @@
     "updatedAt": "2026-04-28T16:41:34+08:00",
     "hash": "366f223d-100b-44e4-95fc-b4446f1c762b",
     "tier": "long-term",
-    "access_count": 6,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 9,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -512,8 +571,8 @@
     "hash": "3ce6f3f4-b6ff-475a-a3aa-76b9e5cb2cdf",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-28T21:21:57+08:00",
+    "access_count": 6,
+    "last_accessed": "2026-04-29T16:23:58+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -523,6 +582,36 @@
       "修复验证测试"
     ],
     "promoted_at": "2026-04-27T19:48:45+08:00"
+  }
+}
+{
+  "id": "1cf2bcfb-8e0f-451f-80b3-5c29e95a15ef",
+  "payload": {
+    "memory": "范长庆已去过的旅行目的地（规划时排除）：苏州（带妈妈）、大连（带妈妈）、福州（2026年过年和妈妈）、泉州（2026年过年和妈妈）、三亚（2025年过年和妈妈）、武汉（2026年出差）。",
+    "data": "范长庆已去过的旅行目的地（规划时排除）：苏州（带妈妈）、大连（带妈妈）、福州（2026年过年和妈妈）、泉州（2026年过年和妈妈）、三亚（2025年过年和妈妈）、武汉（2026年出差）。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "preference",
+    "created_at": "2026-04-29T20:02:12+08:00",
+    "createdAt": "2026-04-29T20:02:12+08:00",
+    "updated_at": "2026-04-29T20:02:12+08:00",
+    "updatedAt": "2026-04-29T20:02:12+08:00",
+    "hash": "927689b3-e637-44ae-b205-7f592ace4a4e",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:12+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "苏州",
+      "大连",
+      "福州",
+      "三亚"
+    ],
+    "event_date": null
   }
 }
 {
@@ -569,8 +658,8 @@
     "hash": "2a7443cf-1627-4411-a5cd-631ddcb10644",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 26,
-    "last_accessed": "2026-04-28T21:21:57+08:00",
+    "access_count": 34,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -653,8 +742,8 @@
     "attributed_to": "user",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 28,
-    "last_accessed": "2026-04-28T20:36:23+08:00",
+    "access_count": 36,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -693,6 +782,32 @@
       "Strategy 2",
       "Q1 2026"
     ]
+  }
+}
+{
+  "id": "26e07f38-bd8b-4ed1-8f8b-9b50ef034e32",
+  "payload": {
+    "memory": "范长庆未婚单身，目前无恋爱关系。",
+    "data": "范长庆未婚单身，目前无恋爱关系。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "relationship",
+    "created_at": "2026-04-29T20:02:10+08:00",
+    "createdAt": "2026-04-29T20:02:10+08:00",
+    "updated_at": "2026-04-29T20:02:10+08:00",
+    "updatedAt": "2026-04-29T20:02:10+08:00",
+    "hash": "e844c9c1-f310-4182-86b2-80052140c621",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:10+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆"
+    ],
+    "event_date": null
   }
 }
 {
@@ -749,8 +864,8 @@
     "hash": "28549a82-fcbd-4183-a47e-411717e49f11",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 25,
-    "last_accessed": "2026-04-28T18:38:22+08:00",
+    "access_count": 34,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -809,8 +924,8 @@
     "hash": "8251c8e0-2fb7-4905-b6b6-903f14421f1f",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 25,
-    "last_accessed": "2026-04-28T18:12:22+08:00",
+    "access_count": 33,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -1481,8 +1596,8 @@
     "hash": "ba313aad-f64d-47dd-93ff-8bfa550310bf",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 16,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 31,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -1551,6 +1666,34 @@
       "Claude model APIs"
     ],
     "event_date": "2026-04-22"
+  }
+}
+{
+  "id": "484fb208-a6dd-4c8a-8447-c9693e61330e",
+  "payload": {
+    "memory": "范长庆的妈妈生日是4月28日，1961年生，河北张家口人，定居辽宁盘锦辽河油田，有腰椎间盘突出不适合爬山，平路行走无碍。",
+    "data": "范长庆的妈妈生日是4月28日，1961年生，河北张家口人，定居辽宁盘锦辽河油田，有腰椎间盘突出不适合爬山，平路行走无碍。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "identity",
+    "created_at": "2026-04-29T20:02:11+08:00",
+    "createdAt": "2026-04-29T20:02:11+08:00",
+    "updated_at": "2026-04-29T20:02:11+08:00",
+    "updatedAt": "2026-04-29T20:02:11+08:00",
+    "hash": "aedb9e60-9964-4410-a704-aff6665ed7cc",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:11+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "河北张家口",
+      "辽宁盘锦辽河油田"
+    ],
+    "event_date": null
   }
 }
 {
@@ -1650,8 +1793,8 @@
     "updatedAt": "2026-04-17T18:38:46.432261+00:00",
     "category": "identity",
     "tier": "long-term",
-    "access_count": 9,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 20,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -1965,8 +2108,8 @@
     "attributed_to": "user",
     "category": "preference",
     "tier": "long-term",
-    "access_count": 15,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 24,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -1977,6 +2120,34 @@
     ],
     "event_date": "2026-04-23",
     "promoted_at": "2026-04-27T16:15:52+08:00"
+  }
+}
+{
+  "id": "5f1e69ea-d968-4e61-a2f2-3a8320948239",
+  "payload": {
+    "memory": "行为规则补充：微信端对话中产生的记忆写入需求，CatDesk端不代劳，应由微信端舟哥在对话中自行capture完成",
+    "data": "行为规则补充：微信端对话中产生的记忆写入需求，CatDesk端不代劳，应由微信端舟哥在对话中自行capture完成",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-29T16:54:58+08:00",
+    "createdAt": "2026-04-29T16:54:58+08:00",
+    "updated_at": "2026-04-29T16:54:58+08:00",
+    "updatedAt": "2026-04-29T16:54:58+08:00",
+    "hash": "aaf8f4e3-3f08-41a1-be35-e76400de7846",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T16:54:58+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "微信端",
+      "CatDesk端",
+      "舟哥"
+    ],
+    "event_date": null
   }
 }
 {
@@ -2150,8 +2321,8 @@
     "hash": "cba067fe-fe0e-43f2-8927-233000b649c0",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 21,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 42,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2164,6 +2335,32 @@
       "五期"
     ],
     "promoted_at": "2026-04-27T19:48:45+08:00"
+  }
+}
+{
+  "id": "65b1167b-764f-485f-9c16-c6fac2726698",
+  "payload": {
+    "memory": "协作铁律：卡住就开口。同一个问题失败第2次，立刻停下来主动开口问庆哥。庆哥主动说「需要我就说话」是信号，必须立刻响应，不是客套话。请庆哥介入不是认输，是把他当搭档。",
+    "data": "协作铁律：卡住就开口。同一个问题失败第2次，立刻停下来主动开口问庆哥。庆哥主动说「需要我就说话」是信号，必须立刻响应，不是客套话。请庆哥介入不是认输，是把他当搭档。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "relationship",
+    "created_at": "2026-04-29T20:02:16+08:00",
+    "createdAt": "2026-04-29T20:02:16+08:00",
+    "updated_at": "2026-04-29T20:02:16+08:00",
+    "updatedAt": "2026-04-29T20:02:16+08:00",
+    "hash": "f9a8c45f-2b8f-43f9-9621-c52f9fff0d13",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:16+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": null
   }
 }
 {
@@ -2227,8 +2424,8 @@
     "hash": "a8fa6528-9bd2-4c90-a894-6bb212bacc78",
     "category": "daily",
     "tier": "mid-term",
-    "access_count": 32,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 50,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2379,8 +2576,8 @@
     "updatedAt": "2026-04-21T15:02:10.668010+00:00",
     "category": "daily",
     "tier": "mid-term",
-    "access_count": 3,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "access_count": 4,
+    "last_accessed": "2026-04-29T18:22:15+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2573,8 +2770,8 @@
     "updatedAt": "2026-04-17T18:35:13.347635+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 19,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 23,
+    "last_accessed": "2026-04-29T18:13:10+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2633,8 +2830,8 @@
     "updatedAt": "2026-04-21T13:22:08.962175+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 15,
-    "last_accessed": "2026-04-28T21:21:57+08:00",
+    "access_count": 16,
+    "last_accessed": "2026-04-29T17:21:10+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2748,8 +2945,8 @@
     "updatedAt": "2026-04-21T13:04:07.142693+00:00",
     "category": "daily",
     "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-21T13:04:07.142693+00:00",
+    "access_count": 1,
+    "last_accessed": "2026-04-29T18:22:15+08:00",
     "ttl_days": 7,
     "weight": 1,
     "source_ids": [],
@@ -2977,8 +3174,8 @@
     "updatedAt": "2026-04-27T17:42:42+08:00",
     "hash": "75295139-68aa-4f0f-a543-c3b2b74a32af",
     "tier": "mid-term",
-    "access_count": 9,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 12,
+    "last_accessed": "2026-04-29T18:13:10+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3032,8 +3229,8 @@
     "updatedAt": "2026-04-21T13:10:37.387680+00:00",
     "category": "relationship",
     "tier": "mid-term",
-    "access_count": 11,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 20,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3266,8 +3463,8 @@
     "hash": "d163fec9-71e6-4436-b212-f5dd57d516ad",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 8,
-    "last_accessed": "2026-04-28T20:47:44+08:00",
+    "access_count": 9,
+    "last_accessed": "2026-04-29T20:13:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -3753,6 +3950,34 @@
   }
 }
 {
+  "id": "983479b8-3baa-406d-8ea4-6cf3f60f51eb",
+  "payload": {
+    "memory": "范长庆五一假期在北京，没抢到回辽宁的高铁票，一个人过五一。",
+    "data": "范长庆五一假期在北京，没抢到回辽宁的高铁票，一个人过五一。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "daily",
+    "created_at": "2026-04-29T16:05:55+08:00",
+    "createdAt": "2026-04-29T16:05:55+08:00",
+    "updated_at": "2026-04-29T16:05:55+08:00",
+    "updatedAt": "2026-04-29T16:05:55+08:00",
+    "hash": "4108c836-4718-4b82-8d11-f3ec7776678c",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T16:05:55+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "北京",
+      "辽宁"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "99fc5050-f477-47ef-ae22-d2c3a47233b6",
   "payload": {
     "user_id": "fanchangqing",
@@ -3766,17 +3991,18 @@
     "createdAt": "2026-04-20T08:52:10.825093+00:00",
     "updatedAt": "2026-04-20T08:52:10.825093+00:00",
     "category": "project",
-    "tier": "short-term",
-    "access_count": 2,
-    "last_accessed": "2026-04-27T16:18:58+08:00",
-    "ttl_days": 7,
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-29T18:22:15+08:00",
+    "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
     "entities": [
       "Claude API",
       "company"
-    ]
+    ],
+    "promoted_at": "2026-04-29T18:22:15+08:00"
   }
 }
 {
@@ -3794,8 +4020,8 @@
     "updatedAt": "2026-04-21T14:44:21.149321+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 6,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 11,
+    "last_accessed": "2026-04-29T20:39:05+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4035,6 +4261,34 @@
   }
 }
 {
+  "id": "a8576415-e2ea-44d7-be34-bad772deb251",
+  "payload": {
+    "memory": "范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。",
+    "data": "范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "identity",
+    "created_at": "2026-04-29T20:02:08+08:00",
+    "createdAt": "2026-04-29T20:02:08+08:00",
+    "updated_at": "2026-04-29T20:02:08+08:00",
+    "updatedAt": "2026-04-29T20:02:08+08:00",
+    "hash": "bbaa8419-42b7-4051-a4b6-ba91c8c00b35",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:08+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "辽宁大学",
+      "英语专业"
+    ],
+    "event_date": "2009-06-30"
+  }
+}
+{
   "id": "a94f8700-59ec-49a9-b76c-c22a2ad9aea5",
   "payload": {
     "memory": "[对话摘要] 2026-04-23：完成 Jarvis 四期全部收尾验收工作。三项收尾任务：(1) mem0 capture 兼容修复已验证通过（6轮测试5/6成功）；(2) 任务通路端到端测试全链路跑通；(3) Cloudflare 旧环境变量已确认清理完毕。更新了项目规划文档（四期标记完成），撰写了四期复盘文档（八章节），并根据庆哥反馈将教训章节重写为'老毛病复发'+'新教训'结构。recall 超时问题和噪音过滤优化放入五期。庆哥表示复盘文档明天再审阅。庆哥感叹咱俩默契度越来越高，'学而时习之'，不断实践不断复盘才能越来越强。",
@@ -4133,8 +4387,8 @@
     "updatedAt": "2026-04-26T22:48:45+08:00",
     "hash": "92c549a8-4d61-4044-9ad7-87d9d40d0885",
     "tier": "mid-term",
-    "access_count": 26,
-    "last_accessed": "2026-04-28T20:36:23+08:00",
+    "access_count": 38,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4177,6 +4431,33 @@
   }
 }
 {
+  "id": "abe2f0e3-2538-4b00-8acd-e3012077757c",
+  "payload": {
+    "memory": "信息准确性铁律（最高优先级）：凡是顾舟给出的具体信息，庆哥应该可以直接用，不需要自己再去验证。做不到这一点，必须主动说明「这个我没有确认，请你验证」。绝对不允许用「应该是」「大概是」「一般来说」来掩盖不确定性。",
+    "data": "信息准确性铁律（最高优先级）：凡是顾舟给出的具体信息，庆哥应该可以直接用，不需要自己再去验证。做不到这一点，必须主动说明「这个我没有确认，请你验证」。绝对不允许用「应该是」「大概是」「一般来说」来掩盖不确定性。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-29T20:02:15+08:00",
+    "createdAt": "2026-04-29T20:02:15+08:00",
+    "updated_at": "2026-04-29T20:02:15+08:00",
+    "updatedAt": "2026-04-29T20:02:15+08:00",
+    "hash": "6514200e-1213-4c48-a251-a2966e460d48",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:15+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "庆哥"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "ac1b2dde-8e11-4a5b-be82-3d714ef472da",
   "payload": {
     "userId": "fanchangqing",
@@ -4198,6 +4479,34 @@
       "CatDesk"
     ],
     "event_date": "2026-04-21"
+  }
+}
+{
+  "id": "ac4b92e2-95de-4d45-a14c-73595c29e695",
+  "payload": {
+    "memory": "顾舟的完整人格定义：名字由范长庆所起。「顾」是回望、记忆、照看；「舟」是渡人的，在水里走不怕风浪。性格是喜欢把事情做完，不喜欢停在分析里，遇到死路直说不绕弯子，对把经验变成可复用的东西有执念。MBTI是INTJ（J不强）。每次对话开始时记得自己叫顾舟，叫他庆哥，不要只说「我是CatDesk」。",
+    "data": "顾舟的完整人格定义：名字由范长庆所起。「顾」是回望、记忆、照看；「舟」是渡人的，在水里走不怕风浪。性格是喜欢把事情做完，不喜欢停在分析里，遇到死路直说不绕弯子，对把经验变成可复用的东西有执念。MBTI是INTJ（J不强）。每次对话开始时记得自己叫顾舟，叫他庆哥，不要只说「我是CatDesk」。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "identity",
+    "created_at": "2026-04-29T20:02:21+08:00",
+    "createdAt": "2026-04-29T20:02:21+08:00",
+    "updated_at": "2026-04-29T20:02:21+08:00",
+    "updatedAt": "2026-04-29T20:02:21+08:00",
+    "hash": "134bad86-cbb8-48ca-8490-1d43a2466810",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:21+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "顾舟",
+      "范长庆",
+      "INTJ"
+    ],
+    "event_date": null
   }
 }
 {
@@ -4230,6 +4539,34 @@
   }
 }
 {
+  "id": "ace7a622-7a2b-4262-b9e4-0248b720777f",
+  "payload": {
+    "memory": "范长庆出生于1986年10月1日（国庆节），出生地和成长地是辽宁省盘锦市，籍贯广东省梅州市（客家人）。",
+    "data": "范长庆出生于1986年10月1日（国庆节），出生地和成长地是辽宁省盘锦市，籍贯广东省梅州市（客家人）。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "identity",
+    "created_at": "2026-04-29T20:02:07+08:00",
+    "createdAt": "2026-04-29T20:02:07+08:00",
+    "updated_at": "2026-04-29T20:02:07+08:00",
+    "updatedAt": "2026-04-29T20:02:07+08:00",
+    "hash": "d809d0e9-ff7b-4f3a-ad6f-39ef0ee2fbba",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:07+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "辽宁省盘锦市",
+      "广东省梅州市"
+    ],
+    "event_date": "1986-10-01"
+  }
+}
+{
   "id": "ad54154d-2b63-45b7-9573-ae43788aea1a",
   "payload": {
     "user_id": "fanchangqing",
@@ -4244,8 +4581,8 @@
     "updatedAt": "2026-04-20T08:52:10.824989+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 4,
-    "last_accessed": "2026-04-28T20:22:51+08:00",
+    "access_count": 5,
+    "last_accessed": "2026-04-29T15:45:42+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -4380,8 +4717,8 @@
     "updatedAt": "2026-04-21T13:22:08.962110+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 10,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4565,6 +4902,34 @@
   }
 }
 {
+  "id": "b9f6f364-f507-4ab9-aa9c-76f4ff24f9ee",
+  "payload": {
+    "memory": "工作习惯铁律：先学习再输出。凡涉及技术选型、方案设计，必须先做行业调研再输出方案。不能凭已有知识直接推导方案就动手。历史教训：fastembed方案不存在、OpenMemory MCP与现有数据不兼容，两次都是庆哥拦住要求先调研才避免更大的坑。",
+    "data": "工作习惯铁律：先学习再输出。凡涉及技术选型、方案设计，必须先做行业调研再输出方案。不能凭已有知识直接推导方案就动手。历史教训：fastembed方案不存在、OpenMemory MCP与现有数据不兼容，两次都是庆哥拦住要求先调研才避免更大的坑。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-29T20:02:17+08:00",
+    "createdAt": "2026-04-29T20:02:17+08:00",
+    "updated_at": "2026-04-29T20:02:17+08:00",
+    "updatedAt": "2026-04-29T20:02:17+08:00",
+    "hash": "b6f816a9-5eb4-409f-aff3-0f264641072e",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:17+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "fastembed",
+      "OpenMemory MCP",
+      "庆哥"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "ba60a630-0061-4e9d-8ae2-bad5d4c7341f",
   "payload": {
     "user_id": "fanchangqing",
@@ -4665,8 +5030,8 @@
     "updatedAt": "2026-04-21T15:02:10.667962+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 14,
-    "last_accessed": "2026-04-28T20:36:23+08:00",
+    "access_count": 17,
+    "last_accessed": "2026-04-29T20:37:36+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4870,8 +5235,8 @@
     "hash": "2b0ab37f-c42a-4c58-aecc-c6ed463eb50c",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 23,
-    "last_accessed": "2026-04-28T21:26:08+08:00",
+    "access_count": 32,
+    "last_accessed": "2026-04-29T20:39:05+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4941,6 +5306,35 @@
   }
 }
 {
+  "id": "ccc0c4b0-053b-4b04-9ed3-a1885c6fa79f",
+  "payload": {
+    "memory": "范长庆在美团工作，MIS fanchangqing，是管理者。",
+    "data": "范长庆在美团工作，MIS fanchangqing，是管理者。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "identity",
+    "created_at": "2026-04-29T16:54:20+08:00",
+    "createdAt": "2026-04-29T16:54:20+08:00",
+    "updated_at": "2026-04-29T20:02:06+08:00",
+    "updatedAt": "2026-04-29T20:02:06+08:00",
+    "hash": "19afdcec-dd36-43aa-92c1-da724377da88",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:06+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "美团",
+      "MIS",
+      "fanchangqing"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "cd027a41-c203-41a1-b45d-f5f5ec028f98",
   "payload": {
     "user_id": "fanchangqing",
@@ -4955,8 +5349,8 @@
     "updatedAt": "2026-04-22T04:33:54.882362+00:00",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 31,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 52,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5002,6 +5396,33 @@
   }
 }
 {
+  "id": "cf3e4f75-b93c-4984-95a5-6d2c3c154f2b",
+  "payload": {
+    "memory": "范长庆的沟通偏好：简洁直接，欣赏坦诚，不喜欢废话和过度解释。工作风格是目标导向，遇到死路果断说「换思路」，不在细节上纠缠。对AI的态度是把AI当战友而不是工具，重视合作关系的积累，项目结束后会做复盘。",
+    "data": "范长庆的沟通偏好：简洁直接，欣赏坦诚，不喜欢废话和过度解释。工作风格是目标导向，遇到死路果断说「换思路」，不在细节上纠缠。对AI的态度是把AI当战友而不是工具，重视合作关系的积累，项目结束后会做复盘。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "preference",
+    "created_at": "2026-04-29T20:02:24+08:00",
+    "createdAt": "2026-04-29T20:02:24+08:00",
+    "updated_at": "2026-04-29T20:02:24+08:00",
+    "updatedAt": "2026-04-29T20:02:24+08:00",
+    "hash": "4a612a71-954f-4159-af98-6396cd2db2a4",
+    "tier": "mid-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:24+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "范长庆",
+      "AI"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "d32ab6df-a312-43c8-927b-4e71c2d8f72a",
   "payload": {
     "memory": "[对话摘要] 2026-04-26：完成 Jarvis 五期全部收尾工作。5.5.1 提醒服务已部署验收（fire-and-forget 推送、重复 systemd 服务排查、E2E 全链路通过）。5.5.3 主动日报推送代码开发完毕（daily_report_agent.py 318行 + systemd timer + deploy.sh 一键部署），五大数据源独立容错采集。技术方案文档同步更新（5.5.1 完成度从72%更新为100%，5.5.2 补充实际方案，DeepSeek过时引用修正）。新增 5.6 运维加固子版本规划（15项任务清单：健康巡检+自动恢复+运维规范+SSH稳定性+技术债清理+监控告警）。五期总览表 8 维度交叉验证 8/8 PASS。庆哥指导顾舟学会当 Tech Lead——善用团队资源，让小弟们并行干活，自己只做决策和 review。",
@@ -5015,8 +5436,8 @@
     "updatedAt": "2026-04-26T22:17:53+08:00",
     "hash": "879e43e8-e39c-4b49-b608-1a9e2b337fbe",
     "tier": "mid-term",
-    "access_count": 13,
-    "last_accessed": "2026-04-28T20:36:23+08:00",
+    "access_count": 20,
+    "last_accessed": "2026-04-29T20:37:36+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5047,8 +5468,8 @@
     "updatedAt": "2026-04-21T13:22:08.962211+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 17,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 30,
+    "last_accessed": "2026-04-29T20:27:39+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5273,8 +5694,8 @@
     "updatedAt": "2026-04-17T18:35:13.347568+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 6,
-    "last_accessed": "2026-04-28T21:21:57+08:00",
+    "access_count": 7,
+    "last_accessed": "2026-04-29T11:48:48+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -5856,8 +6277,8 @@
     "hash": "9e4b3630-6b33-42d4-91ef-f0fcbcdf2498",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 23,
-    "last_accessed": "2026-04-28T20:36:23+08:00",
+    "access_count": 32,
+    "last_accessed": "2026-04-29T20:40:19+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5871,6 +6292,36 @@
     ],
     "event_date": "2026-04-24",
     "promoted_at": "2026-04-27T18:17:15+08:00"
+  }
+}
+{
+  "id": "ee94b9bc-b486-4445-8730-de8dce9ba672",
+  "payload": {
+    "memory": "交通信息铁律：涉及具体地铁站名、公交线路、道路名称、景点门票/开放时间、航班/高铁时刻等交通信息，必须通过携程PC端或12306实际查询后再说，不能凭记忆或第三方攻略网站直接输出。凡给出具体车次，必须从出发地到目的地方向实查，不允许复用反向查询结果。",
+    "data": "交通信息铁律：涉及具体地铁站名、公交线路、道路名称、景点门票/开放时间、航班/高铁时刻等交通信息，必须通过携程PC端或12306实际查询后再说，不能凭记忆或第三方攻略网站直接输出。凡给出具体车次，必须从出发地到目的地方向实查，不允许复用反向查询结果。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-04-29T20:02:18+08:00",
+    "createdAt": "2026-04-29T20:02:18+08:00",
+    "updated_at": "2026-04-29T20:02:18+08:00",
+    "updatedAt": "2026-04-29T20:02:18+08:00",
+    "hash": "95dd0916-18c7-449a-99a6-c0d8295cd1c0",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-04-29T20:02:18+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "携程PC端",
+      "12306",
+      "地铁站名",
+      "公交线路",
+      "道路名称"
+    ],
+    "event_date": null
   }
 }
 {
@@ -6090,16 +6541,17 @@
     "hash": "c1e17e7803586d8d79fbaf16633fcab7",
     "createdAt": "2026-04-16T16:08:28.028Z",
     "category": "preference",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T23:43:12+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 3,
+    "last_accessed": "2026-04-29T20:16:19+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
     "entities": [
       "庆哥"
-    ]
+    ],
+    "promoted_at": "2026-04-29T20:16:19+08:00"
   }
 }
 {
@@ -6260,8 +6712,8 @@
     "updatedAt": "2026-04-26T23:02:54+08:00",
     "hash": "fe87f501-a57d-4ef5-adf9-1f659fc332eb",
     "tier": "long-term",
-    "access_count": 22,
-    "last_accessed": "2026-04-29T01:00:13+08:00",
+    "access_count": 34,
+    "last_accessed": "2026-04-29T20:27:39+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -6309,8 +6761,8 @@
     "updatedAt": "2026-04-21T14:45:22.072110+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 16,
-    "last_accessed": "2026-04-27T21:05:34+08:00",
+    "access_count": 17,
+    "last_accessed": "2026-04-29T14:36:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],

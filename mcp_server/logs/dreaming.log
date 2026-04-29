@@ -24,3 +24,39 @@
 ============================================================
 
 [2026-04-28 03:30:03] === Dreaming Lite V2 END (mode=sandbox, 0.03s) ===
+[2026-04-29 03:30:03] === Dreaming Lite V2 START (mode=sandbox) ===
+[2026-04-29 03:30:03] Loading all memories...
+[2026-04-29 03:30:03] Loaded 232 memories in 0.02s
+[2026-04-29 03:30:03] [Step 1] TTL expiry check...
+[2026-04-29 03:30:03]   Found 2 expired memories
+[2026-04-29 03:30:03]   [SANDBOX] Plan archive 8a653b7d (tier=short-term, content=User plans for the Jarvis fourth phase to involve ...)
+[2026-04-29 03:30:03]   [SANDBOX] Plan archive 99fc5050 (tier=short-term, content=User noted that the company's Claude API cannot be...)
+[2026-04-29 03:30:03]   Archive plan: 2 memories in 0.00s
+[2026-04-29 03:30:03] [Step 2] Promotion check...
+[2026-04-29 03:30:03]   Found 0 memories eligible for promotion
+[2026-04-29 03:30:03]   Promotion plan: 0 memories in 0.00s
+[2026-04-29 03:30:03] [Sandbox] Writing 2 changes to /opt/jarvis-mcp/sandbox/pending_changes.json
+[2026-04-29 03:30:03] [Sandbox] Written to /opt/jarvis-mcp/sandbox/pending_changes.json
+
+============================================================
+  Dreaming Lite V2 Report  2026-04-29  (SANDBOX)
+============================================================
+  Total memories:  232
+  Archived (TTL):  2
+  Promoted:        0
+  Elapsed:         0.02s
+  Sandbox file:    /opt/jarvis-mcp/sandbox/pending_changes.json
+  Status:          PENDING (等待确认)
+
+  Tier Distribution (after):
+    short-term     131  ██████████████████████████████████████████████████
+    mid-term        66  ██████████████████████████████████████████████████
+    long-term       11  ███████████
+    archived        24  ████████████████████████
+
+  Archived Details (showing up to 10/2):
+    [8a653b7d] tier=short-term | User plans for the Jarvis fourth phase to involve 
+    [99fc5050] tier=short-term | User noted that the company's Claude API cannot be
+============================================================
+
+[2026-04-29 03:30:03] === Dreaming Lite V2 END (mode=sandbox, 0.02s) ===

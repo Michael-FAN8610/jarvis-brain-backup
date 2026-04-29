@@ -1,0 +1,38 @@
+{
+  "version": "6.4",
+  "created_at": "2026-04-29T03:30:03+08:00",
+  "created_by": "dreaming_lite_v2",
+  "status": "pending",
+  "summary": {
+    "total_changes": 2,
+    "archives": 2,
+    "promotions": 0,
+    "total_memories": 232
+  },
+  "tier_distribution": {
+    "short-term": 131,
+    "mid-term": 66,
+    "archived": 24,
+    "long-term": 11
+  },
+  "changes": [
+    {
+      "action": "archive",
+      "point_id": "8a653b7d-e6e7-4a57-a600-e1709447ddc0",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User plans for the Jarvis fourth phase to involve "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "99fc5050-f477-47ef-ae22-d2c3a47233b6",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User noted that the company's Claude API cannot be"
+      }
+    }
+  ]
+}
