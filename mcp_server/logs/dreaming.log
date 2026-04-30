@@ -60,3 +60,76 @@
 ============================================================
 
 [2026-04-29 03:30:03] === Dreaming Lite V2 END (mode=sandbox, 0.02s) ===
+[2026-04-30 03:30:02] === Dreaming Lite V2 START (mode=sandbox) ===
+[2026-04-30 03:30:02] Loading all memories...
+[2026-04-30 03:30:02] Loaded 248 memories in 0.03s
+[2026-04-30 03:30:02] [Step 1] TTL expiry check...
+[2026-04-30 03:30:02]   Found 25 expired memories
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 19e549d7 (tier=short-term, content=The task queue database for Jarvis is located at /...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 1fe25c43 (tier=short-term, content=User's next step for Jarvis phase three is to open...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 20e32f0a (tier=short-term, content=User updated the project planning document's phase...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 2a377d58 (tier=short-term, content=The Jarvis cloud task queue uses FastAPI + SQLite ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 38e8bd77 (tier=short-term, content=User configured SSH passwordless login from their ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 38fef31b (tier=short-term, content=User declared the third phase of the Jarvis projec...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 4c64a4fa (tier=short-term, content=User established a cross-end task pathway from WeC...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 509248c7 (tier=short-term, content=User completed the closing work and wrote a retros...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 51ce511c (tier=short-term, content=User completed all preparatory work for the third ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 71a8da7c (tier=short-term, content=User confirmed the Jarvis phase three technical im...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 741cc1df (tier=short-term, content=User's compliance research for Jarvis phase three ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 7d12d527 (tier=short-term, content=The code for the Jarvis cloud task queue is locate...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 86edf9f9 (tier=short-term, content=User plans to start the fourth phase of the Jarvis...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 8772e085 (tier=short-term, content=User completed writing the retrospective document ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 8a653b7d (tier=short-term, content=User plans for the Jarvis fourth phase to involve ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 8c4d7b36 (tier=short-term, content=All APIs for the Jarvis cloud task queue have been...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 8e6831eb (tier=short-term, content=The API token for the Jarvis cloud task queue is Y...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive 954f9249 (tier=short-term, content=User confirmed the Docker container name is jarvis...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive a838f134 (tier=short-term, content=User's Alibaba Cloud ECS server public IP is 47.95...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive ba78b9b8 (tier=short-term, content=User completed the first step of Jarvis phase thre...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive ce5c0d88 (tier=short-term, content=User added memory content filtering rules to both ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive d67ccb7e (tier=short-term, content=User fixed an Alibaba Cloud SSH authentication iss...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive e0a3377b (tier=short-term, content=User produced a detailed technical solution docume...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive f51cd488 (tier=short-term, content=User created an Automation named 'Jarvis任务消费者' on ...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan archive f6a13aa0 (tier=short-term, content=User cleaned up 4 test files from the desktop and ...)
+[2026-04-30 03:30:02]   Archive plan: 25 memories in 0.00s
+[2026-04-30 03:30:02] [Step 2] Promotion check...
+[2026-04-30 03:30:02]   Found 2 memories eligible for promotion
+[2026-04-30 03:30:02]   [SANDBOX] Plan promote 1cf2bcfb short-term -> mid-term (content=范长庆已去过的旅行目的地（规划时排除）：苏州（带妈妈）、大连（带妈妈）、福州（2026年过年和妈妈）...)
+[2026-04-30 03:30:02]   [SANDBOX] Plan promote a8576415 short-term -> mid-term (content=范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。...)
+[2026-04-30 03:30:02]   Promotion plan: 2 memories in 0.00s
+[2026-04-30 03:30:02] [Sandbox] WARNING: 已存在未处理的 pending 变更计划 (created_at=2026-04-29T03:30:03+08:00)
+[2026-04-30 03:30:02] [Sandbox] 拒绝覆盖。请先通过 /api/sandbox/apply 或 /api/sandbox/discard 处理后重试
+
+============================================================
+  Dreaming Lite V2 Report  2026-04-30  (SANDBOX)
+============================================================
+  Total memories:  248
+  Archived (TTL):  25
+  Promoted:        2
+  Elapsed:         0.03s
+  Sandbox file:    /opt/jarvis-mcp/sandbox/pending_changes.json
+  Status:          PENDING (等待确认)
+
+  Tier Distribution (after):
+    short-term     116  ██████████████████████████████████████████████████
+    mid-term        72  ██████████████████████████████████████████████████
+    long-term       13  █████████████
+    archived        47  ███████████████████████████████████████████████
+
+  Archived Details (showing up to 10/25):
+    [19e549d7] tier=short-term | The task queue database for Jarvis is located at /
+    [1fe25c43] tier=short-term | User's next step for Jarvis phase three is to open
+    [20e32f0a] tier=short-term | User updated the project planning document's phase
+    [2a377d58] tier=short-term | The Jarvis cloud task queue uses FastAPI + SQLite 
+    [38e8bd77] tier=short-term | User configured SSH passwordless login from their 
+    [38fef31b] tier=short-term | User declared the third phase of the Jarvis projec
+    [4c64a4fa] tier=short-term | User established a cross-end task pathway from WeC
+    [509248c7] tier=short-term | User completed the closing work and wrote a retros
+    [51ce511c] tier=short-term | User completed all preparatory work for the third 
+    [71a8da7c] tier=short-term | User confirmed the Jarvis phase three technical im
+
+  Promoted Details (showing up to 10/2):
+    [1cf2bcfb] short-term -> mid-term | 范长庆已去过的旅行目的地（规划时排除）：苏州（带妈妈）、大连（带妈妈）、福州（2026年过年和妈妈）
+    [a8576415] short-term -> mid-term | 范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。
+============================================================
+
+[2026-04-30 03:30:02] === Dreaming Lite V2 END (mode=sandbox, 0.03s) ===
