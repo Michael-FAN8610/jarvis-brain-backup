@@ -1,43 +1,336 @@
 {
   "version": "6.4",
-  "created_at": "2026-04-29T03:30:03+08:00",
+  "created_at": "2026-05-01T03:30:03+08:00",
   "created_by": "dreaming_lite_v2",
-  "status": "applied",
+  "status": "pending",
   "summary": {
-    "total_changes": 2,
-    "archives": 2,
-    "promotions": 0,
-    "total_memories": 232
+    "total_changes": 35,
+    "archives": 34,
+    "promotions": 1,
+    "total_memories": 252
   },
   "tier_distribution": {
-    "short-term": 131,
-    "mid-term": 66,
-    "archived": 24,
-    "long-term": 11
+    "short-term": 110,
+    "archived": 58,
+    "mid-term": 71,
+    "long-term": 13
   },
   "changes": [
     {
       "action": "archive",
-      "point_id": "8a653b7d-e6e7-4a57-a600-e1709447ddc0",
+      "point_id": "018c6907-15b7-4c88-9395-d3a55815138b",
       "details": {
         "old_tier": "short-term",
         "reason": "ttl_expired",
-        "content_preview": "User plans for the Jarvis fourth phase to involve "
+        "content_preview": "User added test five to the test matrix and lesson"
       }
     },
     {
       "action": "archive",
-      "point_id": "99fc5050-f477-47ef-ae22-d2c3a47233b6",
+      "point_id": "13a23af0-f485-426f-b1f8-8ca8dd3d7fa8",
       "details": {
         "old_tier": "short-term",
         "reason": "ttl_expired",
-        "content_preview": "User noted that the company's Claude API cannot be"
+        "content_preview": "User completed moving two Automation scheduled tas"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "165395a7-b25b-40c6-a7a9-79f249a90730",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User completed revisions to the Jarvis phase two r"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "19e549d7-72a2-4481-a92b-1f0c828f328e",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "The task queue database for Jarvis is located at /"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "1fe25c43-e921-4bf1-a963-30d64165a085",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User's next step for Jarvis phase three is to open"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "20e32f0a-d694-4861-b0a4-cea7b989f1af",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User updated the project planning document's phase"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "2a377d58-dfe0-4d0f-b9eb-77a689047003",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "The Jarvis cloud task queue uses FastAPI + SQLite "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "2b3920f0-0410-431b-a887-92e7fc5db378",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User discovered that CatDesk's electron-store uses"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "38e8bd77-9c62-422b-8b64-0cfabfe86238",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User configured SSH passwordless login from their "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "38fef31b-07d0-4946-ae6c-524ab21c1fd5",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User declared the third phase of the Jarvis projec"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "3b038304-8f4b-4432-98df-a24c9fe46b11",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "庆哥 completed several tasks for Jarvis phase four: "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "47888d3e-75a6-4945-9f7c-47c7e7da16d6",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User started the fourth phase of the Jarvis projec"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "4c64a4fa-f649-4579-8929-954d47a32536",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User established a cross-end task pathway from WeC"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "509248c7-631b-4f73-bfc0-60915a54e031",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User completed the closing work and wrote a retros"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "51ce511c-c509-4cb2-880e-3a390c80df23",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User completed all preparatory work for the third "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "71a8da7c-6b56-4075-b028-6b1974344dc7",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User confirmed the Jarvis phase three technical im"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "741cc1df-8f91-4f55-99c2-af4fdfeeebd2",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User's compliance research for Jarvis phase three "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "7d12d527-0f09-476f-9777-158176f451fb",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "The code for the Jarvis cloud task queue is locate"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "7f823e93-4a28-4fc7-8251-971393e1c435",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User discovered that when adding a new project via"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "86edf9f9-9fca-41e3-a228-c867c9c8cf31",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User plans to start the fourth phase of the Jarvis"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "8772e085-e54f-427e-919c-16b1fdefa882",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User completed writing the retrospective document "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "8c4d7b36-e6d2-4b2c-98fe-40a2f7194a00",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "All APIs for the Jarvis cloud task queue have been"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "8e6831eb-f48d-4fcc-91d0-9516c2bd6178",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "The API token for the Jarvis cloud task queue is Y"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "954f9249-54a7-4ebf-9dd0-cc437e75103c",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User confirmed the Docker container name is jarvis"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "a838f134-afd8-41a1-a4e4-ed2c12a5c21b",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User's Alibaba Cloud ECS server public IP is 47.95"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "b6271916-20af-4756-9fe1-f8966f081189",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "Remaining tasks for Jarvis phase four include down"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "ba78b9b8-1623-406e-9a15-9185762d21cd",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User completed the first step of Jarvis phase thre"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "cc1ae4aa-7031-48ba-bbd4-05a0289d8a1b",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User identified a project lesson from the Jarvis s"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "ce5c0d88-b2c3-4658-ba8a-03c43139059b",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User added memory content filtering rules to both "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "d67ccb7e-c5c8-4953-8e6b-879700d571c0",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User fixed an Alibaba Cloud SSH authentication iss"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "e0a3377b-abf5-4806-ac60-07598543f568",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User produced a detailed technical solution docume"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "e5895ba5-0716-4f8c-83e1-a775df794641",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User confirmed that direct connection to the Anthr"
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "f51cd488-cfa6-4835-bfe0-91ddd93e5222",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User created an Automation named 'Jarvis任务消费者' on "
+      }
+    },
+    {
+      "action": "archive",
+      "point_id": "f6a13aa0-f34e-4aa8-ba6b-c635bbcaf11c",
+      "details": {
+        "old_tier": "short-term",
+        "reason": "ttl_expired",
+        "content_preview": "User cleaned up 4 test files from the desktop and "
+      }
+    },
+    {
+      "action": "promote",
+      "point_id": "a8576415-e2ea-44d7-be34-bad772deb251",
+      "details": {
+        "old_tier": "short-term",
+        "new_tier": "mid-term",
+        "new_ttl": 90,
+        "content_preview": "范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。"
       }
     }
-  ],
-  "applied_at": "2026-04-30T19:30:11+08:00",
-  "apply_result": {
-    "applied": 2,
-    "errors": 0
-  }
+  ]
 }
