@@ -293,3 +293,83 @@
 ============================================================
 
 [2026-05-02 03:30:02] === Dreaming Lite V2 END (mode=sandbox, 0.03s) ===
+[2026-05-03 03:30:03] === Dreaming Lite V2 START (mode=sandbox) ===
+[2026-05-03 03:30:03] Loading all memories...
+[2026-05-03 03:30:03] Loaded 252 memories in 0.03s
+[2026-05-03 03:30:03] [Step 1] TTL expiry check...
+[2026-05-03 03:30:03]   Found 34 expired memories
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 018c6907 (tier=short-term, content=User added test five to the test matrix and lesson...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 13a23af0 (tier=short-term, content=User completed moving two Automation scheduled tas...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 165395a7 (tier=short-term, content=User completed revisions to the Jarvis phase two r...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 19e549d7 (tier=short-term, content=The task queue database for Jarvis is located at /...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 1fe25c43 (tier=short-term, content=User's next step for Jarvis phase three is to open...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 20e32f0a (tier=short-term, content=User updated the project planning document's phase...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 2a377d58 (tier=short-term, content=The Jarvis cloud task queue uses FastAPI + SQLite ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 2b3920f0 (tier=short-term, content=User discovered that CatDesk's electron-store uses...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 38e8bd77 (tier=short-term, content=User configured SSH passwordless login from their ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 38fef31b (tier=short-term, content=User declared the third phase of the Jarvis projec...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 3b038304 (tier=short-term, content=庆哥 completed several tasks for Jarvis phase four: ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 47888d3e (tier=short-term, content=User started the fourth phase of the Jarvis projec...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 4c64a4fa (tier=short-term, content=User established a cross-end task pathway from WeC...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 509248c7 (tier=short-term, content=User completed the closing work and wrote a retros...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 51ce511c (tier=short-term, content=User completed all preparatory work for the third ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 71a8da7c (tier=short-term, content=User confirmed the Jarvis phase three technical im...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 741cc1df (tier=short-term, content=User's compliance research for Jarvis phase three ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 7d12d527 (tier=short-term, content=The code for the Jarvis cloud task queue is locate...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 7f823e93 (tier=short-term, content=User discovered that when adding a new project via...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 86edf9f9 (tier=short-term, content=User plans to start the fourth phase of the Jarvis...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 8772e085 (tier=short-term, content=User completed writing the retrospective document ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 8c4d7b36 (tier=short-term, content=All APIs for the Jarvis cloud task queue have been...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 8e6831eb (tier=short-term, content=The API token for the Jarvis cloud task queue is Y...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive 954f9249 (tier=short-term, content=User confirmed the Docker container name is jarvis...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive a838f134 (tier=short-term, content=User's Alibaba Cloud ECS server public IP is 47.95...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive b6271916 (tier=short-term, content=Remaining tasks for Jarvis phase four include down...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive ba78b9b8 (tier=short-term, content=User completed the first step of Jarvis phase thre...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive cc1ae4aa (tier=short-term, content=User identified a project lesson from the Jarvis s...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive ce5c0d88 (tier=short-term, content=User added memory content filtering rules to both ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive d67ccb7e (tier=short-term, content=User fixed an Alibaba Cloud SSH authentication iss...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive e0a3377b (tier=short-term, content=User produced a detailed technical solution docume...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive e5895ba5 (tier=short-term, content=User confirmed that direct connection to the Anthr...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive f51cd488 (tier=short-term, content=User created an Automation named 'Jarvis任务消费者' on ...)
+[2026-05-03 03:30:03]   [SANDBOX] Plan archive f6a13aa0 (tier=short-term, content=User cleaned up 4 test files from the desktop and ...)
+[2026-05-03 03:30:03]   Archive plan: 34 memories in 0.01s
+[2026-05-03 03:30:03] [Step 2] Promotion check...
+[2026-05-03 03:30:03]   Found 1 memories eligible for promotion
+[2026-05-03 03:30:03]   [SANDBOX] Plan promote a8576415 short-term -> mid-term (content=范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。...)
+[2026-05-03 03:30:03]   Promotion plan: 1 memories in 0.00s
+[2026-05-03 03:30:03] [Sandbox] WARNING: 已存在未处理的 pending 变更计划 (created_at=2026-05-01T03:30:03+08:00)
+[2026-05-03 03:30:03] [Sandbox] 拒绝覆盖。请先通过 /api/sandbox/apply 或 /api/sandbox/discard 处理后重试
+
+============================================================
+  Dreaming Lite V2 Report  2026-05-03  (SANDBOX)
+============================================================
+  Total memories:  252
+  Archived (TTL):  34
+  Promoted:        1
+  Elapsed:         0.04s
+  Sandbox file:    /opt/jarvis-mcp/sandbox/pending_changes.json
+  Status:          PENDING (等待确认)
+
+  Tier Distribution (after):
+    short-term     110  ██████████████████████████████████████████████████
+    mid-term        71  ██████████████████████████████████████████████████
+    long-term       13  █████████████
+    archived        58  ██████████████████████████████████████████████████
+
+  Archived Details (showing up to 10/34):
+    [018c6907] tier=short-term | User added test five to the test matrix and lesson
+    [13a23af0] tier=short-term | User completed moving two Automation scheduled tas
+    [165395a7] tier=short-term | User completed revisions to the Jarvis phase two r
+    [19e549d7] tier=short-term | The task queue database for Jarvis is located at /
+    [1fe25c43] tier=short-term | User's next step for Jarvis phase three is to open
+    [20e32f0a] tier=short-term | User updated the project planning document's phase
+    [2a377d58] tier=short-term | The Jarvis cloud task queue uses FastAPI + SQLite 
+    [2b3920f0] tier=short-term | User discovered that CatDesk's electron-store uses
+    [38e8bd77] tier=short-term | User configured SSH passwordless login from their 
+    [38fef31b] tier=short-term | User declared the third phase of the Jarvis projec
+
+  Promoted Details (showing up to 10/1):
+    [a8576415] short-term -> mid-term | 范长庆毕业于辽宁大学，2009年毕业，大学专业是英语专业。
+============================================================
+
+[2026-05-03 03:30:03] === Dreaming Lite V2 END (mode=sandbox, 0.04s) ===
