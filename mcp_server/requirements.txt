@@ -1,0 +1,6 @@
+fastmcp==3.2.4
+httpx==0.28.1
+httpx-sse==0.4.3
+numpy==2.2.6
+openai==2.32.0
+qdrant-client==1.13.2

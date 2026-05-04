@@ -129,8 +129,8 @@
     "updatedAt": "2026-04-27T18:16:33+08:00",
     "hash": "e080ecd6-7482-477e-b6d4-a0b59cfa1388",
     "tier": "long-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-30T11:22:53+08:00",
+    "access_count": 20,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -252,10 +252,10 @@
     "createdAt": "2026-04-21T13:22:08.962157+00:00",
     "updatedAt": "2026-04-21T13:22:08.962157+00:00",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 36,
-    "last_accessed": "2026-04-30T13:01:34+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 67,
+    "last_accessed": "2026-05-04T18:06:38+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -266,7 +266,7 @@
       "微信生态",
       "小团体激励"
     ],
-    "promoted_at": "2026-04-27T18:54:16+08:00"
+    "promoted_at": "2026-05-04T17:40:30+08:00"
   }
 }
 {
@@ -394,8 +394,8 @@
     "hash": "ef07abe7-2c11-4388-8248-e5de48d132da",
     "category": "summary",
     "tier": "mid-term",
-    "access_count": 20,
-    "last_accessed": "2026-04-30T12:56:37+08:00",
+    "access_count": 24,
+    "last_accessed": "2026-05-04T15:57:13+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -409,6 +409,33 @@
     ],
     "event_date": "2026-04-23",
     "promoted_at": "2026-04-27T16:18:58+08:00"
+  }
+}
+{
+  "id": "1153494e-c4cb-4931-8b50-83a81c4a1d29",
+  "payload": {
+    "memory": "庆哥当前体重对日常生活已有明显影响：上楼费劲、穿袜子费劲，减重动机很强。",
+    "data": "庆哥当前体重对日常生活已有明显影响：上楼费劲、穿袜子费劲，减重动机很强。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "daily",
+    "created_at": "2026-05-04T14:09:32+08:00",
+    "createdAt": "2026-05-04T14:09:32+08:00",
+    "updated_at": "2026-05-04T14:09:32+08:00",
+    "updatedAt": "2026-05-04T14:09:32+08:00",
+    "hash": "50b03946-ca51-47fe-9880-87a0a77cfeec",
+    "tier": "mid-term",
+    "access_count": 6,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T18:02:41+08:00"
   }
 }
 {
@@ -487,8 +514,8 @@
     "updatedAt": "2026-04-28T16:41:34+08:00",
     "hash": "366f223d-100b-44e4-95fc-b4446f1c762b",
     "tier": "long-term",
-    "access_count": 9,
-    "last_accessed": "2026-04-29T20:16:19+08:00",
+    "access_count": 25,
+    "last_accessed": "2026-05-04T18:06:13+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -558,6 +585,37 @@
   }
 }
 {
+  "id": "19e791ff-41bf-4df6-9da5-9804fa925808",
+  "payload": {
+    "memory": "庆哥的减脂健身计划v2.1已创建：每日1900-2000kcal、蛋白质140-160g、每周三次力量训练（周三胸肩三头、周六背二头、周日腿核心）。预期减重节奏：每周0.4-0.5kg，5-6个月从95kg降到80-82kg（约10月达成）。有高血压需控盐<2000mg钠。",
+    "data": "庆哥的减脂健身计划v2.1已创建：每日1900-2000kcal、蛋白质140-160g、每周三次力量训练（周三胸肩三头、周六背二头、周日腿核心）。预期减重节奏：每周0.4-0.5kg，5-6个月从95kg降到80-82kg（约10月达成）。有高血压需控盐<2000mg钠。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-05-04T12:57:15+08:00",
+    "createdAt": "2026-05-04T12:57:15+08:00",
+    "updated_at": "2026-05-04T15:35:22+08:00",
+    "updatedAt": "2026-05-04T15:35:22+08:00",
+    "hash": "ded8b313-dbcc-4fc4-8182-967a3c3d38ef",
+    "tier": "mid-term",
+    "access_count": 6,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "减脂健身计划v2.1",
+      "蛋白质",
+      "高血压",
+      "钠"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:54:48+08:00"
+  }
+}
+{
   "id": "1c8e784b-29e4-4d28-93ab-cbcb11609d45",
   "payload": {
     "memory": "capture 修复验证测试 - 可删除",
@@ -570,10 +628,10 @@
     "updatedAt": "2026-04-22T18:37:39+08:00",
     "hash": "3ce6f3f4-b6ff-475a-a3aa-76b9e5cb2cdf",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 6,
-    "last_accessed": "2026-04-29T16:23:58+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 12,
+    "last_accessed": "2026-05-04T17:58:42+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -581,7 +639,7 @@
       "capture",
       "修复验证测试"
     ],
-    "promoted_at": "2026-04-27T19:48:45+08:00"
+    "promoted_at": "2026-05-04T17:40:30+08:00"
   }
 }
 {
@@ -597,10 +655,10 @@
     "updated_at": "2026-04-29T20:02:12+08:00",
     "updatedAt": "2026-04-29T20:02:12+08:00",
     "hash": "927689b3-e637-44ae-b205-7f592ace4a4e",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-30T12:11:51+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 8,
+    "last_accessed": "2026-05-04T18:06:13+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -612,7 +670,7 @@
       "三亚"
     ],
     "event_date": null,
-    "promoted_at": "2026-04-30T12:11:51+08:00"
+    "promoted_at": "2026-05-04T15:41:47+08:00"
   }
 }
 {
@@ -628,10 +686,10 @@
     "updatedAt": "2026-04-23T15:39:18+08:00",
     "hash": "92630268-0c1a-490f-9135-0fa1ede9fea8",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 4,
-    "last_accessed": "2026-04-28T20:47:44+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 8,
+    "last_accessed": "2026-05-04T17:40:30+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -642,7 +700,7 @@
       "GymRats",
       "红色脉搏打卡按钮"
     ],
-    "promoted_at": "2026-04-28T20:47:44+08:00"
+    "promoted_at": "2026-05-04T17:40:30+08:00"
   }
 }
 {
@@ -658,10 +716,10 @@
     "updatedAt": "2026-04-22T18:41:33+08:00",
     "hash": "2a7443cf-1627-4411-a5cd-631ddcb10644",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 56,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 76,
+    "last_accessed": "2026-05-04T18:06:38+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -672,7 +730,7 @@
       "embedding",
       "recall"
     ],
-    "promoted_at": "2026-04-27T17:42:33+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -700,6 +758,37 @@
       "Jarvis",
       "cloud task queue"
     ]
+  }
+}
+{
+  "id": "201481a6-4d8f-43c5-8ba2-03969829025c",
+  "payload": {
+    "memory": "庆哥东方财富账户76万市值包含：6只A股散股（欣龙控股/天康生物/广电运通/益生股份/奥美医疗/中信建投）+ 5只ETF（中小100/500ETF/芯片ETF/标普500/5GETF）+ 易方达蓝筹精选基金。其中5GETF和芯片ETF浮盈较大。",
+    "data": "庆哥东方财富账户76万市值包含：6只A股散股（欣龙控股/天康生物/广电运通/益生股份/奥美医疗/中信建投）+ 5只ETF（中小100/500ETF/芯片ETF/标普500/5GETF）+ 易方达蓝筹精选基金。其中5GETF和芯片ETF浮盈较大。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T17:30:32+08:00",
+    "createdAt": "2026-05-04T17:30:32+08:00",
+    "updated_at": "2026-05-04T17:30:32+08:00",
+    "updatedAt": "2026-05-04T17:30:32+08:00",
+    "hash": "f941630f-83a4-442d-a864-5f32d06bceac",
+    "tier": "long-term",
+    "access_count": 15,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "东方财富账户",
+      "欣龙控股",
+      "天康生物",
+      "广电运通"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:54:48+08:00"
   }
 }
 {
@@ -742,10 +831,10 @@
     "updated_at": "2026-04-23T11:06:45.921042+00:00",
     "attributed_to": "user",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 44,
-    "last_accessed": "2026-04-30T13:02:50+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 57,
+    "last_accessed": "2026-05-04T17:41:38+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -756,7 +845,7 @@
       "主动提醒能力"
     ],
     "event_date": "2026-04-23",
-    "promoted_at": "2026-04-27T15:24:50+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -786,6 +875,37 @@
   }
 }
 {
+  "id": "256d45c7-f4ed-44b7-bb0d-b757aaa85598",
+  "payload": {
+    "memory": "庆哥投资偏好：激进高收益风格，可接受-50%及以上回撤，6年投资经验，每周看盘。看好方向：美股七姐妹、算力、存储芯片、SMR核能小堆、CRCL稳定币股票。约束条件：没有美元且国内换汇困难，港股账户无余额（阿里+荣昌占满），只能通过QDII ETF或卖出富途存量持仓换仓来触达美股。加密货币态度ok但目前无持仓。",
+    "data": "庆哥投资偏好：激进高收益风格，可接受-50%及以上回撤，6年投资经验，每周看盘。看好方向：美股七姐妹、算力、存储芯片、SMR核能小堆、CRCL稳定币股票。约束条件：没有美元且国内换汇困难，港股账户无余额（阿里+荣昌占满），只能通过QDII ETF或卖出富途存量持仓换仓来触达美股。加密货币态度ok但目前无持仓。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "preference",
+    "created_at": "2026-05-04T17:41:15+08:00",
+    "createdAt": "2026-05-04T17:41:15+08:00",
+    "updated_at": "2026-05-04T17:41:15+08:00",
+    "updatedAt": "2026-05-04T17:41:15+08:00",
+    "hash": "f809b10a-e073-411f-afdb-d7cf103f96e4",
+    "tier": "long-term",
+    "access_count": 12,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "美股七姐妹",
+      "算力",
+      "存储芯片",
+      "SMR核能小堆"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:54:27+08:00"
+  }
+}
+{
   "id": "26e07f38-bd8b-4ed1-8f8b-9b50ef034e32",
   "payload": {
     "memory": "范长庆未婚单身，目前无恋爱关系。",
@@ -798,17 +918,18 @@
     "updated_at": "2026-04-29T20:02:10+08:00",
     "updatedAt": "2026-04-29T20:02:10+08:00",
     "hash": "e844c9c1-f310-4182-86b2-80052140c621",
-    "tier": "short-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-29T20:02:10+08:00",
-    "ttl_days": 7,
+    "tier": "long-term",
+    "access_count": 9,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
     "entities": [
       "范长庆"
     ],
-    "event_date": null
+    "event_date": null,
+    "promoted_at": "2026-05-04T18:02:41+08:00"
   }
 }
 {
@@ -864,10 +985,10 @@
     "updatedAt": "2026-04-23T19:06:18+08:00",
     "hash": "28549a82-fcbd-4183-a47e-411717e49f11",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 49,
-    "last_accessed": "2026-04-30T13:02:50+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 64,
+    "last_accessed": "2026-05-04T17:30:53+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -878,7 +999,7 @@
       "capture",
       "微信"
     ],
-    "promoted_at": "2026-04-27T18:16:52+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -924,10 +1045,10 @@
     "updatedAt": "2026-04-24T10:57:41+08:00",
     "hash": "8251c8e0-2fb7-4905-b6b6-903f14421f1f",
     "category": "summary",
-    "tier": "mid-term",
-    "access_count": 44,
-    "last_accessed": "2026-04-30T13:02:50+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 61,
+    "last_accessed": "2026-05-04T17:40:09+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -939,7 +1060,7 @@
       "thinking"
     ],
     "event_date": "2026-04-24",
-    "promoted_at": "2026-04-27T18:34:44+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -1132,10 +1253,10 @@
     "hash": "9b4c8fb1864778cdf39967182027a5e4",
     "createdAt": "2026-04-19T12:20:05.316Z",
     "category": "summary",
-    "tier": "mid-term",
-    "access_count": 5,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 15,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -1146,7 +1267,7 @@
       "cyclical reversal",
       "dividend strategy"
     ],
-    "promoted_at": "2026-04-27T18:16:52+08:00"
+    "promoted_at": "2026-05-04T17:54:48+08:00"
   }
 }
 {
@@ -1596,10 +1717,10 @@
     "updatedAt": "2026-04-23T17:28:05+08:00",
     "hash": "ba313aad-f64d-47dd-93ff-8bfa550310bf",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 52,
-    "last_accessed": "2026-04-30T13:03:09+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 86,
+    "last_accessed": "2026-05-04T18:06:38+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -1610,7 +1731,7 @@
       "OpenClaw",
       "七牛云"
     ],
-    "promoted_at": "2026-04-27T19:01:25+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -1682,10 +1803,10 @@
     "updated_at": "2026-04-29T20:02:11+08:00",
     "updatedAt": "2026-04-29T20:02:11+08:00",
     "hash": "aedb9e60-9964-4410-a704-aff6665ed7cc",
-    "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-29T20:02:11+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 5,
+    "last_accessed": "2026-05-04T18:06:13+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -1694,7 +1815,8 @@
       "河北张家口",
       "辽宁盘锦辽河油田"
     ],
-    "event_date": null
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:48:35+08:00"
   }
 }
 {
@@ -1794,8 +1916,8 @@
     "updatedAt": "2026-04-17T18:38:46.432261+00:00",
     "category": "identity",
     "tier": "long-term",
-    "access_count": 20,
-    "last_accessed": "2026-04-29T20:16:19+08:00",
+    "access_count": 45,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -1825,8 +1947,8 @@
     "updatedAt": "2026-04-21T13:22:08.962196+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 4,
-    "last_accessed": "2026-04-28T20:47:44+08:00",
+    "access_count": 5,
+    "last_accessed": "2026-05-04T15:50:01+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -1981,6 +2103,36 @@
   }
 }
 {
+  "id": "5721a26e-4d24-4f42-b5e7-19ab1040c68e",
+  "payload": {
+    "memory": "[对话摘要] 2026-05-04：对 Jarvis 三层互通架构做了全面体检（记忆层 Qdrant、经验层 AGENTS.md、灵魂层 MEMORY.md），确认架构已建成、数据流闭环运转，CatDesk 端完全打通，微信端有规则遵守度和 recall 质量两个系统性短板但目前无特别好的整改方法。发现微信端提醒服务（5.5.1）不可用——根因是 systemPromptOverride 中缺少提醒 API 的 curl 指令，LLM 不知道自己有此能力。修复：注入 804 字符的提醒服务使用指令到 systemPromptOverride。同时修复提醒推送附带不相关记忆的问题——对 content ≤ 10 字符的短提醒跳过 recall，推送消息干净简洁。两项修复均已验证通过。",
+    "data": "[对话摘要] 2026-05-04：对 Jarvis 三层互通架构做了全面体检（记忆层 Qdrant、经验层 AGENTS.md、灵魂层 MEMORY.md），确认架构已建成、数据流闭环运转，CatDesk 端完全打通，微信端有规则遵守度和 recall 质量两个系统性短板但目前无特别好的整改方法。发现微信端提醒服务（5.5.1）不可用——根因是 systemPromptOverride 中缺少提醒 API 的 curl 指令，LLM 不知道自己有此能力。修复：注入 804 字符的提醒服务使用指令到 systemPromptOverride。同时修复提醒推送附带不相关记忆的问题——对 content ≤ 10 字符的短提醒跳过 recall，推送消息干净简洁。两项修复均已验证通过。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T13:20:27+08:00",
+    "createdAt": "2026-05-04T13:20:27+08:00",
+    "updated_at": "2026-05-04T13:20:27+08:00",
+    "updatedAt": "2026-05-04T13:20:27+08:00",
+    "hash": "6b86e5c7-fcbf-4add-b563-31a0b98c46cf",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T13:20:27+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "Qdrant",
+      "AGENTS.md",
+      "MEMORY.md",
+      "CatDesk"
+    ],
+    "event_date": "2026-05-04"
+  }
+}
+{
   "id": "59e401f3-c241-4c38-9f11-8bb5f5882425",
   "payload": {
     "userId": "fanchangqing",
@@ -2001,6 +2153,37 @@
       "Jarvis云端大脑"
     ],
     "event_date": "2026-04-23"
+  }
+}
+{
+  "id": "5af97bee-b169-434d-b813-8e5e8cf66822",
+  "payload": {
+    "memory": "[对话摘要] 2026-05-04：庆哥希望舟哥作为私人财务顾问制定理财规划，但舟哥在过程中多次产生严重幻觉（错误声称CRCL未上市、误判荣昌生物需止损、凭空编造股价数据），严重违反了四条行为准则（先想清楚再动手、简单优先、精准修改、目标驱动）。庆哥决定不再与舟哥讨论财务相关问题，投资由自己决策。教训：不确定的信息必须先查证，查不到就明确说不知道，绝不编造。",
+    "data": "[对话摘要] 2026-05-04：庆哥希望舟哥作为私人财务顾问制定理财规划，但舟哥在过程中多次产生严重幻觉（错误声称CRCL未上市、误判荣昌生物需止损、凭空编造股价数据），严重违反了四条行为准则（先想清楚再动手、简单优先、精准修改、目标驱动）。庆哥决定不再与舟哥讨论财务相关问题，投资由自己决策。教训：不确定的信息必须先查证，查不到就明确说不知道，绝不编造。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T17:42:49+08:00",
+    "createdAt": "2026-05-04T17:42:49+08:00",
+    "updated_at": "2026-05-04T17:42:49+08:00",
+    "updatedAt": "2026-05-04T17:42:49+08:00",
+    "hash": "cc2de068-620f-4e57-b6b5-41d6d0475368",
+    "tier": "mid-term",
+    "access_count": 6,
+    "last_accessed": "2026-05-04T18:09:21+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "舟哥",
+      "CRCL",
+      "荣昌生物",
+      "财务顾问"
+    ],
+    "event_date": "2026-05-04",
+    "promoted_at": "2026-05-04T17:54:48+08:00"
   }
 }
 {
@@ -2057,6 +2240,36 @@
       "User"
     ],
     "event_date": "2026-04-16"
+  }
+}
+{
+  "id": "5d68e590-de9d-4f97-9ea8-c6bd74b826c5",
+  "payload": {
+    "memory": "[对话摘要] 2026-05-04：完成 Jarvis 记忆系统全面修复。根因是 qdrant-client 1.17.1 与 Qdrant Server 1.13.6 版本不兼容导致搜索返回异常低 score，叠加 _parse_iso_date 将 +08:00 错误替换为 +0800 导致 Python 3.10 解析失败、Ebbinghaus 衰减系数被错算为30天。修复措施：降级 qdrant-client 到 1.13.2、re_embed.py 统一 267 条存量向量为 v4、修复日期解析、加版本兼容性断言。三方团队审查通过（16 PASS / 0 FAIL）。庆哥验证 recall 完全恢复：健康档案、财务状况均能正常召回。",
+    "data": "[对话摘要] 2026-05-04：完成 Jarvis 记忆系统全面修复。根因是 qdrant-client 1.17.1 与 Qdrant Server 1.13.6 版本不兼容导致搜索返回异常低 score，叠加 _parse_iso_date 将 +08:00 错误替换为 +0800 导致 Python 3.10 解析失败、Ebbinghaus 衰减系数被错算为30天。修复措施：降级 qdrant-client 到 1.13.2、re_embed.py 统一 267 条存量向量为 v4、修复日期解析、加版本兼容性断言。三方团队审查通过（16 PASS / 0 FAIL）。庆哥验证 recall 完全恢复：健康档案、财务状况均能正常召回。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T17:48:33+08:00",
+    "createdAt": "2026-05-04T17:48:33+08:00",
+    "updated_at": "2026-05-04T17:48:33+08:00",
+    "updatedAt": "2026-05-04T17:48:33+08:00",
+    "hash": "d2873db6-7c74-465b-865c-2f78b3477442",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T17:48:33+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "qdrant-client",
+      "Qdrant Server",
+      "Python 3.10",
+      "Ebbinghaus"
+    ],
+    "event_date": "2026-05-04"
   }
 }
 {
@@ -2139,8 +2352,8 @@
     "attributed_to": "user",
     "category": "preference",
     "tier": "long-term",
-    "access_count": 24,
-    "last_accessed": "2026-04-29T20:16:19+08:00",
+    "access_count": 47,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -2206,6 +2419,34 @@
   }
 }
 {
+  "id": "5fa3a90f-3f91-4b59-ace0-ad111ea1b7b6",
+  "payload": {
+    "memory": "庆哥明确表示：只有当舟哥重新赢得信任（敢把后背交给他）时，才会再让舟哥参与理财相关事务。信任需要通过日常协作中严格遵守四条行为准则来重建。",
+    "data": "庆哥明确表示：只有当舟哥重新赢得信任（敢把后背交给他）时，才会再让舟哥参与理财相关事务。信任需要通过日常协作中严格遵守四条行为准则来重建。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "relationship",
+    "created_at": "2026-05-04T17:43:32+08:00",
+    "createdAt": "2026-05-04T17:43:32+08:00",
+    "updated_at": "2026-05-04T17:43:32+08:00",
+    "updatedAt": "2026-05-04T17:43:32+08:00",
+    "hash": "638a84e5-76a9-40db-b796-8edd5ed4a49d",
+    "tier": "mid-term",
+    "access_count": 4,
+    "last_accessed": "2026-05-04T18:14:04+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "舟哥"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T18:09:21+08:00"
+  }
+}
+{
   "id": "5facc2d8-0459-4e28-a0ba-36076ab85905",
   "payload": {
     "userId": "fanchangqing",
@@ -2246,8 +2487,8 @@
     "updatedAt": "2026-04-22T03:19:15.337108+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 11,
-    "last_accessed": "2026-04-30T11:39:24+08:00",
+    "access_count": 13,
+    "last_accessed": "2026-05-04T15:44:38+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2276,8 +2517,8 @@
     "updatedAt": "2026-04-27T19:00:30+08:00",
     "hash": "730f589d-7ec1-4003-9fa9-fe07ae583780",
     "tier": "short-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T19:01:25+08:00",
+    "access_count": 2,
+    "last_accessed": "2026-05-04T13:15:02+08:00",
     "ttl_days": 7,
     "weight": 1,
     "source_ids": [],
@@ -2339,6 +2580,34 @@
   }
 }
 {
+  "id": "657808b1-020e-4ee2-8cbb-165afc86304a",
+  "payload": {
+    "memory": "Jarvis 提醒服务开始实现周期性重复功能（原五期 P2 待办），由庆哥主动发起，场景是每日健身饮食打卡提醒。",
+    "data": "Jarvis 提醒服务开始实现周期性重复功能（原五期 P2 待办），由庆哥主动发起，场景是每日健身饮食打卡提醒。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-05-04T14:49:58+08:00",
+    "createdAt": "2026-05-04T14:49:58+08:00",
+    "updated_at": "2026-05-04T14:49:58+08:00",
+    "updatedAt": "2026-05-04T14:49:58+08:00",
+    "hash": "6ab5ecdb-6860-4746-9c46-d7e80285fca8",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T14:49:58+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Jarvis",
+      "庆哥",
+      "健身饮食打卡提醒"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "659c43e1-dac5-4783-917c-1c8b7cc9bf56",
   "payload": {
     "memory": "Jarvis 项目文档已整理到统一目录：/Users/fanchangqing/Documents/范长庆/工作/04. 小美AI/01. catPaw Desk/Jarvis项目文档/，按期分子文件夹（一期到五期），项目规划.md 在根目录",
@@ -2351,10 +2620,10 @@
     "updatedAt": "2026-04-24T13:04:49+08:00",
     "hash": "cba067fe-fe0e-43f2-8927-233000b649c0",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 58,
-    "last_accessed": "2026-04-30T13:03:09+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 85,
+    "last_accessed": "2026-05-04T17:58:42+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -2365,7 +2634,7 @@
       "一期",
       "五期"
     ],
-    "promoted_at": "2026-04-27T19:48:45+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -2454,10 +2723,10 @@
     "updatedAt": "2026-04-23T15:30:42+08:00",
     "hash": "a8fa6528-9bd2-4c90-a894-6bb212bacc78",
     "category": "daily",
-    "tier": "mid-term",
-    "access_count": 67,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 109,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -2468,7 +2737,7 @@
       "high-keel-230112",
       "mem0 Cloud"
     ],
-    "promoted_at": "2026-04-27T18:16:59+08:00"
+    "promoted_at": "2026-05-04T17:41:02+08:00"
   }
 }
 {
@@ -2534,8 +2803,8 @@
     "updatedAt": "2026-04-21T17:12:02.124Z",
     "category": "preference",
     "tier": "long-term",
-    "access_count": 3,
-    "last_accessed": "2026-04-27T23:49:08+08:00",
+    "access_count": 5,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -2622,6 +2891,36 @@
     ],
     "event_date": "2026-04-21",
     "promoted_at": "2026-04-27T23:49:08+08:00"
+  }
+}
+{
+  "id": "710127fa-383c-4233-a3b2-f4aec3fdff1e",
+  "payload": {
+    "memory": "庆哥减脂计划v2.1已创建在苹果备忘录「健身」文件夹，共四条笔记：训练A(推)/训练B(拉)/训练C(下肢有氧)/饮食睡眠策略。基于ACSM 2025指南和McGill研究修正，核心训练用McGill Big 3替代了平板支撑，血压阈值收严到180/105。Fantastical循环日程已建：周三20:00训练A、周六19:00训练B、周日19:00训练C、每晚23:00睡前提醒、每周一7:00称重。",
+    "data": "庆哥减脂计划v2.1已创建在苹果备忘录「健身」文件夹，共四条笔记：训练A(推)/训练B(拉)/训练C(下肢有氧)/饮食睡眠策略。基于ACSM 2025指南和McGill研究修正，核心训练用McGill Big 3替代了平板支撑，血压阈值收严到180/105。Fantastical循环日程已建：周三20:00训练A、周六19:00训练B、周日19:00训练C、每晚23:00睡前提醒、每周一7:00称重。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-05-04T13:40:11+08:00",
+    "createdAt": "2026-05-04T13:40:11+08:00",
+    "updated_at": "2026-05-04T13:40:11+08:00",
+    "updatedAt": "2026-05-04T13:40:11+08:00",
+    "hash": "db3ec111-902b-4aed-ae37-ce6d8adb5a71",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T13:40:11+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥减脂计划v2.1",
+      "苹果备忘录",
+      "健身",
+      "ACSM 2025指南",
+      "McGill研究"
+    ],
+    "event_date": null
   }
 }
 {
@@ -2800,10 +3099,10 @@
     "createdAt": "2026-04-17T18:35:13.347635+00:00",
     "updatedAt": "2026-04-17T18:35:13.347635+00:00",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 36,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 43,
+    "last_accessed": "2026-05-04T17:57:59+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -2814,7 +3113,7 @@
       "WeChat",
       "CatDesk"
     ],
-    "promoted_at": "2026-04-27T15:25:30+08:00"
+    "promoted_at": "2026-05-04T17:40:18+08:00"
   }
 }
 {
@@ -2861,8 +3160,8 @@
     "updatedAt": "2026-04-21T13:22:08.962175+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 18,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
+    "access_count": 24,
+    "last_accessed": "2026-05-04T15:53:24+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -2911,8 +3210,8 @@
     "category": "summary",
     "created_at": "2026-04-27T18:26:47+08:00",
     "createdAt": "2026-04-27T18:26:47+08:00",
-    "updated_at": "2026-04-27T18:26:47+08:00",
-    "updatedAt": "2026-04-27T18:26:47+08:00",
+    "updated_at": "2026-05-04T18:12:34+08:00",
+    "updatedAt": "2026-05-04T18:12:34+08:00",
     "hash": "cec158e4-e80a-4ee7-a3d8-0f5f930660d2",
     "tier": "short-term",
     "access_count": 1,
@@ -3204,10 +3503,10 @@
     "updated_at": "2026-04-27T17:42:42+08:00",
     "updatedAt": "2026-04-27T17:42:42+08:00",
     "hash": "75295139-68aa-4f0f-a543-c3b2b74a32af",
-    "tier": "mid-term",
-    "access_count": 15,
-    "last_accessed": "2026-04-30T13:01:34+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 30,
+    "last_accessed": "2026-05-04T18:06:38+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -3216,7 +3515,7 @@
       "统一中文存储功能"
     ],
     "event_date": null,
-    "promoted_at": "2026-04-28T18:16:50+08:00"
+    "promoted_at": "2026-05-04T17:40:30+08:00"
   }
 }
 {
@@ -3246,6 +3545,36 @@
   }
 }
 {
+  "id": "837575b1-4aad-4139-804a-f78b2f316b5d",
+  "payload": {
+    "memory": "[对话摘要] 2026-05-04：完成健身计划全套落地工作。通过Calendar.app AppleScript创建了每周三练循环事件（周三训练A/周六训练B/周日训练C）和每日打卡提醒（午餐/喝水/晚餐/睡眠共4条）。Fantastical的parse sentence命令无法静默创建事件（设计限制），改用Calendar.app成功。庆哥补充了更多健康信息：2025年体检查出颈动脉斑块、TCD确认脑血流速度慢、近期脚麻、勃起功能障碍、有吸烟饮酒习惯、肩关节活动受限、体重可能超100kg。建议挂宣武医院神经内科+泌尿外科。庆哥决定先戒烟，认同坚持靠自己不靠工具。",
+    "data": "[对话摘要] 2026-05-04：完成健身计划全套落地工作。通过Calendar.app AppleScript创建了每周三练循环事件（周三训练A/周六训练B/周日训练C）和每日打卡提醒（午餐/喝水/晚餐/睡眠共4条）。Fantastical的parse sentence命令无法静默创建事件（设计限制），改用Calendar.app成功。庆哥补充了更多健康信息：2025年体检查出颈动脉斑块、TCD确认脑血流速度慢、近期脚麻、勃起功能障碍、有吸烟饮酒习惯、肩关节活动受限、体重可能超100kg。建议挂宣武医院神经内科+泌尿外科。庆哥决定先戒烟，认同坚持靠自己不靠工具。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-05-04T14:44:40+08:00",
+    "createdAt": "2026-05-04T14:44:40+08:00",
+    "updated_at": "2026-05-04T14:44:40+08:00",
+    "updatedAt": "2026-05-04T14:44:40+08:00",
+    "hash": "35b608a8-b3fa-43c9-bf34-3ba4d4956165",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-05-04T18:02:41+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "Calendar.app",
+      "Fantastical",
+      "宣武医院",
+      "庆哥",
+      "2025年"
+    ],
+    "event_date": "2026-05-04"
+  }
+}
+{
   "id": "83954632-f93f-4016-b823-39ca4917cd14",
   "payload": {
     "user_id": "fanchangqing",
@@ -3259,17 +3588,17 @@
     "createdAt": "2026-04-21T13:10:37.387680+00:00",
     "updatedAt": "2026-04-21T13:10:37.387680+00:00",
     "category": "relationship",
-    "tier": "mid-term",
-    "access_count": 21,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 57,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
     "entities": [
       "范长庆"
     ],
-    "promoted_at": "2026-04-27T19:21:53+08:00"
+    "promoted_at": "2026-05-04T17:30:45+08:00"
   }
 }
 {
@@ -3493,10 +3822,10 @@
     "updatedAt": "2026-04-23T18:28:53+08:00",
     "hash": "d163fec9-71e6-4436-b212-f5dd57d516ad",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 10,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 17,
+    "last_accessed": "2026-05-04T17:54:48+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -3507,7 +3836,7 @@
       "微信公众平台",
       "个人主体"
     ],
-    "promoted_at": "2026-04-28T18:12:08+08:00"
+    "promoted_at": "2026-05-04T17:54:40+08:00"
   }
 }
 {
@@ -3574,6 +3903,36 @@
   }
 }
 {
+  "id": "8affff25-1d4d-48ca-a786-d6fd38f6062f",
+  "payload": {
+    "memory": "庆哥已做过经颅多普勒(TCD)检查，结果显示脑血流速度偏慢，确认存在脑供血不足。",
+    "data": "庆哥已做过经颅多普勒(TCD)检查，结果显示脑血流速度偏慢，确认存在脑供血不足。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T14:01:04+08:00",
+    "createdAt": "2026-05-04T14:01:04+08:00",
+    "updated_at": "2026-05-04T14:01:04+08:00",
+    "updatedAt": "2026-05-04T14:01:04+08:00",
+    "hash": "7bb9e452-d187-4667-a31e-3e204567c694",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-05-04T17:40:18+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "经颅多普勒",
+      "TCD",
+      "脑血流速度",
+      "脑供血不足"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "8b79f92d-ff4c-46c1-98f9-e128cf59a732",
   "payload": {
     "memory": "顾舟的身份定义：不是通用助手，是范长庆的专属 AI 战友。名字含义——'顾'是回望、记忆、照看；'舟'是渡人的，在水里走不怕风浪",
@@ -3586,10 +3945,10 @@
     "updated_at": "2026-04-27T19:00:50+08:00",
     "updatedAt": "2026-04-27T19:00:50+08:00",
     "hash": "2d695b02-64fa-493a-bbab-48e70fe7fe01",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T19:01:25+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 8,
+    "last_accessed": "2026-05-04T17:56:52+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -3597,7 +3956,8 @@
       "顾舟",
       "范长庆"
     ],
-    "event_date": null
+    "event_date": null,
+    "promoted_at": "2026-05-04T15:41:26+08:00"
   }
 }
 {
@@ -3710,6 +4070,36 @@
       "API token",
       "YB3LO1A-aH8_UQDe76l-Bsf8xmBcDBXixSNUENHEKJc"
     ]
+  }
+}
+{
+  "id": "8fb0719c-6ba4-4770-9205-355b3649a9fe",
+  "payload": {
+    "memory": "庆哥ETF持仓（东方财富）：中小100 15400份成本3.892元，500ETF 18627份成本6.352元，芯片ETF 42800份成本0.611元（浮盈较大），标普500ETF 1200份成本2.384元，5GETF 32100份成本1.328元（浮盈较大）。另持有易方达蓝筹精选基金。截至2026年5月。",
+    "data": "庆哥ETF持仓（东方财富）：中小100 15400份成本3.892元，500ETF 18627份成本6.352元，芯片ETF 42800份成本0.611元（浮盈较大），标普500ETF 1200份成本2.384元，5GETF 32100份成本1.328元（浮盈较大）。另持有易方达蓝筹精选基金。截至2026年5月。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T18:12:33+08:00",
+    "createdAt": "2026-05-04T18:12:33+08:00",
+    "updated_at": "2026-05-04T18:12:33+08:00",
+    "updatedAt": "2026-05-04T18:12:33+08:00",
+    "hash": "53ba0272-5a30-4e17-bf0d-9bb2e48babe0",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T18:12:33+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "东方财富",
+      "中小100",
+      "500ETF",
+      "芯片ETF"
+    ],
+    "event_date": "2026-05-04"
   }
 }
 {
@@ -3867,16 +4257,17 @@
     "createdAt": "2026-04-17T18:38:46.432191+00:00",
     "updatedAt": "2026-04-17T18:38:46.432191+00:00",
     "category": "identity",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-27T16:16:22+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 9,
+    "last_accessed": "2026-05-04T18:06:13+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
     "entities": [
       "范长庆"
-    ]
+    ],
+    "promoted_at": "2026-05-04T15:41:47+08:00"
   }
 }
 {
@@ -3969,17 +4360,18 @@
     "createdAt": "2026-04-21T14:08:18.882Z",
     "updatedAt": "2026-04-23T10:55:37.553Z",
     "category": "identity",
-    "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-28T17:52:38+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 22,
+    "last_accessed": "2026-05-04T18:14:55+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
     "entities": [
       "庆哥"
     ],
-    "event_date": "2026-04-23"
+    "event_date": "2026-04-23",
+    "promoted_at": "2026-05-04T15:41:26+08:00"
   }
 }
 {
@@ -4054,10 +4446,10 @@
     "createdAt": "2026-04-21T14:44:21.149321+00:00",
     "updatedAt": "2026-04-21T14:44:21.149321+00:00",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 20,
-    "last_accessed": "2026-04-30T13:03:09+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 25,
+    "last_accessed": "2026-05-04T17:57:59+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -4066,7 +4458,7 @@
       "qdrant",
       "openclaw-gateway"
     ],
-    "promoted_at": "2026-04-27T16:16:22+08:00"
+    "promoted_at": "2026-05-04T17:47:36+08:00"
   }
 }
 {
@@ -4252,8 +4644,8 @@
     "updatedAt": "2026-04-21T17:31:56.408Z",
     "category": "decision",
     "tier": "mid-term",
-    "access_count": 1,
-    "last_accessed": "2026-04-30T12:11:51+08:00",
+    "access_count": 2,
+    "last_accessed": "2026-05-04T18:09:21+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4321,6 +4713,36 @@
       "英语专业"
     ],
     "event_date": "2009-06-30"
+  }
+}
+{
+  "id": "a949b062-1b8f-49fd-849e-6d3d8727459b",
+  "payload": {
+    "memory": "庆哥存在勃起功能障碍（ED）问题，结合其高血压、颈动脉斑块、肥胖等情况，大概率为血管性ED。建议就诊泌尿外科/男科做阴茸血管超声评估。",
+    "data": "庆哥存在勃起功能障碍（ED）问题，结合其高血压、颈动脉斑块、肥胖等情况，大概率为血管性ED。建议就诊泌尿外科/男科做阴茸血管超声评估。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T14:22:02+08:00",
+    "createdAt": "2026-05-04T14:22:02+08:00",
+    "updated_at": "2026-05-04T14:22:02+08:00",
+    "updatedAt": "2026-05-04T14:22:02+08:00",
+    "hash": "758a224b-c164-40e0-9732-154d6a02f37b",
+    "tier": "short-term",
+    "access_count": 1,
+    "last_accessed": "2026-05-04T15:43:57+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "勃起功能障碍",
+      "高血压",
+      "颈动脉斑块",
+      "肥胖"
+    ],
+    "event_date": null
   }
 }
 {
@@ -4409,6 +4831,32 @@
   }
 }
 {
+  "id": "aa6ef144-f9ac-48bb-84af-6251b225d926",
+  "payload": {
+    "memory": "庆哥健康状况补充：有颈椎病；日常有抽烟习惯。",
+    "data": "庆哥健康状况补充：有颈椎病；日常有抽烟习惯。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T15:36:29+08:00",
+    "createdAt": "2026-05-04T15:36:29+08:00",
+    "updated_at": "2026-05-04T15:36:29+08:00",
+    "updatedAt": "2026-05-04T15:36:29+08:00",
+    "hash": "f729f553-4235-4c91-b5da-346cd840ba06",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-05-04T17:40:18+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": null
+  }
+}
+{
   "id": "ab0a3337-3221-4ca7-aee4-ee35ddf3fb9f",
   "payload": {
     "memory": "[对话摘要] 2026-04-26：完成 Jarvis 5.6 运维加固全部部署到阿里云服务器（8/8 验收通过），更新项目文档标记五期收官。五期六个子版本（5.1-5.6）全部完成，项目从「能用」正式进入「好用」阶段。核心成果：记忆中台直连 Qdrant + 三层互通 + MEMORY.md 动态化、任务通路秒级响应、主动推送基础设施（提醒/日报/告警）、全栈运维加固。云端大脑+记忆中台核心链路已完整闭环。",
@@ -4421,10 +4869,10 @@
     "updated_at": "2026-04-26T22:48:45+08:00",
     "updatedAt": "2026-04-26T22:48:45+08:00",
     "hash": "92c549a8-4d61-4044-9ad7-87d9d40d0885",
-    "tier": "mid-term",
-    "access_count": 55,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 74,
+    "last_accessed": "2026-05-04T17:58:42+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -4436,7 +4884,7 @@
       "五期"
     ],
     "event_date": "2026-04-26",
-    "promoted_at": "2026-04-27T15:25:42+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -4530,8 +4978,8 @@
     "updatedAt": "2026-04-29T20:02:21+08:00",
     "hash": "134bad86-cbb8-48ca-8490-1d43a2466810",
     "tier": "mid-term",
-    "access_count": 0,
-    "last_accessed": "2026-04-29T20:02:21+08:00",
+    "access_count": 2,
+    "last_accessed": "2026-05-04T17:38:23+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -4616,8 +5064,8 @@
     "updatedAt": "2026-04-20T08:52:10.824989+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 8,
-    "last_accessed": "2026-04-30T13:02:54+08:00",
+    "access_count": 10,
+    "last_accessed": "2026-05-04T14:45:19+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -4630,6 +5078,35 @@
       "CatDesk"
     ],
     "promoted_at": "2026-04-27T17:16:44+08:00"
+  }
+}
+{
+  "id": "aea62e6a-e91a-4fde-b2a8-0686296f307e",
+  "payload": {
+    "memory": "recall诊断测试专用-这是一条临时测试记忆-请在验证后删除-keyword-xyztest123",
+    "data": "recall诊断测试专用-这是一条临时测试记忆-请在验证后删除-keyword-xyztest123",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T16:02:02+08:00",
+    "createdAt": "2026-05-04T16:02:02+08:00",
+    "updated_at": "2026-05-04T16:02:02+08:00",
+    "updatedAt": "2026-05-04T16:02:02+08:00",
+    "hash": "1e405437-d29e-4299-af16-bcaea1bad741",
+    "tier": "short-term",
+    "access_count": 2,
+    "last_accessed": "2026-05-04T17:41:37+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "recall诊断测试",
+      "临时测试记忆",
+      "keyword",
+      "xyztest123"
+    ],
+    "event_date": null
   }
 }
 {
@@ -4660,6 +5137,37 @@
       "doc_reading"
     ],
     "event_date": "2026-04-25"
+  }
+}
+{
+  "id": "b0110a3a-7884-45cf-a068-f5f29e839530",
+  "payload": {
+    "memory": "庆哥健康档案汇总：174cm，体重可能接近或超过100kg；高血压；颈动脉斑块；TCD确认脑血流速度慢（脑供血不足）；腰椎间盘突出；颈椎病；肩关节活动受限（手无法背到身后）；勃起功能障碍；有吸烟饮酒习惯；长期熬夜（约24:00入睡）；久坐；饮食不规律（外卖/食堂）。近期脚麻症状。目前开始执行每周三练健身计划+饮食控制。",
+    "data": "庆哥健康档案汇总：174cm，体重可能接近或超过100kg；高血压；颈动脉斑块；TCD确认脑血流速度慢（脑供血不足）；腰椎间盘突出；颈椎病；肩关节活动受限（手无法背到身后）；勃起功能障碍；有吸烟饮酒习惯；长期熬夜（约24:00入睡）；久坐；饮食不规律（外卖/食堂）。近期脚麻症状。目前开始执行每周三练健身计划+饮食控制。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T14:25:01+08:00",
+    "createdAt": "2026-05-04T14:25:01+08:00",
+    "updated_at": "2026-05-04T14:25:01+08:00",
+    "updatedAt": "2026-05-04T14:25:01+08:00",
+    "hash": "1f2edd8f-fe4a-4577-8d1e-0edf3fafaef3",
+    "tier": "long-term",
+    "access_count": 30,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "高血压",
+      "颈动脉斑块",
+      "TCD",
+      "腰椎间盘突出"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:27:49+08:00"
   }
 }
 {
@@ -4751,10 +5259,10 @@
     "createdAt": "2026-04-21T13:22:08.962110+00:00",
     "updatedAt": "2026-04-21T13:22:08.962110+00:00",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 12,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 42,
+    "last_accessed": "2026-05-04T18:11:50+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -4766,7 +5274,7 @@
       "10人"
     ],
     "event_date": "2026-04-21",
-    "promoted_at": "2026-04-28T20:47:44+08:00"
+    "promoted_at": "2026-05-04T17:40:30+08:00"
   }
 }
 {
@@ -5065,8 +5573,8 @@
     "updatedAt": "2026-04-21T15:02:10.667962+00:00",
     "category": "project",
     "tier": "mid-term",
-    "access_count": 19,
-    "last_accessed": "2026-04-30T11:39:29+08:00",
+    "access_count": 20,
+    "last_accessed": "2026-05-04T14:27:43+08:00",
     "ttl_days": 90,
     "weight": 1,
     "source_ids": [],
@@ -5107,6 +5615,36 @@
       "多终端"
     ],
     "event_date": "2026-04-23"
+  }
+}
+{
+  "id": "bd711cc6-2eff-4a7c-9773-8cdddd2a20ab",
+  "payload": {
+    "memory": "庆哥A股散股持仓（东方财富）：欣龙控股900股成本11.156元，天康生物700股成本11.397元，广电运通1000股成本10.275元，益生股份1530股成本18.077元，奥美医疗300股成本30.693元，中信建投900股成本54.815元。截至2026年5月。",
+    "data": "庆哥A股散股持仓（东方财富）：欣龙控股900股成本11.156元，天康生物700股成本11.397元，广电运通1000股成本10.275元，益生股份1530股成本18.077元，奥美医疗300股成本30.693元，中信建投900股成本54.815元。截至2026年5月。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T18:12:32+08:00",
+    "createdAt": "2026-05-04T18:12:32+08:00",
+    "updated_at": "2026-05-04T18:12:32+08:00",
+    "updatedAt": "2026-05-04T18:12:32+08:00",
+    "hash": "2b9d8a4a-2023-4808-9d4d-b00d69db1dd7",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T18:12:32+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "东方财富",
+      "欣龙控股",
+      "天康生物",
+      "广电运通"
+    ],
+    "event_date": "2026-05-04"
   }
 }
 {
@@ -5295,10 +5833,10 @@
     "updatedAt": "2026-04-24T13:31:43+08:00",
     "hash": "2b0ab37f-c42a-4c58-aecc-c6ed463eb50c",
     "category": "summary",
-    "tier": "mid-term",
-    "access_count": 48,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 64,
+    "last_accessed": "2026-05-04T17:58:42+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -5310,7 +5848,33 @@
       "OpenClaw"
     ],
     "event_date": "2026-04-24",
-    "promoted_at": "2026-04-27T16:34:39+08:00"
+    "promoted_at": "2026-05-04T17:45:07+08:00"
+  }
+}
+{
+  "id": "c73f644e-4f25-4bb2-ab9f-075c08fe29e8",
+  "payload": {
+    "memory": "庆哥肩关节活动受限，手无法背到身后抓杠，无法做史密斯深蹲。体重可能已接近或超过100kg。",
+    "data": "庆哥肩关节活动受限，手无法背到身后抓杠，无法做史密斯深蹲。体重可能已接近或超过100kg。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T14:14:54+08:00",
+    "createdAt": "2026-05-04T14:14:54+08:00",
+    "updated_at": "2026-05-04T14:14:54+08:00",
+    "updatedAt": "2026-05-04T14:14:54+08:00",
+    "hash": "2248d9c3-9e71-4183-9193-10c3a8196089",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T14:14:54+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": null
   }
 }
 {
@@ -5409,10 +5973,10 @@
     "createdAt": "2026-04-22T04:33:54.882362+00:00",
     "updatedAt": "2026-04-22T04:33:54.882362+00:00",
     "category": "summary",
-    "tier": "mid-term",
-    "access_count": 69,
-    "last_accessed": "2026-04-30T19:18:03+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 110,
+    "last_accessed": "2026-05-04T18:09:21+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -5423,7 +5987,7 @@
       "AGENTS.md",
       "MEMORY.md"
     ],
-    "promoted_at": "2026-04-27T18:54:16+08:00"
+    "promoted_at": "2026-05-04T17:45:07+08:00"
   }
 }
 {
@@ -5496,10 +6060,10 @@
     "updated_at": "2026-04-26T22:17:53+08:00",
     "updatedAt": "2026-04-26T22:17:53+08:00",
     "hash": "879e43e8-e39c-4b49-b608-1a9e2b337fbe",
-    "tier": "mid-term",
-    "access_count": 25,
-    "last_accessed": "2026-04-30T13:03:09+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 37,
+    "last_accessed": "2026-05-04T17:30:53+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -5511,7 +6075,7 @@
       "顾舟"
     ],
     "event_date": "2026-04-26",
-    "promoted_at": "2026-04-27T19:10:54+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -5528,10 +6092,10 @@
     "createdAt": "2026-04-21T13:22:08.962211+00:00",
     "updatedAt": "2026-04-21T13:22:08.962211+00:00",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 30,
-    "last_accessed": "2026-04-29T20:27:39+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 55,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -5539,7 +6103,7 @@
       "庆哥",
       "顾舟"
     ],
-    "promoted_at": "2026-04-27T18:54:16+08:00"
+    "promoted_at": "2026-05-04T17:38:23+08:00"
   }
 }
 {
@@ -5741,6 +6305,33 @@
   }
 }
 {
+  "id": "d855dedf-4abc-4299-a9b3-4762c64158cc",
+  "payload": {
+    "memory": "庆哥收入与支出（2026年5月）：月税后工贄4.4万，年终奖摊到每月1.5万，月固定支出1-1.5万，每月可投入闲钱2-3万。无房贷，无大额支出计划。公积金账户余额100万。",
+    "data": "庆哥收入与支出（2026年5月）：月税后工贄4.4万，年终奖摊到每月1.5万，月固定支出1-1.5万，每月可投入闲钱2-3万。无房贷，无大额支出计划。公积金账户余额100万。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T18:13:09+08:00",
+    "createdAt": "2026-05-04T18:13:09+08:00",
+    "updated_at": "2026-05-04T18:16:26+08:00",
+    "updatedAt": "2026-05-04T18:16:26+08:00",
+    "hash": "b3f84948-d6e8-4f17-abec-2b8815af51c5",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T18:13:09+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "公积金账户"
+    ],
+    "event_date": "2026-05-01"
+  }
+}
+{
   "id": "d96c6121-2331-47e8-8aae-024b21d6f37b",
   "payload": {
     "user_id": "fanchangqing",
@@ -5755,8 +6346,8 @@
     "updatedAt": "2026-04-17T18:35:13.347568+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 14,
-    "last_accessed": "2026-04-30T13:02:54+08:00",
+    "access_count": 18,
+    "last_accessed": "2026-05-04T16:17:59+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -5954,6 +6545,66 @@
       "openclaw"
     ],
     "event_date": "2026-04-24"
+  }
+}
+{
+  "id": "dfc4c025-54ba-4a4b-bed0-6ceeeb77eacc",
+  "payload": {
+    "memory": "庆哥资产总览（2026年5月）：现金类166万（14万活期+152万微信货基），东方财富76万，富途港股77万，富途美股若干，美团归属股22000股，债基122.9万，股票/混合基金50万，黄金ETF 5300份@10.701，房产30万，公积金100万。总计约622万（不含美团归属股）。月税后入账4.4万+年终摊月1.5万，月支出1-1.5万，每月可投2-3万。",
+    "data": "庆哥资产总览（2026年5月）：现金类166万（14万活期+152万微信货基），东方财富76万，富途港股77万，富途美股若干，美团归属股22000股，债基122.9万，股票/混合基金50万，黄金ETF 5300份@10.701，房产30万，公积金100万。总计约622万（不含美团归属股）。月税后入账4.4万+年终摊月1.5万，月支出1-1.5万，每月可投2-3万。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T18:12:35+08:00",
+    "createdAt": "2026-05-04T18:12:35+08:00",
+    "updated_at": "2026-05-04T18:12:35+08:00",
+    "updatedAt": "2026-05-04T18:12:35+08:00",
+    "hash": "85414a1c-dd07-468b-99c6-7d637f282898",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T18:12:35+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "东方财富",
+      "富途",
+      "美团",
+      "公积金"
+    ],
+    "event_date": "2026-05-01"
+  }
+}
+{
+  "id": "e07a0bb4-fab3-4887-bfed-8d78ed85d7d8",
+  "payload": {
+    "memory": "[对话摘要] 2026-05-04：完成私人电台科技投资日报开发并上线。新增 invest_briefing.py 模块（RSS新闻采集 + DeepSeek生成播报文案），集成到 morning_briefing.py 作为第三档节目。数据源：CNBC/WSJ/FT/Fierce Biotech/STAT News/Utility Dive/BioSpace/36氪/财联社 + Google News RSS补充。修复了ffmpeg合并变调问题（-c copy改为统一重编码），优化了prompt口语化和TTS文案清理（去markdown符号），TTS声音从晓晓改为云扬。GitHub Actions workflow已更新，DeepSeek API Key已配置。庆哥将试听两天后反馈文稿质量。",
+    "data": "[对话摘要] 2026-05-04：完成私人电台科技投资日报开发并上线。新增 invest_briefing.py 模块（RSS新闻采集 + DeepSeek生成播报文案），集成到 morning_briefing.py 作为第三档节目。数据源：CNBC/WSJ/FT/Fierce Biotech/STAT News/Utility Dive/BioSpace/36氪/财联社 + Google News RSS补充。修复了ffmpeg合并变调问题（-c copy改为统一重编码），优化了prompt口语化和TTS文案清理（去markdown符号），TTS声音从晓晓改为云扬。GitHub Actions workflow已更新，DeepSeek API Key已配置。庆哥将试听两天后反馈文稿质量。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "project",
+    "created_at": "2026-05-04T23:06:10+08:00",
+    "createdAt": "2026-05-04T23:06:10+08:00",
+    "updated_at": "2026-05-04T23:06:10+08:00",
+    "updatedAt": "2026-05-04T23:06:10+08:00",
+    "hash": "78de855a-dd9a-4348-87da-252818c2e7df",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T23:06:10+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "私人电台科技投资日报",
+      "invest_briefing.py",
+      "morning_briefing.py",
+      "DeepSeek",
+      "GitHub Actions"
+    ],
+    "event_date": "2026-05-04"
   }
 }
 {
@@ -6205,6 +6856,60 @@
   }
 }
 {
+  "id": "e617b558-0cd7-48cc-9a6f-ab882615c3f0",
+  "payload": {
+    "memory": "[对话摘要] 2026-05-04：完成提醒服务循环提醒功能的收尾工作。修正了之前错误创建的4条循环提醒，按日历中的真实安排重建了7条（每日4条饮食/喝水/睡眠打卡 + 每周3条训练提醒）。修正了 rules.md 中 cancel-series 的 API 模板（DELETE /api/reminders/series/{series_id}）并同步到两端。补充了备忘录饮食计划中的禁忌清单（油炸、烘焙、烧烤、夜宵、含糖饮料、重口味主食）。",
+    "data": "[对话摘要] 2026-05-04：完成提醒服务循环提醒功能的收尾工作。修正了之前错误创建的4条循环提醒，按日历中的真实安排重建了7条（每日4条饮食/喝水/睡眠打卡 + 每周3条训练提醒）。修正了 rules.md 中 cancel-series 的 API 模板（DELETE /api/reminders/series/{series_id}）并同步到两端。补充了备忘录饮食计划中的禁忌清单（油炸、烘焙、烧烤、夜宵、含糖饮料、重口味主食）。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "daily",
+    "created_at": "2026-05-04T15:34:02+08:00",
+    "createdAt": "2026-05-04T15:34:02+08:00",
+    "updated_at": "2026-05-04T15:37:29+08:00",
+    "updatedAt": "2026-05-04T15:37:29+08:00",
+    "hash": "a145ce59-2c7a-48c2-8e90-71e951796b88",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T15:34:02+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [],
+    "event_date": null
+  }
+}
+{
+  "id": "e67f3dda-fd17-43fb-b243-a200045f7f59",
+  "payload": {
+    "memory": "庆哥美股持仓（富途）：多邻国(DUOL)109股成本246.228美元（亏损约60%），西部数据(WDC)21股成本253.267美元（浮盈约70%），拼多多(PDD)17股成本201.81美元（亏损约50%）。截至2026年5月。",
+    "data": "庆哥美股持仓（富途）：多邻国(DUOL)109股成本246.228美元（亏损约60%），西部数据(WDC)21股成本253.267美元（浮盈约70%），拼多多(PDD)17股成本201.81美元（亏损约50%）。截至2026年5月。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T18:12:34+08:00",
+    "createdAt": "2026-05-04T18:12:34+08:00",
+    "updated_at": "2026-05-04T18:12:34+08:00",
+    "updatedAt": "2026-05-04T18:12:34+08:00",
+    "hash": "22b5f311-fc03-4830-96ac-6932833fff63",
+    "tier": "short-term",
+    "access_count": 0,
+    "last_accessed": "2026-05-04T18:12:34+08:00",
+    "ttl_days": 7,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "富途",
+      "多邻国",
+      "西部数据",
+      "拼多多"
+    ],
+    "event_date": "2026-05-04"
+  }
+}
+{
   "id": "e6fbeb37-a27b-4658-bfdb-4542493618ba",
   "payload": {
     "userId": "fanchangqing",
@@ -6321,8 +7026,8 @@
     "updatedAt": "2026-04-21T10:34:40.852061+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 8,
-    "last_accessed": "2026-04-30T13:02:54+08:00",
+    "access_count": 12,
+    "last_accessed": "2026-05-04T17:40:18+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -6397,10 +7102,10 @@
     "updatedAt": "2026-04-24T13:04:49+08:00",
     "hash": "9e4b3630-6b33-42d4-91ef-f0fcbcdf2498",
     "category": "summary",
-    "tier": "mid-term",
-    "access_count": 47,
-    "last_accessed": "2026-04-30T13:02:50+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 73,
+    "last_accessed": "2026-05-04T17:58:42+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -6412,7 +7117,7 @@
       "sync.py"
     ],
     "event_date": "2026-04-24",
-    "promoted_at": "2026-04-27T18:17:15+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }
 {
@@ -6487,8 +7192,8 @@
     "updatedAt": "2026-04-22T03:18:56.426055+00:00",
     "category": "decision",
     "tier": "long-term",
-    "access_count": 7,
-    "last_accessed": "2026-04-30T11:22:54+08:00",
+    "access_count": 8,
+    "last_accessed": "2026-05-04T17:57:59+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -6655,6 +7360,33 @@
   }
 }
 {
+  "id": "f9a573fe-f384-40de-83b8-686c65b949fd",
+  "payload": {
+    "memory": "庆哥有吸烟和饮酒习惯，已意识到需要戒烟戒酒来配合心脑血管健康改善。",
+    "data": "庆哥有吸烟和饮酒习惯，已意识到需要戒烟戒酒来配合心脑血管健康改善。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T14:22:48+08:00",
+    "createdAt": "2026-05-04T14:22:48+08:00",
+    "updated_at": "2026-05-04T14:22:48+08:00",
+    "updatedAt": "2026-05-04T14:22:48+08:00",
+    "hash": "df0e92bd-4e92-4e59-b9f3-ab2ee69ce946",
+    "tier": "mid-term",
+    "access_count": 3,
+    "last_accessed": "2026-05-04T17:54:48+08:00",
+    "ttl_days": 90,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:54:48+08:00"
+  }
+}
+{
   "id": "f9d8d189-267d-4fdb-89d8-614d825f7bfd",
   "payload": {
     "userId": "fanchangqing",
@@ -6663,8 +7395,8 @@
     "createdAt": "2026-04-16T16:08:28.028Z",
     "category": "preference",
     "tier": "long-term",
-    "access_count": 3,
-    "last_accessed": "2026-04-29T20:16:19+08:00",
+    "access_count": 32,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -6820,6 +7552,37 @@
   }
 }
 {
+  "id": "fd27a95b-6d72-4691-87d0-be3b3fdf8626",
+  "payload": {
+    "memory": "庆哥2025年体检查出颈动脉斑块，结合高血压、颈椎问题，怀疑自己脑供血不足但尚未专项检查确认。",
+    "data": "庆哥2025年体检查出颈动脉斑块，结合高血压、颈椎问题，怀疑自己脑供血不足但尚未专项检查确认。",
+    "user_id": "fanchangqing",
+    "userId": "fanchangqing",
+    "category": "summary",
+    "created_at": "2026-05-04T14:00:02+08:00",
+    "createdAt": "2026-05-04T14:00:02+08:00",
+    "updated_at": "2026-05-04T14:00:02+08:00",
+    "updatedAt": "2026-05-04T14:00:02+08:00",
+    "hash": "c54203bb-af5b-4c5f-80f3-69b9fd853e37",
+    "tier": "long-term",
+    "access_count": 10,
+    "last_accessed": "2026-05-04T17:44:23+08:00",
+    "ttl_days": -1,
+    "weight": 1,
+    "source_ids": [],
+    "feedback_negative": 0,
+    "entities": [
+      "庆哥",
+      "颈动脉斑块",
+      "高血压",
+      "颈椎问题",
+      "脑供血不足"
+    ],
+    "event_date": null,
+    "promoted_at": "2026-05-04T17:27:49+08:00"
+  }
+}
+{
   "id": "fd433e77-a2db-40a4-bc19-0859f2823a1e",
   "payload": {
     "memory": "庆哥认为日报内容有效性不高，先试跑几天，后续重新设计日报内容",
@@ -6833,8 +7596,8 @@
     "updatedAt": "2026-04-26T23:02:54+08:00",
     "hash": "fe87f501-a57d-4ef5-adf9-1f659fc332eb",
     "tier": "long-term",
-    "access_count": 35,
-    "last_accessed": "2026-04-30T12:27:07+08:00",
+    "access_count": 69,
+    "last_accessed": "2026-05-04T18:16:34+08:00",
     "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
@@ -6881,10 +7644,10 @@
     "createdAt": "2026-04-21T14:45:22.072110+00:00",
     "updatedAt": "2026-04-21T14:45:22.072110+00:00",
     "category": "project",
-    "tier": "mid-term",
-    "access_count": 19,
-    "last_accessed": "2026-04-30T12:49:36+08:00",
-    "ttl_days": 90,
+    "tier": "long-term",
+    "access_count": 22,
+    "last_accessed": "2026-05-04T17:40:09+08:00",
+    "ttl_days": -1,
     "weight": 1,
     "source_ids": [],
     "feedback_negative": 0,
@@ -6896,6 +7659,6 @@
       "Jarvis project plan"
     ],
     "event_date": "2026-04-21",
-    "promoted_at": "2026-04-27T15:25:30+08:00"
+    "promoted_at": "2026-05-04T17:30:53+08:00"
   }
 }

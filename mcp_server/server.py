@@ -35,6 +35,15 @@ from qdrant_client.models import (
     PayloadSchemaType,
 )
 
+# -- 版本兼容性检查 (防止 client/server 版本不匹配导致搜索异常) --
+from importlib.metadata import version as _pkg_version
+_qc_version = _pkg_version("qdrant-client")
+_qc_major_minor = tuple(int(x) for x in _qc_version.split(".")[:2])
+assert _qc_major_minor <= (1, 13), (
+    f"qdrant-client {_qc_version} 与 Qdrant Server 1.13.x 不兼容，"
+    f"请执行: pip install 'qdrant-client>=1.13,<1.14'"
+)
+
 # -- 配置 ----------------------------------------------------------------------
 DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "sk-3c7e0b8251744161b42b8d4161420048")
 QDRANT_HOST       = os.getenv("QDRANT_HOST",       "localhost")
@@ -92,9 +101,9 @@ def _parse_iso_date(iso_str) -> datetime | None:
         # 兼容 Python < 3.11：+08:00 -> +0800
         cleaned = iso_str
         if "+08:00" in cleaned:
-            cleaned = cleaned.replace("+08:00", "+0800")
+            pass  # Python 3.10 natively supports +08:00
         elif cleaned.endswith("Z"):
-            cleaned = cleaned.replace("Z", "+0000")
+            cleaned = cleaned.replace("Z", "+00:00")
         dt = datetime.fromisoformat(cleaned)
         return dt.replace(tzinfo=None)
     except Exception:

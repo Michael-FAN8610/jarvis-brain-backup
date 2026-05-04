@@ -1,6 +1,6 @@
 {
     "qdrant_collection": "jarvis_memories",
-    "qdrant_points": 252,
+    "qdrant_points": 278,
     "snapshot_file": "latest.snapshot",
     "mcp_server_path": "/opt/jarvis-mcp",
     "openclaw_config_path": "/var/lib/docker/volumes/openclaw_openclaw-config/_data",
